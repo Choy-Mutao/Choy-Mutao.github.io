@@ -64,6 +64,120 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-前端知识点/vue-threejs/detail/OBJ文件转glTF文件" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/detail/OBJ%E6%96%87%E4%BB%B6%E8%BD%ACglTF%E6%96%87%E4%BB%B6/" class="article-date">
+  <time datetime="2020-04-08T11:19:42.927Z" itemprop="datePublished">2020-04-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/detail/OBJ%E6%96%87%E4%BB%B6%E8%BD%ACglTF%E6%96%87%E4%BB%B6/">前端知识点/vue-threejs/detail/OBJ文件转glTF文件</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/detail/OBJ%E6%96%87%E4%BB%B6%E8%BD%ACglTF%E6%96%87%E4%BB%B6/" data-id="ck8rjqhu1002mqtnm90z957ee" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-前端知识点/javascript/测试题/js的输出顺序" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/javascript/%E6%B5%8B%E8%AF%95%E9%A2%98/js%E7%9A%84%E8%BE%93%E5%87%BA%E9%A1%BA%E5%BA%8F/" class="article-date">
+  <time datetime="2020-04-08T11:19:42.927Z" itemprop="datePublished">2020-04-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/javascript/%E6%B5%8B%E8%AF%95%E9%A2%98/js%E7%9A%84%E8%BE%93%E5%87%BA%E9%A1%BA%E5%BA%8F/">前端知识点/javascript/测试题/js的输出顺序</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> name = <span class="string">'global'</span>;</span><br><span class="line"><span class="keyword">var</span> obj = &#123;</span><br><span class="line">    name: <span class="string">'local'</span>,</span><br><span class="line">    foo: <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.name = <span class="string">'foo'</span>;</span><br><span class="line">    &#125;.bind(<span class="built_in">window</span>)</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">var</span> bar = <span class="keyword">new</span> obj.foo();</span><br><span class="line">setTimeout(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="built_in">window</span>.name);</span><br><span class="line">&#125;, <span class="number">0</span>);</span><br><span class="line"><span class="built_in">console</span>.log(bar.name)</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> bar3=bar2=bar1;</span><br><span class="line">bar2.name = <span class="string">'foo2'</span>;</span><br><span class="line"><span class="built_in">console</span>.log(bar3.name);</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/javascript/%E6%B5%8B%E8%AF%95%E9%A2%98/js%E7%9A%84%E8%BE%93%E5%87%BA%E9%A1%BA%E5%BA%8F/" data-id="ck8rjqhu7002rqtnmferq2yg1" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-前端知识点/vue-threejs/detail/为什么我的模型不能动" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/detail/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E7%9A%84%E6%A8%A1%E5%9E%8B%E4%B8%8D%E8%83%BD%E5%8A%A8/" class="article-date">
+  <time datetime="2020-04-08T11:19:42.927Z" itemprop="datePublished">2020-04-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/detail/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E7%9A%84%E6%A8%A1%E5%9E%8B%E4%B8%8D%E8%83%BD%E5%8A%A8/">前端知识点/vue-threejs/detail/为什么我的模型不能动</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="为什么我的模型不能动"><a href="#为什么我的模型不能动" class="headerlink" title="为什么我的模型不能动"></a>为什么我的模型不能动</h1><p>那是因为你没装控制器！</p>
+<p>threejs中控制器的选择</p>
+<ul>
+<li>DeviceOrientationControls(内置控制器)</li>
+<li>OrbitContorls</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/detail/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E7%9A%84%E6%A8%A1%E5%9E%8B%E4%B8%8D%E8%83%BD%E5%8A%A8/" data-id="ck8rjqhuc002xqtnmdivye1ri" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-前端知识点/CSS/关于important" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/CSS/%E5%85%B3%E4%BA%8Eimportant/" class="article-date">
@@ -373,160 +487,11 @@
 
 
   
-    <article id="post-前端知识点/vuejs/选项/paragraph/provide\inject" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vuejs/%E9%80%89%E9%A1%B9/paragraph/provide%5Cinject/" class="article-date">
-  <time datetime="2020-04-08T11:19:42.904Z" itemprop="datePublished">2020-04-08</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vuejs/%E9%80%89%E9%A1%B9/paragraph/provide%5Cinject/">前端知识点/vuejs/选项/paragraph/provide\inject</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="provide-inject-的使用"><a href="#provide-inject-的使用" class="headerlink" title="provide/inject 的使用"></a>provide/inject 的使用</h1><h2 id="official-doc"><a href="#official-doc" class="headerlink" title="official doc"></a>official doc</h2><ul>
-<li><p>类型：</p>
-<ul>
-<li>provide: <code>Object | () =&gt; Object</code></li>
-<li>inject: <code>Array&lt;String&gt; | { [key:string]: string | Symbol | Object }</code></li>
-</ul>
-</li>
-<li><p>详细描述：</p>
-<blockquote>
-<p><code>provide</code> 和 <code>inject</code> 主要在开发高阶插件/组件/组件库时使用。并不推荐用于普通应用程序代码中。</p>
-</blockquote>
-<p>provide/inject 是一组选项，需要一起使用<br>功能： 允许一个祖先向其所有子孙后代注入一个依赖，不论组件层次有多深，并在其上下游关系成立的时间里始终生效。</p>
-<p><code>provide</code>选项应该还是一个对象或返回一个对象的函数。该对象包含注入其子孙的属性。在该对象中可以使用ES2015 Symbols作为key，但是只在原生支持<code>Symbol</code>和<code>Reflect.ownKeys</code>的环境下可工作。</p>
-<p><code>inject</code>选项应该是：</p>
-<ul>
-<li>一个字符串数组，或：</li>
-<li>一个对象，对象的 key 是本地的绑定名，value 是;<ul>
-<li>在可用的注入内容中搜索用的key（字符串或Symbol），或</li>
-<li>一个对象，该对象的：<ul>
-<li><code>form</code>属性是在可用的注入内容中搜索用的key（字符串或Symbol）</li>
-<li><code>default</code>属性是降级情况下使用的value</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>提示： provide 和 inject 绑定并不是可响应的。这是可以为之的。然而，如果传入的是一个可监听的对象，那么其对象的属性还是可响应的。</p>
-</blockquote>
-</li>
-<li><p>示例：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 父级组件提供 ‘foo’</span></span><br><span class="line"><span class="keyword">var</span> Provider = &#123;</span><br><span class="line">    provide: &#123;</span><br><span class="line">        foo: <span class="string">'bar'</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 子组件注入 ‘foo’</span></span><br><span class="line"><span class="keyword">var</span> Child = &#123;</span><br><span class="line">    inject: [<span class="string">'foo'</span>],</span><br><span class="line">    created() &#123;</span><br><span class="line">        <span class="built_in">console</span>.log(<span class="keyword">this</span>.foo) <span class="comment">// =&gt; "bar"</span></span><br><span class="line">    &#125; </span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>  利用ES2015 Symbols、 函数 <code>provide</code> 和对象 <code>inject</code>:</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> s = <span class="built_in">Symbol</span>()</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> Provide = &#123;</span><br><span class="line">    provide () &#123;</span><br><span class="line">        <span class="keyword">return</span> &#123;</span><br><span class="line">            [s]: <span class="string">'foo'</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> Child = &#123;</span><br><span class="line">    inject: &#123; s &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-</li>
-</ul>
-<h1 id="Error"><a href="#Error" class="headerlink" title="[Error]"></a>[Error]</h1><p>[Vue Warn]: Injection ‘uploader’ not found</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* 告警来源于运行代码 */</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">resolveInject</span> (<span class="params">inject, vm</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(inject) &#123;</span><br><span class="line">        <span class="comment">// inject is : any because flow is not smart enough to figure out cached</span></span><br><span class="line">        <span class="keyword">var</span> result = <span class="built_in">Object</span>.create(<span class="literal">null</span>);</span><br><span class="line">        <span class="keyword">var</span> keys = hasSymbol</span><br><span class="line">            ? <span class="built_in">Reflect</span>.ownKeys(inject) <span class="comment">// todo 未知功能</span></span><br><span class="line">            : <span class="built_in">Object</span>.keys(inject); <span class="comment">// todo 未知功能</span></span><br><span class="line">        </span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; keys.length; i++) &#123;</span><br><span class="line">            <span class="keyword">var</span> key = keys[i];</span><br><span class="line">            <span class="comment">// #6574 in case the inject object is observed...</span></span><br><span class="line">            <span class="keyword">if</span>(key === <span class="string">'__ob__'</span>) &#123; <span class="keyword">continue</span> &#125;</span><br><span class="line">            <span class="keyword">var</span> provideKey = inject[key].from;</span><br><span class="line">            <span class="keyword">var</span> source = vm;</span><br><span class="line">            <span class="keyword">while</span> (source) &#123;</span><br><span class="line">                <span class="keyword">if</span>(source._provided &amp;&amp; hasOwn(source._provided, provideKey)) &#123;</span><br><span class="line">                    result[key] = source._provided[provideKey];</span><br><span class="line">                    <span class="keyword">break</span></span><br><span class="line">                &#125;</span><br><span class="line">                source = source.$parent;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(!source) &#123;</span><br><span class="line">                <span class="keyword">if</span>(<span class="string">'default'</span> <span class="keyword">in</span> inject[key]) &#123;</span><br><span class="line">                    <span class="keyword">var</span> provideDefault = inject[key].default;</span><br><span class="line">                    result[key] = <span class="keyword">typeof</span> provideDefault === <span class="string">'function'</span></span><br><span class="line">                        ? provideDefault.call(vm)</span><br><span class="line">                        : provideDefault;</span><br><span class="line">                &#125; <span class="keyword">else</span> <span class="keyword">if</span>(<span class="literal">true</span>) &#123;</span><br><span class="line">                    warn((<span class="string">'Injection \"'</span> + key + <span class="string">"\" not found"</span>), vm);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vuejs/%E9%80%89%E9%A1%B9/paragraph/provide/inject/" data-id="ck8rjqhuh0033qtnmeriv5upw" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-前端知识点/vuejs/可复用性&amp;组合/渲染函数&amp;JSX" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vuejs/%E5%8F%AF%E5%A4%8D%E7%94%A8%E6%80%A7&%E7%BB%84%E5%90%88/%E6%B8%B2%E6%9F%93%E5%87%BD%E6%95%B0&JSX/" class="article-date">
-  <time datetime="2020-04-08T11:19:42.900Z" itemprop="datePublished">2020-04-08</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vuejs/%E5%8F%AF%E5%A4%8D%E7%94%A8%E6%80%A7&%E7%BB%84%E5%90%88/%E6%B8%B2%E6%9F%93%E5%87%BD%E6%95%B0&JSX/">前端知识点/vuejs/可复用性&amp;组合/渲染函数&amp;JSX</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="渲染函数-amp-JSX"><a href="#渲染函数-amp-JSX" class="headerlink" title="渲染函数&amp;JSX"></a>渲染函数&amp;JSX</h1><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p>功能： 允许使用 <code>Javascript</code> 来构建模板页面</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vuejs/%E5%8F%AF%E5%A4%8D%E7%94%A8%E6%80%A7&%E7%BB%84%E5%90%88/%E6%B8%B2%E6%9F%93%E5%87%BD%E6%95%B0&JSX/" data-id="ck8rjqhu9002tqtnmc04o0cma" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-前端知识点/vue-router/vue-router source theory" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-router/vue-router%20source%20theory/" class="article-date">
-  <time datetime="2020-04-08T11:19:42.877Z" itemprop="datePublished">2020-04-08</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-router/vue-router%20source%20theory/">前端知识点/vue-router/vue-router source theory</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="理论原理"><a href="#理论原理" class="headerlink" title="理论原理"></a>理论原理</h3><p>vue-router路由的原理是通过改变网址，实现了页面的局部刷新，相比于a标签的跳转的全局刷新。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-router/vue-router%20source%20theory/" data-id="ck8rjqhts0028qtnm68v41vlu" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 
   <nav id="page-nav">
     
-    <a class="extend prev" rel="prev" href="/">&amp;laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/3/">Next &amp;raquo;</a>
+    <a class="extend prev" rel="prev" href="/">&amp;laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/3/">Next &amp;raquo;</a>
   </nav>
 
 </section>
@@ -572,23 +537,23 @@
       <ul>
         
           <li>
+            <a href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/Postprocessing/passing/">前端知识点/vue-threejs/three.js-API/Postprocessing/passing</a>
+          </li>
+        
+          <li>
+            <a href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/Postprocessing/index/">前端知识点/vue-threejs/three.js-API/Postprocessing/index</a>
+          </li>
+        
+          <li>
+            <a href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/index/">前端知识点/vue-threejs/three.js-API/index</a>
+          </li>
+        
+          <li>
             <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/Webgl/%E5%85%B3%E4%BA%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E5%8F%98%E5%8C%96%E7%9F%A9%E9%98%B5/">前端知识点/Webgl/关于图像的变化矩阵</a>
           </li>
         
           <li>
             <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/threejs%E5%AF%BC%E5%85%A5glTF%E6%A8%A1%E5%9E%8B%E6%96%87%E4%BB%B6/">前端知识点/vue-threejs/threejs导入glTF模型文件</a>
-          </li>
-        
-          <li>
-            <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/Threejs%E4%B8%AD%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%A4%A7%E5%B0%8F%E3%80%81%E4%BD%8D%E7%BD%AE%E3%80%81%E8%A7%86%E8%A7%89/">前端知识点/vue-threejs/Threejs中模型的大小、位置、视觉</a>
-          </li>
-        
-          <li>
-            <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/%E8%BF%9B%E8%A1%8C3d%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%9A%84%E5%87%86%E5%A4%87/">前端知识点/vue-threejs/进行3d模型开发的准备</a>
-          </li>
-        
-          <li>
-            <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/threejs%E9%80%9A%E8%BF%87obj%E5%92%8Cmtl%E6%96%87%E4%BB%B6%E5%AF%BC%E5%85%A5%E6%A8%A1%E5%9E%8B/">前端知识点/vue-threejs/threejs通过obj和mtl文件导入模型</a>
           </li>
         
       </ul>

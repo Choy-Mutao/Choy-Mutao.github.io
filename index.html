@@ -64,6 +64,298 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-前端知识点/vue-threejs/three.js-API/Postprocessing/passing" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/Postprocessing/passing/" class="article-date">
+  <time datetime="2020-04-10T06:44:03.237Z" itemprop="datePublished">2020-04-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/Postprocessing/passing/">前端知识点/vue-threejs/three.js-API/Postprocessing/passing</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><table>
+<thead>
+<tr>
+<th>Pass Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>THREE.AdaptiveToneMappingPass</td>
+<td>This render pass adapts the luminosity of the scene, based on the amount of light available in the scene.</td>
+</tr>
+<tr>
+<td>THREE.BloomPass</td>
+<td>This is an effect that makes lighter areas bleed into darker areas. This simulates an effect wherein the camera is overwhelmed by extremely bright light.</td>
+</tr>
+<tr>
+<td>THREE.BokehPass</td>
+<td>This adds a Bokeh effect to the scene. With a Bokeh effect, the foreground of the scene is in focus, while the rest is out of focus.</td>
+</tr>
+<tr>
+<td>THREE.ClearPass</td>
+<td>This spill pass clears the current texture buffer.</td>
+</tr>
+<tr>
+<td>THREE.CubeTexturePass</td>
+<td>This can be used to render a skybox in the scene.</td>
+</tr>
+<tr>
+<td>THREE.DotScreenPass</td>
+<td>This applies a layer of black dots, representing the original image across the screen.</td>
+</tr>
+<tr>
+<td>THREE.FilmPass</td>
+<td>This simulates a TV screen by applying scanlines and distortions.</td>
+</tr>
+<tr>
+<td>THREE.GlitchPass</td>
+<td>This shows an electronic glitch on the screen at a random time interval.</td>
+</tr>
+<tr>
+<td>THREE.HalfTonePass</td>
+<td>This adds a halftone effect to the scene. With a halftone effect, the scene is rendered as asset of colored glyphs (circles, squares, and soon) of various sizes.</td>
+</tr>
+<tr>
+<td>THREE.MaskPass</td>
+<td>This allows you to apply a mask to the current image. Subsequent passes are only applied to the masked area.</td>
+</tr>
+<tr>
+<td>THREE.OutlinePass</td>
+<td>This renders the outline of the objects in the scene.</td>
+</tr>
+<tr>
+<td>THREE.RenderPass</td>
+<td>This renders a scene based on the scene and camera supplied.This provides runtime ambient occlusion.</td>
+</tr>
+<tr>
+<td>THREE.SAOPass</td>
+<td>THREE.SMAAPass This adds an anti-aliasing effect to the scene.</td>
+</tr>
+<tr>
+<td>THREE.SSAARenderPass</td>
+<td>This adds an anti-aliasing to the scene.</td>
+</tr>
+<tr>
+<td>THREE.SSAOPass</td>
+<td>This provides an alternative way to perform runtime ambient occlusion.</td>
+</tr>
+<tr>
+<td>THREE.SavePass</td>
+<td>When this pass is executed, it makes a copy of the current rendering step that you can use later. This pass isn’t that useful in practice, and we won’t use it in any of our examples.</td>
+</tr>
+<tr>
+<td>THREE.ShaderPass</td>
+<td>This allows you to pass in custom shaders for advanced or custom postprocessing passes.</td>
+</tr>
+<tr>
+<td>THREE.TAARenderPass</td>
+<td>This adds an anti-aliasing effect to the scene.</td>
+</tr>
+<tr>
+<td>THREE.TexturePass</td>
+<td>This stores the current state of the composer in a texture that you can use as input for other EffectComposer instances.</td>
+</tr>
+<tr>
+<td>THREE.UnrealBloomPass</td>
+<td>This is the same as THREE.BloomPass , but with an effect similar to the effect used in the Unreal 3D engine.</td>
+</tr>
+</tbody></table>
+<h3 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h3><table>
+<thead>
+<tr>
+<th>Pass Name</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>THREE.AdaptiveToneMappingPass</td>
+<td>This render pass adapts the luminosity of the scene, based on the amount of light available in the scene.</td>
+</tr>
+<tr>
+<td>THREE.BloomPass</td>
+<td>This is an effect that makes lighter areas bleed into darker areas. This simulates an effect wherein the camera is overwhelmed by extremely bright light.</td>
+</tr>
+<tr>
+<td>THREE.BokehPass</td>
+<td>This adds a Bokeh effect to the scene. With a Bokeh effect, the foreground of the scene is in focus, while the rest is out of focus.</td>
+</tr>
+<tr>
+<td>THREE.ClearPass</td>
+<td>This spill pass clears the current texture buffer.</td>
+</tr>
+<tr>
+<td>THREE.CubeTexturePass</td>
+<td>This can be used to render a skybox in the scene.</td>
+</tr>
+<tr>
+<td>THREE.DotScreenPass</td>
+<td>This applies a layer of black dots, representing the original image across the screen.</td>
+</tr>
+<tr>
+<td>THREE.FilmPass</td>
+<td>This simulates a TV screen by applying scanlines and distortions.</td>
+</tr>
+<tr>
+<td>THREE.GlitchPass</td>
+<td>This shows an electronic glitch on the screen at a random time interval.</td>
+</tr>
+<tr>
+<td>THREE.HalfTonePass</td>
+<td>This adds a halftone effect to the scene. With a halftone effect, the scene is rendered as asset of colored glyphs (circles, squares, and soon) of various sizes.</td>
+</tr>
+<tr>
+<td>THREE.MaskPass</td>
+<td>This allows you to apply a mask to the current image. Subsequent passes are only applied to the masked area.</td>
+</tr>
+<tr>
+<td>THREE.OutlinePass</td>
+<td>This renders the outline of the objects in the scene.</td>
+</tr>
+<tr>
+<td>THREE.RenderPass</td>
+<td>This renders a scene based on the scene and camera supplied.This provides runtime ambient occlusion.</td>
+</tr>
+<tr>
+<td>THREE.SAOPass</td>
+<td>THREE.SMAAPass This adds an anti-aliasing effect to the scene.</td>
+</tr>
+<tr>
+<td>THREE.SSAARenderPass</td>
+<td>This adds an anti-aliasing to the scene.</td>
+</tr>
+<tr>
+<td>THREE.SSAOPass</td>
+<td>This provides an alternative way to perform runtime ambient occlusion.</td>
+</tr>
+<tr>
+<td>THREE.SavePass</td>
+<td>When this pass is executed, it makes a copy of the current rendering step that you can use later. This pass isn’t that useful in practice, and we won’t use it in any of our examples.</td>
+</tr>
+<tr>
+<td>THREE.ShaderPass</td>
+<td>This allows you to pass in custom shaders for advanced or custom postprocessing passes.</td>
+</tr>
+<tr>
+<td>THREE.TAARenderPass</td>
+<td>This adds an anti-aliasing effect to the scene.</td>
+</tr>
+<tr>
+<td>THREE.TexturePass</td>
+<td>This stores the current state of the composer in a texture that you can use as input for other EffectComposer instances.</td>
+</tr>
+<tr>
+<td>THREE.UnrealBloomPass</td>
+<td>This is the same as THREE.BloomPass , but with an effect similar to the effect used in the Unreal 3D engine.</td>
+</tr>
+</tbody></table>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/Postprocessing/passing/" data-id="ck8tvnz0r0003g9nme98lbat2" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-前端知识点/vue-threejs/three.js-API/Postprocessing/index" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/Postprocessing/index/" class="article-date">
+  <time datetime="2020-04-10T06:27:26.123Z" itemprop="datePublished">2020-04-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/Postprocessing/index/">前端知识点/vue-threejs/three.js-API/Postprocessing/index</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>THREE.EffectComposer — add postprocessing passes</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> renderer = <span class="keyword">new</span> THREE.WebGLRenderer();</span><br><span class="line"><span class="keyword">var</span> composer = <span class="keyword">new</span> THREE.EnterComposer(renderer);</span><br></pre></td></tr></table></figure>
+
+<p>THREE.RenderPass — </p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> renderPass = <span class="keyword">new</span> TREE.RenderPass(scene, camera);</span><br><span class="line">composer.addPass = (renderPass);</span><br></pre></td></tr></table></figure>
+
+<p>THREE.FilmPass —</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> renderPass = <span class="keyword">new</span> THREE.RenderPass(scene, camera);</span><br><span class="line"><span class="keyword">var</span> effectFilm = <span class="keyword">new</span> THREE.FilmPass(<span class="number">0.8</span>, <span class="number">0.325</span>, <span class="number">256</span>, <span class="literal">false</span>);</span><br><span class="line">effectFilm.renderToScreen = <span class="literal">true</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> composer = <span class="keyword">new</span> THREE.EffectComposer(renderer);</span><br><span class="line">composer.addPass(renderPass);</span><br><span class="line">composer.addPass(effectFilm);</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/Postprocessing/index/" data-id="ck8tvnz0q0002g9nm7fnfb8po" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-前端知识点/vue-threejs/three.js-API/index" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/index/" class="article-date">
+  <time datetime="2020-04-10T06:18:49.337Z" itemprop="datePublished">2020-04-10</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/index/">前端知识点/vue-threejs/three.js-API/index</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/index/" data-id="ck8tvnz0o0001g9nm53f18e0y" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-前端知识点/Webgl/关于图像的变化矩阵" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/Webgl/%E5%85%B3%E4%BA%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E5%8F%98%E5%8C%96%E7%9F%A9%E9%98%B5/" class="article-date">
@@ -382,125 +674,11 @@
 
 
   
-    <article id="post-前端知识点/vue-threejs/detail/OBJ文件转glTF文件" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/detail/OBJ%E6%96%87%E4%BB%B6%E8%BD%ACglTF%E6%96%87%E4%BB%B6/" class="article-date">
-  <time datetime="2020-04-08T11:19:42.927Z" itemprop="datePublished">2020-04-08</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/detail/OBJ%E6%96%87%E4%BB%B6%E8%BD%ACglTF%E6%96%87%E4%BB%B6/">前端知识点/vue-threejs/detail/OBJ文件转glTF文件</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/detail/OBJ%E6%96%87%E4%BB%B6%E8%BD%ACglTF%E6%96%87%E4%BB%B6/" data-id="ck8rjqhu1002mqtnm90z957ee" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-前端知识点/javascript/测试题/js的输出顺序" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/javascript/%E6%B5%8B%E8%AF%95%E9%A2%98/js%E7%9A%84%E8%BE%93%E5%87%BA%E9%A1%BA%E5%BA%8F/" class="article-date">
-  <time datetime="2020-04-08T11:19:42.927Z" itemprop="datePublished">2020-04-08</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/javascript/%E6%B5%8B%E8%AF%95%E9%A2%98/js%E7%9A%84%E8%BE%93%E5%87%BA%E9%A1%BA%E5%BA%8F/">前端知识点/javascript/测试题/js的输出顺序</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> name = <span class="string">'global'</span>;</span><br><span class="line"><span class="keyword">var</span> obj = &#123;</span><br><span class="line">    name: <span class="string">'local'</span>,</span><br><span class="line">    foo: <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.name = <span class="string">'foo'</span>;</span><br><span class="line">    &#125;.bind(<span class="built_in">window</span>)</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">var</span> bar = <span class="keyword">new</span> obj.foo();</span><br><span class="line">setTimeout(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="built_in">window</span>.name);</span><br><span class="line">&#125;, <span class="number">0</span>);</span><br><span class="line"><span class="built_in">console</span>.log(bar.name)</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> bar3=bar2=bar1;</span><br><span class="line">bar2.name = <span class="string">'foo2'</span>;</span><br><span class="line"><span class="built_in">console</span>.log(bar3.name);</span><br></pre></td></tr></table></figure>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/javascript/%E6%B5%8B%E8%AF%95%E9%A2%98/js%E7%9A%84%E8%BE%93%E5%87%BA%E9%A1%BA%E5%BA%8F/" data-id="ck8rjqhu7002rqtnmferq2yg1" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-前端知识点/vue-threejs/detail/为什么我的模型不能动" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/detail/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E7%9A%84%E6%A8%A1%E5%9E%8B%E4%B8%8D%E8%83%BD%E5%8A%A8/" class="article-date">
-  <time datetime="2020-04-08T11:19:42.927Z" itemprop="datePublished">2020-04-08</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/detail/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E7%9A%84%E6%A8%A1%E5%9E%8B%E4%B8%8D%E8%83%BD%E5%8A%A8/">前端知识点/vue-threejs/detail/为什么我的模型不能动</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="为什么我的模型不能动"><a href="#为什么我的模型不能动" class="headerlink" title="为什么我的模型不能动"></a>为什么我的模型不能动</h1><p>那是因为你没装控制器！</p>
-<p>threejs中控制器的选择</p>
-<ul>
-<li>DeviceOrientationControls(内置控制器)</li>
-<li>OrbitContorls</li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/detail/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E7%9A%84%E6%A8%A1%E5%9E%8B%E4%B8%8D%E8%83%BD%E5%8A%A8/" data-id="ck8rjqhuc002xqtnmdivye1ri" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 
   <nav id="page-nav">
     
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/2/">Next &amp;raquo;</a>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/2/">Next &amp;raquo;</a>
   </nav>
 
 </section>
@@ -546,23 +724,23 @@
       <ul>
         
           <li>
+            <a href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/Postprocessing/passing/">前端知识点/vue-threejs/three.js-API/Postprocessing/passing</a>
+          </li>
+        
+          <li>
+            <a href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/Postprocessing/index/">前端知识点/vue-threejs/three.js-API/Postprocessing/index</a>
+          </li>
+        
+          <li>
+            <a href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/index/">前端知识点/vue-threejs/three.js-API/index</a>
+          </li>
+        
+          <li>
             <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/Webgl/%E5%85%B3%E4%BA%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E5%8F%98%E5%8C%96%E7%9F%A9%E9%98%B5/">前端知识点/Webgl/关于图像的变化矩阵</a>
           </li>
         
           <li>
             <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/threejs%E5%AF%BC%E5%85%A5glTF%E6%A8%A1%E5%9E%8B%E6%96%87%E4%BB%B6/">前端知识点/vue-threejs/threejs导入glTF模型文件</a>
-          </li>
-        
-          <li>
-            <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/Threejs%E4%B8%AD%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%A4%A7%E5%B0%8F%E3%80%81%E4%BD%8D%E7%BD%AE%E3%80%81%E8%A7%86%E8%A7%89/">前端知识点/vue-threejs/Threejs中模型的大小、位置、视觉</a>
-          </li>
-        
-          <li>
-            <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/%E8%BF%9B%E8%A1%8C3d%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%9A%84%E5%87%86%E5%A4%87/">前端知识点/vue-threejs/进行3d模型开发的准备</a>
-          </li>
-        
-          <li>
-            <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/threejs%E9%80%9A%E8%BF%87obj%E5%92%8Cmtl%E6%96%87%E4%BB%B6%E5%AF%BC%E5%85%A5%E6%A8%A1%E5%9E%8B/">前端知识点/vue-threejs/threejs通过obj和mtl文件导入模型</a>
           </li>
         
       </ul>
