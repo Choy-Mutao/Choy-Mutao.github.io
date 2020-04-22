@@ -7,10 +7,12 @@
   
   <title>My Mind</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="Code never lies, Comments did">
+<meta property="og:type" content="website">
 <meta property="og:title" content="My Mind">
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="My Mind">
+<meta property="og:description" content="Code never lies, Comments did">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="Choy-Mutao">
 <meta name="twitter:card" content="summary">
@@ -64,10 +66,10 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-前端知识点/vue-threejs/three.js-API/Postprocessing/passing" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-Front-Point/代码块/函数的防抖和节流" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/Postprocessing/passing/" class="article-date">
-  <time datetime="2020-04-10T06:44:03.237Z" itemprop="datePublished">2020-04-10</time>
+    <a href="/2020/04/22/Front-Point/%E4%BB%A3%E7%A0%81%E5%9D%97/%E5%87%BD%E6%95%B0%E7%9A%84%E9%98%B2%E6%8A%96%E5%92%8C%E8%8A%82%E6%B5%81/" class="article-date">
+  <time datetime="2020-04-22T07:59:21.394Z" itemprop="datePublished">2020-04-22</time>
 </a>
     
   </div>
@@ -78,7 +80,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/Postprocessing/passing/">前端知识点/vue-threejs/three.js-API/Postprocessing/passing</a>
+      <a class="article-title" href="/2020/04/22/Front-Point/%E4%BB%A3%E7%A0%81%E5%9D%97/%E5%87%BD%E6%95%B0%E7%9A%84%E9%98%B2%E6%8A%96%E5%92%8C%E8%8A%82%E6%B5%81/">函数的防抖和节流</a>
     </h1>
   
 
@@ -86,187 +88,71 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><table>
-<thead>
-<tr>
-<th>Pass Name</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>THREE.AdaptiveToneMappingPass</td>
-<td>This render pass adapts the luminosity of the scene, based on the amount of light available in the scene.</td>
-</tr>
-<tr>
-<td>THREE.BloomPass</td>
-<td>This is an effect that makes lighter areas bleed into darker areas. This simulates an effect wherein the camera is overwhelmed by extremely bright light.</td>
-</tr>
-<tr>
-<td>THREE.BokehPass</td>
-<td>This adds a Bokeh effect to the scene. With a Bokeh effect, the foreground of the scene is in focus, while the rest is out of focus.</td>
-</tr>
-<tr>
-<td>THREE.ClearPass</td>
-<td>This spill pass clears the current texture buffer.</td>
-</tr>
-<tr>
-<td>THREE.CubeTexturePass</td>
-<td>This can be used to render a skybox in the scene.</td>
-</tr>
-<tr>
-<td>THREE.DotScreenPass</td>
-<td>This applies a layer of black dots, representing the original image across the screen.</td>
-</tr>
-<tr>
-<td>THREE.FilmPass</td>
-<td>This simulates a TV screen by applying scanlines and distortions.</td>
-</tr>
-<tr>
-<td>THREE.GlitchPass</td>
-<td>This shows an electronic glitch on the screen at a random time interval.</td>
-</tr>
-<tr>
-<td>THREE.HalfTonePass</td>
-<td>This adds a halftone effect to the scene. With a halftone effect, the scene is rendered as asset of colored glyphs (circles, squares, and soon) of various sizes.</td>
-</tr>
-<tr>
-<td>THREE.MaskPass</td>
-<td>This allows you to apply a mask to the current image. Subsequent passes are only applied to the masked area.</td>
-</tr>
-<tr>
-<td>THREE.OutlinePass</td>
-<td>This renders the outline of the objects in the scene.</td>
-</tr>
-<tr>
-<td>THREE.RenderPass</td>
-<td>This renders a scene based on the scene and camera supplied.This provides runtime ambient occlusion.</td>
-</tr>
-<tr>
-<td>THREE.SAOPass</td>
-<td>THREE.SMAAPass This adds an anti-aliasing effect to the scene.</td>
-</tr>
-<tr>
-<td>THREE.SSAARenderPass</td>
-<td>This adds an anti-aliasing to the scene.</td>
-</tr>
-<tr>
-<td>THREE.SSAOPass</td>
-<td>This provides an alternative way to perform runtime ambient occlusion.</td>
-</tr>
-<tr>
-<td>THREE.SavePass</td>
-<td>When this pass is executed, it makes a copy of the current rendering step that you can use later. This pass isn’t that useful in practice, and we won’t use it in any of our examples.</td>
-</tr>
-<tr>
-<td>THREE.ShaderPass</td>
-<td>This allows you to pass in custom shaders for advanced or custom postprocessing passes.</td>
-</tr>
-<tr>
-<td>THREE.TAARenderPass</td>
-<td>This adds an anti-aliasing effect to the scene.</td>
-</tr>
-<tr>
-<td>THREE.TexturePass</td>
-<td>This stores the current state of the composer in a texture that you can use as input for other EffectComposer instances.</td>
-</tr>
-<tr>
-<td>THREE.UnrealBloomPass</td>
-<td>This is the same as THREE.BloomPass , but with an effect similar to the effect used in the Unreal 3D engine.</td>
-</tr>
-</tbody></table>
-<h3 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h3><table>
-<thead>
-<tr>
-<th>Pass Name</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>THREE.AdaptiveToneMappingPass</td>
-<td>This render pass adapts the luminosity of the scene, based on the amount of light available in the scene.</td>
-</tr>
-<tr>
-<td>THREE.BloomPass</td>
-<td>This is an effect that makes lighter areas bleed into darker areas. This simulates an effect wherein the camera is overwhelmed by extremely bright light.</td>
-</tr>
-<tr>
-<td>THREE.BokehPass</td>
-<td>This adds a Bokeh effect to the scene. With a Bokeh effect, the foreground of the scene is in focus, while the rest is out of focus.</td>
-</tr>
-<tr>
-<td>THREE.ClearPass</td>
-<td>This spill pass clears the current texture buffer.</td>
-</tr>
-<tr>
-<td>THREE.CubeTexturePass</td>
-<td>This can be used to render a skybox in the scene.</td>
-</tr>
-<tr>
-<td>THREE.DotScreenPass</td>
-<td>This applies a layer of black dots, representing the original image across the screen.</td>
-</tr>
-<tr>
-<td>THREE.FilmPass</td>
-<td>This simulates a TV screen by applying scanlines and distortions.</td>
-</tr>
-<tr>
-<td>THREE.GlitchPass</td>
-<td>This shows an electronic glitch on the screen at a random time interval.</td>
-</tr>
-<tr>
-<td>THREE.HalfTonePass</td>
-<td>This adds a halftone effect to the scene. With a halftone effect, the scene is rendered as asset of colored glyphs (circles, squares, and soon) of various sizes.</td>
-</tr>
-<tr>
-<td>THREE.MaskPass</td>
-<td>This allows you to apply a mask to the current image. Subsequent passes are only applied to the masked area.</td>
-</tr>
-<tr>
-<td>THREE.OutlinePass</td>
-<td>This renders the outline of the objects in the scene.</td>
-</tr>
-<tr>
-<td>THREE.RenderPass</td>
-<td>This renders a scene based on the scene and camera supplied.This provides runtime ambient occlusion.</td>
-</tr>
-<tr>
-<td>THREE.SAOPass</td>
-<td>THREE.SMAAPass This adds an anti-aliasing effect to the scene.</td>
-</tr>
-<tr>
-<td>THREE.SSAARenderPass</td>
-<td>This adds an anti-aliasing to the scene.</td>
-</tr>
-<tr>
-<td>THREE.SSAOPass</td>
-<td>This provides an alternative way to perform runtime ambient occlusion.</td>
-</tr>
-<tr>
-<td>THREE.SavePass</td>
-<td>When this pass is executed, it makes a copy of the current rendering step that you can use later. This pass isn’t that useful in practice, and we won’t use it in any of our examples.</td>
-</tr>
-<tr>
-<td>THREE.ShaderPass</td>
-<td>This allows you to pass in custom shaders for advanced or custom postprocessing passes.</td>
-</tr>
-<tr>
-<td>THREE.TAARenderPass</td>
-<td>This adds an anti-aliasing effect to the scene.</td>
-</tr>
-<tr>
-<td>THREE.TexturePass</td>
-<td>This stores the current state of the composer in a texture that you can use as input for other EffectComposer instances.</td>
-</tr>
-<tr>
-<td>THREE.UnrealBloomPass</td>
-<td>This is the same as THREE.BloomPass , but with an effect similar to the effect used in the Unreal 3D engine.</td>
-</tr>
-</tbody></table>
+        <h3 id="什么是函数的防抖"><a href="#什么是函数的防抖" class="headerlink" title="什么是函数的防抖"></a>什么是函数的防抖</h3><p>先理解一下函数的抖动，当函数的入参在确认的过程中，发生的函数结果的变化，产生的页面效果。</p>
+<p>因为抖动发生在确认的过程中，所以一般的抖动都是持续的，多次的。</p>
+<p>所以函数的防抖，就是防止在确认过程中的变化，只在确认完成后执行函数得到结果。<br>也就是当持续触发事件的时候，函数是完全不执行的，等最后一次触发结束的一段时间之后，再去执行。</p>
+<h3 id="什么是函数的节流"><a href="#什么是函数的节流" class="headerlink" title="什么是函数的节流"></a>什么是函数的节流</h3><p>节流的目的是为了让函数进行有效的触发，避免无意义的多次请求。</p>
+<p>节流：在一段时间内闲置一个函数的触发次数</p>
+<h3 id="防抖的思路"><a href="#防抖的思路" class="headerlink" title="防抖的思路"></a>防抖的思路</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1.持续触发的时候不执行</span><br><span class="line">2.停止触发的一段时间后再执行</span><br></pre></td></tr></table></figure>
 
+<h3 id="节流的思路"><a href="#节流的思路" class="headerlink" title="节流的思路"></a>节流的思路</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1. 持续触发的时候只执行一次</span><br><span class="line">2. 停止触发的一段时间后，再允许触发</span><br></pre></td></tr></table></figure>
+
+<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;Function&#125;</span> </span>func 执行函数</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;number&#125;</span> </span>wait 等待时间</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param <span class="type">&#123;boolean&#125;</span> </span>immediate 是否立即执行 // 当true为节流，false为防抖</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@return <span class="type">&#123;*&#125;</span></span></span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">export</span> <span class="function"><span class="keyword">function</span> <span class="title">debounce</span>(<span class="params">func, wait, immediate</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">let</span> timeout, args, context, timestamp, result;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">const</span> later = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="comment">// 据上一次触发时间间隔</span></span><br><span class="line">    <span class="keyword">const</span> last = +<span class="keyword">new</span> <span class="built_in">Date</span>() - timestamp;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 上次被包装函数被调用时间间隔 last 小于设定时间间隔 wait</span></span><br><span class="line">    <span class="keyword">if</span> (last &lt; wait &amp;&amp; last &gt; <span class="number">0</span>) &#123;</span><br><span class="line">      timeout = setTimeout(later, wait - last);</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">      timeout = <span class="literal">null</span>;</span><br><span class="line">      <span class="comment">// 如果设定为immediate===true，因为开始边界已经调用过了此处无需调用</span></span><br><span class="line">      <span class="keyword">if</span> (!immediate) &#123;</span><br><span class="line">        result = func.apply(context, args);</span><br><span class="line">        <span class="keyword">if</span> (!timeout) context = args = <span class="literal">null</span>;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params">...args</span>) </span>&#123;</span><br><span class="line">    context = <span class="keyword">this</span>;</span><br><span class="line">    timestamp = +<span class="keyword">new</span> <span class="built_in">Date</span>();</span><br><span class="line">    <span class="keyword">const</span> callNow = immediate &amp;&amp; !timeout;</span><br><span class="line">    <span class="comment">// 如果延时不存在，重新设定延时</span></span><br><span class="line">    <span class="keyword">if</span> (!timeout) timeout = setTimeout(later, wait);</span><br><span class="line">    <span class="keyword">if</span> (callNow) &#123;</span><br><span class="line">      result = func.apply(context, args);</span><br><span class="line">      context = args = <span class="literal">null</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> result;</span><br><span class="line">  &#125;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="防抖和节流的场景"><a href="#防抖和节流的场景" class="headerlink" title="防抖和节流的场景"></a>防抖和节流的场景</h3>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/Postprocessing/passing/" data-id="ck8tvnz0r0003g9nme98lbat2" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/04/22/Front-Point/%E4%BB%A3%E7%A0%81%E5%9D%97/%E5%87%BD%E6%95%B0%E7%9A%84%E9%98%B2%E6%8A%96%E5%92%8C%E8%8A%82%E6%B5%81/" data-id="ck9b1qxf0000yoynm8msy51ze" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/unsorted/" rel="tag">unsorted</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-Front-Point/Typescript/Start/Variable Declaration" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/04/20/Front-Point/Typescript/Start/Variable%20Declaration/" class="article-date">
+  <time datetime="2020-04-20T08:45:48.357Z" itemprop="datePublished">2020-04-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/04/20/Front-Point/Typescript/Start/Variable%20Declaration/">变量声明</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="var"><a href="#var" class="headerlink" title="var"></a>var</h3><p>var声明可以在包含它的函数，模块，命名空间或全局作用域内部任何位置被访问（我们后面会详细介绍），包含它的代码块对此没有什么影响。</p>
+<p>var作用域或函数作用域</p>
+<p>函数参数也使用函数作用域</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">f</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> message = <span class="string">"Hello, world!"</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> message;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">f</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> a = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span> <span class="title">g</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">var</span> b = a + <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">return</span> b;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> g = f();</span><br><span class="line">g(); <span class="comment">// returns 11;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">f</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> a = <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">    a = <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">var</span> b = g();</span><br><span class="line">    a = <span class="number">3</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> b;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">g</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> a;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">f(); <span class="comment">// returns 2</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">f</span>(<span class="params">shouldInitialize: boolean</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (shouldInitialize) &#123;</span><br><span class="line">        <span class="keyword">var</span> x = <span class="number">10</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> x;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">f(<span class="literal">true</span>);  <span class="comment">// returns '10'</span></span><br><span class="line">f(<span class="literal">false</span>); <span class="comment">// returns 'undefined'</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="let"><a href="#let" class="headerlink" title="let"></a>let</h3><h3 id="const"><a href="#const" class="headerlink" title="const"></a>const</h3><h3 id="立即执行的函数表达式（IIFE）"><a href="#立即执行的函数表达式（IIFE）" class="headerlink" title="立即执行的函数表达式（IIFE）"></a>立即执行的函数表达式（IIFE）</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; <span class="number">10</span>; i++) &#123;</span><br><span class="line">    <span class="comment">// capture the current state of 'i'</span></span><br><span class="line">    <span class="comment">// by invoking a function with its current value</span></span><br><span class="line">    (<span class="function"><span class="keyword">function</span>(<span class="params">i</span>) </span>&#123;</span><br><span class="line">        setTimeout(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123; <span class="built_in">console</span>.log(i); &#125;, <span class="number">100</span> * i);</span><br><span class="line">    &#125;)(i);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/04/20/Front-Point/Typescript/Start/Variable%20Declaration/" data-id="ck9b1qxfm0014oynmhdz20vgr" class="article-share-link">Share</a>
       
       
     </footer>
@@ -276,10 +162,10 @@
 
 
   
-    <article id="post-前端知识点/vue-threejs/three.js-API/Postprocessing/index" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-Front-Point/Typescript/Start/index" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/Postprocessing/index/" class="article-date">
-  <time datetime="2020-04-10T06:27:26.123Z" itemprop="datePublished">2020-04-10</time>
+    <a href="/2020/04/20/Front-Point/Typescript/Start/index/" class="article-date">
+  <time datetime="2020-04-20T02:46:39.496Z" itemprop="datePublished">2020-04-20</time>
 </a>
     
   </div>
@@ -290,7 +176,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/Postprocessing/index/">前端知识点/vue-threejs/three.js-API/Postprocessing/index</a>
+      <a class="article-title" href="/2020/04/20/Front-Point/Typescript/Start/index/">Front-Point/Typescript/Start/index</a>
     </h1>
   
 
@@ -298,19 +184,18 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>THREE.EffectComposer — add postprocessing passes</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> renderer = <span class="keyword">new</span> THREE.WebGLRenderer();</span><br><span class="line"><span class="keyword">var</span> composer = <span class="keyword">new</span> THREE.EnterComposer(renderer);</span><br></pre></td></tr></table></figure>
+        <h3 id="安装使用-typescript"><a href="#安装使用-typescript" class="headerlink" title="安装使用 typescript"></a>安装使用 typescript</h3><p><code>npm install -g typescript</code></p>
+<h3 id="如何编译-ts-代码"><a href="#如何编译-ts-代码" class="headerlink" title="如何编译 .ts 代码"></a>如何编译 .ts 代码</h3><p>运行命令行 <code>tsc fileName.ts</code></p>
+<h3 id="类型注解"><a href="#类型注解" class="headerlink" title="类型注解"></a>类型注解</h3><p>类型注解是为函数或变量添加约束的一种方式。TypeScript提供了静态的代码分析，它可以分析代码结构和提供的类型注解。</p>
+<h3 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h3><p>TypeScript里，只在两个类型内部的结构兼容那么这两个类型就是兼容的。 这就允许我们在实现接口时候只要保证包含了接口要求的结构就可以，而不必明确地使用 implements语句。</p>
+<figure class="highlight typescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">interface</span> Person &#123;</span><br><span class="line">    firstName: <span class="built_in">String</span>;</span><br><span class="line">    lastName: <span class="built_in">String</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">greeter</span>(<span class="params">person: Person</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">"Hello, "</span> + person.firstName + <span class="string">" "</span> + person.lastName;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> user = &#123; firstName: <span class="string">"Jane"</span>, lastName: <span class="string">"User"</span> &#125;;</span><br><span class="line"></span><br><span class="line"><span class="built_in">document</span>.body.innerHTML = greeter(user);</span><br></pre></td></tr></table></figure>
 
-<p>THREE.RenderPass — </p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> renderPass = <span class="keyword">new</span> TREE.RenderPass(scene, camera);</span><br><span class="line">composer.addPass = (renderPass);</span><br></pre></td></tr></table></figure>
-
-<p>THREE.FilmPass —</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> renderPass = <span class="keyword">new</span> THREE.RenderPass(scene, camera);</span><br><span class="line"><span class="keyword">var</span> effectFilm = <span class="keyword">new</span> THREE.FilmPass(<span class="number">0.8</span>, <span class="number">0.325</span>, <span class="number">256</span>, <span class="literal">false</span>);</span><br><span class="line">effectFilm.renderToScreen = <span class="literal">true</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> composer = <span class="keyword">new</span> THREE.EffectComposer(renderer);</span><br><span class="line">composer.addPass(renderPass);</span><br><span class="line">composer.addPass(effectFilm);</span><br></pre></td></tr></table></figure>
+<h3 id="运行Typescript-Web-应用"><a href="#运行Typescript-Web-应用" class="headerlink" title="运行Typescript Web 应用"></a>运行Typescript Web 应用</h3><p>//todo</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/Postprocessing/index/" data-id="ck8tvnz0q0002g9nm7fnfb8po" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/04/20/Front-Point/Typescript/Start/index/" data-id="ck9b1qxfo0019oynmaly23hqv" class="article-share-link">Share</a>
       
       
     </footer>
@@ -320,10 +205,10 @@
 
 
   
-    <article id="post-前端知识点/vue-threejs/three.js-API/index" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-Front-Point/Typescript/test" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/index/" class="article-date">
-  <time datetime="2020-04-10T06:18:49.337Z" itemprop="datePublished">2020-04-10</time>
+    <a href="/2020/04/20/Front-Point/Typescript/test/" class="article-date">
+  <time datetime="2020-04-20T02:36:05.803Z" itemprop="datePublished">2020-04-20</time>
 </a>
     
   </div>
@@ -334,7 +219,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/index/">前端知识点/vue-threejs/three.js-API/index</a>
+      <a class="article-title" href="/2020/04/20/Front-Point/Typescript/test/">Front-Point/Typescript/test</a>
     </h1>
   
 
@@ -342,11 +227,17 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <!DOCTYPE html>
+<html>
+    <head><title>TypeScript Greeter</title><meta name="generator" content="Hexo 4.2.0"></head>
+    <body>
+        <script src="test.js"></script>
+    </body>
+</html>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/index/" data-id="ck8tvnz0o0001g9nm53f18e0y" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/04/20/Front-Point/Typescript/test/" data-id="ck9b1qxei000hoynm5knqbrcp" class="article-share-link">Share</a>
       
       
     </footer>
@@ -356,10 +247,10 @@
 
 
   
-    <article id="post-前端知识点/Webgl/关于图像的变化矩阵" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-Front-Point/Typescript/test" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/Webgl/%E5%85%B3%E4%BA%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E5%8F%98%E5%8C%96%E7%9F%A9%E9%98%B5/" class="article-date">
-  <time datetime="2020-04-08T11:19:42.930Z" itemprop="datePublished">2020-04-08</time>
+    <a href="/2020/04/20/Front-Point/Typescript/test/" class="article-date">
+  <time datetime="2020-04-20T02:16:48.976Z" itemprop="datePublished">2020-04-20</time>
 </a>
     
   </div>
@@ -370,7 +261,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/Webgl/%E5%85%B3%E4%BA%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E5%8F%98%E5%8C%96%E7%9F%A9%E9%98%B5/">前端知识点/Webgl/关于图像的变化矩阵</a>
+      <a class="article-title" href="/2020/04/20/Front-Point/Typescript/test/">Front-Point/Typescript/test</a>
     </h1>
   
 
@@ -378,11 +269,26 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        var Student = /** @class */ (function () {
+    function Student(firstName, middleInitial, lastName) {
+        this.firstName = firstName;
+        this.middleInitial = middleInitial;
+        this.lastName = lastName;
+        this.fullName = firstName + " " + middleInitial + " " + lastName;
+    }
+    return Student;
+}());
+function greeter(person) {
+    return 'Hello' + person;
+}
+// let user = "Jane User";
+var user = new Student("Jane", "M.", "User");
+document.body.innerHTML = greeter(user);
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/Webgl/%E5%85%B3%E4%BA%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E5%8F%98%E5%8C%96%E7%9F%A9%E9%98%B5/" data-id="ck8rjqht6001hqtnm2es2hgyl" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/04/20/Front-Point/Typescript/test/" data-id="ck9b1qxeh000goynmg2r21zk0" class="article-share-link">Share</a>
       
       
     </footer>
@@ -392,10 +298,10 @@
 
 
   
-    <article id="post-前端知识点/vue-threejs/threejs导入glTF模型文件" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-Front-Point/Interview and Exam/组件通信方式有哪些？" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/threejs%E5%AF%BC%E5%85%A5glTF%E6%A8%A1%E5%9E%8B%E6%96%87%E4%BB%B6/" class="article-date">
-  <time datetime="2020-04-08T11:19:42.930Z" itemprop="datePublished">2020-04-08</time>
+    <a href="/2020/04/19/Front-Point/Interview%20and%20Exam/%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F/" class="article-date">
+  <time datetime="2020-04-19T02:59:19.984Z" itemprop="datePublished">2020-04-19</time>
 </a>
     
   </div>
@@ -406,7 +312,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/threejs%E5%AF%BC%E5%85%A5glTF%E6%A8%A1%E5%9E%8B%E6%96%87%E4%BB%B6/">前端知识点/vue-threejs/threejs导入glTF模型文件</a>
+      <a class="article-title" href="/2020/04/19/Front-Point/Interview%20and%20Exam/%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F/">Front-Point/Interview and Exam/组件通信方式有哪些？</a>
     </h1>
   
 
@@ -414,11 +320,13 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h3 id="组件通信方式有哪些？"><a href="#组件通信方式有哪些？" class="headerlink" title="组件通信方式有哪些？"></a>组件通信方式有哪些？</h3><p>父组件通信：<br><code>props</code>、 <code>event</code>、 <code>v-model</code>、 <code>.sync</code>、 <code>ref</code>、 <code>$parent</code>、<code>$children</code></p>
+<p>非父子组件通信：<br><code>$attr</code>、<code>$listeners</code> | <code>provide</code>、<code>inject</code> | <code>eventbus</code> | 通过根实例<code>$root</code>访问 | <code>vuex</code> | <code>dispatch</code> 、 <code>brodcast</code></p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/threejs%E5%AF%BC%E5%85%A5glTF%E6%A8%A1%E5%9E%8B%E6%96%87%E4%BB%B6/" data-id="ck8rjqht6001iqtnm4nhs8vtl" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/04/19/Front-Point/Interview%20and%20Exam/%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F%E6%9C%89%E5%93%AA%E4%BA%9B%EF%BC%9F/" data-id="ck9b1qxeg000foynmct0rdrrq" class="article-share-link">Share</a>
       
       
     </footer>
@@ -428,10 +336,10 @@
 
 
   
-    <article id="post-前端知识点/vue-threejs/Threejs中模型的大小、位置、视觉" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-Front-Point/Interview and Exam/什么是webgl" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/Threejs%E4%B8%AD%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%A4%A7%E5%B0%8F%E3%80%81%E4%BD%8D%E7%BD%AE%E3%80%81%E8%A7%86%E8%A7%89/" class="article-date">
-  <time datetime="2020-04-08T11:19:42.930Z" itemprop="datePublished">2020-04-08</time>
+    <a href="/2020/04/17/Front-Point/Interview%20and%20Exam/%E4%BB%80%E4%B9%88%E6%98%AFwebgl/" class="article-date">
+  <time datetime="2020-04-17T07:44:23.920Z" itemprop="datePublished">2020-04-17</time>
 </a>
     
   </div>
@@ -442,7 +350,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/Threejs%E4%B8%AD%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%A4%A7%E5%B0%8F%E3%80%81%E4%BD%8D%E7%BD%AE%E3%80%81%E8%A7%86%E8%A7%89/">前端知识点/vue-threejs/Threejs中模型的大小、位置、视觉</a>
+      <a class="article-title" href="/2020/04/17/Front-Point/Interview%20and%20Exam/%E4%BB%80%E4%B9%88%E6%98%AFwebgl/">Front-Point/Interview and Exam/什么是webgl</a>
     </h1>
   
 
@@ -450,17 +358,11 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="我要找得到它"><a href="#我要找得到它" class="headerlink" title="我要找得到它"></a>我要找得到它</h3><p>我们成功地将某种途径获得的模型放进了数据中，可是它去哪儿了？</p>
-<h3 id="我找不到它了，她在哪里"><a href="#我找不到它了，她在哪里" class="headerlink" title="我找不到它了，她在哪里"></a>我找不到它了，她在哪里</h3><ol>
-<li>是不是她拒绝进来</li>
-<li>她进来了，她是透明的</li>
-<li>没有光，就没有了眼睛</li>
-</ol>
-<h3 id="我知道我在哪里么"><a href="#我知道我在哪里么" class="headerlink" title="我知道我在哪里么"></a>我知道我在哪里么</h3><h3 id="threejs中的坐标系"><a href="#threejs中的坐标系" class="headerlink" title="threejs中的坐标系"></a>threejs中的坐标系</h3><h3 id="我来给你开门"><a href="#我来给你开门" class="headerlink" title="我来给你开门"></a>我来给你开门</h3><h3 id="她从门里进来了"><a href="#她从门里进来了" class="headerlink" title="她从门里进来了"></a>她从门里进来了</h3>
+        <h3 id="什么是-webgl，-它有什么优点？"><a href="#什么是-webgl，-它有什么优点？" class="headerlink" title="什么是 webgl， 它有什么优点？"></a>什么是 webgl， 它有什么优点？</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">WebGL（全写 Web Graphics Library ）是一种 3D 绘图标准，这种绘图技术标准允许把 JavaScript 和 OpenGL ES 2.0 结合在一起，通过增加OpenGL ES 2.0 的一个 JavaScript 绑定， WebGL 可以为 HTML5 Canvas 提供硬件 3D 加速渲染，这样 Web 开发人员就可以借助系统显卡来在浏览器里更流畅地展示 3D 场景和模型了，还能创建复杂的导航和数据视觉化。显然， WebGL 技术标准免去了开发网页专用渲染插件的麻烦，可被用于创建具有复杂 3D 结构的网站页面，甚至可以用来设计 3D 网页游戏等等。</span><br><span class="line"></span><br><span class="line">WebGL完美地解决了现有的 Web 交互式三维动画的两个问题：</span><br><span class="line"></span><br><span class="line">第一，它通过HTML脚本本身实现 Web 交互式三维动画的制作，无需任何浏览器插件支持 ;</span><br><span class="line"></span><br><span class="line">第二，它利用底层的图形硬件加速功能进行的图形渲染，是通过统一的、标准的、跨平台的OpenGL接口实现的。</span><br><span class="line"></span><br><span class="line">通俗说WebGL中 canvas 绘图中的 3D 版本。因为原生的 WebGL 很复杂，我们经常会使用一些三方的库，如 three.js 等，这些库多数用于 HTML5 游戏开发。</span><br></pre></td></tr></table></figure>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/Threejs%E4%B8%AD%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%A4%A7%E5%B0%8F%E3%80%81%E4%BD%8D%E7%BD%AE%E3%80%81%E8%A7%86%E8%A7%89/" data-id="ck8rjqhtw002gqtnmf1fh0wzy" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/04/17/Front-Point/Interview%20and%20Exam/%E4%BB%80%E4%B9%88%E6%98%AFwebgl/" data-id="ck9b1qxed000doynmfzn6dlf4" class="article-share-link">Share</a>
       
       
     </footer>
@@ -470,10 +372,10 @@
 
 
   
-    <article id="post-前端知识点/vue-threejs/进行3d模型开发的准备" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-Front-Point/Interview and Exam/HTML5行内元素有哪些,块级元素有哪些, 空元素有哪些?" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/%E8%BF%9B%E8%A1%8C3d%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%9A%84%E5%87%86%E5%A4%87/" class="article-date">
-  <time datetime="2020-04-08T11:19:42.930Z" itemprop="datePublished">2020-04-08</time>
+    <a href="/2020/04/17/Front-Point/Interview%20and%20Exam/HTML5%E8%A1%8C%E5%86%85%E5%85%83%E7%B4%A0%E6%9C%89%E5%93%AA%E4%BA%9B,%E5%9D%97%E7%BA%A7%E5%85%83%E7%B4%A0%E6%9C%89%E5%93%AA%E4%BA%9B,%20%E7%A9%BA%E5%85%83%E7%B4%A0%E6%9C%89%E5%93%AA%E4%BA%9B?/" class="article-date">
+  <time datetime="2020-04-17T07:25:01.827Z" itemprop="datePublished">2020-04-17</time>
 </a>
     
   </div>
@@ -484,7 +386,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/%E8%BF%9B%E8%A1%8C3d%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%9A%84%E5%87%86%E5%A4%87/">前端知识点/vue-threejs/进行3d模型开发的准备</a>
+      <a class="article-title" href="/2020/04/17/Front-Point/Interview%20and%20Exam/HTML5%E8%A1%8C%E5%86%85%E5%85%83%E7%B4%A0%E6%9C%89%E5%93%AA%E4%BA%9B,%E5%9D%97%E7%BA%A7%E5%85%83%E7%B4%A0%E6%9C%89%E5%93%AA%E4%BA%9B,%20%E7%A9%BA%E5%85%83%E7%B4%A0%E6%9C%89%E5%93%AA%E4%BA%9B?/">Front-Point/Interview and Exam/HTML5行内元素有哪些,块级元素有哪些, 空元素有哪些?</a>
     </h1>
   
 
@@ -492,28 +394,11 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="首先！必须！一定！要和设计人员沟通模型的尺寸！尺寸！尺寸"><a href="#首先！必须！一定！要和设计人员沟通模型的尺寸！尺寸！尺寸" class="headerlink" title="首先！必须！一定！要和设计人员沟通模型的尺寸！尺寸！尺寸"></a>首先！必须！一定！要和设计人员沟通模型的尺寸！尺寸！尺寸</h3><h3 id="关于几种3d模型的文件类型"><a href="#关于几种3d模型的文件类型" class="headerlink" title="关于几种3d模型的文件类型"></a>关于几种3d模型的文件类型</h3><p>首先我们先看看Threejs的几个Loaders</p>
-<ul>
-<li>BasisTextureLoader</li>
-<li>DRACOLoader</li>
-<li>GLTFLoader</li>
-<li>MMDLoader</li>
-<li>MTLLoader</li>
-<li>OBJLoader</li>
-<li>OBJLoader2</li>
-<li>OBJLoader2Parallel</li>
-<li>PCDLoader</li>
-<li>PDBLoader</li>
-<li>PRWMLoader</li>
-<li>SVGLoader</li>
-<li>TGALoader</li>
-</ul>
-<h4 id="glTF—‘jpeg-of-3D’"><a href="#glTF—‘jpeg-of-3D’" class="headerlink" title="glTF—‘jpeg of 3D’"></a><a href="https://www.khronos.org/gltf/" target="_blank" rel="noopener">glTF</a>—‘jpeg of 3D’</h4><p>glTF (GL Transmission Format) 是开源的一个用于帮助应用程序高效传输和加载3d场景与模型的数据格式。</p>
-
+        <h3 id="HTML5行内元素有哪些-块级元素有哪些-空元素有哪些"><a href="#HTML5行内元素有哪些-块级元素有哪些-空元素有哪些" class="headerlink" title="HTML5行内元素有哪些,块级元素有哪些, 空元素有哪些?"></a>HTML5行内元素有哪些,块级元素有哪些, 空元素有哪些?</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br></pre></td><td class="code"><pre><span class="line">(1)行内元素</span><br><span class="line"></span><br><span class="line">* a - 锚点</span><br><span class="line"></span><br><span class="line">* abbr - 缩写</span><br><span class="line"></span><br><span class="line">* acronym - 首字</span><br><span class="line"></span><br><span class="line">* b - 粗体 ( 不推荐 )</span><br><span class="line"></span><br><span class="line">* bdo - bidi override</span><br><span class="line"></span><br><span class="line">* big - 大字体</span><br><span class="line"></span><br><span class="line">* br - 换行</span><br><span class="line"></span><br><span class="line">* cite - 引用</span><br><span class="line"></span><br><span class="line">* code - 计算机代码 ( 在引用源码的时候需要 )</span><br><span class="line"></span><br><span class="line">* dfn - 定义字段</span><br><span class="line"></span><br><span class="line">* em - 强调</span><br><span class="line"></span><br><span class="line">* font - 字体设定 ( 不推荐 )</span><br><span class="line"></span><br><span class="line">* i - 斜体</span><br><span class="line"></span><br><span class="line">* img - 图片</span><br><span class="line"></span><br><span class="line">* input - 输入框</span><br><span class="line"></span><br><span class="line">* kbd - 定义键盘文本</span><br><span class="line"></span><br><span class="line">* label - 表格标签</span><br><span class="line"></span><br><span class="line">* q - 短引用</span><br><span class="line"></span><br><span class="line">* s - 中划线 ( 不推荐 )</span><br><span class="line"></span><br><span class="line">* samp - 定义范例计算机代码</span><br><span class="line"></span><br><span class="line">* select - 项目选择</span><br><span class="line"></span><br><span class="line">* small - 小字体文本</span><br><span class="line"></span><br><span class="line">* span - 常用内联容器，定义文本内区块</span><br><span class="line"></span><br><span class="line">* strike - 中划线</span><br><span class="line"></span><br><span class="line">* strong - 粗体强调</span><br><span class="line"></span><br><span class="line">* sub - 下标</span><br><span class="line"></span><br><span class="line">* sup - 上标</span><br><span class="line"></span><br><span class="line">* textarea - 多行文本输入框</span><br><span class="line"></span><br><span class="line">* tt - 电传文本</span><br><span class="line"></span><br><span class="line">* u - 下划线</span><br><span class="line"></span><br><span class="line">* var - 定义变量</span><br><span class="line"></span><br><span class="line">(2)块元素 (block element)</span><br><span class="line"></span><br><span class="line">* address - 地址</span><br><span class="line"></span><br><span class="line">* blockquote - 块引用</span><br><span class="line"></span><br><span class="line">* center - 居中对齐块</span><br><span class="line"></span><br><span class="line">* dir - 目录列表</span><br><span class="line"></span><br><span class="line">* div - 常用块级容易，也是 css layout 的主要标签</span><br><span class="line"></span><br><span class="line">* dl - 定义列表</span><br><span class="line"></span><br><span class="line">* fieldset - form控制组</span><br><span class="line"></span><br><span class="line">* form - 交互表单</span><br><span class="line"></span><br><span class="line">* h1 - 大标题</span><br><span class="line"></span><br><span class="line">* h2 - 副标题</span><br><span class="line"></span><br><span class="line">* h3 - 3级标题</span><br><span class="line"></span><br><span class="line">* h4 - 4级标题</span><br><span class="line"></span><br><span class="line">* h5 - 5级标题</span><br><span class="line"></span><br><span class="line">* h6 - 6级标题</span><br><span class="line"></span><br><span class="line">* hr - 水平分隔线</span><br><span class="line"></span><br><span class="line">* isindex - input prompt</span><br><span class="line"></span><br><span class="line">* menu - 菜单列表</span><br><span class="line"></span><br><span class="line">* noframes - frames可选内容，（对于不支持 frame 的浏览器显示此区块内容</span><br><span class="line"></span><br><span class="line">* noscript - ）可选脚本内容（对于不支持 script 的浏览器显示此内容）</span><br><span class="line"></span><br><span class="line">* ol - 排序表单</span><br><span class="line"></span><br><span class="line">* p - 段落</span><br><span class="line"></span><br><span class="line">* pre - 格式化文本</span><br><span class="line"></span><br><span class="line">* table - 表格</span><br><span class="line"></span><br><span class="line">* ul - 非排序列表</span><br><span class="line"></span><br><span class="line">可变元素</span><br><span class="line"></span><br><span class="line">可变元素为根据上下文语境决定该元素为块元素或者内联元素。</span><br><span class="line"></span><br><span class="line">* applet - java applet</span><br><span class="line"></span><br><span class="line">* button - 按钮</span><br><span class="line"></span><br><span class="line">* del - 删除文本</span><br><span class="line"></span><br><span class="line">* iframe - inline frame</span><br><span class="line"></span><br><span class="line">* ins - 插入的文本</span><br><span class="line"></span><br><span class="line">* map - 图片区块 (map)</span><br><span class="line"></span><br><span class="line">* object - object对象</span><br><span class="line"></span><br><span class="line">* script - 客户端脚本</span><br><span class="line"></span><br><span class="line">(3)空元素 ( 在 HTML[1] 元素中，没有内容的 HTML 元素被称为空元素 )</span><br><span class="line"></span><br><span class="line">&lt;br/&gt; //换行</span><br><span class="line"></span><br><span class="line">&lt;hr&gt; //分隔线</span><br><span class="line"></span><br><span class="line">&lt;input&gt; //文本框等</span><br><span class="line"></span><br><span class="line">&lt;img&gt; //图片</span><br><span class="line"></span><br><span class="line">&lt;link&gt;</span><br><span class="line"></span><br><span class="line">&lt;meta&gt;</span><br></pre></td></tr></table></figure>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/%E8%BF%9B%E8%A1%8C3d%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%8F%91%E7%9A%84%E5%87%86%E5%A4%87/" data-id="ck8rjqhtz002lqtnmgtyo96a8" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/04/17/Front-Point/Interview%20and%20Exam/HTML5%E8%A1%8C%E5%86%85%E5%85%83%E7%B4%A0%E6%9C%89%E5%93%AA%E4%BA%9B,%E5%9D%97%E7%BA%A7%E5%85%83%E7%B4%A0%E6%9C%89%E5%93%AA%E4%BA%9B,%20%E7%A9%BA%E5%85%83%E7%B4%A0%E6%9C%89%E5%93%AA%E4%BA%9B?/" data-id="ck9b1qxeb000boynmexk2e00a" class="article-share-link">Share</a>
       
       
     </footer>
@@ -523,10 +408,10 @@
 
 
   
-    <article id="post-前端知识点/vue-threejs/threejs通过obj和mtl文件导入模型" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-Front-Point/Interview and Exam/浏览器和浏览器的内核" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/threejs%E9%80%9A%E8%BF%87obj%E5%92%8Cmtl%E6%96%87%E4%BB%B6%E5%AF%BC%E5%85%A5%E6%A8%A1%E5%9E%8B/" class="article-date">
-  <time datetime="2020-04-08T11:19:42.927Z" itemprop="datePublished">2020-04-08</time>
+    <a href="/2020/04/17/Front-Point/Interview%20and%20Exam/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%92%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E5%86%85%E6%A0%B8/" class="article-date">
+  <time datetime="2020-04-17T07:22:55.307Z" itemprop="datePublished">2020-04-17</time>
 </a>
     
   </div>
@@ -537,7 +422,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/threejs%E9%80%9A%E8%BF%87obj%E5%92%8Cmtl%E6%96%87%E4%BB%B6%E5%AF%BC%E5%85%A5%E6%A8%A1%E5%9E%8B/">前端知识点/vue-threejs/threejs通过obj和mtl文件导入模型</a>
+      <a class="article-title" href="/2020/04/17/Front-Point/Interview%20and%20Exam/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%92%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E5%86%85%E6%A0%B8/">Front-Point/Interview and Exam/浏览器和浏览器的内核</a>
     </h1>
   
 
@@ -545,25 +430,11 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="在开发过程中，需要从本地文件中读取obj-和-mtl-文件，这时候会需要应对浏览器的安全机制"><a href="#在开发过程中，需要从本地文件中读取obj-和-mtl-文件，这时候会需要应对浏览器的安全机制" class="headerlink" title="在开发过程中，需要从本地文件中读取obj 和 mtl 文件，这时候会需要应对浏览器的安全机制"></a>在开发过程中，需要从本地文件中读取obj 和 mtl 文件，这时候会需要应对浏览器的安全机制</h3><p>解决方法是在本地搭建一个简单的文件浏览服务器</p>
-<p>=========BEGIN============</p>
-<p>目前我使用的是 <code>http-server</code></p>
-<p>在具有 <code>npm</code> 的环境下，执行 <code>npm install -g http-server</code></p>
-<p>在命令行中输入 <code>http-server -h</code> 查看帮助</p>
-<p>进入资源文件目录下 执行 <code>http-server . --cors -p [port]</code></p>
-<p>=========FINISHED==========</p>
-<h3 id="现在我们绕过了浏览器的访问本地文件的阻碍，接下来需要在-threejs-的中导入-obj-和-mtl-文件构成的三维模型"><a href="#现在我们绕过了浏览器的访问本地文件的阻碍，接下来需要在-threejs-的中导入-obj-和-mtl-文件构成的三维模型" class="headerlink" title="现在我们绕过了浏览器的访问本地文件的阻碍，接下来需要在 threejs 的中导入 obj 和 mtl 文件构成的三维模型"></a>现在我们绕过了浏览器的访问本地文件的阻碍，接下来需要在 threejs 的中导入 obj 和 mtl 文件构成的三维模型</h3><p>在新版的threejs中，提供了可以直接导入模型的方法</p>
-<p>=========BEGIN============</p>
-<blockquote>
-<p>导入examples<br><code>npm i import-three-examples --save-dev</code></p>
-</blockquote>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; OrbitControls &#125; <span class="keyword">from</span> <span class="string">'three/examples/jsm/controls/OrbitControls'</span> <span class="comment">// 控制器</span></span><br><span class="line"><span class="keyword">import</span> &#123; OBJLoader &#125; <span class="keyword">from</span> <span class="string">'three/examples/jsm/loaders/OBJLoader'</span> <span class="comment">// obj文件加载</span></span><br><span class="line"><span class="keyword">import</span> &#123; MTLLoader &#125; <span class="keyword">from</span> <span class="string">'three/examples/jsm/loaders/MTLLoader'</span> <span class="comment">// 材质mtl文件导入</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="在网络请求成功后，获得到obj文件和mtl文件后，浏览器却无法加载模型的问题"><a href="#在网络请求成功后，获得到obj文件和mtl文件后，浏览器却无法加载模型的问题" class="headerlink" title="在网络请求成功后，获得到obj文件和mtl文件后，浏览器却无法加载模型的问题"></a>在网络请求成功后，获得到obj文件和mtl文件后，浏览器却无法加载模型的问题</h3>
+        <h3 id="浏览器和浏览器的内核"><a href="#浏览器和浏览器的内核" class="headerlink" title="浏览器和浏览器的内核"></a>浏览器和浏览器的内核</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">a、 IE: trident 内核</span><br><span class="line"></span><br><span class="line">b、 Firefox ： gecko 内核</span><br><span class="line"></span><br><span class="line">c、 Safari:webkit 内核</span><br><span class="line"></span><br><span class="line">d、 Opera: 以前是 presto 内核， Opera 现已改用 Google Chrome 的 Blink 内核</span><br><span class="line"></span><br><span class="line">e、 Chrome:Blink( 基于 webkit ， Google 与 Opera Software 共同开发 )</span><br></pre></td></tr></table></figure>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/threejs%E9%80%9A%E8%BF%87obj%E5%92%8Cmtl%E6%96%87%E4%BB%B6%E5%AF%BC%E5%85%A5%E6%A8%A1%E5%9E%8B/" data-id="ck8rjqhtx002iqtnm7tedg920" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/04/17/Front-Point/Interview%20and%20Exam/%E6%B5%8F%E8%A7%88%E5%99%A8%E5%92%8C%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E5%86%85%E6%A0%B8/" data-id="ck9b1qxec000coynm1j8v45l0" class="article-share-link">Share</a>
       
       
     </footer>
@@ -573,10 +444,10 @@
 
 
   
-    <article id="post-前端知识点/vue-threejs/在vue项目中引入threejs" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-Front-Point/Interview and Exam/Doctype作用? 严格模式与混杂模式如何区分？它们有何意义?" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/%E5%9C%A8vue%E9%A1%B9%E7%9B%AE%E4%B8%AD%E5%BC%95%E5%85%A5threejs/" class="article-date">
-  <time datetime="2020-04-08T11:19:42.927Z" itemprop="datePublished">2020-04-08</time>
+    <a href="/2020/04/17/Front-Point/Interview%20and%20Exam/Doctype%E4%BD%9C%E7%94%A8?%20%E4%B8%A5%E6%A0%BC%E6%A8%A1%E5%BC%8F%E4%B8%8E%E6%B7%B7%E6%9D%82%E6%A8%A1%E5%BC%8F%E5%A6%82%E4%BD%95%E5%8C%BA%E5%88%86%EF%BC%9F%E5%AE%83%E4%BB%AC%E6%9C%89%E4%BD%95%E6%84%8F%E4%B9%89?/" class="article-date">
+  <time datetime="2020-04-17T07:13:07.320Z" itemprop="datePublished">2020-04-17</time>
 </a>
     
   </div>
@@ -587,7 +458,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/%E5%9C%A8vue%E9%A1%B9%E7%9B%AE%E4%B8%AD%E5%BC%95%E5%85%A5threejs/">前端知识点/vue-threejs/在vue项目中引入threejs</a>
+      <a class="article-title" href="/2020/04/17/Front-Point/Interview%20and%20Exam/Doctype%E4%BD%9C%E7%94%A8?%20%E4%B8%A5%E6%A0%BC%E6%A8%A1%E5%BC%8F%E4%B8%8E%E6%B7%B7%E6%9D%82%E6%A8%A1%E5%BC%8F%E5%A6%82%E4%BD%95%E5%8C%BA%E5%88%86%EF%BC%9F%E5%AE%83%E4%BB%AC%E6%9C%89%E4%BD%95%E6%84%8F%E4%B9%89?/">Front-Point/Interview and Exam/Doctype作用? 严格模式与混杂模式如何区分？它们有何意义?</a>
     </h1>
   
 
@@ -595,76 +466,11 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="如何在vue项目中引入threejs"><a href="#如何在vue项目中引入threejs" class="headerlink" title="如何在vue项目中引入threejs"></a>如何在vue项目中引入threejs</h1><h3 id="相关"><a href="#相关" class="headerlink" title="相关"></a>相关</h3><p><a href="#">webgl</a> <a href="#">threejs</a> <a href="#">vue</a> <a href="#">obj</a> <a href="#">mtl</a></p>
-<h2 id="Threejs简介"><a href="#Threejs简介" class="headerlink" title="Threejs简介"></a><a href="https://threejs.org/" target="_blank" rel="noopener">Threejs简介</a></h2><blockquote>
-<p>就像JQuery之于Javascript, ‘Threejs’ 是之于 ‘WebGL’<br>                                              —— 我记得某个博客中提到的</p>
-</blockquote>
-<h3 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h3><ol>
-<li><code>npm install --save-dev three</code></li>
-<li>在需要使用的项目中写入代码<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"three_view"</span> <span class="attr">ref</span>=<span class="string">"three_view"</span> /&gt;</span></span><br></pre></td></tr></table></figure>
-
-</li>
-</ol>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> * <span class="keyword">as</span> Three <span class="keyword">from</span> <span class="string">'three'</span></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</span><br><span class="line">    ...</span><br><span class="line">    data() &#123;</span><br><span class="line">        <span class="keyword">return</span> &#123;</span><br><span class="line">            renderer: <span class="string">''</span>,</span><br><span class="line">            scene: <span class="string">''</span>,</span><br><span class="line">            camera: <span class="string">''</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    mounted() &#123;</span><br><span class="line">        <span class="keyword">const</span> constainer = <span class="keyword">this</span>.$refs[<span class="string">'three_view'</span>];</span><br><span class="line">        <span class="keyword">this</span>.scene = <span class="keyword">new</span> Three.Scene();</span><br><span class="line">        <span class="keyword">this</span>.camera = <span class="keyword">new</span> Three.PerspectiveCamera(<span class="number">75</span>, <span class="built_in">window</span>.innerWidth / <span class="built_in">window</span>.innerHeight, <span class="number">0.1</span>, <span class="number">100</span>);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">this</span>.renderer = <span class="keyword">new</span> Three.WebGLRenderer(&#123; <span class="attr">antialias</span>: <span class="literal">true</span> &#125;);</span><br><span class="line">        <span class="keyword">this</span>.renderer.setSize(container.clientWidth, container.clientHeight);</span><br><span class="line"></span><br><span class="line">        container.appendChild(<span class="keyword">this</span>.renderer.domElement);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">this</span>.animate()</span><br><span class="line">    &#125;,</span><br><span class="line">    method: &#123;</span><br><span class="line">        animate() &#123;</span><br><span class="line">            requestAnimationFrame(<span class="keyword">this</span>.animate);</span><br><span class="line">            <span class="keyword">this</span>.renderer.render(<span class="keyword">this</span>.scene, <span class="keyword">this</span>.camera);    </span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    ...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        <h3 id="Doctype作用-严格模式与混杂模式如何区分？它们有何意义"><a href="#Doctype作用-严格模式与混杂模式如何区分？它们有何意义" class="headerlink" title="Doctype作用? 严格模式与混杂模式如何区分？它们有何意义?"></a>Doctype作用? 严格模式与混杂模式如何区分？它们有何意义?</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">@ Doctype的作用</span><br><span class="line">（1）、 声明位于文档中的最前面，处于标签之前。告知浏览器的解析器，用什么文档类型 规范来解析这个文档。 </span><br><span class="line">（2）、严格模式的排版和JS 运作模式是以该浏览器支持的最高标准运行。 </span><br><span class="line">（3）、在混杂模式中，页面以宽松的向后兼容的方式显示。模拟老式浏览器的行为以防止站点无法工作。</span><br><span class="line">（4）、DOCTYPE不存在或格式不正确会导致文档以混杂模式呈现。 </span><br><span class="line"></span><br><span class="line">@ 严格模式和混杂模式如何区分？他们有何意义？</span><br><span class="line"> doctype声明指出阅读程序应该用什么规则集来解释文档中的标记。在Web文档的情况下，“阅读程序”通常是浏览器或者校验器这样的一个程序，“规则”则是W3C所发布的一个文档类型定义（DTD）中包含的规则。</span><br><span class="line"></span><br><span class="line"> (1) 声明位于文档中的最前面的位置，处于标签之前。此标签可告知浏览器文档使用哪种 HTML 或 XHTML 规范。该标签可声明三种 DTD 类型，分别表示严格版本、过渡版本以及基于框架的HTML 文档。 </span><br><span class="line"></span><br><span class="line">(2)所谓的标准模式是指，浏览器按 W3C 标准解析执行代码；怪异模式则是使用浏览器自己的方式解析执行代码，因为不同浏览器解析执行的方式不一样，所以我们称之为怪异模式。 严格模式是浏览器根据web标准去解析页面，是一种要求严格的DTD，不允许使用任何表现层的语法，如</span><br><span class="line"></span><br><span class="line">。严格模式的排版和JS 运作模式是以该浏览器支持的最高标准运行混杂模式则是一种向后兼容的解析方法，说的透明点就是可以实现IE5.5以下版本浏览器的渲染模式。 </span><br><span class="line"></span><br><span class="line">(3)浏览器解析时到底使用标准模式还是怪异模式，与你网页中的 DTD 声明直接相关， DTD 声明定义了标准文档的类型（标准模式解析）文档类型，会使浏览器使用相应的方式加载网页并显示，忽略 DTD 声明 ,将使网页进入怪异模式。</span><br></pre></td></tr></table></figure>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/%E5%9C%A8vue%E9%A1%B9%E7%9B%AE%E4%B8%AD%E5%BC%95%E5%85%A5threejs/" data-id="ck8rjqhty002jqtnmciraeg6c" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-前端知识点/vue-threejs/解构threejs" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/%E8%A7%A3%E6%9E%84threejs/" class="article-date">
-  <time datetime="2020-04-08T11:19:42.927Z" itemprop="datePublished">2020-04-08</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/%E8%A7%A3%E6%9E%84threejs/">前端知识点/vue-threejs/解构threejs</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="解构分析Threejs"><a href="#解构分析Threejs" class="headerlink" title="解构分析Threejs"></a>解构分析Threejs</h1><h3 id="Threejs的主要组件"><a href="#Threejs的主要组件" class="headerlink" title="Threejs的主要组件"></a>Threejs的主要组件</h3><ul>
-<li>Scene</li>
-<li>Material &amp; Texture</li>
-<li>Geometry</li>
-<li>Object</li>
-<li>Light</li>
-<li>Camera</li>
-<li>Renderer &amp; Shader</li>
-<li>Loader</li>
-</ul>
-<h3 id="Threejs是如何让模型数据显示在Html上的"><a href="#Threejs是如何让模型数据显示在Html上的" class="headerlink" title="Threejs是如何让模型数据显示在Html上的"></a>Threejs是如何让模型数据显示在Html上的</h3><blockquote>
-<p>三个基本对象：场景、相机和渲染器</p>
-<p>一句话：通过摄像机渲染出场景</p>
-</blockquote>
-<h3 id="Scene-场景"><a href="#Scene-场景" class="headerlink" title="Scene 场景"></a>Scene 场景</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> scene = net Three.Scene();</span><br><span class="line"><span class="comment">// 栅格</span></span><br><span class="line"><span class="keyword">var</span> gridHelper = <span class="keyword">new</span> Three.GridHelper(<span class="number">100</span>, <span class="number">10</span>, <span class="number">0x121c35</span>, <span class="number">0x121c35</span>);</span><br><span class="line">scene.add(gridHelper)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 光源</span></span><br><span class="line"><span class="keyword">var</span> light = <span class="keyword">new</span> Three.HemisphereLight(<span class="number">0xffffbb</span>, <span class="number">0x080820</span>, <span class="number">2</span>);</span><br><span class="line">scene.add(light);</span><br></pre></td></tr></table></figure>
-
-<h3 id="Camera-相机"><a href="#Camera-相机" class="headerlink" title="Camera 相机"></a>Camera 相机</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> camera = <span class="keyword">new</span> THREE.PerspectiveCamera(<span class="number">45</span>, <span class="built_in">window</span>.innerWidth / <span class="built_in">window</span>.innerHeight, <span class="number">1</span>, <span class="number">200</span>);</span><br><span class="line"><span class="keyword">var</span> camera.position.set(<span class="number">0</span>, <span class="number">50</span>, <span class="number">50</span>);</span><br></pre></td></tr></table></figure>
-
-<h3 id="Renderer-渲染器"><a href="#Renderer-渲染器" class="headerlink" title="Renderer 渲染器"></a>Renderer 渲染器</h3><pre><code class="javascript"></code></pre>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/%E8%A7%A3%E6%9E%84threejs/" data-id="ck8rjqhty002kqtnm1v01h6bq" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/04/17/Front-Point/Interview%20and%20Exam/Doctype%E4%BD%9C%E7%94%A8?%20%E4%B8%A5%E6%A0%BC%E6%A8%A1%E5%BC%8F%E4%B8%8E%E6%B7%B7%E6%9D%82%E6%A8%A1%E5%BC%8F%E5%A6%82%E4%BD%95%E5%8C%BA%E5%88%86%EF%BC%9F%E5%AE%83%E4%BB%AC%E6%9C%89%E4%BD%95%E6%84%8F%E4%B9%89?/" data-id="ck9b1qxe70007oynm6044a9yz" class="article-share-link">Share</a>
       
       
     </footer>
@@ -678,7 +484,7 @@
 
   <nav id="page-nav">
     
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/2/">Next &amp;raquo;</a>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><a class="extend next" rel="next" href="/page/2/">Next &amp;raquo;</a>
   </nav>
 
 </section>
@@ -692,7 +498,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/button/" rel="tag"><button></a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/svg/" rel="tag">svg</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%8A%B6%E6%80%81%E6%9C%BA/" rel="tag">状态机</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/" rel="tag">生命周期</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%B7%AF%E7%94%B1/" rel="tag">路由</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/button/" rel="tag"><button></a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/export-default/" rel="tag">export default</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/import/" rel="tag">import</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/svg/" rel="tag">svg</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/unsorted/" rel="tag">unsorted</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%8A%B6%E6%80%81%E6%9C%BA/" rel="tag">状态机</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/" rel="tag">生命周期</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%B7%AF%E7%94%B1/" rel="tag">路由</a></li></ul>
     </div>
   </div>
 
@@ -702,7 +508,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/button/" style="font-size: 10px;"><button></a> <a href="/tags/svg/" style="font-size: 10px;">svg</a> <a href="/tags/%E7%8A%B6%E6%80%81%E6%9C%BA/" style="font-size: 10px;">状态机</a> <a href="/tags/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/" style="font-size: 20px;">生命周期</a> <a href="/tags/%E8%B7%AF%E7%94%B1/" style="font-size: 10px;">路由</a>
+      <a href="/tags/button/" style="font-size: 10px;"><button></a> <a href="/tags/export-default/" style="font-size: 10px;">export default</a> <a href="/tags/import/" style="font-size: 10px;">import</a> <a href="/tags/svg/" style="font-size: 10px;">svg</a> <a href="/tags/unsorted/" style="font-size: 10px;">unsorted</a> <a href="/tags/%E7%8A%B6%E6%80%81%E6%9C%BA/" style="font-size: 10px;">状态机</a> <a href="/tags/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/" style="font-size: 20px;">生命周期</a> <a href="/tags/%E8%B7%AF%E7%94%B1/" style="font-size: 10px;">路由</a>
     </div>
   </div>
 
@@ -724,23 +530,23 @@
       <ul>
         
           <li>
-            <a href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/Postprocessing/passing/">前端知识点/vue-threejs/three.js-API/Postprocessing/passing</a>
+            <a href="/2020/04/22/Front-Point/%E4%BB%A3%E7%A0%81%E5%9D%97/%E5%87%BD%E6%95%B0%E7%9A%84%E9%98%B2%E6%8A%96%E5%92%8C%E8%8A%82%E6%B5%81/">函数的防抖和节流</a>
           </li>
         
           <li>
-            <a href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/Postprocessing/index/">前端知识点/vue-threejs/three.js-API/Postprocessing/index</a>
+            <a href="/2020/04/20/Front-Point/Typescript/Start/Variable%20Declaration/">变量声明</a>
           </li>
         
           <li>
-            <a href="/2020/04/10/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/three.js-API/index/">前端知识点/vue-threejs/three.js-API/index</a>
+            <a href="/2020/04/20/Front-Point/Typescript/Start/index/">Front-Point/Typescript/Start/index</a>
           </li>
         
           <li>
-            <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/Webgl/%E5%85%B3%E4%BA%8E%E5%9B%BE%E5%83%8F%E7%9A%84%E5%8F%98%E5%8C%96%E7%9F%A9%E9%98%B5/">前端知识点/Webgl/关于图像的变化矩阵</a>
+            <a href="/2020/04/20/Front-Point/Typescript/test/">Front-Point/Typescript/test</a>
           </li>
         
           <li>
-            <a href="/2020/04/08/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86%E7%82%B9/vue-threejs/threejs%E5%AF%BC%E5%85%A5glTF%E6%A8%A1%E5%9E%8B%E6%96%87%E4%BB%B6/">前端知识点/vue-threejs/threejs导入glTF模型文件</a>
+            <a href="/2020/04/20/Front-Point/Typescript/test/">Front-Point/Typescript/test</a>
           </li>
         
       </ul>

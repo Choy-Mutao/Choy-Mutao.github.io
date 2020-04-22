@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>Front-Point/common-vue-miss-file/vue/dist/README | My Mind</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Explanation of Build Files    UMD CommonJS ES Module    Full vue.js vue.common.js vue.esm.js   Runtime-only vue.runtime.js vue.runtime.common.js vue.runtime.esm.js   Full (production) vue.min.js     R">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Front-Point&#x2F;common-vue-miss-file&#x2F;vue&#x2F;dist&#x2F;README">
+<meta property="og:url" content="http://yoursite.com/2020/04/08/Front-Point/common-vue-miss-file/vue/dist/README/index.html">
+<meta property="og:site_name" content="My Mind">
+<meta property="og:description" content="Explanation of Build Files    UMD CommonJS ES Module    Full vue.js vue.common.js vue.esm.js   Runtime-only vue.runtime.js vue.runtime.common.js vue.runtime.esm.js   Full (production) vue.min.js     R">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-04-08T11:19:42.814Z">
+<meta property="article:modified_time" content="1985-10-26T08:15:00.000Z">
+<meta property="article:author" content="Choy-Mutao">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="My Mind" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">My Mind</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Front-Point/common-vue-miss-file/vue/dist/README" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/04/08/Front-Point/common-vue-miss-file/vue/dist/README/" class="article-date">
+  <time datetime="2020-04-08T11:19:42.814Z" itemprop="datePublished">2020-04-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Front-Point/common-vue-miss-file/vue/dist/README
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Explanation-of-Build-Files"><a href="#Explanation-of-Build-Files" class="headerlink" title="Explanation of Build Files"></a>Explanation of Build Files</h2><table>
+<thead>
+<tr>
+<th></th>
+<th>UMD</th>
+<th>CommonJS</th>
+<th>ES Module</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Full</strong></td>
+<td>vue.js</td>
+<td>vue.common.js</td>
+<td>vue.esm.js</td>
+</tr>
+<tr>
+<td><strong>Runtime-only</strong></td>
+<td>vue.runtime.js</td>
+<td>vue.runtime.common.js</td>
+<td>vue.runtime.esm.js</td>
+</tr>
+<tr>
+<td><strong>Full (production)</strong></td>
+<td>vue.min.js</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Runtime-only (production)</strong></td>
+<td>vue.runtime.min.js</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h3 id="Terms"><a href="#Terms" class="headerlink" title="Terms"></a>Terms</h3><ul>
+<li><p><strong>Full</strong>: builds that contains both the compiler and the runtime.</p>
+</li>
+<li><p><strong>Compiler</strong>: code that is responsible for compiling template strings into JavaScript render functions.</p>
+</li>
+<li><p><strong>Runtime</strong>: code that is responsible for creating Vue instances, rendering and patching virtual DOM, etc. Basically everything minus the compiler.</p>
+</li>
+<li><p><strong><a href="https://github.com/umdjs/umd" target="_blank" rel="noopener">UMD</a></strong>: UMD builds can be used directly in the browser via a <code>&lt;script&gt;</code> tag. The default file from Unpkg CDN at <a href="https://unpkg.com/vue" target="_blank" rel="noopener">https://unpkg.com/vue</a> is the Runtime + Compiler UMD build (<code>vue.js</code>).</p>
+</li>
+<li><p><strong><a href="http://wiki.commonjs.org/wiki/Modules/1.1" target="_blank" rel="noopener">CommonJS</a></strong>: CommonJS builds are intended for use with older bundlers like <a href="http://browserify.org/" target="_blank" rel="noopener">browserify</a> or <a href="https://webpack.github.io" target="_blank" rel="noopener">webpack 1</a>. The default file for these bundlers (<code>pkg.main</code>) is the Runtime only CommonJS build (<code>vue.runtime.common.js</code>).</p>
+</li>
+<li><p><strong><a href="http://exploringjs.com/es6/ch_modules.html" target="_blank" rel="noopener">ES Module</a></strong>: ES module builds are intended for use with modern bundlers like <a href="https://webpack.js.org" target="_blank" rel="noopener">webpack 2</a> or <a href="http://rollupjs.org/" target="_blank" rel="noopener">rollup</a>. The default file for these bundlers (<code>pkg.module</code>) is the Runtime only ES Module build (<code>vue.runtime.esm.js</code>).</p>
+</li>
+</ul>
+<h3 id="Runtime-Compiler-vs-Runtime-only"><a href="#Runtime-Compiler-vs-Runtime-only" class="headerlink" title="Runtime + Compiler vs. Runtime-only"></a>Runtime + Compiler vs. Runtime-only</h3><p>If you need to compile templates on the fly (e.g. passing a string to the <code>template</code> option, or mounting to an element using its in-DOM HTML as the template), you will need the compiler and thus the full build.</p>
+<p>When using <code>vue-loader</code> or <code>vueify</code>, templates inside <code>*.vue</code> files are compiled into JavaScript at build time. You don’t really need the compiler in the final bundle, and can therefore, use the runtime-only build.</p>
+<p>Since the runtime-only builds are roughly 30% lighter-weight than their full-build counterparts, you should use it whenever you can. If you wish to use the full build instead, you need to configure an alias in your bundler.</p>
+<h4 id="Webpack"><a href="#Webpack" class="headerlink" title="Webpack"></a>Webpack</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">  <span class="comment">// ...</span></span><br><span class="line">  resolve: &#123;</span><br><span class="line">    alias: &#123;</span><br><span class="line">      <span class="string">'vue$'</span>: <span class="string">'vue/dist/vue.esm.js'</span> <span class="comment">// 'vue/dist/vue.common.js' for webpack 1</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="Rollup"><a href="#Rollup" class="headerlink" title="Rollup"></a>Rollup</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> alias = <span class="built_in">require</span>(<span class="string">'rollup-plugin-alias'</span>)</span><br><span class="line"></span><br><span class="line">rollup(&#123;</span><br><span class="line">  <span class="comment">// ...</span></span><br><span class="line">  plugins: [</span><br><span class="line">    alias(&#123;</span><br><span class="line">      <span class="string">'vue'</span>: <span class="string">'vue/dist/vue.esm.js'</span></span><br><span class="line">    &#125;)</span><br><span class="line">  ]</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<h4 id="Browserify"><a href="#Browserify" class="headerlink" title="Browserify"></a>Browserify</h4><p>Add to your project’s <code>package.json</code>:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="comment">// ...</span></span><br><span class="line">  <span class="string">"browser"</span>: &#123;</span><br><span class="line">    <span class="string">"vue"</span>: <span class="string">"vue/dist/vue.common.js"</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Development-vs-Production-Mode"><a href="#Development-vs-Production-Mode" class="headerlink" title="Development vs. Production Mode"></a>Development vs. Production Mode</h3><p>Development/production modes are hard-coded for the UMD builds: the un-minified files are for development, and the minified files are for production.</p>
+<p>CommonJS and ES Module builds are intended for bundlers, therefore we don’t provide minified versions for them. You will be responsible for minifying the final bundle yourself.</p>
+<p>CommonJS and ES Module builds also preserve raw checks for <code>process.env.NODE_ENV</code> to determine the mode they should run in. You should use appropriate bundler configurations to replace these environment variables in order to control which mode Vue will run in. Replacing <code>process.env.NODE_ENV</code> with string literals also allows minifiers like UglifyJS to completely drop the development-only code blocks, reducing final file size.</p>
+<h4 id="Webpack-1"><a href="#Webpack-1" class="headerlink" title="Webpack"></a>Webpack</h4><p>Use Webpack’s <a href="https://webpack.js.org/plugins/define-plugin/" target="_blank" rel="noopener">DefinePlugin</a>:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> webpack = <span class="built_in">require</span>(<span class="string">'webpack'</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">  <span class="comment">// ...</span></span><br><span class="line">  plugins: [</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">    <span class="keyword">new</span> webpack.DefinePlugin(&#123;</span><br><span class="line">      <span class="string">'process.env'</span>: &#123;</span><br><span class="line">        NODE_ENV: <span class="built_in">JSON</span>.stringify(<span class="string">'production'</span>)</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;)</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="Rollup-1"><a href="#Rollup-1" class="headerlink" title="Rollup"></a>Rollup</h4><p>Use <a href="https://github.com/rollup/rollup-plugin-replace" target="_blank" rel="noopener">rollup-plugin-replace</a>:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> replace = <span class="built_in">require</span>(<span class="string">'rollup-plugin-replace'</span>)</span><br><span class="line"></span><br><span class="line">rollup(&#123;</span><br><span class="line">  <span class="comment">// ...</span></span><br><span class="line">  plugins: [</span><br><span class="line">    replace(&#123;</span><br><span class="line">      <span class="string">'process.env.NODE_ENV'</span>: <span class="built_in">JSON</span>.stringify(<span class="string">'production'</span>)</span><br><span class="line">    &#125;)</span><br><span class="line">  ]</span><br><span class="line">&#125;).then(...)</span><br></pre></td></tr></table></figure>
+
+<h4 id="Browserify-1"><a href="#Browserify-1" class="headerlink" title="Browserify"></a>Browserify</h4><p>Apply a global <a href="https://github.com/hughsk/envify" target="_blank" rel="noopener">envify</a> transform to your bundle.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">NODE_ENV=production browserify -g envify -e main.js | uglifyjs -c -m &gt; build.js</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/04/08/Front-Point/common-vue-miss-file/vue/dist/README/" data-id="ck9b1qxg4001loynmb0szg9ze" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2020/04/08/Front-Point/common-vue-miss-file/vue/dist/vue.common.dev/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Front-Point/common-vue-miss-file/vue/dist/vue.common.dev
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/04/02/Front-Point/vue-threejs/Render-Loop/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Threejs 的循环渲染</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/button/" rel="tag"><button></a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/export-default/" rel="tag">export default</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/import/" rel="tag">import</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/svg/" rel="tag">svg</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/unsorted/" rel="tag">unsorted</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%8A%B6%E6%80%81%E6%9C%BA/" rel="tag">状态机</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/" rel="tag">生命周期</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%B7%AF%E7%94%B1/" rel="tag">路由</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/button/" style="font-size: 10px;"><button></a> <a href="/tags/export-default/" style="font-size: 10px;">export default</a> <a href="/tags/import/" style="font-size: 10px;">import</a> <a href="/tags/svg/" style="font-size: 10px;">svg</a> <a href="/tags/unsorted/" style="font-size: 10px;">unsorted</a> <a href="/tags/%E7%8A%B6%E6%80%81%E6%9C%BA/" style="font-size: 10px;">状态机</a> <a href="/tags/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/" style="font-size: 20px;">生命周期</a> <a href="/tags/%E8%B7%AF%E7%94%B1/" style="font-size: 10px;">路由</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">April 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">January 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/12/">December 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">November 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/04/22/Front-Point/%E4%BB%A3%E7%A0%81%E5%9D%97/%E5%87%BD%E6%95%B0%E7%9A%84%E9%98%B2%E6%8A%96%E5%92%8C%E8%8A%82%E6%B5%81/">函数的防抖和节流</a>
+          </li>
+        
+          <li>
+            <a href="/2020/04/20/Front-Point/Typescript/Start/Variable%20Declaration/">变量声明</a>
+          </li>
+        
+          <li>
+            <a href="/2020/04/20/Front-Point/Typescript/Start/index/">Front-Point/Typescript/Start/index</a>
+          </li>
+        
+          <li>
+            <a href="/2020/04/20/Front-Point/Typescript/test/">Front-Point/Typescript/test</a>
+          </li>
+        
+          <li>
+            <a href="/2020/04/20/Front-Point/Typescript/test/">Front-Point/Typescript/test</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 Choy-Mutao<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>

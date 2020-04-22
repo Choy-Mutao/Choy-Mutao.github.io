@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>Front-Point/vuejs/选项/paragraph/provide\inject | My Mind</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="provide&#x2F;inject 的使用official doc 类型：  provide: Object | () &#x3D;&gt; Object inject: Array&lt;String&gt; | { [key:string]: string | Symbol | Object }   详细描述：  provide 和 inject 主要在开发高阶插件&#x2F;组件&#x2F;组件库时使用。并不推荐用于普通应用程">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Front-Point&#x2F;vuejs&#x2F;选项&#x2F;paragraph&#x2F;provide\inject">
+<meta property="og:url" content="http://yoursite.com/2020/04/08/Front-Point/vuejs/%E9%80%89%E9%A1%B9/paragraph/provide/inject/index.html">
+<meta property="og:site_name" content="My Mind">
+<meta property="og:description" content="provide&#x2F;inject 的使用official doc 类型：  provide: Object | () &#x3D;&gt; Object inject: Array&lt;String&gt; | { [key:string]: string | Symbol | Object }   详细描述：  provide 和 inject 主要在开发高阶插件&#x2F;组件&#x2F;组件库时使用。并不推荐用于普通应用程">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-04-08T11:19:42.904Z">
+<meta property="article:modified_time" content="2020-02-18T01:56:31.456Z">
+<meta property="article:author" content="Choy-Mutao">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="My Mind" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">My Mind</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Front-Point/vuejs/选项/paragraph/provide\inject" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/04/08/Front-Point/vuejs/%E9%80%89%E9%A1%B9/paragraph/provide%5Cinject/" class="article-date">
+  <time datetime="2020-04-08T11:19:42.904Z" itemprop="datePublished">2020-04-08</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Front-Point/vuejs/选项/paragraph/provide\inject
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="provide-inject-的使用"><a href="#provide-inject-的使用" class="headerlink" title="provide/inject 的使用"></a>provide/inject 的使用</h1><h2 id="official-doc"><a href="#official-doc" class="headerlink" title="official doc"></a>official doc</h2><ul>
+<li><p>类型：</p>
+<ul>
+<li>provide: <code>Object | () =&gt; Object</code></li>
+<li>inject: <code>Array&lt;String&gt; | { [key:string]: string | Symbol | Object }</code></li>
+</ul>
+</li>
+<li><p>详细描述：</p>
+<blockquote>
+<p><code>provide</code> 和 <code>inject</code> 主要在开发高阶插件/组件/组件库时使用。并不推荐用于普通应用程序代码中。</p>
+</blockquote>
+<p>provide/inject 是一组选项，需要一起使用<br>功能： 允许一个祖先向其所有子孙后代注入一个依赖，不论组件层次有多深，并在其上下游关系成立的时间里始终生效。</p>
+<p><code>provide</code>选项应该还是一个对象或返回一个对象的函数。该对象包含注入其子孙的属性。在该对象中可以使用ES2015 Symbols作为key，但是只在原生支持<code>Symbol</code>和<code>Reflect.ownKeys</code>的环境下可工作。</p>
+<p><code>inject</code>选项应该是：</p>
+<ul>
+<li>一个字符串数组，或：</li>
+<li>一个对象，对象的 key 是本地的绑定名，value 是;<ul>
+<li>在可用的注入内容中搜索用的key（字符串或Symbol），或</li>
+<li>一个对象，该对象的：<ul>
+<li><code>form</code>属性是在可用的注入内容中搜索用的key（字符串或Symbol）</li>
+<li><code>default</code>属性是降级情况下使用的value</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>提示： provide 和 inject 绑定并不是可响应的。这是可以为之的。然而，如果传入的是一个可监听的对象，那么其对象的属性还是可响应的。</p>
+</blockquote>
+</li>
+<li><p>示例：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 父级组件提供 ‘foo’</span></span><br><span class="line"><span class="keyword">var</span> Provider = &#123;</span><br><span class="line">    provide: &#123;</span><br><span class="line">        foo: <span class="string">'bar'</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 子组件注入 ‘foo’</span></span><br><span class="line"><span class="keyword">var</span> Child = &#123;</span><br><span class="line">    inject: [<span class="string">'foo'</span>],</span><br><span class="line">    created() &#123;</span><br><span class="line">        <span class="built_in">console</span>.log(<span class="keyword">this</span>.foo) <span class="comment">// =&gt; "bar"</span></span><br><span class="line">    &#125; </span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>  利用ES2015 Symbols、 函数 <code>provide</code> 和对象 <code>inject</code>:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> s = <span class="built_in">Symbol</span>()</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> Provide = &#123;</span><br><span class="line">    provide () &#123;</span><br><span class="line">        <span class="keyword">return</span> &#123;</span><br><span class="line">            [s]: <span class="string">'foo'</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> Child = &#123;</span><br><span class="line">    inject: &#123; s &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
+<h1 id="Error"><a href="#Error" class="headerlink" title="[Error]"></a>[Error]</h1><p>[Vue Warn]: Injection ‘uploader’ not found</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* 告警来源于运行代码 */</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">resolveInject</span> (<span class="params">inject, vm</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(inject) &#123;</span><br><span class="line">        <span class="comment">// inject is : any because flow is not smart enough to figure out cached</span></span><br><span class="line">        <span class="keyword">var</span> result = <span class="built_in">Object</span>.create(<span class="literal">null</span>);</span><br><span class="line">        <span class="keyword">var</span> keys = hasSymbol</span><br><span class="line">            ? <span class="built_in">Reflect</span>.ownKeys(inject) <span class="comment">// todo 未知功能</span></span><br><span class="line">            : <span class="built_in">Object</span>.keys(inject); <span class="comment">// todo 未知功能</span></span><br><span class="line">        </span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; keys.length; i++) &#123;</span><br><span class="line">            <span class="keyword">var</span> key = keys[i];</span><br><span class="line">            <span class="comment">// #6574 in case the inject object is observed...</span></span><br><span class="line">            <span class="keyword">if</span>(key === <span class="string">'__ob__'</span>) &#123; <span class="keyword">continue</span> &#125;</span><br><span class="line">            <span class="keyword">var</span> provideKey = inject[key].from;</span><br><span class="line">            <span class="keyword">var</span> source = vm;</span><br><span class="line">            <span class="keyword">while</span> (source) &#123;</span><br><span class="line">                <span class="keyword">if</span>(source._provided &amp;&amp; hasOwn(source._provided, provideKey)) &#123;</span><br><span class="line">                    result[key] = source._provided[provideKey];</span><br><span class="line">                    <span class="keyword">break</span></span><br><span class="line">                &#125;</span><br><span class="line">                source = source.$parent;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(!source) &#123;</span><br><span class="line">                <span class="keyword">if</span>(<span class="string">'default'</span> <span class="keyword">in</span> inject[key]) &#123;</span><br><span class="line">                    <span class="keyword">var</span> provideDefault = inject[key].default;</span><br><span class="line">                    result[key] = <span class="keyword">typeof</span> provideDefault === <span class="string">'function'</span></span><br><span class="line">                        ? provideDefault.call(vm)</span><br><span class="line">                        : provideDefault;</span><br><span class="line">                &#125; <span class="keyword">else</span> <span class="keyword">if</span>(<span class="literal">true</span>) &#123;</span><br><span class="line">                    warn((<span class="string">'Injection \"'</span> + key + <span class="string">"\" not found"</span>), vm);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/04/08/Front-Point/vuejs/%E9%80%89%E9%A1%B9/paragraph/provide/inject/" data-id="ck9b1qxg7001poynma7yh1xon" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2020/04/08/Front-Point/vuejs/%E9%80%89%E9%A1%B9/DOM/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Front-Point/vuejs/选项/DOM
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/04/08/Front-Point/vuejs/%E5%8F%AF%E5%A4%8D%E7%94%A8%E6%80%A7&%E7%BB%84%E5%90%88/%E6%B8%B2%E6%9F%93%E5%87%BD%E6%95%B0&JSX/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Front-Point/vuejs/可复用性&amp;组合/渲染函数&amp;JSX</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/button/" rel="tag"><button></a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/export-default/" rel="tag">export default</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/import/" rel="tag">import</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/svg/" rel="tag">svg</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/unsorted/" rel="tag">unsorted</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%8A%B6%E6%80%81%E6%9C%BA/" rel="tag">状态机</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/" rel="tag">生命周期</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%B7%AF%E7%94%B1/" rel="tag">路由</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/button/" style="font-size: 10px;"><button></a> <a href="/tags/export-default/" style="font-size: 10px;">export default</a> <a href="/tags/import/" style="font-size: 10px;">import</a> <a href="/tags/svg/" style="font-size: 10px;">svg</a> <a href="/tags/unsorted/" style="font-size: 10px;">unsorted</a> <a href="/tags/%E7%8A%B6%E6%80%81%E6%9C%BA/" style="font-size: 10px;">状态机</a> <a href="/tags/%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/" style="font-size: 20px;">生命周期</a> <a href="/tags/%E8%B7%AF%E7%94%B1/" style="font-size: 10px;">路由</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">April 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">January 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/12/">December 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">November 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/04/22/Front-Point/%E4%BB%A3%E7%A0%81%E5%9D%97/%E5%87%BD%E6%95%B0%E7%9A%84%E9%98%B2%E6%8A%96%E5%92%8C%E8%8A%82%E6%B5%81/">函数的防抖和节流</a>
+          </li>
+        
+          <li>
+            <a href="/2020/04/20/Front-Point/Typescript/Start/Variable%20Declaration/">变量声明</a>
+          </li>
+        
+          <li>
+            <a href="/2020/04/20/Front-Point/Typescript/Start/index/">Front-Point/Typescript/Start/index</a>
+          </li>
+        
+          <li>
+            <a href="/2020/04/20/Front-Point/Typescript/test/">Front-Point/Typescript/test</a>
+          </li>
+        
+          <li>
+            <a href="/2020/04/20/Front-Point/Typescript/test/">Front-Point/Typescript/test</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 Choy-Mutao<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
