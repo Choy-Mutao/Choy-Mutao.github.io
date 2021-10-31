@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Targets on 穆 道</title>
+    <link>localhost/target/</link>
+    <description>Recent content in Targets on 穆 道</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="localhost/target/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>localhost/target/html%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/target/html%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/target/vscode%E4%B8%8Amarkdown%E7%9A%84plugin%E5%BC%80%E5%8F%91/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/target/vscode%E4%B8%8Amarkdown%E7%9A%84plugin%E5%BC%80%E5%8F%91/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/target/%E5%86%99%E4%B8%80%E4%B8%AAsvg.html%E7%9A%84%E6%96%87%E4%BB%B6%E6%9D%A5%E6%98%BE%E7%A4%BA%E5%92%8C%E6%93%8D%E4%BD%9C%E6%88%91%E7%9A%84%E6%96%87%E6%A1%A3%E7%9A%84%E7%BB%93%E6%9E%84/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/target/%E5%86%99%E4%B8%80%E4%B8%AAsvg.html%E7%9A%84%E6%96%87%E4%BB%B6%E6%9D%A5%E6%98%BE%E7%A4%BA%E5%92%8C%E6%93%8D%E4%BD%9C%E6%88%91%E7%9A%84%E6%96%87%E6%A1%A3%E7%9A%84%E7%BB%93%E6%9E%84/</guid>
+      <description>一个 svg 操作的 html页面  html 如何读写本地的文件(不通过非原生接口) html 和 svg 的 整合 html 实现拖拽和浮动的布局  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/target/%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AAlatex%E8%BE%93%E5%85%A5%E6%B3%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/target/%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AAlatex%E8%BE%93%E5%85%A5%E6%B3%95/</guid>
+      <description>基于 TSF 开发的 Latex 输入法   编程语言: C语言
+  项目目标: Latex 输入法
+  项目类型: 开源
+  4: 程序设计
+仅支持 英语 和 Latex 符号的输入 支持 latex 的宏编程
+5: 按键设计图</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/target/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%A7%81%E6%9C%89%E4%BA%91%E7%9B%98/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/target/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%A7%81%E6%9C%89%E4%BA%91%E7%9B%98/</guid>
+      <description>  通过租赁一个服务器，构建一个私有云盘存储异地编辑的文件。
+  或者通过树莓派，搭建一个移动云盘，通过USB接口，或通过 sim 卡进行网络通信，SSH认证接口的便携式云盘。
+  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content="  &middot;  穆 道" />
+  	<meta property="og:site_name" content="穆 道" />
+  	<meta property="og:url" content="localhost/basic/typescript/overview/typescript-3.9/" />
+    
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="0001-01-01T00:00:00Z" />
+
+    
+    
+
+  <title>
+      &middot;  穆 道
+  </title>
+
+    <meta name="description" content="Note Book" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="localhostimages/favicon.ico">
+	  <link rel="apple-touch-icon" href="localhostimages/apple-touch-icon.png" />
+    
+    <link rel="stylesheet" type="text/css" href="localhostcss/screen.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+    
+      
+          <link href="localhostindex.xml" rel="alternate" type="application/rss+xml" title="穆 道" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.68.3" />
+
+    <link rel="canonical" href="localhost/basic/typescript/overview/typescript-3.9/" />
+
+     
+</head>
+<body class="nav-closed">
+<div id="particles-js"></div>
+  
+
+
+ <div class="site-wrapper">
+
+
+
+<header class="main-header " style="background-image: url(localhostimages/user.jpg)">
+
+    <nav class="main-nav overlay clearfix">
+        
+            <a class="blog-logo" href="localhost"><img src="localhostimages/user.png" alt="Blog Logo" /></a>
+        
+        
+    </nav>
+<div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">
+              <a class="btn-bootstrap-2" href="#content">穆 道</a>
+          </h1>
+          <h2 class="page-description">Note Book</h2>
+        </div>
+</div>
+    <a class="scroll-down icon-arrow-left" href="#content"><span class="hidden">Scroll Down</span></a>
+</header>
+
+  <main id="content" class="content" role="main">
+
+
+  <article class="post Basic">
+
+    <header class="post-header">
+        <h1 class="post-title"></h1>
+        <section class="post-meta">
+        
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      <h2 id="inference-和-promiseall-的改进">Inference 和 Promise.all 的改进</h2>
+<p>最近发布的 3.7 版本主要更新了对 <code>Promise.all</code> 和 <code>Promise.race</code> 的描述。 但不巧的是，这部分引入了一些版本回退， 尤其在联合类型中使用 <code>null</code> 和 <code>undefined</code> 时。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-typescript" data-lang="typescript"><span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">Lion</span> {
+  <span style="color:#a6e22e">roar</span>()<span style="color:#f92672">:</span> <span style="color:#66d9ef">void</span>;
+}
+
+<span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">Seal</span> {
+  <span style="color:#a6e22e">singKissFromARose</span>()<span style="color:#f92672">:</span> <span style="color:#66d9ef">void</span>;
+}
+
+<span style="color:#a6e22e">async</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">visitZoo</span>(
+  <span style="color:#a6e22e">lionExhibit</span>: <span style="color:#66d9ef">Promise</span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">Lion</span><span style="color:#f92672">&gt;</span>,
+  <span style="color:#a6e22e">sealExhibit</span>: <span style="color:#66d9ef">Promise</span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">Seal</span> <span style="color:#f92672">|</span> <span style="color:#66d9ef">undefined</span><span style="color:#f92672">&gt;</span>
+) {
+  <span style="color:#66d9ef">let</span> [<span style="color:#a6e22e">lion</span>, <span style="color:#a6e22e">seal</span>] <span style="color:#f92672">=</span> <span style="color:#a6e22e">await</span> <span style="color:#a6e22e">Promise</span>.<span style="color:#a6e22e">all</span>([<span style="color:#a6e22e">lionExhibit</span>, <span style="color:#a6e22e">sealExhibit</span>]);
+  <span style="color:#a6e22e">lion</span>.<span style="color:#a6e22e">roar</span>(); <span style="color:#75715e">// uh oh
+</span><span style="color:#75715e"></span>  <span style="color:#75715e">//  ~~~~
+</span><span style="color:#75715e"></span>  <span style="color:#75715e">// Object is possibly &#39;undefined&#39;.
+</span><span style="color:#75715e"></span>}
+</code></pre></div><p>这里得到了一个很奇怪的结果。</p>
+<h2 id="新加了两个注解-ts-expect-error--ts-ignore">新加了两个注解 <code>//@ts-expect-error</code> &amp; <code>//@ts-ignore</code></h2>
+<p>Pick ts-expect-error if:</p>
+<p>you’re writing test code where you actually want the type system to error on an operation
+you expect a fix to be coming in fairly quickly and you just need a quick workaround
+you’re in a reasonably-sized project with a proactive team that wants to remove suppression comments as soon affected code is valid again
+Pick ts-ignore if:</p>
+<p>you have an a larger project and and new errors have appeared in code with no clear owner
+you are in the middle of an upgrade between two different versions of TypeScript, and a line of code errors in one version but not another.
+you honestly don’t have the time to decide which of these options is better.</p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+
+        <a class="img" href="localhost" style="background-image: url(localhostimages/user.png)"><span class="hidden">Choy</span></a>
+    </figure>
+    
+
+    <section class="author">
+
+  <p>Choy</p>
+  
+
+</section>
+
+
+    
+    <section class="share">
+      <h4>Share this Basic</h4>
+      <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=&amp;url=localhost%2fbasic%2ftypescript%2foverview%2ftypescript-3.9%2f"
+          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <span class="hidden">Twitter</span>
+      </a>
+      <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=localhost%2fbasic%2ftypescript%2foverview%2ftypescript-3.9%2f"
+          onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <span class="hidden">Facebook</span>
+      </a>
+      <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=localhost%2fbasic%2ftypescript%2foverview%2ftypescript-3.9%2f"
+         onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <span class="hidden">Google+</span>
+      </a>
+    </section>
+    
+
+    
+    
+    
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">穆 道</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="https://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/syui/hugo-theme-air">hugo-theme-air</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="localhostjs/jquery.js"></script>
+    <script type="text/javascript" src="localhostjs/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="localhostjs/index.js"></script>
+    <script src="localhostjs/particles.min.js"></script>
+    <script src="localhostjs/particles.js"></script>  
+
+</body>
+</html>
+

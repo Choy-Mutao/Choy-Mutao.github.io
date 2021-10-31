@@ -1,0 +1,484 @@
+{
+    "root": {
+        "data": {
+            "id": "cd2tc0ylbjc0",
+            "created": 1627276380390,
+            "text": "传输层"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cd2tc6ynexk0",
+                    "created": 1627276393454,
+                    "text": "提供服务"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cd2tcjw2vm00",
+                            "created": 1627276421597,
+                            "text": "进程之间的逻辑通信"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd2tcrkjzc00",
+                            "created": 1627276438314,
+                            "text": "复用和分用"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd2tcuyz4js0",
+                            "created": 1627276445716,
+                            "text": "差错检测"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd2tcx1e5zk0",
+                            "created": 1627276450216,
+                            "text": "面向连接的TCP"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd2td2ld1pk0",
+                            "created": 1627276462308,
+                            "text": "无连接的TCP"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cd2tc89hslk0",
+                    "created": 1627276396286,
+                    "text": "UDP协议"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cd2td94vny80",
+                            "created": 1627276476548,
+                            "text": "特点"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2te9mqwkg0",
+                                    "created": 1627276555993,
+                                    "text": "无连接"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2tebxahls0",
+                                    "created": 1627276560984,
+                                    "text": "首部开销小"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2tehuyjuo0",
+                                    "created": 1627276573904,
+                                    "text": "最大努力交付"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2tekg433c0",
+                                    "created": 1627276579536,
+                                    "text": "应用层要保证可靠性"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cd2tdbnlvds0",
+                            "created": 1627276482034,
+                            "text": "首部"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2teqzh7r40",
+                                    "created": 1627276593768,
+                                    "text": "8B"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2tfmaiuzc0",
+                                    "created": 1627276661916,
+                                    "text": "分段"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cd2tfuzke080",
+                                            "created": 1627276680845,
+                                            "text": "源端口号"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cd2tfykg8ww0",
+                                            "created": 1627276688638,
+                                            "text": "目的端口号"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cd2tg1dn87k0",
+                                            "created": 1627276694757,
+                                            "text": "长度"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cd2tg30we400",
+                                            "created": 1627276698340,
+                                            "text": "校验和"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cd2tdd1x15c0",
+                            "created": 1627276485076,
+                            "text": "校验"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2tg5s72ko0",
+                                    "created": 1627276704344,
+                                    "text": "采用: 首部\\伪首部\\数据进行二进制反码运算求和再取反"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cd2tces6bns0",
+                    "created": 1627276410477,
+                    "text": "TCP协议"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cd2tdgzor1k0",
+                            "created": 1627276493649,
+                            "text": "特点"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2th1x7stk0",
+                                    "created": 1627276774304,
+                                    "text": "有连接"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2th475lq80",
+                                    "created": 1627276779259,
+                                    "text": "一对一"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2th5yjdr40",
+                                    "created": 1627276783091,
+                                    "text": "提供可靠交付"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2th905kpc0",
+                                    "created": 1627276789719,
+                                    "text": "全双工通信"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2thdj8ftk0",
+                                    "created": 1627276799580,
+                                    "text": "面向字节流"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cd2tdk9epzk0",
+                            "created": 1627276500767,
+                            "text": "首部"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2thohzjs00",
+                                    "created": 1627276823449,
+                                    "text": "20B"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2thpvu50w0",
+                                    "created": 1627276826464,
+                                    "text": "分段"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cd2thr0jk140",
+                                            "created": 1627276828925,
+                                            "text": "源端口号"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cd2thudmpq00",
+                                            "created": 1627276836247,
+                                            "text": "目的端口号"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cd2thxiw0a00",
+                                            "created": 1627276843095,
+                                            "text": "序号"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cd2ti29mg480",
+                                            "created": 1627276853419,
+                                            "text": "确认号"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cd2ti9jbp8w0",
+                                            "created": 1627276869243,
+                                            "text": "... 一系列控制信息"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cd2tdloywts0",
+                            "created": 1627276503885,
+                            "text": "连接管理"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2tigvoi280",
+                                    "created": 1627276885227,
+                                    "text": "三次握手建立"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2tikxf3140",
+                                    "created": 1627276894039,
+                                    "text": "四次握手释放"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cd2tdoidemo0",
+                            "created": 1627276510016,
+                            "text": "可靠传输机制"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2tipjs1k00",
+                                    "created": 1627276904099,
+                                    "text": "序号"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cd2tixn6mt40",
+                                            "created": 1627276921719,
+                                            "text": "用来保证数据能有序提交给应用层"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2tiqndzf40",
+                                    "created": 1627276906494,
+                                    "text": "确认号"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cd2tj5jz0kg0",
+                                            "created": 1627276938939,
+                                            "text": "确认号为期待受到的下一个报文段第一个字节的序号"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2tis7fdbc0",
+                                    "created": 1627276909882,
+                                    "text": "重传机制"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cd2tjrdswvc0",
+                                            "created": 1627276986455,
+                                            "text": "超时"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cd2tjzgv2g80",
+                                                    "created": 1627277004055,
+                                                    "text": "计时器到期还没受到确认,则重传对应报文"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cd2tjudneyw0",
+                                            "created": 1627276992976,
+                                            "text": "冗余确认"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cd2tkbh3fq80",
+                                                    "created": 1627277030190,
+                                                    "text": "当收到失序报文时向发送端发送冗余ACK"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cd2tdqn8og80",
+                            "created": 1627276514664,
+                            "text": "流量控制"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2tl1brvko0",
+                                    "created": 1627277086464,
+                                    "text": "在确认报文中设置`接受窗口rwnd的值`来限制发送速率",
+                                    "background": "transparent",
+                                    "color": "black"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cd2tdscjlw00",
+                            "created": 1627276518371,
+                            "text": "拥塞控制"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2tm9kma2g0",
+                                    "created": 1627277182778,
+                                    "text": "原理"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cd2tm9mrkts0",
+                                            "created": 1627277182907,
+                                            "text": "根据自己估算的网络拥塞程度来设置cwnd的值来限制发送速率"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2tmd5qeqo0",
+                                    "created": 1627277190585,
+                                    "text": "方法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2tmeouweo0",
+                                    "created": 1627277193918,
+                                    "text": "拥塞处理"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

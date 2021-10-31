@@ -1,0 +1,1309 @@
+<mxfile host="65bd71144e" modified="2021-02-24T15:59:34.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.53.2 Chrome/87.0.4280.141 Electron/11.2.1 Safari/537.36" etag="SnZ30UisXiHaUtv8iSk1" version="14.2.4" type="embed">
+    <diagram id="F1etvpqoR-rrV2GKcHDD" name="第 1 页">
+        <mxGraphModel dx="3650" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="9" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;fontSize=22;" parent="1" vertex="1">
+                    <mxGeometry x="-600" y="230" width="2660" height="4200" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="物理层" style="swimlane;html=1;startSize=40;horizontal=0;fontSize=22;fontStyle=1;verticalAlign=middle;" parent="9" vertex="1">
+                    <mxGeometry y="20" width="2660" height="620" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="数据通信的理论基础&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; white-space: nowrap&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22RFID%E5%92%8C%E4%BC%A0%E6%84%9F%E5%99%A8%E7%BD%91%E7%BB%9C%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-285%22%20y%3D%22370%22%20width%3D%22120%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="10" vertex="1">
+                    <mxGeometry x="50" y="14" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="引导性传输介质" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="10" vertex="1">
+                    <mxGeometry x="180" y="14.5" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="无线传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="10" vertex="1">
+                    <mxGeometry x="310" y="14.5" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="通信卫星" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="10" vertex="1">
+                    <mxGeometry x="440" y="14" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="数字调试和多路复用" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="10" vertex="1">
+                    <mxGeometry x="50" y="67" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="公共电话交换网络&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; white-space: nowrap&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E9%80%9A%E4%BF%A1%E5%8D%AB%E6%98%9F%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22390%22%20y%3D%22584%22%20width%3D%22120%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="10" vertex="1">
+                    <mxGeometry x="180" y="67.5" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="移动电话系统&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; white-space: nowrap&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E9%80%9A%E4%BF%A1%E5%8D%AB%E6%98%9F%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22390%22%20y%3D%22584%22%20width%3D%22120%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="10" vertex="1">
+                    <mxGeometry x="310" y="67.5" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="有线电视" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="10" vertex="1">
+                    <mxGeometry x="440" y="67" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="169" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="10" vertex="1">
+                    <mxGeometry x="1441.06" y="32.69999999999999" width="190" height="238" as="geometry"/>
+                </mxCell>
+                <mxCell id="170" value="电磁频谱" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="10" vertex="1">
+                    <mxGeometry x="1491.06" y="47.69999999999999" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="171" value="无线电传输" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="1491.06" y="90.69999999999999" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="172" value="微波传输" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="1491.06" y="133.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="173" value="红外传输" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="1491.06" y="176.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="174" value="&lt;span style=&quot;font-size: 12px&quot;&gt;无线传输&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" parent="10" vertex="1">
+                    <mxGeometry x="1336.06" y="32.69999999999999" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="175" value="光通信" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="1491.06" y="219.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="176" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="10" vertex="1">
+                    <mxGeometry x="1766.5" y="32.69999999999999" width="190" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="177" value="地球同步卫星" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="10" vertex="1">
+                    <mxGeometry x="1816.5" y="47.69999999999999" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="178" value="中地球同步卫星" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="1816.5" y="90.69999999999999" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="179" value="低地球同步卫星" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="1816.5" y="133.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="180" value="卫星与光纤" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="1816.5" y="176.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="181" value="&lt;span style=&quot;font-size: 12px&quot;&gt;通信卫星&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" parent="10" vertex="1">
+                    <mxGeometry x="1661.5" y="32.69999999999999" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="183" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="10" vertex="1">
+                    <mxGeometry x="2117.55" y="32.69999999999999" width="190" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="184" value="基带传输" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="10" vertex="1">
+                    <mxGeometry x="2167.55" y="47.69999999999999" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="185" value="通带传输" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="2167.55" y="90.69999999999999" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="186" value="频分复用" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="2167.55" y="133.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="187" value="时分复用&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; white-space: nowrap&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BstrokeWidth%3D1%3BfontSize%3D22%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221155%22%20y%3D%22640%22%20width%3D%22190%22%20height%3D%22190%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22%E5%9C%B0%E7%90%83%E5%90%8C%E6%AD%A5%E5%8D%AB%E6%98%9F%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BstrokeWidth%3D1%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221205%22%20y%3D%22655%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%224%22%20value%3D%22%E4%B8%AD%E5%9C%B0%E7%90%83%E5%90%8C%E6%AD%A5%E5%8D%AB%E6%98%9F%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221205%22%20y%3D%22698%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%225%22%20value%3D%22%E4%BD%8E%E5%9C%B0%E7%90%83%E5%90%8C%E6%AD%A5%E5%8D%AB%E6%98%9F%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221205%22%20y%3D%22741%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%226%22%20value%3D%22%E5%8D%AB%E6%98%9F%E4%B8%8E%E5%85%89%E7%BA%A4%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221205%22%20y%3D%22784%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%227%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%2012px%26quot%3B%26gt%3B%E9%80%9A%E4%BF%A1%E5%8D%AB%E6%98%9F%26lt%3B%2Fspan%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D22%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221050%22%20y%3D%22640%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="2167.55" y="176.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="188" value="&lt;span style=&quot;font-size: 12px&quot;&gt;数字调试与多路复用&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" parent="10" vertex="1">
+                    <mxGeometry x="2012.55" y="32.69999999999999" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="189" value="码分复用" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="2167.55" y="219.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="190" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="10" vertex="1">
+                    <mxGeometry x="705" y="361.70000000000005" width="285" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="191" value="电话系统结构" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="10" vertex="1">
+                    <mxGeometry x="755" y="376.70000000000005" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="192" value="电话政治化" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="755" y="419.70000000000005" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="193" value="本地回路: 调制解调器 &amp;amp; ADSL &amp;amp; 光纤" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="755" y="462.70000000000005" width="215" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="194" value="中继线和多路复用" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="755" y="505.70000000000005" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="195" value="&lt;span style=&quot;font-size: 12px&quot;&gt;公共电话交换网络&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" parent="10" vertex="1">
+                    <mxGeometry x="600" y="361.70000000000005" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="196" value="交换" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="755" y="548.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="199" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="10" vertex="1">
+                    <mxGeometry x="1132.1100000000001" y="362.70000000000005" width="315" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="200" value="第一代移动电话(1G): 模拟语音" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="10" vertex="1">
+                    <mxGeometry x="1165" y="376.70000000000005" width="215" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="204" value="&lt;span style=&quot;font-size: 12px&quot;&gt;移动电话系统&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" parent="10" vertex="1">
+                    <mxGeometry x="1010" y="361.70000000000005" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="206" value="第二代移动电话(2G): 数字语音" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="10" vertex="1">
+                    <mxGeometry x="1165" y="419.70000000000005" width="215" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="207" value="第三地移动电话(3G): 数字语音和数据" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="10" vertex="1">
+                    <mxGeometry x="1165" y="462.70000000000005" width="215" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="209" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="10" vertex="1">
+                    <mxGeometry x="1585.8400000000001" y="361.70000000000005" width="193.11" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="210" value="共用天线电视" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="10" vertex="1">
+                    <mxGeometry x="1635.84" y="376.70000000000005" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="211" value="线缆上的Internet" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="1635.84" y="419.70000000000005" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="212" value="频谱分配" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="1635.84" y="462.70000000000005" width="115" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="213" value="线缆调试解调器" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="1635.84" y="505.70000000000005" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="214" value="&lt;span style=&quot;font-size: 12px&quot;&gt;有线电视&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" parent="10" vertex="1">
+                    <mxGeometry x="1480.8400000000001" y="361.70000000000005" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="215" value="ADSL与有线电视电缆" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="1635.84" y="548.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="10" vertex="1">
+                    <mxGeometry x="727.555145631068" y="30.00308411214951" width="205.37216828478964" height="149.39252336448598" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" value="傅立叶分析" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="10" vertex="1">
+                    <mxGeometry x="781.6004530744336" y="46.12457943925233" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="带宽有限的信号" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="781.6004530744336" y="92.33953271028031" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" value="信道的最大数据速率" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="781.6004530744336" y="138.5544859813084" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" value="&lt;span style=&quot;font-size: 12px&quot;&gt;数据通信的理论基础&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; white-space: nowrap&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22RFID%E5%92%8C%E4%BC%A0%E6%84%9F%E5%99%A8%E7%BD%91%E7%BB%9C%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-285%22%20y%3D%22370%22%20width%3D%22120%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" parent="10" vertex="1">
+                    <mxGeometry x="614.06" y="30.00308411214951" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="10" vertex="1">
+                    <mxGeometry x="1092.4441747572816" y="32.7030841121495" width="205.37216828478964" height="255.79439252336448" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" value="磁介质" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="10" vertex="1">
+                    <mxGeometry x="1146.4894822006472" y="48.82457943925232" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="163" value="双绞线" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="1146.4894822006472" y="95.0395327102803" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="164" value="同轴电缆" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="1146.4894822006472" y="141.2544859813084" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" value="电力线&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; white-space: nowrap&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BstrokeWidth%3D1%3BfontSize%3D22%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22155%22%20y%3D%22641%22%20width%3D%22190%22%20height%3D%22139%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22%E5%82%85%E7%AB%8B%E5%8F%B6%E5%88%86%E6%9E%90%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BstrokeWidth%3D1%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22205%22%20y%3D%22656%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%224%22%20value%3D%22%E5%B8%A6%E5%AE%BD%E6%9C%89%E9%99%90%E7%9A%84%E4%BF%A1%E5%8F%B7%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22205%22%20y%3D%22699%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%225%22%20value%3D%22%E4%BF%A1%E9%81%93%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%80%9F%E7%8E%87%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22205%22%20y%3D%22742%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%226%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%2012px%26quot%3B%26gt%3B%E6%95%B0%E6%8D%AE%E9%80%9A%E4%BF%A1%E7%9A%84%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80%26lt%3B%2Fspan%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bcolor%3A%20rgba(0%20%2C%200%20%2C%200%20%2C%200)%20%3B%20font-family%3A%20monospace%20%3B%20font-size%3A%200px%20%3B%20white-space%3A%20nowrap%26quot%3B%26gt%3B%253CmxGraphModel%253E%253Croot%253E%253CmxCell%2520id%253D%25220%2522%252F%253E%253CmxCell%2520id%253D%25221%2522%2520parent%253D%25220%2522%252F%253E%253CmxCell%2520id%253D%25222%2522%2520value%253D%2522RFID%25E5%2592%258C%25E4%25BC%25A0%25E6%2584%259F%25E5%2599%25A8%25E7%25BD%2591%25E7%25BB%259C%2522%2520style%253D%2522rounded%253D0%253BwhiteSpace%253Dwrap%253Bhtml%253D1%253BfontSize%253D12%253B%2522%2520vertex%253D%25221%2522%2520parent%253D%25221%2522%253E%253CmxGeometry%2520x%253D%2522-285%2522%2520y%253D%2522370%2522%2520width%253D%2522120%2522%2520height%253D%252240%2522%2520as%253D%2522geometry%2522%252F%253E%253C%252FmxCell%253E%253C%252Froot%253E%253C%252FmxGraphModel%253E%26lt%3B%2Fspan%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D22%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2250%22%20y%3D%22641%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="1146.4894822006472" y="187.46943925233649" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" value="&lt;span style=&quot;font-size: 12px&quot;&gt;引导性传输介质&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" parent="10" vertex="1">
+                    <mxGeometry x="978.9490291262136" y="32.7030841121495" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="168" value="光纤" style="rounded=0;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+                    <mxGeometry x="1146.4894822006472" y="233.68439252336447" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="数据链路层" style="swimlane;html=1;startSize=40;horizontal=0;fontSize=22;" parent="9" vertex="1">
+                    <mxGeometry y="640" width="2660" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="数据链路层的设计问题" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="11" vertex="1">
+                    <mxGeometry x="50" y="10" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="差错检测和纠正" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="11" vertex="1">
+                    <mxGeometry x="200" y="10" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="基本数据链路层协议" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="11" vertex="1">
+                    <mxGeometry x="350" y="10" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="滑动窗口协议" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="11" vertex="1">
+                    <mxGeometry x="200" y="60" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="数据链路协议实例" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="11" vertex="1">
+                    <mxGeometry x="50" y="60" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="230" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="11" vertex="1">
+                    <mxGeometry x="1405" y="45" width="235" height="145" as="geometry"/>
+                </mxCell>
+                <mxCell id="231" value="一个乌托邦的单工协议" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="11" vertex="1">
+                    <mxGeometry x="1455" y="60" width="166" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="232" value="无错信道上的单工停-等式协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="11" vertex="1">
+                    <mxGeometry x="1455" y="103" width="166" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="233" value="有错信道上的单工停-等式协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="11" vertex="1">
+                    <mxGeometry x="1455" y="146" width="166" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="234" value="&lt;span style=&quot;font-size: 12px&quot;&gt;基本数据链路层协议&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="11" vertex="1">
+                    <mxGeometry x="1287" y="45" width="133" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="235" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="11" vertex="1">
+                    <mxGeometry x="1828" y="40" width="235" height="145" as="geometry"/>
+                </mxCell>
+                <mxCell id="236" value="1位滑动窗口协议" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="11" vertex="1">
+                    <mxGeometry x="1878" y="55" width="166" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="237" value="回退N协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="11" vertex="1">
+                    <mxGeometry x="1878" y="98" width="166" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="238" value="选择重传协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="11" vertex="1">
+                    <mxGeometry x="1878" y="141" width="166" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="239" value="&lt;span style=&quot;font-size: 12px&quot;&gt;滑动窗口协议&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="11" vertex="1">
+                    <mxGeometry x="1710" y="40" width="133" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="240" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="11" vertex="1">
+                    <mxGeometry x="2217" y="41" width="235" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="241" value="SONET上的数据包" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="11" vertex="1">
+                    <mxGeometry x="2266.5" y="55.5" width="166" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="242" value="对称数字用户线" style="rounded=0;whiteSpace=wrap;html=1;" parent="11" vertex="1">
+                    <mxGeometry x="2266.5" y="98.5" width="166" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="244" value="&lt;span style=&quot;font-size: 12px&quot;&gt;数据链路协议实例&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="11" vertex="1">
+                    <mxGeometry x="2098.5" y="40.5" width="133" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="216" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="11" vertex="1">
+                    <mxGeometry x="697.5506796116505" y="29.999906542056124" width="205.37216828478964" height="204.20560747663552" as="geometry"/>
+                </mxCell>
+                <mxCell id="217" value="提供给网络的服务" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="11" vertex="1">
+                    <mxGeometry x="751.0555339805826" y="46.121401869158944" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="218" value="成帧" style="rounded=0;whiteSpace=wrap;html=1;" parent="11" vertex="1">
+                    <mxGeometry x="751.0555339805826" y="92.33635514018692" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="219" value="差错控制" style="rounded=0;whiteSpace=wrap;html=1;" parent="11" vertex="1">
+                    <mxGeometry x="751.0555339805826" y="138.5513084112149" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="220" value="&lt;span style=&quot;font-size: 12px&quot;&gt;数据链路层的设计问题&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="11" vertex="1">
+                    <mxGeometry x="570.0037540453075" y="29.999906542056124" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="221" value="流量控制" style="rounded=0;whiteSpace=wrap;html=1;" parent="11" vertex="1">
+                    <mxGeometry x="751.0555339805826" y="184.7662616822431" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="222" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="11" vertex="1">
+                    <mxGeometry x="1051.8778317152105" y="46.12439252336435" width="205.37216828478964" height="112.85046728971963" as="geometry"/>
+                </mxCell>
+                <mxCell id="223" value="纠错码" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="11" vertex="1">
+                    <mxGeometry x="1105.3826860841423" y="62.24588785046717" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="224" value="检错码" style="rounded=0;whiteSpace=wrap;html=1;" parent="11" vertex="1">
+                    <mxGeometry x="1105.3826860841423" y="108.46084112149538" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="226" value="&lt;span style=&quot;font-size: 12px&quot;&gt;差错检测和纠正&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="11" vertex="1">
+                    <mxGeometry x="924.3309061488674" y="46.12439252336435" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="介质访问控制子层" style="swimlane;html=1;startSize=40;horizontal=0;fontSize=22;" parent="9" vertex="1">
+                    <mxGeometry y="920" width="2660" height="730" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="信道分配问题&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; white-space: nowrap&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E6%95%B0%E6%8D%AE%E9%93%BE%E8%B7%AF%E5%B1%82%E7%9A%84%E8%AE%BE%E8%AE%A1%E9%97%AE%E9%A2%98%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20y%3D%22700%22%20width%3D%22140%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="12" vertex="1">
+                    <mxGeometry x="55" y="20" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="以太网" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="12" vertex="1">
+                    <mxGeometry x="210" y="20" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="无线局域网" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="12" vertex="1">
+                    <mxGeometry x="365" y="20" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="宽带无线" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="12" vertex="1">
+                    <mxGeometry x="55" y="80" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="蓝牙" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="12" vertex="1">
+                    <mxGeometry x="210" y="80" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="RFID" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="12" vertex="1">
+                    <mxGeometry x="365" y="80" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="数据链路层交换" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="12" vertex="1">
+                    <mxGeometry x="55" y="140" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="245" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="12" vertex="1">
+                    <mxGeometry x="705.8000000000001" y="51.07999999999993" width="205.37" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="246" value="静态信道分配" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="12" vertex="1">
+                    <mxGeometry x="759.3026860841422" y="67.2058878504672" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="247" value="动态信道分配的假设" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="759.3026860841422" y="113.42084112149519" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="248" value="&lt;span style=&quot;font-size: 12px&quot;&gt;信道分配问题&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="12" vertex="1">
+                    <mxGeometry x="578.2509061488673" y="51.084392523364386" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="249" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="12" vertex="1">
+                    <mxGeometry x="1060.34" y="51.07999999999993" width="205.37" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="250" value="ALOHA" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="12" vertex="1">
+                    <mxGeometry x="1113.8426860841423" y="67.2058878504672" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="251" value="载波侦听多路访问协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1113.8426860841423" y="113.42084112149519" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="252" value="&lt;span style=&quot;font-size: 12px&quot;&gt;多路访问协议&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="12" vertex="1">
+                    <mxGeometry x="932.7909061488674" y="51.084392523364386" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="253" value="无冲突协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1113.8426860841423" y="161.08084112149527" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="254" value="有限竞争协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1114.3826860841423" y="208.84084112149526" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="255" value="无线局域网协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1113.8426860841423" y="251.08084112149527" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="256" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="12" vertex="1">
+                    <mxGeometry x="1421.47" y="52.19999999999982" width="235.37" height="328.88" as="geometry"/>
+                </mxCell>
+                <mxCell id="257" value="经典以太网物理层" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="12" vertex="1">
+                    <mxGeometry x="1474.97" y="68.32999999999993" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="258" value="经典以太网的MAC子层协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1474.97" y="114.53999999999996" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="259" value="&lt;span style=&quot;font-size: 12px&quot;&gt;以太网&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="12" vertex="1">
+                    <mxGeometry x="1293.9209061488673" y="52.20439252336428" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="260" value="以太网性能" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1474.97" y="162.19999999999982" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="261" value="交换式以太网" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1475.51" y="209.96000000000004" width="161.33" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="262" value="快速以太网" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1474.97" y="252.19999999999982" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="263" value="千兆以太网&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%BF%AB%E9%80%9F%E4%BB%A5%E5%A4%AA%E7%BD%91%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22908.13%22%20y%3D%221301.12%22%20width%3D%22161.87%22%20height%3D%2232.24%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1475.51" y="291.0799999999999" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="264" value="万兆以太网" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1475.51" y="331.0799999999999" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="266" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="12" vertex="1">
+                    <mxGeometry x="1817.55" y="49.99999999999977" width="235.37" height="246.64" as="geometry"/>
+                </mxCell>
+                <mxCell id="267" value="802.11 体系结构和协议栈" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="12" vertex="1">
+                    <mxGeometry x="1871.05" y="66.12999999999988" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="268" value="802.11 物理层" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1871.05" y="112.33999999999992" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="269" value="&lt;span style=&quot;font-size: 12px&quot;&gt;无线局域网&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="12" vertex="1">
+                    <mxGeometry x="1690.0009061488672" y="50.00439252336423" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="270" value="802.11 MAC子层协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1871.05" y="159.99999999999977" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="271" value="802.11 帧结构" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1871.59" y="207.76" width="161.33" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="272" value="服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1871.05" y="249.99999999999977" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="275" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="12" vertex="1">
+                    <mxGeometry x="2215.97" y="52.23999999999978" width="273.95" height="246.64" as="geometry"/>
+                </mxCell>
+                <mxCell id="276" value="802.16 与 802.11 和3G 的比较" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="12" vertex="1">
+                    <mxGeometry x="2269.47" y="68.36999999999989" width="200.45" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="277" value="802.16 体系结构 和 协议栈" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="2269.4700000000003" y="114.57999999999993" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="278" value="&lt;span style=&quot;font-size: 12px&quot;&gt;宽带无线&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;spacingBottom=5;" parent="12" vertex="1">
+                    <mxGeometry x="2088.4209061488673" y="52.24439252336424" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="279" value="802.16 物理层" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="2269.4700000000003" y="162.23999999999978" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="280" value="802.16 MAC子层协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="2270.01" y="210" width="161.33" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="281" value="802.16 帧结构" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="2269.4700000000003" y="252.23999999999978" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="282" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="12" vertex="1">
+                    <mxGeometry x="697.5500000000006" y="414.4399999999998" width="235.37" height="296.64" as="geometry"/>
+                </mxCell>
+                <mxCell id="283" value="蓝牙体系结构" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="12" vertex="1">
+                    <mxGeometry x="751.0500000000006" y="430.56999999999994" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="284" value="蓝牙应用" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="751.0500000000006" y="476.78" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="285" value="&lt;font style=&quot;font-size: 9px&quot;&gt;蓝牙&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;labelPosition=center;verticalLabelPosition=middle;spacing=0;spacingBottom=10;" parent="12" vertex="1">
+                    <mxGeometry x="570" y="414.4399999999998" width="143.76" height="36.64" as="geometry"/>
+                </mxCell>
+                <mxCell id="286" value="蓝牙协议栈" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="751.0500000000006" y="524.4399999999998" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="287" value="蓝牙无线电层" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="751.5900000000006" y="572.2" width="161.33" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="288" value="蓝牙链路层" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="751.0500000000006" y="614.4399999999998" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="296" value="蓝牙帧结构" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="751.5900000000006" y="661.0799999999999" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="297" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="12" vertex="1">
+                    <mxGeometry x="1107.5500000000006" y="410" width="235.37" height="211.08" as="geometry"/>
+                </mxCell>
+                <mxCell id="298" value="EPC Gen2 体系结构" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="12" vertex="1">
+                    <mxGeometry x="1161.0500000000006" y="426.1299999999999" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="299" value="EPC Gen2 物理层" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1161.0500000000006" y="472.3399999999999" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="300" value="&lt;font style=&quot;font-size: 9px&quot;&gt;RFID&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;labelPosition=center;verticalLabelPosition=middle;spacing=0;spacingBottom=10;" parent="12" vertex="1">
+                    <mxGeometry x="980.0000000000005" y="409.9999999999998" width="143.76" height="36.64" as="geometry"/>
+                </mxCell>
+                <mxCell id="301" value="EPC Gen2 标签标识层" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1161.0500000000006" y="519.9999999999998" width="161.87" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="302" value="标签标识消息格式" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1161.5900000000006" y="567.76" width="161.33" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="305" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="12" vertex="1">
+                    <mxGeometry x="1487.5500000000006" y="410" width="322.45" height="251.08" as="geometry"/>
+                </mxCell>
+                <mxCell id="306" value="网桥的使用" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="12" vertex="1">
+                    <mxGeometry x="1541.0500000000006" y="426.1299999999999" width="228.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="307" value="学习网桥" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1541.0500000000006" y="472.3399999999999" width="228.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="308" value="&lt;font style=&quot;font-size: 9px&quot;&gt;数据链路层交换&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;labelPosition=center;verticalLabelPosition=middle;spacing=0;spacingBottom=10;" parent="12" vertex="1">
+                    <mxGeometry x="1360.0000000000005" y="409.9999999999998" width="143.76" height="36.64" as="geometry"/>
+                </mxCell>
+                <mxCell id="309" value="生成树网桥" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1541.0500000000006" y="520" width="228.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="310" value="中继器/集线器/网桥/交换机/路由器和网关" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1541.5900000000006" y="567.76" width="228.41" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="311" value="虚拟局域网" style="rounded=0;whiteSpace=wrap;html=1;" parent="12" vertex="1">
+                    <mxGeometry x="1541.5900000000006" y="614.44" width="228.41" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="网络层" style="swimlane;html=1;startSize=40;horizontal=0;fontSize=22;" parent="9" vertex="1">
+                    <mxGeometry y="1650" width="2660" height="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="网络层的设计问题" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="13" vertex="1">
+                    <mxGeometry x="50" y="10" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="路由算法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="13" vertex="1">
+                    <mxGeometry x="205" y="10" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="拥塞控制算法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="13" vertex="1">
+                    <mxGeometry x="360" y="10" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="服务质量" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="13" vertex="1">
+                    <mxGeometry x="50" y="65" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="网络互联" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="13" vertex="1">
+                    <mxGeometry x="205" y="65" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="Internet的网络层" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="13" vertex="1">
+                    <mxGeometry x="360" y="65" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="320" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="13" vertex="1">
+                    <mxGeometry x="667.55" y="26.940000000000055" width="232.45" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="321" value="存储转发数据包交换" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="13" vertex="1">
+                    <mxGeometry x="721.0500000000001" y="43.070000000000164" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="322" value="提供给传输层的服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="721.0500000000001" y="89.2800000000002" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="323" value="&lt;span style=&quot;font-size: 12px&quot;&gt;网络层的设计问题&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="13" vertex="1">
+                    <mxGeometry x="540.0009061488673" y="26.944392523364513" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="324" value="无连接服务的实现" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="718.92" y="136.94000000000005" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="325" value="面向连接服务的实现" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="721.0500000000001" y="186.94000000000005" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="326" value="虚电路与数据报网络的比较" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="718.92" y="236.94000000000005" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="327" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="13" vertex="1">
+                    <mxGeometry x="1062.11" y="26.940000000000055" width="232.45" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="328" value="优化原则" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="13" vertex="1">
+                    <mxGeometry x="1115.6100000000001" y="43.070000000000164" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="329" value="最短路径算法" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="1115.6100000000001" y="89.2800000000002" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="330" value="&lt;span style=&quot;font-size: 12px&quot;&gt;路由算法&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="13" vertex="1">
+                    <mxGeometry x="934.5609061488674" y="26.944392523364513" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="331" value="泛洪算法" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="1113.48" y="136.94000000000005" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="332" value="距离矢量算法" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="1115.6100000000001" y="186.94000000000005" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="333" value="链路状态路由" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="1113.48" y="236.94000000000005" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="341" value="层次路由" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="1116" y="286.94000000000005" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="342" value="广播路由" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="1116" y="336.94000000000005" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="343" value="组播路由" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="1116" y="386.94000000000005" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="344" value="选播路由" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="1115.6100000000001" y="436.94000000000005" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="345" value="移动主机路由" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="1116" y="486.94000000000005" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="346" value="自组织网络路由" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="1116" y="536.94" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="347" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="13" vertex="1">
+                    <mxGeometry x="1459.86" y="26.940000000000055" width="232.45" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="348" value="拥塞控制的途径" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="13" vertex="1">
+                    <mxGeometry x="1513.36" y="43.070000000000164" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="349" value="流量感知路径" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="1513.36" y="89.2800000000002" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="350" value="&lt;span style=&quot;font-size: 12px&quot;&gt;拥塞控制算法&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="13" vertex="1">
+                    <mxGeometry x="1332.3109061488672" y="26.944392523364513" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="351" value="准入控制" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="1511.23" y="136.94000000000005" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="352" value="流量调节" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="1513.36" y="186.94000000000005" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="353" value="负载脱落" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="1511.23" y="236.94000000000005" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="354" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="13" vertex="1">
+                    <mxGeometry x="1847.55" y="26.940000000000055" width="232.45" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="355" value="应用需求" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="13" vertex="1">
+                    <mxGeometry x="1901.05" y="43.070000000000164" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="356" value="流量整形" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="1901.05" y="89.2800000000002" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="357" value="&lt;span style=&quot;font-size: 12px&quot;&gt;服务质量&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="13" vertex="1">
+                    <mxGeometry x="1720.0009061488672" y="26.944392523364513" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="358" value="包调度" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="1898.9199999999998" y="136.94000000000005" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="359" value="准入控制" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="1901.05" y="186.94000000000005" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="360" value="综合服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="1898.9199999999998" y="236.94000000000005" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="361" value="区分服务" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="1898.9199999999998" y="286.94000000000005" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="362" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="13" vertex="1">
+                    <mxGeometry x="2237.55" y="26.940000000000055" width="232.45" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="363" value="网络如何不同" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="13" vertex="1">
+                    <mxGeometry x="2291.05" y="43.070000000000164" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="364" value="啥事网络连接" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="2291.05" y="89.2800000000002" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="365" value="&lt;span style=&quot;font-size: 12px&quot;&gt;网络互联&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="13" vertex="1">
+                    <mxGeometry x="2110.000906148867" y="26.944392523364513" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="366" value="隧道" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="2288.92" y="136.94000000000005" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="367" value="互联网路由" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="2291.05" y="186.94000000000005" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="368" value="数据包分段" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="2288.92" y="236.94000000000005" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="370" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="13" vertex="1">
+                    <mxGeometry x="672.0699999999999" y="323.05999999999995" width="232.45" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="371" value="IPv4 协议" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="13" vertex="1">
+                    <mxGeometry x="725.5699999999999" y="339.19000000000005" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="372" value="IP 地址" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="725.5699999999999" y="385.4000000000001" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="373" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Internet 的 网络层&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="13" vertex="1">
+                    <mxGeometry x="544.5209061488672" y="323.0643925233644" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="374" value="IPv6 协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="723.4399999999998" y="433.05999999999995" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="375" value="Internet 控制协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="725.5699999999999" y="483.05999999999995" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="376" value="标签交换 和 MPLS" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="723.4399999999998" y="533.06" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="377" value="OSPF --- 内部网关路由协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="723.4399999999998" y="583.06" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="378" value="BGP --- 外部路由网关协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="723.4399999999998" y="633.06" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="379" value="Internet 组播" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="723.4399999999998" y="683.06" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="380" value="移动 IP" style="rounded=0;whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="723.4399999999998" y="733.06" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="传输层" style="swimlane;html=1;startSize=40;horizontal=0;fontSize=22;" parent="9" vertex="1">
+                    <mxGeometry y="2460" width="2660" height="700" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="传输服务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="20" vertex="1">
+                    <mxGeometry x="50" y="20" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="传输协议的要素" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="20" vertex="1">
+                    <mxGeometry x="210" y="20" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="拥塞控制" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="20" vertex="1">
+                    <mxGeometry x="370" y="20" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="Internet传输协议:UDP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="20" vertex="1">
+                    <mxGeometry x="50" y="70" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="Internet传输协议:TCP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="20" vertex="1">
+                    <mxGeometry x="210" y="70" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="性能问题&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; white-space: nowrap&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E6%9C%8D%E5%8A%A1%E8%B4%A8%E9%87%8F%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20y%3D%221115%22%20width%3D%22140%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="20" vertex="1">
+                    <mxGeometry x="370" y="70" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="延迟容忍网络" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="20" vertex="1">
+                    <mxGeometry x="50" y="120" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="381" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="20" vertex="1">
+                    <mxGeometry x="667.55" y="26.90000000000009" width="232.45" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="382" value="提供给上层的服务" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="20" vertex="1">
+                    <mxGeometry x="721.05" y="43.0300000000002" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="383" value="传输服务原语" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="721.05" y="89.24000000000024" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="384" value="&lt;span style=&quot;font-size: 12px&quot;&gt;传输服务&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="20" vertex="1">
+                    <mxGeometry x="540.0009061488673" y="26.90439252336455" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="385" value="Berkeley 套接字" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="718.92" y="136.9000000000001" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="386" value="套接字编程实例： Internet 文件服务器" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="721.05" y="186.9000000000001" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="388" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="20" vertex="1">
+                    <mxGeometry x="1067.55" y="26.90000000000009" width="232.45" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="389" value="寻址" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="20" vertex="1">
+                    <mxGeometry x="1121.0499999999997" y="43.0300000000002" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="390" value="连接建立" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="1121.0499999999997" y="89.24000000000024" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="391" value="&lt;span style=&quot;font-size: 12px&quot;&gt;传输协议的要素&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="20" vertex="1">
+                    <mxGeometry x="940.0009061488673" y="26.90439252336455" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="392" value="连接释放" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="1118.9199999999998" y="136.9000000000001" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="393" value="差错控制和流量控制" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="1121.0499999999997" y="186.9000000000001" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="394" value="多路复用" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="1121.0499999999997" y="236.9000000000001" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="395" value="崩溃恢复" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="1121.0499999999997" y="286.9000000000001" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="396" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="20" vertex="1">
+                    <mxGeometry x="1447.5499999999997" y="26.90000000000009" width="232.45" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="397" value="理想的带宽分配" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="20" vertex="1">
+                    <mxGeometry x="1501.0499999999997" y="43.0300000000002" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="398" value="调整发送速率" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="1501.0499999999997" y="89.24000000000024" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="399" value="&lt;span style=&quot;font-size: 12px&quot;&gt;拥塞控制&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="20" vertex="1">
+                    <mxGeometry x="1320.0009061488672" y="26.90439252336455" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="400" value="无线问题" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="1498.9199999999998" y="136.9000000000001" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="404" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="20" vertex="1">
+                    <mxGeometry x="1837.55" y="26.90000000000009" width="232.45" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="405" value="UDP概述" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="20" vertex="1">
+                    <mxGeometry x="1891.05" y="43.0300000000002" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="406" value="远程过程调用" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="1891.05" y="89.24000000000024" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="407" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Internet 传输协议： UDP&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="20" vertex="1">
+                    <mxGeometry x="1710.0009061488672" y="26.90439252336455" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="408" value="实时传输协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="1888.92" y="136.9000000000001" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="409" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="20" vertex="1">
+                    <mxGeometry x="2242.05" y="26.90000000000009" width="232.45" height="490" as="geometry"/>
+                </mxCell>
+                <mxCell id="410" value="TCP 概述" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="20" vertex="1">
+                    <mxGeometry x="2295.55" y="43.0300000000002" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="411" value="TCP 服务模型" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="2295.55" y="89.24000000000024" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="412" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Internet 传输协议： TCP&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="20" vertex="1">
+                    <mxGeometry x="2114.500906148867" y="26.90439252336455" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="413" value="TCP 协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="2294.49" y="136.9000000000001" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="414" value="TCP 段的头" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="20" vertex="1">
+                    <mxGeometry x="2295.55" y="186.9000000000001" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="415" value="TCP 连接建立" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="2297.6800000000003" y="233.11000000000013" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="416" value="TCP 连接释放" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="2295.55" y="280.77" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="417" value="TCP 连接管理模型" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="20" vertex="1">
+                    <mxGeometry x="2298.75" y="326.9000000000001" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="418" value="TCP 计时器管理" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="2298.75" y="373.1100000000001" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="419" value="TCP 拥塞控制" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="2296.62" y="420.77" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="420" value="TCP 未来" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="2296.62" y="466.9000000000001" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="421" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="20" vertex="1">
+                    <mxGeometry x="667.5500000000004" y="373.1100000000001" width="232.45" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="422" value="计算机网络中的性能问题" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="20" vertex="1">
+                    <mxGeometry x="721.0500000000004" y="389.24000000000024" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="423" value="网络性能测量" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="721.0500000000004" y="435.4500000000003" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="424" value="&lt;span style=&quot;font-size: 12px&quot;&gt;性能问题&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="20" vertex="1">
+                    <mxGeometry x="540.0009061488672" y="373.1143925233646" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="425" value="针对快速网络的主机设计" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="718.9200000000003" y="483.1100000000001" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="426" value="快速处理段" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="20" vertex="1">
+                    <mxGeometry x="721.0500000000004" y="532.3800000000001" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="427" value="头压缩" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="721.0500000000004" y="578.5900000000001" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="428" value="长肥网络的协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="718.9200000000003" y="626.25" width="151.08" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="429" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="20" vertex="1">
+                    <mxGeometry x="1070.47" y="373.1100000000001" width="232.45" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="430" value="DTN 体系结构" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="20" vertex="1">
+                    <mxGeometry x="1123.9700000000003" y="389.24000000000024" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="431" value="数据束协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="20" vertex="1">
+                    <mxGeometry x="1123.9700000000003" y="435.4500000000003" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="432" value="&lt;span style=&quot;font-size: 12px&quot;&gt;延迟容忍网络&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="20" vertex="1">
+                    <mxGeometry x="942.9209061488675" y="373.1143925233646" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="应用层" style="swimlane;html=1;startSize=40;horizontal=0;fontSize=22;" parent="9" vertex="1">
+                    <mxGeometry y="3160" width="2660" height="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="DNS-域名系统" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="21" vertex="1">
+                    <mxGeometry x="50" y="10" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="电子邮件&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; white-space: nowrap&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Internet%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE%3AUDP%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20y%3D%221240%22%20width%3D%22140%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="21" vertex="1">
+                    <mxGeometry x="210" y="10" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="万维网" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="21" vertex="1">
+                    <mxGeometry x="370" y="10" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="流式音视频&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; white-space: nowrap&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Internet%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE%3AUDP%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20y%3D%221240%22%20width%3D%22140%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="21" vertex="1">
+                    <mxGeometry x="210" y="65" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="内容分发" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="21" vertex="1">
+                    <mxGeometry x="50" y="65" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="437" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="21" vertex="1">
+                    <mxGeometry x="677.5500000000001" y="60" width="232.45" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="438" value="DNS 名字空间" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="21" vertex="1">
+                    <mxGeometry x="731.0500000000001" y="76.13000000000011" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="439" value="域名资源记录" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
+                    <mxGeometry x="731.0500000000001" y="122.34000000000015" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="440" value="&lt;span style=&quot;font-size: 12px&quot;&gt;DNS - 域名系统&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="21" vertex="1">
+                    <mxGeometry x="550.0009061488671" y="60.00439252336446" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="441" value="名字服务器" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
+                    <mxGeometry x="731.0500000000001" y="170" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="442" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="21" vertex="1">
+                    <mxGeometry x="1076.3799999999999" y="60" width="232.45" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="443" value="体系结构和服务" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="21" vertex="1">
+                    <mxGeometry x="1129.88" y="76.13000000000011" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="444" value="用户代理" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
+                    <mxGeometry x="1129.88" y="122.34000000000015" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="445" value="&lt;span style=&quot;font-size: 12px&quot;&gt;电子邮件&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="21" vertex="1">
+                    <mxGeometry x="948.830906148867" y="60.00439252336446" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="446" value="邮件格式" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
+                    <mxGeometry x="1129.88" y="170" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="447" value="体系结构和服务" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="21" vertex="1">
+                    <mxGeometry x="1129.88" y="76.13000000000011" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="448" value="用户代理" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
+                    <mxGeometry x="1129.88" y="122.34000000000015" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="450" value="邮件传递" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="21" vertex="1">
+                    <mxGeometry x="1129.88" y="220" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="451" value="最后传递" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
+                    <mxGeometry x="1129.88" y="266.21000000000004" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="452" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="21" vertex="1">
+                    <mxGeometry x="1476.1399999999999" y="61.11999999999989" width="232.45" height="298.88" as="geometry"/>
+                </mxCell>
+                <mxCell id="453" value="体系结构和服务" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="21" vertex="1">
+                    <mxGeometry x="1529.6399999999999" y="77.25" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="454" value="用户代理" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
+                    <mxGeometry x="1529.6399999999999" y="123.46000000000004" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="455" value="&lt;span style=&quot;font-size: 12px&quot;&gt;万维网&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="21" vertex="1">
+                    <mxGeometry x="1348.590906148867" y="61.12439252336435" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="456" value="动态 web 页面 和 web 应用" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
+                    <mxGeometry x="1529.6399999999999" y="171.1199999999999" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="457" value="体系结构概述" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="21" vertex="1">
+                    <mxGeometry x="1529.6399999999999" y="77.25" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="458" value="静态 Web 页面" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
+                    <mxGeometry x="1529.6399999999999" y="123.46000000000004" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="459" value="HTTP - 超文本传输协议" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="21" vertex="1">
+                    <mxGeometry x="1529.6399999999999" y="221.1199999999999" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="460" value="移动 Web" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
+                    <mxGeometry x="1529.6399999999999" y="267.3299999999999" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="461" value="Web 搜索" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
+                    <mxGeometry x="1529.6399999999999" y="310" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="462" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="21" vertex="1">
+                    <mxGeometry x="1876.1399999999999" y="61.11999999999989" width="232.45" height="258.88" as="geometry"/>
+                </mxCell>
+                <mxCell id="463" value="体系结构和服务" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="21" vertex="1">
+                    <mxGeometry x="1929.6399999999999" y="77.25" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="464" value="用户代理" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
+                    <mxGeometry x="1929.6399999999999" y="123.46000000000004" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="465" value="&lt;span style=&quot;font-size: 12px&quot;&gt;流式音视频&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="21" vertex="1">
+                    <mxGeometry x="1748.590906148867" y="61.12439252336435" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="466" value="流式存储媒体" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
+                    <mxGeometry x="1929.6399999999999" y="171.1199999999999" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="467" value="数字音频" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="21" vertex="1">
+                    <mxGeometry x="1929.6399999999999" y="77.25" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="468" value="数字视频" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
+                    <mxGeometry x="1929.6399999999999" y="123.46000000000004" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="469" value="流式直播媒体" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="21" vertex="1">
+                    <mxGeometry x="1929.6399999999999" y="221.1199999999999" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="470" value="实时会议" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
+                    <mxGeometry x="1929.6399999999999" y="267.3299999999999" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="472" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="21" vertex="1">
+                    <mxGeometry x="2291.14" y="61.11999999999989" width="232.45" height="208.88" as="geometry"/>
+                </mxCell>
+                <mxCell id="473" value="体系结构和服务" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="21" vertex="1">
+                    <mxGeometry x="2344.64" y="77.25" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="474" value="用户代理" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
+                    <mxGeometry x="2344.64" y="123.46000000000004" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="475" value="&lt;span style=&quot;font-size: 12px&quot;&gt;内容分发&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="21" vertex="1">
+                    <mxGeometry x="2163.590906148867" y="61.12439252336435" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="476" value="内容分发网络" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
+                    <mxGeometry x="2344.64" y="171.1199999999999" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="477" value="内容和Internet 流量" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="21" vertex="1">
+                    <mxGeometry x="2344.64" y="77.25" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="478" value="服务器农场 和 Web 代理" style="rounded=0;whiteSpace=wrap;html=1;" parent="21" vertex="1">
+                    <mxGeometry x="2344.64" y="123.46000000000004" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="479" value="对等网络" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="21" vertex="1">
+                    <mxGeometry x="2344.64" y="221.1199999999999" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="网络安全" style="swimlane;html=1;startSize=40;horizontal=0;fontSize=22;" parent="9" vertex="1">
+                    <mxGeometry y="3550" width="2660" height="650" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="密码学&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; white-space: nowrap&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Internet%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE%3AUDP%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20y%3D%221240%22%20width%3D%22140%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="50" y="10" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="对称密钥算法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="210" y="10" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="公开密钥算法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="370" y="10" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="数字签名&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; white-space: nowrap&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Internet%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE%3AUDP%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20y%3D%221240%22%20width%3D%22140%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="50" y="190" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="公钥的管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="50" y="70" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="通信安全&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; white-space: nowrap&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Internet%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE%3AUDP%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20y%3D%221240%22%20width%3D%22140%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="210" y="70" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="认证协议" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="370" y="70" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="电子邮件安全性" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="370" y="135" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="Web安全性" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="50" y="130" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="社会问题" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="210" y="130" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="482" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="22" vertex="1">
+                    <mxGeometry x="677.55" y="20" width="232.45" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="483" value="密码学概述" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="731.0500000000001" y="36.13000000000011" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="484" value="置换密码" style="rounded=0;whiteSpace=wrap;html=1;" parent="22" vertex="1">
+                    <mxGeometry x="731.0500000000001" y="82.34000000000015" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="486" value="替代密码" style="rounded=0;whiteSpace=wrap;html=1;" parent="22" vertex="1">
+                    <mxGeometry x="731.0500000000001" y="130" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="487" value="一次性密钥" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="729.3000000000001" y="180" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="488" value="两个基本的密码学原则" style="rounded=0;whiteSpace=wrap;html=1;" parent="22" vertex="1">
+                    <mxGeometry x="729.3000000000001" y="226.21000000000004" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="490" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="22" vertex="1">
+                    <mxGeometry x="1082.11" y="20" width="232.45" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="491" value="DES --- 数据加密标准" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="1135.6100000000001" y="36.13000000000011" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="492" value="AES --- 高级加密要求" style="rounded=0;whiteSpace=wrap;html=1;" parent="22" vertex="1">
+                    <mxGeometry x="1135.6100000000001" y="82.34000000000015" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="493" value="&lt;span style=&quot;font-size: 12px&quot;&gt;对称密钥算法&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="22" vertex="1">
+                    <mxGeometry x="954.560906148867" y="20.004392523364004" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="494" value="密码模式" style="rounded=0;whiteSpace=wrap;html=1;" parent="22" vertex="1">
+                    <mxGeometry x="1135.6100000000001" y="130" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="495" value="其他密码模式" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="1133.8600000000001" y="180" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="496" value="密码分析" style="rounded=0;whiteSpace=wrap;html=1;" parent="22" vertex="1">
+                    <mxGeometry x="1133.8600000000001" y="226.21000000000004" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="497" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="22" vertex="1">
+                    <mxGeometry x="1507.55" y="20" width="232.45" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="498" value="RSA" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="1561.05" y="36.13000000000011" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="499" value="其他公开密钥算法" style="rounded=0;whiteSpace=wrap;html=1;" parent="22" vertex="1">
+                    <mxGeometry x="1561.05" y="82.34000000000015" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="500" value="&lt;span style=&quot;font-size: 12px&quot;&gt;公开密钥算法&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="22" vertex="1">
+                    <mxGeometry x="1380.000906148867" y="20.004392523364004" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="504" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="22" vertex="1">
+                    <mxGeometry x="1902.05" y="20" width="232.45" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="505" value="对称密钥签名" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="1955.55" y="36.13000000000011" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="506" value="公开密钥签名" style="rounded=0;whiteSpace=wrap;html=1;" parent="22" vertex="1">
+                    <mxGeometry x="1955.55" y="82.34000000000015" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="507" value="&lt;span style=&quot;font-size: 12px&quot;&gt;数字签名&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="22" vertex="1">
+                    <mxGeometry x="1774.500906148867" y="20.004392523364004" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="508" value="消息摘要" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="1956.05" y="130" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="509" value="生日攻击" style="rounded=0;whiteSpace=wrap;html=1;" parent="22" vertex="1">
+                    <mxGeometry x="1956.05" y="176.21000000000004" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="510" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="22" vertex="1">
+                    <mxGeometry x="2297.55" y="20" width="232.45" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="511" value="证书" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="2351.05" y="36.13000000000011" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="512" value="X.509" style="rounded=0;whiteSpace=wrap;html=1;" parent="22" vertex="1">
+                    <mxGeometry x="2351.05" y="82.34000000000015" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="513" value="&lt;span style=&quot;font-size: 12px&quot;&gt;公钥的管理&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="22" vertex="1">
+                    <mxGeometry x="2170.000906148867" y="20.004392523364004" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="516" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="22" vertex="1">
+                    <mxGeometry x="677.5500000000004" y="387.2399999999998" width="232.45" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="517" value="IPSee" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="731.0500000000004" y="403.3699999999999" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="518" value="防火墙" style="rounded=0;whiteSpace=wrap;html=1;" parent="22" vertex="1">
+                    <mxGeometry x="731.0500000000004" y="449.5799999999999" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="520" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="22" vertex="1">
+                    <mxGeometry x="1072.5500000000004" y="387.2399999999998" width="232.45" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="521" value="基于共享密钥的认证" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="1126.0500000000004" y="403.3699999999999" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="522" value="建立共享密钥: Diffie-Hellman 密钥交换" style="rounded=0;whiteSpace=wrap;html=1;" parent="22" vertex="1">
+                    <mxGeometry x="1126.0500000000004" y="449.5799999999999" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="523" value="&lt;span style=&quot;font-size: 12px&quot;&gt;认证协议&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="22" vertex="1">
+                    <mxGeometry x="945.0009061488674" y="387.2443925233638" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="524" value="虚拟专用网络" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="731.0500000000004" y="497.2399999999998" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="525" value="无线安全性" style="rounded=0;whiteSpace=wrap;html=1;" parent="22" vertex="1">
+                    <mxGeometry x="731.0500000000004" y="543.4499999999998" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="526" value="使用 Kerberos 的身份认证" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="1126.0500000000004" y="497.2399999999998" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="527" value="使用公开密钥密码学的认证" style="rounded=0;whiteSpace=wrap;html=1;" parent="22" vertex="1">
+                    <mxGeometry x="1126.0500000000004" y="543.4499999999998" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="528" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="22" vertex="1">
+                    <mxGeometry x="1491.96" y="387.2399999999998" width="232.45" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="529" value="PGP --- 良好的隐私性" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="1545.46" y="403.3699999999999" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="530" value="S/MIME" style="rounded=0;whiteSpace=wrap;html=1;" parent="22" vertex="1">
+                    <mxGeometry x="1545.46" y="449.5799999999999" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="531" value="&lt;span style=&quot;font-size: 12px&quot;&gt;电子邮件安全性&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="22" vertex="1">
+                    <mxGeometry x="1364.410906148867" y="387.2443925233638" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="535" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="22" vertex="1">
+                    <mxGeometry x="1912.2" y="387.2399999999998" width="232.45" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="536" value="威胁" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="1965.7" y="403.3699999999999" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="537" value="安全命名" style="rounded=0;whiteSpace=wrap;html=1;" parent="22" vertex="1">
+                    <mxGeometry x="1965.7" y="449.5799999999999" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="538" value="&lt;span style=&quot;font-size: 12px&quot;&gt;Web 的安全性&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="22" vertex="1">
+                    <mxGeometry x="1784.650906148867" y="387.2443925233638" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="539" value="SSL --- 安全套接层" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="1965.7" y="497.2399999999998" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="540" value="移动代码安全性" style="rounded=0;whiteSpace=wrap;html=1;" parent="22" vertex="1">
+                    <mxGeometry x="1965.7" y="543.4499999999998" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="541" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="22" vertex="1">
+                    <mxGeometry x="2311.0200000000004" y="387.2399999999998" width="232.45" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="542" value="隐私" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="2364.5200000000004" y="403.3699999999999" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="543" value="言论自由" style="rounded=0;whiteSpace=wrap;html=1;" parent="22" vertex="1">
+                    <mxGeometry x="2364.5200000000004" y="449.5799999999999" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="544" value="&lt;span style=&quot;font-size: 12px&quot;&gt;社会问题&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="22" vertex="1">
+                    <mxGeometry x="2183.4709061488675" y="387.2443925233638" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="545" value="版权" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="22" vertex="1">
+                    <mxGeometry x="2364.5200000000004" y="497.2399999999998" width="148.95" height="32.24" as="geometry"/>
+                </mxCell>
+                <mxCell id="485" value="&lt;span style=&quot;font-size: 12px&quot;&gt;密码学&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="22" vertex="1">
+                    <mxGeometry x="550.0009061488671" y="20.004392523364004" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="519" value="&lt;span style=&quot;font-size: 12px&quot;&gt;通信安全&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;verticalAlign=middle;align=center;horizontal=1;" parent="22" vertex="1">
+                    <mxGeometry x="550.000906148867" y="387.2443925233638" width="143.76051779935275" height="21.49532710280374" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="-1600" y="520" width="495" height="321" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="group" parent="34" vertex="1" connectable="0">
+                    <mxGeometry x="105" y="1" width="390" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="33" vertex="1">
+                    <mxGeometry width="390" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="个域网" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="33" vertex="1">
+                    <mxGeometry x="60" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="局域网&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; white-space: nowrap&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E7%BD%91%E7%BB%9C%E7%A1%AC%E4%BB%B6%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22120%22%20y%3D%22190%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="33" vertex="1">
+                    <mxGeometry x="60" y="135" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="城域网" style="rounded=0;whiteSpace=wrap;html=1;" parent="33" vertex="1">
+                    <mxGeometry x="50" y="230" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="广域网" style="rounded=0;whiteSpace=wrap;html=1;" parent="33" vertex="1">
+                    <mxGeometry x="200" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="互联网" style="rounded=0;whiteSpace=wrap;html=1;" parent="33" vertex="1">
+                    <mxGeometry x="215" y="170" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="网络硬件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" parent="34" vertex="1">
+                    <mxGeometry width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="-1600" y="930" width="525" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="137" vertex="1">
+                    <mxGeometry x="98" width="427" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="网络软件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" parent="137" vertex="1">
+                    <mxGeometry width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="协议层次结构" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="137" vertex="1">
+                    <mxGeometry x="135" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="层次设计问题" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="137" vertex="1">
+                    <mxGeometry x="135" y="110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="面向连接与无连接服务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="137" vertex="1">
+                    <mxGeometry x="140" y="190" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="服务原语" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="137" vertex="1">
+                    <mxGeometry x="285" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="服务和协议的关系" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="137" vertex="1">
+                    <mxGeometry x="375" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="-1595" y="1280" width="450" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="group" parent="138" vertex="1" connectable="0">
+                    <mxGeometry width="450" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="52" vertex="1">
+                    <mxGeometry x="70" width="380" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="参考模型" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" parent="52" vertex="1">
+                    <mxGeometry width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="OSI参考模型" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="52" vertex="1">
+                    <mxGeometry x="140" y="10" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="TC[/IP参考模型" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="52" vertex="1">
+                    <mxGeometry x="140" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="本书使用的模型" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="52" vertex="1">
+                    <mxGeometry x="140" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="OSI参考模型与TCP/IP参考模型的比较" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="52" vertex="1">
+                    <mxGeometry x="290" y="30" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="OSI模型和协议的评判" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="52" vertex="1">
+                    <mxGeometry x="290" y="110" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="TCP/IP参考模型的评判" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="52" vertex="1">
+                    <mxGeometry x="290" y="180" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" value="" style="group;container=1;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="-1590" y="1590" width="805" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="" style="group" parent="139" vertex="1" connectable="0">
+                    <mxGeometry x="20" y="5" width="295" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="60" vertex="1">
+                    <mxGeometry x="60" width="235" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="网络实例" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" parent="60" vertex="1">
+                    <mxGeometry width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="因特网" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="60" vertex="1">
+                    <mxGeometry x="130" y="30" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="第三代移动电话网络" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="60" vertex="1">
+                    <mxGeometry x="130" y="80" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="无线局域网:802.11" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="60" vertex="1">
+                    <mxGeometry x="130" y="130" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="RFID和传感器网络" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="60" vertex="1">
+                    <mxGeometry x="130" y="180" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="" style="group" parent="139" vertex="1" connectable="0">
+                    <mxGeometry x="-5" y="320" width="380" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="" style="group" parent="140" vertex="1" connectable="0">
+                    <mxGeometry width="380" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" parent="73" vertex="1">
+                    <mxGeometry x="70" width="310" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="网络标准化" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" parent="73" vertex="1">
+                    <mxGeometry width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="电信领域有影响力的组织" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="73" vertex="1">
+                    <mxGeometry x="140" y="20" width="190" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="国际标准领域有影响力的组织" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="73" vertex="1">
+                    <mxGeometry x="140" y="70" width="190" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="Internet标准领域有影响力的组织" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="73" vertex="1">
+                    <mxGeometry x="140" y="120" width="190" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="度量单位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="73" vertex="1">
+                    <mxGeometry x="140" y="170" width="70" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="547" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-1520" y="81" width="390" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="548" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" vertex="1" parent="547">
+                    <mxGeometry width="380" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="549" value="商业应用" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" vertex="1" parent="547">
+                    <mxGeometry x="70" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="550" value="家庭应用" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="547">
+                    <mxGeometry x="70" y="135" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="551" value="移动用户" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="547">
+                    <mxGeometry x="210" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="552" value="社会问题" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="547">
+                    <mxGeometry x="210" y="135" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="554" value="使用计算机网络" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+                    <mxGeometry x="-1630" y="81" width="170" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

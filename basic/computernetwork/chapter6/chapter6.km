@@ -1,0 +1,477 @@
+{
+    "root": {
+        "data": {
+            "id": "cd2v0mgjnig0",
+            "created": 1627281129038,
+            "text": "应用层"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cd2v27l8zo00",
+                    "created": 1627281253399,
+                    "text": "网络应用模型"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cd2v2p9027c0",
+                            "created": 1627281291840,
+                            "text": "C/S模型"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2vf66k9k80",
+                                    "created": 1627282269068,
+                                    "text": "区分处理请求的服务机"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2vfafayjk0",
+                                    "created": 1627282278304,
+                                    "text": "发出请求的客户机"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cd2v2r4eprs0",
+                            "created": 1627281295916,
+                            "text": "P2P模型"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2vfkt5c1c0",
+                                    "created": 1627282300909,
+                                    "text": "每台机器即是服务机又是客户机"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cd2v2bo5m4o0",
+                    "created": 1627281262282,
+                    "text": "域名系统"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cd2v2h5el3s0",
+                            "created": 1627281274208,
+                            "text": "作用"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2vg2vyyeo0",
+                                    "created": 1627282340261,
+                                    "text": "把主机名转换为IP地址"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cd2v2uypu000",
+                            "created": 1627281304280,
+                            "text": "协议与端口"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2vghf8f3c0",
+                                    "created": 1627282371901,
+                                    "text": "运行在UDP上,使用53号端口"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cd2v2x4fnnk0",
+                            "created": 1627281308978,
+                            "text": "服务器分类"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2vh42rhy80",
+                                    "created": 1627282421213,
+                                    "text": "根域名服务器"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cd2vpg6a61s0",
+                                            "created": 1627283074460,
+                                            "text": "知道所有顶级域名服务器的IP地址"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2vh6xhpmg0",
+                                    "created": 1627282427425,
+                                    "text": "顶级域名服务器"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cd2vpqgldlk0",
+                                            "created": 1627283096852,
+                                            "text": "负责管理在其服务器注册的所有二级域名"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2vh92z6js0",
+                                    "created": 1627282432110,
+                                    "text": "授权域名服务器"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cd2vpz99cp40",
+                                            "created": 1627283115999,
+                                            "text": "能够将其管辖的主机名转换为该主机的IP地址"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2vhcgifog0",
+                                    "created": 1627282439459,
+                                    "text": "本地域名服务器"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cd2vqcsgpyg0",
+                                            "created": 1627283145459,
+                                            "text": "本地网络提供商负责的域名服务器"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cd2v31d0fv40",
+                            "created": 1627281318204,
+                            "text": "查询方式"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2vhi5vv140",
+                                    "created": 1627282451877,
+                                    "text": "递归查询"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cd2vqqhxsqg0",
+                                            "created": 1627283175297,
+                                            "text": "由查询的服务器发起下一次查询"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2vhjuvlhs0",
+                                    "created": 1627282455565,
+                                    "text": "递归和迭代结合查询"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cd2vqvbouuw0",
+                                            "created": 1627283185803,
+                                            "text": "除第一次查询外, 其余查询均由本地域名服务器向外查询"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cd2v2iaxrg00",
+                    "created": 1627281276720,
+                    "text": "文件传输协议"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cd2v34tg2wg0",
+                            "created": 1627281325728,
+                            "text": "作用"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2vhxibeow0",
+                                    "created": 1627282485280,
+                                    "text": "允许用户在因特网上存取文件"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cd2v35npnpc0",
+                            "created": 1627281327558,
+                            "text": "协议与端口"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2vi7ygbo00",
+                                    "created": 1627282508024,
+                                    "text": "运行在TCP上"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cd2vilgorog0",
+                                            "created": 1627282537424,
+                                            "text": " 控制链接为21号端口"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cd2vimhm5cw0",
+                                            "created": 1627282539657,
+                                            "text": "数据链接为20号端口"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cd2v2l13xq00",
+                    "created": 1627281282656,
+                    "text": "电子邮件"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cd2v39quzxs0",
+                            "created": 1627281336456,
+                            "text": "STMP"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2vitka7qw0",
+                                    "created": 1627282555056,
+                                    "text": "作用"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cd2vj3bxm6o0",
+                                            "created": 1627282576319,
+                                            "text": "向邮件服务器主动发送电子邮件"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2viwghqg80",
+                                    "created": 1627282561357,
+                                    "text": "协议和端口"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cd2vjccjwwo0",
+                                            "created": 1627282595948,
+                                            "text": "运行在TCP上, 使用25号端口"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cd2v3blv3og0",
+                            "created": 1627281340508,
+                            "text": "POP3"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2viyrvepc0",
+                                    "created": 1627282566399,
+                                    "text": "作用"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cd2vjizkh480",
+                                            "created": 1627282610400,
+                                            "text": "向邮件服务器请求接受电子邮件"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2vizyoqd40",
+                                    "created": 1627282568988,
+                                    "text": "协议和端口"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cd2vjswujwg0",
+                                            "created": 1627282632003,
+                                            "text": "运行在TCP上, 使用110号端口"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cd2v2mm6c5s0",
+                    "created": 1627281286106,
+                    "text": "万维网"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cd2v3er8uyg0",
+                            "created": 1627281347364,
+                            "text": "统一资源定位符"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2vjyqohcw0",
+                                    "created": 1627282644691,
+                                    "text": "负责表示万维网上的各种文档"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cd2v3ik1mxk0",
+                            "created": 1627281355635,
+                            "text": "超文本传输协议"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2vk5zku940",
+                                    "created": 1627282660467,
+                                    "text": "作用"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cd2vofyjf4w0",
+                                            "created": 1627282995628,
+                                            "text": "在万维网上能够可靠地交换文件"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2vk8miezc0",
+                                    "created": 1627282666207,
+                                    "text": "协议与端口"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cd2vk8qak340",
+                                            "created": 1627282666435,
+                                            "text": "运行在TCP上, 使用80端口"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cd2vp4bx4q80",
+                                    "created": 1627283048680,
+                                    "text": "http / https"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cd2v3l55f3s0",
+                            "created": 1627281361264,
+                            "text": "超文本标记语言"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2vo0gfwog0",
+                                    "created": 1627282961882,
+                                    "text": "文档结构标记语言, 使用约定的标记对页面上的各种信息进行描述"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

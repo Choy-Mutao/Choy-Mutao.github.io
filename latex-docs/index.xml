@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Latex-DOCSs on 穆 道</title>
+    <link>localhost/latex-docs/</link>
+    <description>Recent content in Latex-DOCSs on 穆 道</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="localhost/latex-docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>localhost/latex-docs/funciton/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/latex-docs/funciton/</guid>
+      <description>$$ \left[\begin{array}{c} X \
+P \end{array}\right]=\left[\begin{array}{cccc} a_{1} &amp;amp; a_{2} &amp;amp; \ldots &amp;amp; a_{2} \
+p\left(a_{1}\right) &amp;amp; p\left(a_{2}\right) &amp;amp; \cdots &amp;amp; \left.p_{\left(a_{n}\right.}\right) \end{array}\right] $$
+$$ \left[\begin{array}{l} X \
+P \end{array}\right]=\left[\begin{array}{l} (a, b) \
+P_{X}(x) \end{array}\right] or \left[\begin{array}{c} R \
+P_{X}(x) \end{array}\right] $$
+$$ \left[\begin{array}{l} X \
+p \end{array}\right]=\left[\begin{array}{cccc} a_{1}, a_{1} &amp;amp; a_{1}, a_{2} &amp;amp; \ldots &amp;amp; a_{n}, a_{n} \
+p\left(a_{1}, a_{1}\right) &amp;amp; p\left(a_{1}, a_{2}\right) &amp;amp; \ldots &amp;amp; p\left(a_{1}, a_{2}\right)} \end{array}\right] $$</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1932 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>穆 道</title>
+    <link>localhost/</link>
+    <description>Recent content on 穆 道</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="localhost/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>sample</title>
+      <link>localhost/post/2017/01/01/test/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/post/2017/01/01/test/</guid>
+      <description>Hugo is the world&amp;rsquo;s fastest static website engine. It&amp;rsquo;s written in Go (aka Golang) and developed by bep, spf13 and friends.
+ Below you will find some of the most common and helpful pages from our documentation.
+ https://gohugo.io/documentation/</description>
+    </item>
+    
+    <item>
+      <title>test post</title>
+      <link>localhost/post/2016/01/01/test/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/post/2016/01/01/test/</guid>
+      <description>echo &amp;#34;hello world !!&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/algorithm/%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/algorithm/%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E7%AE%97%E6%B3%95/</guid>
+      <description>广度优先算法 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/calculus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/calculus/</guid>
+      <description> 一些特殊的函数极限求解  $\lim \limits_{x \to \infty}sin(\frac{1}{x}) \ 不存在$
+几种特殊函数的极限和导数  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/chrome/webassembly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/chrome/webassembly/</guid>
+      <description>What is WebAssembly(wasm)  MDN
+ WebAsseMbly是一种可以在现代Web浏览器中运行的新型代码， - 它是一种 low-level assembly-like语言，其具有紧凑的二进制格式，其运行具有近乎本机的性能，并提供C / C ++，C＃和RUST等语言使用汇编目标，以便他们可以在网上运行。它还旨在与JavaScript一起运行，允许两者都在一起工作。
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/computerinformationscience/%E5%B1%80%E9%83%A8%E6%B8%90%E8%BF%91%E7%A8%B3%E5%AE%9A%E5%92%8C%E5%85%A8%E5%B1%80%E6%B8%90%E8%BF%91%E7%A8%B3%E5%AE%9A/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/computerinformationscience/%E5%B1%80%E9%83%A8%E6%B8%90%E8%BF%91%E7%A8%B3%E5%AE%9A%E5%92%8C%E5%85%A8%E5%B1%80%E6%B8%90%E8%BF%91%E7%A8%B3%E5%AE%9A/</guid>
+      <description>局部渐近稳定和全局渐近稳定 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/computernetwork/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/computernetwork/</guid>
+      <description>Director [toc]
+Chapter1 概述  使用计算机网络  商业应用 家庭应用 移动用户 社会问题   网络硬件  个域网 局域网 城域网 4广域网 互联网络   网络软件  协议层次结构 层次设计问题 面向连接与无连接服务 服务原语 服务与协议的关系   参考模型  OSI参考模型 TCP/IP参考模型 本书使用的模型 OSI 参考模型与TCP/IP 参考模型的比较 OSI模型和协议的评判 TCP/IP参考模型的评判   网络实例  因特网 第三代移动电话网络 无线局域网∶802.11 RFID 和 传感器网络   网络标准化  电信领域有影响力的组织 国际标准领域有影响力的组织 Internet 标准领域有影响力的组织   度量单位  Chapter2 物理层  数据通信的理论基础  傅立叶分析 带宽有限的信号 信道的最大数据速率   引导性传输介质  磁介质 双绞线 同轴电缆 电力线 光纤   无线传输  电磁频谱 无线电传输 微波传输 红外传输 光通信   通信卫星  地球同步卫星 中地球轨道卫星 低地球轨道卫星 卫星和光纤   数字调制和多路复用  基带传输 通带传输 频分复用 时分复用 码分复用   公共电话交换网络  电话系统结构 电话政治化 本地回路: 调制解调器, ADSL, 光纤 中继线和多路复用 交换   移动电话网络  1G 模拟语音 2G 数字语音 3G 数字语音和数据 4G 5G 6G   有线电视  共用天线电视 线缆上的Internet 频谱分配 线缆调制解调器 ADSL 与 有线电视电缆    Chapter3 数据链路层  数据链路层的设计问题  提供给网络层的服务 成帧 差错控制 流量控制   差错检测和纠正  纠错码 检错码   基本数据链路层协议  一个乌托邦式的单工协议 无错信道上的单工 停-等 协议 有错信道上的单工 停-等 协议   滑动窗口协议  1位滑动窗口协议 回退N协议 选择重传协议   数据链路层实例  SONET上的数据包 对称数字用户线    Chapter4 介质访问控制子层  信道分配问题  静态信道分配 动态信道分配的假设   多路访问协议  ALOHA 载波侦听多路访问协议 无冲突协议 有限竞争协议 无线局域网协议   以太网  经典以太网物理层 经典以太网的MAC子层协议 以太网性能 交换式以太网 快速以太网 千兆以太网 万兆以太网 以太网回顾   无线局域网  802.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/datastructure/graph/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/datastructure/graph/</guid>
+      <description>Graph $G={V,E}$   无向图
+  有向图
+  顶点, 边, 弧, 弧头, 弧尾
+  无向完全图 &amp;amp; 有向完全图
+  稠密图 &amp;amp; 稀疏图
+  TD(ID &amp;amp; OD)
+  边的权、网图
+  路径、路径长度
+  回路、简单路径、简单回路
+  子图
+  连通的、连通图、连通分量
+  强连通图、强连通分量
+  生成树 &amp;amp; 生成森林
+  ADT   CreatGraph（G）输入图G 的顶点和边，建立图G 的存储。
+  DestroyGraph（G）释放图G 占用的存储空间。
+  GetVex（G，v）在图G 中找到顶点v，并返回顶点v 的相关信息。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/datastructure/tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/datastructure/tree/</guid>
+      <description>树-Tree 如何描述一棵树  一颗 高度为h，度为N, 有 n个结点 的树
+ 树的分类  树  非二叉树  B-Tree   二叉树  满二叉树 完全二叉树 二叉排序树 平衡二叉树  红黑树        </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/design-pattern/abstractfactorymethod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/design-pattern/abstractfactorymethod/</guid>
+      <description>Abstract Factory Method </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/design-pattern/chainofresponsibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/design-pattern/chainofresponsibility/</guid>
+      <description>责任链模式(Chain of Respoinsibility)  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/design-pattern/compitemethod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/design-pattern/compitemethod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/design-pattern/decoratemethod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/design-pattern/decoratemethod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/design-pattern/distributedregistrycenter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/design-pattern/distributedregistrycenter/</guid>
+      <description>分布式注册中心 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/design-pattern/factorymethod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/design-pattern/factorymethod/</guid>
+      <description>Factory Method </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/design-pattern/interpretermethod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/design-pattern/interpretermethod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/design-pattern/mementomethod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/design-pattern/mementomethod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/design-pattern/observermethod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/design-pattern/observermethod/</guid>
+      <description>观察者模式  观察者模式定义了一种一对多的以来关系，让多个观察者对象同时监听一个主题对象。当这个主体对象在状态发生改变的时候，会通知所有观察对象，使他们能够自动更新自己。也称为发布-订阅模式、 模型-试图模式[DP]
+ 抽象类  观察者 订阅者  // TS 代码实现// 抽象观察者 interface Observer { response(): void; } // 抽象目标（通知者，变化者） export abstract class Subject { protected observers: Array&amp;lt;Observer&amp;gt; = new Array&amp;lt;Observer&amp;gt;(); public loadObserver(observer: Observer): void { this.observers.push(observer); } public unloadObserver(observer: Observer): void { this.observers.pop(); } public abstract notifyObservers(): void; } // 具体的目标 export class ConcreteSubject extends Subject { public function_1() { // dosomething  this.notifyObservers(); } public function_2() { // dosomething  this.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/design-pattern/proxymethod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/design-pattern/proxymethod/</guid>
+      <description>代理模式（ProxyMethod） 抽象类（Abstract） 主体（Subject） 操作主体（RealSubject） 代理（Proxy） 客户端（Client）
+角色职能（Roles Function）  主体（Subject） 通过接口或抽象类声明操作主体（RealSubject）和代理（Proxy）实现的业务方法。 操作主体（RealSubject） 实现主体定义的具体业务，是代理对象所代表的真实对象，是最终要引用的对象。 代理（Proxy） 提供了与操作主体（RealSubject）相同的接口，其内部含有对操作主体（RealSubject）的引用，它可以访问、控制或扩展操作主体（RealSubject）的功能。 客户端（Client） 通过调用代理（Proxy）  具体实现   静态代理模式 由程序创建代理类或特定工具自动生成源代码再对其进行编译，在程序运行前代理类的代码已完成编译。[DP]
+  动态代理模式 在程序运行时，通过反射机制动态创建生成。[DP]
+  远程代理模式 为一个对象在不同的地址空间提供局部代表。这样可以隐藏一个对象存在与不同地址空间的事实。[DP]
+  虚拟代理模式 根据需要创建开销很大的对象。通过它来存放实例化需要很长时间的真是对象。[DP]
+  安全代理模式 用来控制真实对象访问时的权限。[DP]
+  智能指引模式 当调用真是的对象时，代理处理另外的一些事[DP]
+  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/design-pattern/registrymethod/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/design-pattern/registrymethod/</guid>
+      <description>Registry Abstract 注册模式： 目的是为了在应用程序中存储需要经常使用的对象实例 实现方式： 通常是使用只有静态方法的抽象类，或者是单例模式实现的类 tips： 这里的使用可能会引入全局变量，需要使用以来注入来避免出现这样的情况。
+Thinks 实际是初始化一个方便查询的字典，这个字典的特点是可以在应用程序的任意地方可以查词，且添加新词， 字典实体： map , tree, 字典的一般实现方式， 字典的索引规则： 词的实现接口规则： 词的方法的限制：
+Pratice  private static dictionary: Map&amp;lt;string, Object | Function&amp;gt; = new Map(); export class Registry { constructor(name: string){ // ...  } public checkIn(hashId: string, obj: Object) { this.dictionary.set(hashId, obj);/** 无检验注入 **/ } }  Applying  Zend framework Yii framework  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/design-pattern/singleton/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/design-pattern/singleton/</guid>
+      <description>单例模式 创建模式 目的 保持某个对象的唯一性
+实现方式  懒汉模式  export class Singleton { protected static instance: Object | undefined; constructor() { if(instance) { return this; } } } </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/design-pattern/%E7%94%9F%E4%BA%A7%E6%B6%88%E8%B4%B9%E8%80%85%E6%A8%A1%E5%BC%8F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/design-pattern/%E7%94%9F%E4%BA%A7%E6%B6%88%E8%B4%B9%E8%80%85%E6%A8%A1%E5%BC%8F/</guid>
+      <description>生产消费者模式 该模式中，存在两个实体对象，A 型的生产者，B 型的消费者。
+两种对象之间的纽带，我们可以定义为一种资源 R。
+所以生产消费者模式的描述就变成了:
+ A 生产了一种资源 R 给 B 进行消费。
+ 将这个描述，写进程序中执行,就成了
+when： 程序启动 start: A 启动生产流程 系统开辟一个存储 R 资源的磁盘空间 B 启动消费流程 end: A 停止了生产流程 B 停止了消费流程 R 资源清空，系统回收磁盘。 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/englishexam/2019/test2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/englishexam/2019/test2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/englishexam/2019/text1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/englishexam/2019/text1/</guid>
+      <description>Text 1 Financial regulators in Britain have imposed a rather unusual rule on the bosses of big banks. Starting next year, any guaranteed bonus of top executived could be dlayed 10 years if their banks are under investigation for wrongdong. The main purpose of this &amp;ldquo;clawback&amp;rdquo; rule is to hold bankers accountable for harmful risk-taking and to restore public trust in financial institutions. Yet officials also hope for a much larger benefit: more long-term decision-making not only by banks but by all corporations, to build a stronger ecnomy for future generations.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/euclid/10%E6%97%A0%E7%90%86%E9%87%8F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/euclid/10%E6%97%A0%E7%90%86%E9%87%8F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/euclid/11%E7%AE%80%E5%8D%95%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/euclid/11%E7%AE%80%E5%8D%95%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/euclid/12%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95%E4%B8%AD%E7%9A%84%E6%AF%94%E4%BE%8B%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/euclid/12%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95%E4%B8%AD%E7%9A%84%E6%AF%94%E4%BE%8B%E9%97%AE%E9%A2%98/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/euclid/13%E6%AD%A3%E5%A4%9A%E9%9D%A2%E4%BD%93/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/euclid/13%E6%AD%A3%E5%A4%9A%E9%9D%A2%E4%BD%93/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/euclid/1%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95%E5%9F%BA%E7%A1%80/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/euclid/1%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95%E5%9F%BA%E7%A1%80/</guid>
+      <description>平面几何基础 定义  点： 点不可以再分割 线： 线是无宽度的长度 线的两端是点 直线： 直线时它上面的点一样地平铺的线 面： 面只有长度和宽度 面的边是线 平面： 它上面的线一样地平铺的面 平面角： 平面角是一个平面上的两条直线相交的倾斜度 平角： 当含有角的两条线成一条直线时，这个角称为平角 直角和垂线： 一条直线与另一条直线相交所形成的两相邻的角相等，这两个角均称为直角，其中一条线是另一条线的垂线 钝角： 两个角中相对较大的那个角 锐角： 两个角中相对较小的那个角 边界： 边界是物体的边缘 图形： 图形可以是一个边界，也可以是几个边界所围成的 圆： 一个点周围所有与其相同平面上距离相等的点围成的边界 圆心： 圆的那个中心的点 直径： 过圆心与圆相交的直线上的两个交点形成的线段 圆弧： 过圆的一条直线将圆分成两部分，其中的每一部分，都是圆弧 半圆： 过圆心的一条直线和该圆被分割后的圆弧组成的图形 平行线： 在同一平面内，如果两条直线向两端无限延伸而无法相交，那么这两条线互为平行线  公设  过任意两点可以做一条直线 一条有限直线可以继续延长 以任意点为圆心，任意长为半径，可以画圆 所有直角都彼此相等 同平面内一条直线和另外两条直线相交，若直线同侧的两个内角之和小于两直角之和，则这两条直线经无限延长后，在这一侧相交  公理  等于同量的量彼此相等 等量加等量，其和仍相等 等量减等量，其差仍相等 彼此能够重合的物体是全等的 整体大于部分  命题 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/euclid/2%E5%87%A0%E4%BD%95%E4%BB%A3%E6%95%B0%E7%9A%84%E5%9F%BA%E7%A1%80%E5%8E%9F%E7%90%86/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/euclid/2%E5%87%A0%E4%BD%95%E4%BB%A3%E6%95%B0%E7%9A%84%E5%9F%BA%E7%A1%80%E5%8E%9F%E7%90%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/euclid/3%E4%B8%8E%E5%9C%86%E6%9C%89%E5%85%B3%E7%9A%84%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/euclid/3%E4%B8%8E%E5%9C%86%E6%9C%89%E5%85%B3%E7%9A%84%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/euclid/4%E4%B8%8E%E5%9C%86%E6%9C%89%E5%85%B3%E7%9A%84%E7%9B%B4%E7%BA%BF%E5%9B%BE%E5%BD%A2%E7%9A%84%E4%BD%9C%E6%B3%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/euclid/4%E4%B8%8E%E5%9C%86%E6%9C%89%E5%85%B3%E7%9A%84%E7%9B%B4%E7%BA%BF%E5%9B%BE%E5%BD%A2%E7%9A%84%E4%BD%9C%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/euclid/5%E6%AF%94%E4%BE%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/euclid/5%E6%AF%94%E4%BE%8B/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/euclid/6%E7%9B%B8%E4%BC%BC%E5%9B%BE%E5%BD%A2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/euclid/6%E7%9B%B8%E4%BC%BC%E5%9B%BE%E5%BD%A2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/euclid/7%E5%88%9D%E7%AD%89%E6%95%B0%E8%AE%BA/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/euclid/7%E5%88%9D%E7%AD%89%E6%95%B0%E8%AE%BA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/euclid/8%E8%BF%9E%E6%AF%94%E4%BE%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/euclid/8%E8%BF%9E%E6%AF%94%E4%BE%8B/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/euclid/9%E6%95%B0%E8%AE%BA%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/euclid/9%E6%95%B0%E8%AE%BA%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/informationtheorycode/channeltable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/informationtheorycode/channeltable/</guid>
+      <description>信道实例    表头 表头     单元格 单元格   单元格 单元格    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/informationtheorycode/chapter1/chapter1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/informationtheorycode/chapter1/chapter1/</guid>
+      <description>绪论 课后答案   信息、消息、信号的定义各是什么
+ 信息： 各个事物运动的状态及状态变化的方式 消息： 是指包含消息的文字、图像、语言等。单个符号信息、符号序列等具体的，信号载荷信息，但不是物理性的。 信号： 信号是消息的物理体现，是信息的载荷子或载体，是物理性的,如光信号、电信号。
+   信息、消息、信号三者之间的关系是什么
+ 在通信系统中传送的本质内容是信息， 发送端将信息表示成具体的消息，再将消息加载至信号上，才能在实际的通信系统中传输。
+   信息的概念
+ 信息的基本概念在于信息的不确定性,任何已确定的事物都不含信息
+   信息的特征
+a. 接收者在受到信息之前,对其内容是未知的 b. 信息是能使认识主体对某一事物的未知性或不确定性减少的有用知识 c. 信息可以产生,也可以消失; 同时信息可以被携带,存储,处理 d. 信息是可以量度的,信息量有多少的差别
+  信息的性质
+ 不确定性
+   通信系统包括的主要功能模块及其作用
+ 信源 信宿 信道 干扰源 密匙源    信息论的研究内容
+  什么是数据
+ 在有信息的可观测、可传输、可存储、可处理的信号，称为数据
+   什么是信息提取
+ 在接收端将含有噪声的信号经过各种处理和变换,从而获得有用信息的过程,就是信息提取
+   信息提取的方法</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/informationtheorycode/chapter2/chapter2.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/informationtheorycode/chapter2/chapter2.1/</guid>
+      <description>信源和信息熵 信源的分类 $$ 信源 \left { \begin{array}{lr} 无记忆信源 \left {\begin{array}{lr} 发出单个符号的无记忆信源 \
+发出符号序列的无记忆信源 \end{array}\right. \
+有记忆信源 \left {\begin{array}{lr} 发出符号序列的有记忆信源 \
+发出符号序列的马尔可夫信源 \end{array}\right. \
+\end{array} \right. $$
+常用离散信源的信息特性的数学模型 条件概率用来描述信源发出符号序列内各个符号之间的记忆特征
+ 随符号序列的长度增加,符号之间的依赖关系逐渐减弱
+ 模拟信号: 信源输出的消息在幅度和时间(或频率)上都是连续的
+时间离散的连续信源 &amp;amp; 时间连续的连续信源(随机波形信源)
+随机过程 ${x(t)}$ 用来描述 模拟信号 在某一时刻的取值
+  平稳随机过程
+最常见的平稳随机过程是遍历过程
+  非平稳随机过程
+   用平稳遍历的随机过程来描述随机波形信源的输出
+ 确知的模拟信号可进行 采样\量化,使其变成时间和幅度都是离散的离散信号   时域采样定理(奈奎斯特采样定理)
+if: 某一段时间连续函数 $f(t)$ 的频带受限
+  频域采样定理
+  信源空间(信源的概率空间) $$ \begin{bmatrix} X \</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/informationtheorycode/chapter2/chapter2.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/informationtheorycode/chapter2/chapter2.2/</guid>
+      <description>信息的度量 1. 自信息量 信源空间中,符号信息出现的概率和其信息量是单调递减的关系
+定义: 概率为 $p(x_i)$ 的符号 $x_i$ 的自信息量为
+$$ I(x_i) = -\log{p(x_i)} \tag{2-2-1} $$
+自信息量的单位 通常与所用的对数底数有关, 在信息论中:
+  常用的对数底数是 2, 信息量的单位是 比特(bit)
+  若取自然对数 e, 信息量的单位是 奈特(nat)
+  若取对数底数为 10, 信息量的单位是 笛特(det)
+  $$ 1nat = \log_{2}{e} \approx 1.433bit \
+1det = \log_{2}{10} \approx 3.322bit $$
+特性  $p(x_i) = 1, I(x_i)=0$; $p(x_i) = 0, I(x_i)=\infty$; 非负性 单调递减性 $if: p(x_1) &amp;lt; p(x_2) then: I(x_1) &amp;gt; I(x_2)$ 可加性 $if: x_i 和 y_j 相互独立 then: I(x_i, y_j) = I(x_i) + I(y_j)$  条件自信息量 $$ I(x_i | y_j) = -\log{p(x_i | y_j)} \tag{2-2-2} $$</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/informationtheorycode/chapter2/chapter2.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/informationtheorycode/chapter2/chapter2.3/</guid>
+      <description>离散序列信源的熵 keywords: 序列熵 平稳序列 齐次遍历马尔可夫链信源
+离散无记忆信源的序列熵  平稳特性: 序列熵和序号无关
+ 离散有记忆信源的序列熵 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/informationtheorycode/chapter3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/informationtheorycode/chapter3/</guid>
+      <description>信道和信道容量 固定参数信道 &amp;amp; 时变参数信道 信道容量 无噪无损信道 无噪有损(确定)信道 有噪无损信道 二元对称信道 对称DMC信道 准对称DMC信道 独立且无记忆信道 独立并联信道 限时限频限功率加性高斯白信道(香农公式) 香农限 MIMO信道 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/informationtheorycode/chapter4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/informationtheorycode/chapter4/</guid>
+      <description>信息率失真函数 失真函数 平均失真 信息率失真函数  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/informationtheorycode/chapter5/chapter5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/informationtheorycode/chapter5/chapter5/</guid>
+      <description>信源编码 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/informationtheorycode/chapter6/chapter6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/informationtheorycode/chapter6/chapter6/</guid>
+      <description>信道编码 信道编码是以信息在信道上的正确传输为目标的编码,它可以分为两个层次：
+ 如何正确接受载有信息的信号 如何避免少量差错信号对信息内容的影响  有扰离散信道的编码定理   差错和差错控制系统分类
+  信息差错，信号差错
+误比特率，误码元率
+为了定量地描述信号的差错，定义 发、收 码之间的 差 为 差错图样
+  差错图样类型
+     纠错编译码的基本原理与分析方法 线性分组码 卷积码 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/linearalgebra/chapter1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/linearalgebra/chapter1/</guid>
+      <description>行列式的基本概念和计算 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/linearalgebra/chapter2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/linearalgebra/chapter2/</guid>
+      <description>余子式和代数余子式的计算 1. 用行列式 $$ {k_1 A_{i1}} + {k_2 A_{i2}} + \cdots + {k_n A_{in}} = \begin{vmatrix} &amp;amp; &amp;amp; * \
+k_1 &amp;amp; k_2 &amp;amp; \cdots &amp;amp; k_3 &amp;amp; \
+&amp;amp; &amp;amp; * \
+\end{vmatrix} $$
+2. 用矩阵 $ \begin{vmatrix} A \end{vmatrix} \ne 0 $时， $A^* = \begin{vmatrix} A \end{vmatrix}A^{-1}$
+3. 用特征值 4. 求余子式的问题 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/linearalgebra/chapter3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/linearalgebra/chapter3/</guid>
+      <description>矩阵的基本概念与运算 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/linearalgebra/chapter4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/linearalgebra/chapter4/</guid>
+      <description>伴随矩阵, 初等矩阵, 矩阵方程 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/linearalgebra/chapter5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/linearalgebra/chapter5/</guid>
+      <description>向量 线性关系的表示 $$ \sum_i^n{{k_i}{\vec{a_i}}} = 0; $$
+等价矩阵和等价向量组  向量空间 定义 以线性无关的 ${\vec{\xi_i} }$ 作为基构建 n维的向量空间， 空间中的任意位置表示为：
+$$ \vec{\alpha} =\sum_i^n{ a_i\vec{\xi_i}} $$
+其中$[a_1,a_2,a_3,\dots,a_n]$称为坐标
+过渡矩阵 设$R^n$有两个基${\vec{\eta_i}},{\vec{\xi_i}}$
+$$ [\vec{\eta_1},\vec{\eta_2},\vec{\eta_3},\dots,\vec{\eta_n}] = [\vec{\xi_1},\vec{\xi_2},\vec{\xi_3},\dots,\vec{\xi_n}]C $$
+$C$称为由${\vec{\xi_i}}$到${\vec{\eta_i}}$过渡矩阵
+坐标变换 从基${\vec{\xi_i}}$到${\vec{\eta_i}}$ $$ \vec{\alpha} = [\vec{\eta_1},\vec{\eta_2},\vec{\eta_3},\dots,\vec{\eta_n}] \vec{y}= [\vec{\xi_1},\vec{\xi_2},\vec{\xi_3},\dots,\vec{\xi_n}]\vec{x} \to \vec{x} = C \vec{y} $$</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/linearalgebra/chapter6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/linearalgebra/chapter6/</guid>
+      <description>线性方程组 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/linearalgebra/chapter7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/linearalgebra/chapter7/</guid>
+      <description>特征值和特征向量 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/linearalgebra/chapter8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/linearalgebra/chapter8/</guid>
+      <description>相似矩阵和相似对角化 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/linearalgebra/chapter9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/linearalgebra/chapter9/</guid>
+      <description>二次型 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/linearalgebra/terms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/linearalgebra/terms/</guid>
+      <description>线性代数的简明概念  向量的几何定义，数学定义  行列式 WARN No layout: archives/2021/07/index.html WARN No layout: index.html INFO Generated: archives/index.html INFO Generated: archives/2021/index.html INFO Generated: archives/2021/07/index.html INFO Generated: index.html INFO Generated: 2021/07/30/hello-world/index.html 逆序数法定义的行列式 行列式的展开定理 行列式的余子式 行列式的代余子式 主对角线行列式 副对角线行列式 拉普拉斯展开式 范德蒙德行列式 爪型行列式 循环行列式 克拉默法则
+矩阵 对称矩阵 反对称矩阵 逆矩阵 矩阵的初等行变换 矩阵的初等列变换 特殊矩阵 分块矩阵 矩阵的逆 伴随矩阵 初等矩阵 矩阵方程 等价矩阵 矩阵的等价标准型 矩阵的行列式 矩阵的秩
+向量 向量组 线性相关性 极大线性无关组 等价向量组 向量组的秩
+线性方程组 齐次线性方程组 非齐次线性方程组 特征值 特征向量 相似矩阵 相似对角化 实对称矩阵
+二次型 合同变换 合同标准型 合同规范型 惯性定理 正定二次型</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/svgcanvaswebgl3d/webgl-quick-ref/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/svgcanvaswebgl3d/webgl-quick-ref/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/theoryofprobabilityandstatistics/chapter1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/theoryofprobabilityandstatistics/chapter1/</guid>
+      <description>随机事件与概率  随机试验 基本事件 古典概型 几何概型 总样本数 事件所含样本点数 完备事件组 概率的基本性质和公式  性质公式 加法公式 减法公式
+逆事件概率公式 条件概率公式 乘法公式 全概率公式 -&amp;gt; 全概型 贝叶斯公式 -&amp;gt; 贝叶斯概型 不等式关系     概率为 1 的事件不一定是全事件， 概率为 0 的事件不一定是空事件
+  如何区分 全概型 &amp;amp; 贝叶斯概型 全概型 &amp;amp; 贝叶斯概型 的完备事件组，涉及到事件的 穷举   事件的独立性 独立重复试验   独立性是由概率运算式定义的
+ 随机试验 随机试验满足三个条件:
+ 试验可以在相同条件下进行 试验所有可能结果是明确可知道的,并且不止一个 每一次试验会出现哪个结果,事先不能确定  随机事件 在一次试验中可能出现, 也可能不出现的结果
+若每次实验中一定出现的事件,称为必然事件,记作$\ \Omega$
+若每次试验中一定不出现的事件,称为不可能事件, 记作$\ \varnothing$
+样本空间 样本点 随机试验中的每一个可能结果, 记作 $\omega$</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/theoryofprobabilityandstatistics/chapter2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/theoryofprobabilityandstatistics/chapter2/</guid>
+      <description>一维随机变量及其分布  泊松定理 分布函数 离散型随机变量 连续型随机变量 概率分布 泊松分布 二项分布 概率密度  随机变量  随机事件是从静态的观点来研究随机现象, 随机变量是从动态的观点来研究随机现象 随机变量的实质 是一个 实值单值函数
+ 设随机试验 E 的样本空间为 $\Omega = { \omega }$, 如果对每一个 $\omega \in \Omega$, 都有唯一的实数 $X{\omega }$ 与之对应, 并且对任意实数 $x$, ${\omega | X(\omega), \omega \in \Omega }$ 是随机事件, 则称定义在 $\Omega$ 上的实值单值函数 $X(\omega)$为随机变量.
+分布函数  使用微积分作为求解工具
+ $$ F(x) = P ( X \leq x ) ( -\infty &amp;lt; x &amp;lt; +\infty) $$
+X 为样本值, x 为统计值</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/theoryofprobabilityandstatistics/chapter3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/theoryofprobabilityandstatistics/chapter3/</guid>
+      <description>一维随机变量函数的分布  $X$ 为随机变量, 函数 $y=g(x)$, 则 称 以随机变量 $X$ 作为自变量的函数 $Y=g(X)$ 为随机变量 $X$ 的函数
+ 一维离散型随机变量概率函数 一维连续型随机变量概率密度函数   定义法
+$$ F_Y(y) = P{Y \le y} = P{g(X) \le y} = \int_{g(X) \le y}f_X(x)dx $$
+  公式法
+若 $y=g(x)$ 在 $(a,b)$ 上是关于 x 的严格单调可导函数, 则存在 $x=h(y)$ 是 $y=g(x)$ 在 $(a,b)$ 上的可导反函数
+$$
+$$
+  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/theoryofprobabilityandstatistics/chapter4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/theoryofprobabilityandstatistics/chapter4/</guid>
+      <description>多维随机变量及其分布 二维（n维）随机变量及其分布函数   概念:
+如果 $X_1, X_2, X_3, \cdots, X_n$ 是定义在同一个样本空间 $\Omega$ 上的 $n$ 个随机变量， 则称 $(X_1, X_2, X_3, \cdots, X_n)$ 是 n 维随机变量 或 n 维随机向量.
+当 $n = 2$ 时, 记 $(X,Y)$ 为 二维随机变量(或二维随机向量)
+  n 元函数
+任意 n 个实数, $x_1, x_2, x_3, \cdots, x_n$
+  联合分布函数
+$F(x_1, x_2, x_3, \cdots, x_n) = P { X_1 \le x_1, X_2 \le x_2, X_3 \le x_3, \cdots, X_n \le x_n }$</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/theoryofprobabilityandstatistics/chapter5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/theoryofprobabilityandstatistics/chapter5/</guid>
+      <description>多维随机变量函数的分布  设 $X, Y$ 为随机变量, $g(x,y)$ 是二元函数, 则以随机变量 $X, Y$ 作为变量的函数 $U=g(X, Y)$, 也是随机变量, 称为 随机变量$X,Y$的函数
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/theoryofprobabilityandstatistics/chapter6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/theoryofprobabilityandstatistics/chapter6/</guid>
+      <description>(随机变量) &amp;amp; (n维随机变量) 的数字特征 重要分布的期望和方差    分布 分布列$p_k$ &amp;amp; 概率密度 $f(x)$ 期望 方差     0-1 分布 $P(X=k) = p^{k}(1-p)^{1-k}$ $k=0,1$ $p$ $p(1-p)$   二项分布 $B(n,\ p)$ $P(X=k) = C_{n}^{k}p^{k}(1-p)^{(n-k)}$ $k=0,1,2,\cdots,n$ $np$ $np(1-p)$   泊松分布 $P(\lambda)$ $P(X=k) = \frac{\lambda^k}{k!}e^{-k}$ $k=0,1,\cdots$ $\lambda$ $\lambda$   几何分布 $G(p)$ $P(X=k) = (1-p)^{1-k}p$ $k=0,1$ $\frac{1}{p}$ $\frac{(1-p)}{p^2}$   超几何分布 $H(n,\ N,\ M)$ $P(X=k) = \frac{C_{M}^{k}C_{N-M}^{n-k}}{C_N^n}$ $max{0,\ n-N+M} \le k \le min{ n, M}$ $n \frac{M}{N}$ $\frac{nM(N-M)(N-n)}{N^2(N-1)}$         正态分布 $N(\mu,\ \sigma^2)$ $f(x) = \frac{1}{\sqrt{2\pi}{\sigma}}\exp{-\frac{(x-\mu)^2}{2\sigma^2}}$ $x \in (-\infty,\ +\infty)$ $\mu$ $\sigma^2$   均匀分布 $U(a,\ b)$ $f(x)=\frac{1}{b-a}$ $x \in (a,\ b)$ $\frac{a+b}{2}$ $\frac{(b-a)^2}{12}$   指数分布 $E(\lambda)$ $f(x) = \lambda e^{-\lambda x}$ $x \in (0,\ +\infty)$ $\frac{1}{\lambda}$ $\frac{1}{\lambda^2}$   $\chi^2(n)$分布 $f(x) = \frac{x^{\frac{n}{2}-1}e^{-\frac{x}{2}}}{\Gamma(\frac{n}{2})2^{\frac{n}{2}}}$ $x \in (0,\ +\infty)$ $n$ $2n$    期望 $$ EX = \sum \limits_{i=1}^{\infty} {x_i}{p_i}, \quad (绝对收敛) \</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/theoryofprobabilityandstatistics/chapter7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/theoryofprobabilityandstatistics/chapter7/</guid>
+      <description>大数定律与中心极限定律  大数定律 中心极限定律  随机变量和随机变量序列的区别 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/theoryofprobabilityandstatistics/chapter8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/theoryofprobabilityandstatistics/chapter8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/theoryofprobabilityandstatistics/chapter9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/theoryofprobabilityandstatistics/chapter9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/theoryofprobabilityandstatistics/terms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/theoryofprobabilityandstatistics/terms/</guid>
+      <description>Math Terms   单值函数: 若一函数对定义域中的每一个自变量, 其对应的函数值是唯一的, 则该函数是单值函数
+  排列公式
+$$ A_n^r = \frac {n!}{n-r!} $$
+  组合公式
+$$ C_n^r = \frac {n!}{r!(n-r)!} $$
+  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/theoryofprobabilityandstatistics/%E5%87%A0%E7%A7%8D%E5%B8%B8%E8%A7%81%E7%9A%84%E6%A6%82%E5%9E%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/theoryofprobabilityandstatistics/%E5%87%A0%E7%A7%8D%E5%B8%B8%E8%A7%81%E7%9A%84%E6%A6%82%E5%9E%8B/</guid>
+      <description> 伯努利概型, 服从二项分布 正态分布 标准正态分布  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/typescript/array/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/typescript/array/</guid>
+      <description>Array in Typescript Array.copyWithin(target: number, start: number, end?: number): this; /** * Returns the this object after copying a section of the array identified by start and end * to the same array starting at position target * @param target If target is negative, it is treated as length+target where length is the * length of the array. * @param start If start is negative, it is treated as length+start. If end is negative, it * is treated as length+end.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/typescript/datastructure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/typescript/datastructure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/typescript/decorator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/typescript/decorator/</guid>
+      <description>Decorators 装饰器 反射机制 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/typescript/overview/typescript-3.9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/typescript/overview/typescript-3.9/</guid>
+      <description>Inference 和 Promise.all 的改进 最近发布的 3.7 版本主要更新了对 Promise.all 和 Promise.race 的描述。 但不巧的是，这部分引入了一些版本回退， 尤其在联合类型中使用 null 和 undefined 时。
+interface Lion { roar(): void; } interface Seal { singKissFromARose(): void; } async function visitZoo( lionExhibit: Promise&amp;lt;Lion&amp;gt;, sealExhibit: Promise&amp;lt;Seal | undefined&amp;gt; ) { let [lion, seal] = await Promise.all([lionExhibit, sealExhibit]); lion.roar(); // uh oh  // ~~~~  // Object is possibly &amp;#39;undefined&amp;#39;. } 这里得到了一个很奇怪的结果。
+新加了两个注解 //@ts-expect-error &amp;amp; //@ts-ignore Pick ts-expect-error if:
+you’re writing test code where you actually want the type system to error on an operation you expect a fix to be coming in fairly quickly and you just need a quick workaround you’re in a reasonably-sized project with a proactive team that wants to remove suppression comments as soon affected code is valid again Pick ts-ignore if:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/typescript/overview/typescript-4.0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/typescript/overview/typescript-4.0/</guid>
+      <description>TypeScript 4.0 Variadic Tuple Types Consider a function in JavaScript called concat that takes two array or tuple types and concatenates them together to make a new array. 创建一个 concat 的javascript函数，这个函数实现了将两个数组入参合并后返回。
+function concat(arr1, arr2) { return [...arr1, ...arr2]; } Also consider tail, that takes an array or tuple, and returns all elements but the first. 再写一个函数 tail，将一个 array 或者 tuple 返回除了第一个元素的其他所有元素。
+function tail(arg) { const [_, ...result] = arg; return result; } How would we type either of these in TypeScript?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/typescript/promise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/typescript/promise/</guid>
+      <description>Promise Chain </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/typescript/%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0%E5%92%8C%E6%99%AE%E9%80%9A%E5%87%BD%E6%95%B0%E6%96%B9%E7%A8%8B%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/typescript/%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0%E5%92%8C%E6%99%AE%E9%80%9A%E5%87%BD%E6%95%B0%E6%96%B9%E7%A8%8B%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
+      <description>箭头函数和普通方程函数的区别  箭头函数做类型的时候，是一个联合类型 Function type notation must be parenthesized when used in a union type  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter0/</guid>
+      <description>序 昔在庖犠氏始画八卦，以通神明之德，以类万物之情，作九九之数，以合六爻之变。暨于黄帝神而化之，引而伸之，于是建历纪，协律吕，用稽道原，然后 两仪四象精微之气可得而效焉。记称隶首作数，其详未之闻也。按周公制礼而有九数，九数之流，则《九章》是矣。往者暴秦焚书，经术散坏。自时厥后，汉北 平侯张苍、大司农中丞耿寿昌皆以善算命世。苍等因旧文之遗残，各称删补。故 校其目则与古或异，而所论者多近语也。徽幼习 《九章》，长再详览。观陰陽之 割裂，总算术之根源，探赜之暇，遂悟其意。是以敢竭顽鲁，采其所见，为之作 注。事类相推，各有攸归，故枝条虽分而同本榦知，发其一端而已。又所析理以 辞，解体用图，庶亦约而能周，通而不黩，览之者思过半矣。且算在六艺，古者 以宾兴贤能，教习 国子；虽曰九数，其能穷纤入微，探测无方；至于以法相传， 亦犹规矩度量可得而共，非特难为也。当今好之者寡，故世虽多通才达学，而未 必能综于此耳。《周官·大司徒》职，夏至日中立八尺之表。其景尺有五寸，谓 之地中。说云，南戴日下万五千里。夫云尔者，以术推之。案：《九章》立四表 望远及因木望山之术，皆端旁互见，无有超邈若斯之类。然则苍等为术犹未足以 博尽群数也。徽寻九数有重差之名，原其指趣乃所以施于此也。凡望极高、测绝 深而兼知其远者必用重差、句股，则必以重差为率，故曰重差也。立两表于洛陽 之城，令高八尺，南北各尽平地。同日度其正中之时。以景差为法，表高乘表间 为实，实如法而一。所得加表高，即日去地也。以南表之景乘表间为实，实如法 而一，即为从南表至南戴日下也。以南戴日下及日去地为句、股，为之求弦，即 日去人也。以径寸之筒南望日，日满筒空，则定筒之长短以为股率，以筒径为句 率，日去人之数为大股，大股之句即日径也。虽夫圆穹之象犹曰可度，又况泰山 之高与江 海之广哉。徽以为今之史籍且略举天地之物，考论厥数，载之于志，以 阐世术之美，辄造《重差》，并为注解，以究古人之意，缀于句股之下。度高者 重表，测深者累矩，孤离者三望，离而又旁求者四望。触类而长之，则虽幽遐诡 伏，靡所不入，博物君子，详而览焉。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter1/</guid>
+      <description>卷一 ○方田（以御田畴界域） 今有田广十五步，从十六步。问为田几何？答曰：一亩。
+又有田广十二步，从十四步。问为田几何？答曰：一百六十八步。
+〔图：从十四，广十二。〕 方田术曰：广从步数相乘得积步。
+〔此积谓田幂。凡广从相乘谓之幂。
+淳风等按：经云广从相乘得积步，注云广从相乘谓之幂。观斯注意，积幂义 同。以理推之，固当不尔。何则？幂是方面单布之名，积乃众数聚居之称。循名 责实，二者全殊。虽欲同之，窃恐不可。今以凡言幂者据广从之一方；其言积者 举众步之都数。经云相乘得积步，即是都数之明文。注云谓之为幂，全乖积步之 本意。此注前云积为田幂，于理得通。复云谓之为幂，繁而不当。今者注释，存 善去非，略为料简，遗诸后学。〕 以亩法二百四十步除之，即亩数。百亩为一顷。
+〔淳风等按：此为篇端，故特举顷、亩二法。余术不复言者，从此可知。一 亩之田，广十五步，从而疏之，令为十五行，则每行广一步而从十六步。又横而 截之，令为十六行，则每行广一步而从十五步。此即从疏横截之步，各自为方， 凡有二百四十步。一亩之地，步数正同。以此言之，则广从相乘得积步，验矣。
+二百四十步者，亩法也；百亩者，顷法也。故以除之，即得。〕 今有田广一里，从一里。问为田几何？答曰：三顷七十五亩。
+又有田广二里，从三里。问为田几何？答曰：二十二顷五十亩。
+里田术曰：广从里数相乘得积里。以三百七十五乘之，即亩数。
+〔按：此术广从里数相乘得积里。方里之中有三顷七十五亩，故以乘之，即 得亩数也。〕 今有十八分之十二，问约之得几何？答曰：三分之二。
+又有九十一分之四十九，问约之得几何？答曰：十三分之七。
+○约分 〔按：约分者，物之数量，不可悉全，必以分言之；分之为数，繁则难用。
+设有四分之二者，繁而言之，亦可为八分之四；约而言之，则二分之一也，虽则 异辞，至于为数，亦同归尔。法实相推，动有参差，故为术者先治诸分。〕 术曰：可半者半之；不可半者，副置分母、子之数，以少减多，更相减损， 求其等也。以等数约之。
+〔等数约之，即除也。其所以相减者，皆等数之重叠，故以等数约之。〕 今有三分之一，五分之二，问合之得几何？答曰：十五分之十一。
+又有三分之二，七分之四，九分之五，问合之得几何？答曰：得一、六十三 分之五十。
+又有二分之一，三分之二，四分之三，五分之四，问合之得几何？答曰：得 二、六十分之四十三。
+○合分 〔淳风等按：合分知，数非一端，分无定准，诸分子杂互，群母参差。粗细 既殊，理难从一，故齐其众分，同其群母，令可相并，故曰合分。〕 术曰：母互乘子，并以为实。母相乘为法。
+〔母互乘子。约而言之者，其分粗；繁而言之者，其分细。虽则粗细有殊， 然其实一也。众分错杂，非细不会。乘而散之，所以通之。通之则可并也。凡母 互乘子谓之齐，群母相乘谓之同。同者，相与通同，共一母也；齐者，子与母齐， 势不可失本数也。方以类聚，物以群分。数同类者无远；数异类者无近。远而通 体知，虽异位而相从也；近而殊形知，虽同列而相违也。然则齐同之术要矣：错 综度数，动之斯谐，其犹佩觿解结，无往而不理焉。乘以散之，约以聚之，齐同 以通之，此其算之纲纪乎？其一术者，可令母除为率，率乘子为齐。〕 实如法而一。不满法者，以法命之。
+〔今欲求其实，故齐其子，又同其母，令如母而一。其余以等数约之，即得 知，所谓同法为母，实余为子，皆从此例。〕 其母同者，直相从之。
+今有九分之八，减其五分之一，问余几何？答曰：四十五分之三十一。
+又有四分之三，减其三分之一，问余几何？答曰：十二分之五。
+○减分 〔淳风等按：诸分子、母数各不同，以少减多，欲知余几，减余为实，故曰 减分。〕 术曰：母互乘子，以少减多，余为实。母相乘为法。实如法而一。
+〔母互乘子知，以齐其子也。以少减多知，齐故可相减也。母相乘为法者， 同其母也。母同子齐，故如母而一，即得。〕 今有八分之五，二十五分之十六，问孰多？多几何？答曰：二十五分之十六 多，多二百分之三。
+又有九分之八，七分之六，问孰多？多几何？答曰：九分之八多，多六十三 分之二。
+又有二十一分之八，五十分之十七，问孰多？多几何？答曰：二十一分之八 多，多一千五十分之四十三。
+○课分 〔淳风等按：分各异名，理不齐一，较其相近之数，故曰课分也。〕 术曰：母互乘子，以少减多，余为实。母相乘为法。实如法而一，即相多也。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter2/</guid>
+      <description>卷二 ○ 粟米（以御交 质变易） 粟米之法 〔凡此诸率相与大通，其时相求，各如本率。可约者约之。别术然也。〕 粟率五十大抃五十四稻六十 粝米三十粝饭七十五豉六十三 粺米二十七粺饭五十四飧九十 米二十四饭四十八熟菽一百三半 御米二十一御饭四十二糵一百七十五 小&amp;lt;麦啇&amp;gt;十三半菽荅麻麦各四十五 今有 〔此都术也。凡九数以为篇名，可以广施诸率。所谓告往而知来，举一隅而 三隅反者也。诚能分诡数之纷杂，通彼此之否塞，因物成率，审辨名分，平其偏 颇，齐其参差，则终无不归于此术也。〕 术曰：以所有数乘所求率为实。以所有率为法。
+〔少者多之始，一者数之母，故为率者必等之于一。据粟率五、粝率三，是 粟五而为一，粝米三而为一也。欲化粟为米者，粟当先本是一。一者，谓以五约 之，令五而为一也。讫，乃以三乘之，令一而为三。如是，则率至于一，以五为 三矣。然先除后乘，或有余分，故术反之。又完言之知，粟五升为粝米三升；以 分言之知，粟一斗为粝米五分斗之三，以五为母，三为子。以粟求粝米者，以子 乘，其母报除也。然则所求之率常为母也。
+淳风等按：“宜云所求之率常为子，所有之率常为母。”今乃云“所求之率 常为母”知，脱错也。〕 实如法而一。
+今有粟一斗，欲为粝米。问得几何？答曰：为粝米六升。
+术曰：以粟求粝米，三之，五而一。
+〔淳风等按：都术：以所求率乘所有数，以所有率为法。此术以粟求米，故 粟为所有数。三是米率，故三为所求率。五为粟率，故五为所有率。粟率五十， 米率三十，退位求之，故惟云三、五也。〕 今有粟二斗一升，欲为粺米。问得几何？答曰：为粺米一斗一升五十分 升之十七。
+术曰：以粟求粺米，二十七之，五十而一。
+〔淳风等按：粺米之率二十有七，故直以二十七之，五十而一也。〕 今有粟四斗五升，欲为米。问得几何？答曰：为米二斗一升五 分升之三。
+术曰：以粟求米，十二之，二十五而一。
+〔淳风等按：米之率二十有四，以为率太繁，故因而半之。半所求之 率，以乘所有之数。所求之率既减半，所有之率亦减半。是故十二乘之，二十五 而一也。〕 今有粟七斗九升，欲为御米。问得几何？答曰：为御米三斗三升五十分升之 九。
+术曰：以粟求御米，二十一之，五十而一。
+今有粟一斗，欲为小&amp;lt;麦啇&amp;gt;。问得几何？答曰：为小&amp;lt;麦啇&amp;gt;二升一十分升之 七。
+术曰：以粟求小&amp;lt;麦啇&amp;gt;，二十七之，百而一。
+〔淳风等按：小&amp;lt;麦啇&amp;gt;之率十三有半。半者二为母，以二通之，得二十七， 为所求率。又以母二通其粟率，得一百，为所有率。凡本率有分者，须即乘除也。
+他皆仿此。〕 今有粟九斗八升，欲为大&amp;lt;麦啇&amp;gt;。问得几何？答曰：为大&amp;lt;麦啇&amp;gt;一十斗五升 二十五分升之二十一。
+术曰：以粟求大&amp;lt;麦啇&amp;gt;，二十七之，二十五而一。
+〔淳风等按：大&amp;lt;麦啇&amp;gt;之率五十有四。因其可半，故二十七之，亦如粟求 米，半其二率。〕 今有粟二斗三升，欲为粝饭。问得几何？答曰：为粝饭三斗四升半。
+术曰：以粟求粝饭，三之，二而一。
+〔淳风等按：粝饭之率七十有五，粟求粝饭，合以此数乘之。今以等数二十 有五约其二率，所求之率得三，所有之率得二，故以三乘二除。〕 今有粟三斗六升，欲为粺饭。问得几何？答曰：为粺饭三斗八升二十五 分升之二十二。
+术曰：以粟求粺饭，二十七之，二十五而一。
+〔淳风等按：此术与大&amp;lt;麦啇&amp;gt;多同。〕 今有粟八斗六升，欲为饭。问得几何？答曰：为饭八斗二升二 十五分升之一十四。
+术曰：以粟求饭，二十四之，二十五而一。
+〔淳风等按：&amp;lt;麦啇&amp;gt;饭率四十八。此亦半二率而乘除。〕 今有粟九斗八升，欲为御饭。问得几何？答曰：为御饭八斗二升二十五分升 之八。
+术曰：以粟求御饭，二十一之，二十五而一。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter3/</guid>
+      <description>卷三 ○ 衰分（以御贵贱禀税） 衰分 〔衰分，差也。〕 术曰：各置列衰； 〔列衰，相与率也。重叠，则可约。〕 副并为法，以所分乘未并者，各自为实。实如法而一。
+〔法集而衰别。数，本一也。今以所分乘上别，以下集除之，一乘一除，适 足相消，故所分犹存，且各应率而别也。于今有术，列衰各为所求率，副并为所 有率，所分为所有数。又以经分言之，假令甲家三人，乙家二人，丙家一人，并 六人，共分十二，为人得二也。欲复作逐家者，则当列置人数，以一人所得乘之。
+今此术先乘而后除也。〕 不满法者，以法命之。
+今有大夫、不更、簪袅、上造、公士，凡五人，共猎得五鹿。欲以爵次分之， 问各得几何？答曰：大夫得一鹿三分鹿之二；不更得一鹿三分鹿之一；簪袅得一 鹿；上造得三分鹿之二；公士得三分鹿之一。
+术曰：列置爵数，各自为衰。
+〔爵数者，谓大夫五，不更四，簪袅三，上造二，公士一也。《墨子·号令 篇》以爵级为赐，然则战国之初有此名也。〕 副并为法。以五鹿乘未并者各自为实。实如法得一鹿。
+〔今有术，列衰各为所求率，副并为所有率，今有鹿数为所有数，而今有之， 即得。〕 今有牛、马、羊食人苗。苗主责之粟五斗。羊主曰：“我羊食半马。”马主 曰：“我马食半牛。”今欲衰偿之，问各出几何？答曰：牛主出二斗八升七分升 之四；马主出一斗四升七分升之二；羊主出七升七分升之一。
+术曰：置牛四、马二、羊一，各自为列衰，副并为法。以五斗乘未并者各自 为实。实如法得一斗。
+〔淳风等按：此术问意，羊食半马，马食半牛，是谓四羊当一牛，二羊当一 马。今术置羊一、马二、牛四者，通其率以为列衰。〕 今有甲持钱五百六十，乙持钱三百五十，丙持钱一百八十，凡三人俱出关， 关税百钱。欲以钱数多少衰出之，问各几何？答曰：甲出五十一钱一百九分钱之 四十一；乙出三十二钱一百九分钱之一十二；丙出一十六钱一百九分钱之五十六。
+术曰：各置钱数为列衰，副并为法。以百钱乘未并者，各自为实。实如法得 一钱。
+〔淳风等按：此术甲、乙、丙持钱数以为列衰，副并为所有率，未并者各为 所求率，百钱为所有数，而今有之，即得。〕 今有女子善织，日自倍，五日织五尺。问日织几何？答曰：初日织一寸三十 一分寸之十九；次日织三寸三十一分寸之七；次日织六寸三十一分寸之十四；次 日织一尺二寸三十一分寸之二十八；次日织二尺五寸三十一分寸之二十五。
+术曰：置一、二、四、八、十六为列衰，副并为法。以五尺乘未并者，各自 为实。实如法得一尺。
+今有北乡算八千七百五十八，西乡算七千二百三十六，南乡算八千三百五十 六。凡三乡发徭三百七十八人。欲以算数多少衰出之，问各几何？答曰：北乡遣 一百三十五人一万二千一百七十五分人之一万一千六百三十七；西乡遣一百一十 二人一万二千一百七十五分人之四千四；南乡遣一百二十九人一万二千一百七十 五分人之八千七百九。
+术曰：各置算数为列衰， 〔淳风等按：三乡算数，约，可半者，为列衰。〕 副并为法。以所发徭人数乘未并者，各自为实。实如法得一人。
+〔按：此术，今有之义也。〕 今有禀粟，大夫、不更、簪袅、上造、公士，凡五人，一十五斗。今有大夫 一人后来，亦当禀五斗。仓无粟，欲以衰出之，问各几何？答曰：大夫出一斗四 分斗之一；不更出一斗；簪袅出四分斗之三；上造出四分斗之二；公士出四分斗 之一。
+术曰：各置所禀粟斛，斗数、爵次均之，以为列衰。副并而加后来大夫亦五 斗，得二十以为法。以五斗乘未并者，各自为实。实如法得一斗。
+〔禀前五人十五斗者，大夫得五斗，不更得四斗，簪袅得三斗，上造得二斗， 公士得一斗。欲令五人各依所得粟多少减与后来大夫，即与前来大夫同。据前来 大夫已得五斗，故言亦也。各以所得斗数为衰，并得十五，而加后来大夫亦五斗， 凡二十，为法也。是为六人共出五斗，后来大夫亦俱损折。今有术，副并为所有 率，未并者各为所求率，五斗为所有数，而今有之，即得。〕 今有禀粟五斛，五人分之。欲令三人得三，二人得二，问各几何？答曰：三 人，人得一斛一斗五升十三分升之五；二人，人得七斗六升十三分升之十二。
+术曰：置三人，人三；二人，人二，为列衰。副并为法。以五斛乘未并者各 自为实。实如法得一斛。
+反衰术曰：列置衰而令相乘，动者为不动者衰。
+今有大夫、不更、簪袅、上造、公士凡五人，共出百钱。欲令高爵出少，以 次渐多，问各几何？答曰：大夫出八钱一百三十七分钱之一百四；不更出一十钱 一百三十七分钱之一百三十；簪袅出一十四钱一百三十七分钱之八十二；上造出 二十一钱一百三十七分钱之一百二十三；公士出四十三钱一百三十七分钱之一百 九。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter4/</guid>
+      <description>卷四 ○ 少广（以御积幂方圆） 少广 〔淳风等按：一亩之田，广一步，长二百四十步。今欲截取其从少，以益其 广，故曰少广。〕 术曰：置全步及分母子，以最下分母遍乘诸分子及全步， 〔淳风等按：以分母乘全步者，通其分也；以母乘子者，齐其子也。〕 各以其母除其子，置之于左，命通分者，又以分母遍乘诸分子及已通者，皆 通而同之。并之为法。
+〔淳风等按：诸子悉通，故可并之为法。亦宜用合分术，列数尤多，若用乘 则算数至繁，故别制此术，从省约。〕 置所求步数，以全步积分乘之为实。
+〔此以田广为法，以亩积步为实。法有分者，当同其母，齐其子，以同乘法 实，而并齐于法。今以分母乘全步及子，子如母而一，并以并全法，则法实俱长， 意亦等也。故如法而一，得从步数。〕 实如法而一，得从步。
+今有田广一步半。求田一亩，问从几何？答曰：一百六十步。
+术曰：下有半，是二分之一。以一为二，半为一，并之，得三，为法。置田 二百四十步，亦以一为二乘之，为实。实如法得从步。
+今有田广一步半、三分步之一。求田一亩，问从几何？答曰：一百三十步一 十一分步之一十。
+术曰：下有三分，以一为六，半为三，三分之一为二，并之，得一十一，为 法。置田二百四十步，亦以一为六乘之，为实。实如法得从步。
+今有田广一步半、三分步之一、四分步之一。求田一亩，问从几何？答曰： 一百一十五步五分步之一。
+术曰：下有四分，以一为一十二，半为六，三分之一为四，四分之一为三， 并之，得二十五，以为法。置田二百四十步，亦以一为一十二乘之，为实。实如 法而一，得从步。
+今有田广一步半、三分步之一、四分步之一、五分步之一。求田一亩，问从 几何？答曰：一百五步一百三十七分步之一十五。
+术曰：下有五分，以一为六十，半为三十，三分之一为二十，四分之一为一 十五，五分之一为一十二，并之，得一百三十七，以为法。置田二百四十步，亦 以一为六十乘之，为实。实如法得从步。
+今有田广一步半、三分步之一、四分步之一、五分步之一、六分步之一。求 田一亩，问从几何？答曰：九十七步四十九分步之四十七。
+术曰：下有六分，以一为一百二十，半为六十，三分之一为四十，四分之一 为三十，五分之一为二十四，六分之一为二十，并之，得二百九十四，以为法。
+置田二百四十步，亦以一为一百二十乘之，为实。实如法得从步。
+今有田广一步半、三分步之一、四分步之一、五分步之一、六分步之一、七 分步之一。求田一亩，问从几何？答曰：九十二步一百二十一分步之六十八。
+术曰：下有七分，以一为四百二十，半为二百一十，三分之一为一百四十， 四分之一为一百五，五分之一为八十四，六分之一为七十，七分之一为六十，并 之，得一千八十九，以为法。置田二百四十步，亦以一为四百二十乘之，为实。
+实如法得从步。
+今有田广一步半、三分步之一、四分步之一、五分步之一、六分步之一、七 分步之一、八分步之一。求田一亩，问从几何？答曰：八十八步七百六十一分步 之二百三十二。
+术曰：下有八分，以一为八百四十，半为四百二十，三分之一为二百八十， 四分之一为二百一十，五分之一为一百六十八，六分之一为一百四十，七分之一 为一百二十，八分之一为一百五，并之，得二千二百八十三，以为法。置田二百 四十步，亦以一为八百四十乘之，为实。实如法得从步。
+今有田广一步半、三分步之一、四分步之一、五分步之一、六分步之一、七 分步之一、八分步之一、九分步之一。求田一亩，问从几何？答曰：八十四步七 千一百二十九分步之五千九百六十四。
+术曰：下有九分，以一为二千五百二十，半为一千二百六十，三分之一为八 百四十，四分之一为六百三十，五分之一为五百四，六分之一为四百二十，七分 之一为三百六十，八分之一为三百一十五，九分之一为二百八十，并之，得七千 一百二十九，以为法。置田二百四十步，亦以一为二千五百二十乘之，为实。实 如法得从步。
+今有田广一步半、三分步之一、四分步之一、五分步之一、六分步之一、七 分步之一、八分步之一、九分步之一、十分步之一。求田一亩、问从几何？答曰： 八十一步七千三百八十一分步之六千九百三十九。
+术曰：下有一十分，以一为二千五百二十，半为一千二百六十，三分之一为 八百四十，四分之一为六百三十，五分之一为五百四，六分之一为四百二十，七 分之一为三百六十，八分之一为三百一十五，九分之一为二百八十，十分之一为 二百五十二，并之，得七千三百八十一，以为法。置田二百四十步，亦以一为二 千五百二十乘之，为实。实如法得从步。
+今有田广一步半、三分步之一、四分之步一、五分步之一、六分步之一、七 分步之一、八分步之一、九分步之一、十分步之一、十一分步之一。求田一亩， 问从几何？答曰：七十九步八万三千七百一十一分步之三万九千六百三十一。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter5/</guid>
+      <description>卷五 ○ 商功（以御功程积实） 今有穿地，积一万尺。问为坚、壤各几何？答曰：为坚七千五百尺；为壤一 万二千五百尺。
+术曰：穿地四为壤五， 〔壤谓息土。〕 为坚三， 〔坚谓筑土。〕 为墟四。
+〔墟谓穿坑。此皆其常率。〕 以穿地求壤，五之；求坚，三之；皆四而一。
+〔今有术也。〕 以壤求穿，四之；求坚，三之；皆五而一。以坚求穿，四之；求壤，五之； 皆三而一。
+〔淳风等按：此术并今有之义也。重张穿地积一万尺，为所有数，坚率三、 壤率五各为所求率，穿率四为所有率，而今有之，即得。〕 城、垣、堤、沟、堑、渠皆同术。
+术曰：并上下广而半之， 〔损广补狭。〕 以高若深乘之，又以袤乘之，即积尺。
+〔按：此术“并上下广而半之”者，以盈补虚，得中平之广。“以高若深乘 之”，得一头之立幂。“又以袤乘之”者，得立实之积，故为积尺。〕 今有穿地，袤一丈六尺，深一丈，上广六尺，为垣积五百七十六尺。问穿地 下广几何？答曰：三尺五分尺之三。
+术曰：置垣积尺，四之为实。
+〔穿地四，为坚三。垣，坚也。以坚求穿地，当四之，三而一也。〕 以深、袤相乘， 〔为深、袤之立实也。〕 又三之，为法。
+〔以深、袤乘之立实除垣积，即坑广。又三之者，与坚率并除之。〕 所得，倍之。
+〔为坑有两广，先并而半之，即为广狭之中平。今先得其中平，故又倍之知， 两广全也。〕 减上广，余即下广。
+〔按：此术穿地四，为坚三。垣即坚也。今以坚求穿地，当四乘之，三而一。
+深、袤相乘者，为深袤立幂。以深袤立幂除积，即坑广。又三之，为法，与坚率 并除。所得，倍之者，为坑有两广，先并而半之，为中平之广。今此得中平之广， 故倍之还为两广并。故减上广，余即下广也。〕 今有城下广四丈，上广二丈，高五丈，袤一百二十六丈五尺。问积几何？答 曰：一百八十九万七千五百尺： 今有垣下广三尺，上广二尺，高一丈二尺，袤二十二丈五尺八寸。问积几何？ 答曰：六千七百七十四尺。
+今有堤下广二丈，上广八尺，高四尺，袤一十二丈七尺。问积几何？答曰： 七千一百一十二尺。
+冬程人功四百四十四尺，问用徒几何？答曰：一十六人二百一十一分人之二。
+术曰：以积尺为实，程功尺数为法，实如法而一，即用徒人数。
+今有沟，上广一丈五尺，下广一丈，深五尺，袤七丈。问积几何？答曰：四 千三百七十五尺。
+春程人功七百六十六尺，并出土功五分之一，定功六百一十二尺五分尺之四。
+问用徒几何？答曰：七人三千六十四分人之四百二十七。
+术曰：置本人功，去其五分之一，余为法。
+〔“去其五分之一”者，谓以四乘，五除也。〕 以沟积尺为实，实如法而一，得用徒人数。
+〔按：此术“置本人功，去其五分之一”者，谓以四乘之，五而一，除去出 土之功，取其定功。乃通分内子以为法。以分母乘沟积尺为实者，法里有分，实 里通之，故实如法而一，即用徒人数。此以一人之积尺除其众尺，故用徒人数。
+不尽者，等数约之而命分也。〕 今有堑，上广一丈六尺三寸，下广一丈，深六尺三寸，袤一十三丈二尺一寸。
+问积几何？答曰：一万九百四十三尺八寸。
+〔八寸者，谓穿地方尺，深八寸。此积余有方尺中二分四厘五毫，弃之。文 欲从易，非其常定也。〕 夏程人功八百七十一尺，并出土功五分之一，沙砾水石之功作太半，定功二 百三十二尺一十五分尺之四。问用徒几何？答曰：四十七人三千四百八十四分人 之四百九。
+术曰：置本人功，去其出土功五分之一，又去沙砾水石之功太半，余为法。
+以堑积尺为实。实如法而一，即用徒人数。
+〔按：此术“置本人功，去其出土功五分之一”者，谓以四乘，五除。“又 去沙砾水石作太半”者，一乘，三除，存其少半，取其定功。乃通分内子以为法。
+以分母乘堑积尺为实者，为法里有分，实里通之，故实如法而一，即用徒人数。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter6/</guid>
+      <description>卷六 ○ 均输（以御远近劳费） 今有均输粟，甲县一万户，行道八日；乙县九千五百户，行道十日；丙县一 万二千三百五十户，行道十三日；丁县一万二千二百户，行道二十日，各到输所。
+凡四县赋当输二十五万斛，用车一万乘。欲以道里远近、户数多少衰出之，问粟、 车各几何？答曰：甲县粟八万三千一百斛，车三千三百二十四乘。乙县粟六万三 千一百七十五斛，车二千五百二十七乘。丙县粟六万三千一百七十五斛，车二千 五百二十七乘。丁县粟四万五百五十斛，车一千六百二十二乘。
+术曰：令县户数各如其本行道日数而一，以为衰。
+〔按：此均输，犹均运也。令户率出车，以行道日数为均，发粟为输。据甲 行道八日，因使八户共出一车；乙行道十日，因使十户共出一车。计其在道，则 皆户一日出一车，故可为均平之率也。
+淳风等按：县户有多少之差，行道有远近之异。欲其均等，故各令行道日数 约户为衰。行道多者少其户，行道少者多其户。故各令约户为衰。以八日约除甲 县，得一百二十五，乙、丙各九十五，丁六十一。于今有术，副并为所有率。未 并者各为所求率，以赋粟车数为所有数，而今有之，各得车数。一旬除乙，十三 除丙，各得九十五；二旬除丁，得六十一也。〕 甲衰一百二十五，乙、丙衰各九十五，丁衰六十一，副并为法。以赋粟车数 乘未并者，各自为实。
+〔衰，分科率。〕 实如法得一车。
+〔各置所当出车，以其行道日数乘之，如户数而一，得率：户用车二日四十 七分日之三十一，故谓之均。求此户以率，当各计车之衰分也。〕 有分者，上下辈之。
+〔辈，配也。车、牛、人之数不可分裂，推少就多，均赋之宜。今按：甲分 既少，宜从于乙。满法除之，有余从丙。丁分又少，亦宜就丙。除之适尽。加乙、 丙各一，上下辈益，以少从多也。〕 以二十五斛乘车数，即粟数。
+今有均输卒：甲县一千二百人，薄塞；乙县一千五百五十人，行道一日；丙 县一千二百八十人，行道二日；丁县九百九十人，行道三日；戊县一千七百五十 人，行道五日。凡五县赋输卒一月一千二百人。欲以远近、人数多少衰出之，问 县各几何？答曰：甲县二百二十九人。乙县二百八十六人。丙县二百二十八人。
+丁县一百七十一人。戊县二百八十六人。
+术曰：令县卒各如其居所及行道日数而一，以为衰。
+〔按：此亦以日数为均，发卒为输。甲无行道日，但以居所三十日为率。言 欲为均平之率者，当使甲三十人而出一人，乙三十一人而出一人。出一人者，计 役则皆一人一日，是以可为均平之率。〕 甲衰四，乙衰五，丙衰四，丁衰三，戊衰五，副并为法。以人数乘未并者各 自为实。实如法而一。
+〔为衰，于今有术，副并为所有率，未并者各为所求率，以赋卒人数为所有 数。此术以别，考则意同，以广异闻，故存之也。各置所当出人数，以其居所及 行道日数乘之，如县人数而一。得率：人役五日七分日之五。〕 有分者，上下辈之。
+〔辈，配也。今按：丁分最少，宜就戊除。不从乙者，丁近戊故也。满法除 之，有余从乙。丙分又少，亦就乙除，有余从甲。除之适尽。从甲、丙二分，其 数正等，二者于乙远近皆同，不以甲从乙者，方以下从上也。〕 今有均赋粟：甲县二万五百二十户，粟一斛二十钱，自输其县；乙县一万二 千三百一十二户，粟一斛一十钱，至输所二百里；丙县七千一百八十二户，粟一 斛一十二钱，至输所一百五十里；丁县一万三千三百三十八户，粟一斛一十七钱， 至输所二百五十里；戊县五千一百三十户，粟一斛一十三钱，至输所一百五十里。
+凡五县赋输粟一万斛。一车载二十五斛，与僦一里一钱。欲以县户赋粟，令费劳 等，问县各粟几何？答曰：甲县三千五百七十一斛二千八百七十三分斛之五百一 十七。乙县二千三百八十斛二千八百七十三分斛之二千二百六十。丙县一千三百 八十八斛二千八百七十三分斛之二千二百七十六。丁县一千七百一十九斛二千八 百七十三分斛之一千三百一十三。戊县九百三十九斛二千八百七十三分斛之二千 二百五十三。
+术曰：以一里僦价乘至输所里， 〔此以出钱为均也。问者曰：“一车载二十五斛，与僦一里一钱。”一钱， 即一里僦价也。以乘里数者，欲知僦一车到输所所用钱也。甲自输其县，则无取 僦价也。〕 以一车二十五斛除之， 〔欲知僦一斛所用钱。〕 加一斛粟价，则致一斛之费。
+〔加一斛之价于一斛僦直，即凡输粟取僦钱也：甲一斛之费二十，乙、丙各 十八，丁二十七，戊十九也。〕 各以约其户数，为衰。
+〔言使甲二十户共出一斛，乙、丙十八户共出一斛。计其所费，则皆户一钱， 故可为均赋之率也。计经赋之率，既有户算之率，亦有远近、贵贱之率。此二率 者，各自相与通。通则甲二十，乙十二，丙七，丁十三，戊五。一斛之费谓之钱 率。钱率约户率者，则钱为母，户为子。子不齐，令母互乘为齐，则衰也。若其 不然。以一斛之费约户数，取衰。并有分，当通分内子，约之，于算甚繁。此一 章皆相与通功共率，略相依似。以上二率、下一率亦可放此，从其简易而已。又 以分言之，使甲一户出二十分斛之一，乙一户出十八分斛之一，各以户数乘之， 亦可得一县凡所当输，俱为衰也。乘之者，乘其子，母报除之。以此观之，则以 一斛之费约户数者，其意不异矣。然则可置一斛之费而反衰之。约户，以乘户率 为衰也。合分注曰：“母除为率，率乘子为齐。”反衰注曰：“先同其母，各以 分母约，其子为反衰。”以施其率，为算既约，且不妨处下也。〕 甲衰一千二十六，乙衰六百八十四，丙衰三百九十九，丁衰四百九十四，戊 衰二百七十，副并为法。所赋粟乘未并者，各自为实。实如法得一。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter7/</guid>
+      <description>卷七 ○ 盈不足（以御隐杂互见） 今有共买物，人出八，盈三；人出七，不足四。问人数、物价各几何？答曰： 七人。物价五十三。
+今有共买鸡，人出九，盈一十一；人出六，不足十六。问人数、鸡价各几何？ 答曰：九人。鸡价七十。
+今有共买琎，人出半，盈四；人出少半，不足三。问人数、琎价各几何？答 曰：四十二人。琎价十七。
+〔注云“若两设有分者，齐其子，同其母”，此问两设俱见零分，故齐其子， 同其母。又云“令下维乘上。讫，以同约之”，不可约，故以乘，同之。〕 今有共买牛，七家共出一百九十，不足三百三十；九家共出二百七十，盈三 十。问家数、牛价各几何？答曰：一百二十六家。牛价三千七百五十。
+〔按：此术并盈不足者，为众家之差，故以为实。置所出率，各以家数除之， 各得一家所出率。以少减多者，得一家之差。以除，即家数。以出率乘之，减盈， 故得牛价也。〕 术曰：置所出率，盈不足各居其下。令维乘所出率，并，以为实。并盈、不 足，为法。实如法而一。
+〔按：盈者，谓朓；不足者，谓之朒；所出率谓之假令。盈、朒维乘两 设者，欲为同齐之意。据“共买物，人出八，盈三；人出七，不足四”，齐其假 令，同其盈、朒，盈、朒俱十二。通计齐则不盈不朒之正数，故可并之为 实，并盈、不足为法。齐之三十二者，是四假令，有盈十二；齐之二十一者，是 三假令，亦朒十二；并七假令合为一实，故并三、四为法。〕 有分者通之。
+〔若两设有分者，齐其子，同其母。令下维乘上，讫，以同约之。〕 盈不足相与同其买物者，置所出率，以少减多，余，以约法、实。实为物价， 法为人数。
+〔“所出率以少减多”者，余，谓之设差，以为少设。则并盈、朒，是为 定实。故以少设约定实，则法，为人数；适足之实故为物价。盈朒当与少设相 通。不可遍约，亦当分母乘，设差为约法、实。〕 其一术曰：并盈、不足为实。以所出率，以少减多，余为法。实如法得一人。
+以所出率乘之，减盈、增不足，即物价。
+〔此术意谓盈不足为众人之差。以所出率以少减多，余为一人之差。以一人 之差约众人之差，故得人数也。〕 今有共买金，人出四百，盈三千四百；人出三百，盈一百。问人数、金价各 几何？答曰：三十三人。金价九千八百。
+今有共买羊，人出五，不足四十五；人出七，不足三。问人数、羊价各几何？ 答曰：二十一人。羊价一百五十。
+术曰：置所出率，盈、不足各居其下。令维乘所出率，以少减多，余为实。
+两盈、两不足以少减多，余为法。实如法而一。有分者，通之。两盈两不足相与 同其买物者，置所出率，以少减多，余，以约法、实。实为物价，法为人数。
+〔按：此术两不足者，两设皆不足于正数。其所以变化，犹两盈。而或有势 同而情违者。当其为实，俱令不足维乘相减，则遗其所不足焉。故其余所以为实 者，无朒数以损焉。盖出而有余，两盈。两设皆逾于正数。假令与共买物，人 出八，盈三；人出九，盈十。齐其假令，同其两盈。两盈俱三十。举齐则兼去。
+其余所以为实者，无盈数。两盈以少减多，余为法。齐之八十者，是十假令；而 凡盈三十者，是十，以三之；齐之二十七者，是三假令；而凡盈三十者，是三， 以十之。今假令两盈共十、三，以三减十，余七，为一实。故令以三减十，余七 为法。所出率以少减多，余谓之设差。因设差为少设，则两盈之差是为定实。故 以少设约法得人数，约实即得金数。〕 其一术曰：置所出率，以少减多，余为法。两盈、两不足以少减多，余为实。
+实如法而一，得人数。以所出率乘之，减盈、增不足，即物价。
+〔“置所出率，以少减多”，得一人之差。两盈、两不足相减，为众人之差。
+故以一人之差除之，得人数。以所出率乘之，减盈、增不足，即物价。〕 今有共买犬，人出五，不足九十；人出五十，适足。问人数、犬价各几何？ 答曰：二人。犬价一百。
+今有共买豕，人出一百，盈一百；人出九十，适足。问人数、豕价各几何？ 答曰：一十人。豕价九百。
+术曰：以盈及不足之数为实。置所出率，以少减多，余为法。实如法得一人。
+其求物价者，以适足乘人数，得物价。
+〔此术意谓以所出率，以少减多者，余是一人不足之差。不足数为众人之差。
+以一人差约之，故得人之数也。以盈及不足数为实者，数单见，即众人差，故以 为实。所出率以少减多，即一人差，故以为法。以除众人差，得人数。以适足乘 人数，即得物价也。〕 今有米在十斗桶中，不知其数。满中添粟而舂之，得米七斗。问故米几何？ 答曰：二斗五升。
+术曰：以盈不足术求之。假令故米二斗，不足二升；令之三斗，有余二升。
+〔按：桶受一斛，若使故米二斗，须添粟八斗以满之。八斗得粝米四斗八升， 课于七斗，是为不足二升。若使故米三斗，须添粟七斗以满之。七斗得粝米四斗 二升，课于七斗，是为有余二升。以盈不足维乘假令之数者，欲为齐同之意。为 齐同者，齐其假令，同其盈朒。通计齐即不盈不朒之正数，故可以并之为实， 并盈、不足为法。实如法，即得故米斗数，乃不盈不朒之正数也。〕 今有垣高九尺。瓜生其上，蔓日长七寸；瓠生其下，蔓日长一尺。问几何日 相逢？瓜、瓠各长几何？答曰：五日十七分日之五。瓜长三尺七寸一十七分寸之 一。瓠长五尺二寸一十七分寸之一十六。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter8/</guid>
+      <description>卷八 ○ 方程（以御错糅正负） 今有上禾三秉，中禾二秉，下禾一秉，实三十九斗；上禾二秉，中禾三秉， 下禾一秉，实三十四斗；上禾一秉，中禾二秉，下禾三秉，实二十六斗。问上、 中、下禾实一秉各几何？答曰：上禾一秉九斗四分斗之一。中禾一秉四斗四分斗 之一。下禾一秉二斗四分斗之三。
+方程 〔程，课程也。群物总杂，各列有数，总言其实。令每行为率。二物者再程， 三物者三程，皆如物数程之。并列为行，故谓之方程。行之左右无所同存，且为 有所据而言耳。此都术也，以空言难晓，故特系之禾以决之。又列中、左行如右 行也。〕 术曰：置上禾三秉，中禾二秉，下禾一秉，实三十九斗于右方。中、左禾列 如右方。以右行上禾遍乘中行，而以直除。
+〔为术之意，令少行减多行，反复相减，则头位必先尽。上无一位，则此行 亦阙一物矣。然而举率以相减，不害余数之课也。若消去头位，则下去一物之实。
+如是叠令左右行相减，审其正负，则可得而知。先令右行上禾乘中行，为齐同之 意。为齐同者，谓中行直减右行也。从简易虽不言齐同，以齐同之意观之，其义 然矣。〕 又乘其次，亦以直除。
+〔复去左行首。〕 然以中行中禾不尽者遍乘左行，而以直除。
+〔亦令两行相去行之中禾也。〕 左方下禾不尽者，上为法，下为实。实即下禾之实。
+〔上、中禾皆去，故余数是下禾实，非但一秉。欲约众秉之实，当以禾秉数 为法。列此，以下禾之秉数乘两行，以直除，则下禾之位皆决矣。各以其余一位 之秉除其下实。即计数矣用算繁而不省。所以别为法，约也。然犹不如自用其旧。
+广异法也。〕 求中禾，以法乘中行下实，而除下禾之实。
+〔此谓中两禾实，下禾一秉实数先见，将中秉求中禾，其列实以减下实。而 左方下禾虽去一，以法为母，于率不通。故先以法乘，其通而同之。俱令法为母， 而除下禾实。以下禾先见之实令乘下禾秉数，即得下禾一位之列实。减于下实， 则其数是中禾之实也。〕 余，如中禾秉数而一，即中禾之实。
+〔余，中禾一位之实也。故以一位秉数约之，乃得一秉之实也。〕 求上禾，亦以法乘右行下实，而除下禾、中禾之实。
+〔此右行三禾共实，合三位之实。故以二位秉数约之，乃得一秉之实。今中 下禾之实其数并见，令乘右行之禾秉以减之。故亦如前各求列实，以减下实也。〕 余，如上禾秉数而一，即上禾之实。实皆如法，各得一斗。
+〔三实同用，不满法者，以法命之。母、实皆当约之。〕 今有上禾七秉，损实一斗，益之下禾二秉，而实一十斗；下禾八秉，益实一 斗，与上禾二秉，而实一十斗。问上、下禾实一秉各几何？答曰：上禾一秉实一 斗五十二分斗之一十八。下禾一秉实五十二分斗之四十一。
+术曰：如方程。损之曰益，益之曰损。
+〔问者之辞虽？今按：实云上禾七秉，下禾二秉，实一十一斗；上禾二秉， 下禾八秉，实九斗也。“损之曰益”，言损一斗，余当一十斗；今欲全其实，当 加所损也。“益之曰损”，言益实以一斗，乃满一十斗；今欲知本实，当减所加， 即得也。〕 损实一斗者，其实过一十斗也；益实一斗者，其实不满一十斗也。
+〔重谕损益数者，各以损益之数损益之也。〕 今有上禾二秉，中禾三秉，下禾四秉，实皆不满斗。上取中、中取下、下取 上各一秉而实满斗。问上、中、下禾实一秉各几何？答曰上禾一秉实二十五分斗 之九。中禾一秉实二十五分斗之七。下禾一秉实二十五分斗之四。
+术曰：如方程。各置所取。
+〔置上禾二秉为右行之上，中禾三秉为中行之中，下禾四秉为左行之下，所 取一秉及实一斗各从其位。诸行相借取之物皆依此例。〕 以正负术入之。
+正负术曰： 〔今两算得失相反，要令正负以名之。正算赤，负算黑，否则以邪正为异。
+方程自有赤、黑相取，法、实数相推求之术。而其并减之势不得广通，故使赤、 黑相消夺之，于算或减或益。同行异位殊为二品，各有并、减之差见于下焉。著 此二条，特系之禾以成此二条之意。故赤、黑相杂足以定上下之程，减、益虽殊 足以通左右之数，差、实虽分足以应同异之率。然则其正无入以负之，负无入以 正之，其率不妄也。〕 同名相除， 〔此谓以赤除赤，以黑除黑，行求相减者，为去头位也。然则头位同名者， 当用此条，头位异名者，当用下条。〕 异名相益， 〔益行减行，当各以其类矣。其异名者，非其类也。非其类者，犹无对也， 非所得减也。故赤用黑对则除，黑；无对则除，黑；黑用赤对则除，赤；无对则 除，赤；赤黑并于本数。此为相益之，皆所以为消夺。消夺之与减益成一实也。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter9/</guid>
+      <description>卷九 ○ 句股（以御高深广远） 今有句三尺，股四尺，问为弦几何？答曰：五尺。
+今有弦五尺，句三尺，问为股几何？答曰：四尺。
+今有股四尺，弦五尺，问为句几何？答曰：三尺。
+句股 〔短面曰句，长面曰股，相与结角曰弦。句短其股，股短其弦。将以施于诸 率，故先具此术以见其源也。〕 术曰：句、股各自乘，并，而开方除之，即弦。
+〔句自乘为朱方，股自乘为青方。令出入相补，各从其类，因就其余不移动 也，合成弦方之幂。开方除之，即弦也。〕 又，股自乘，以减弦自乘。其余，开方除之，即句。
+〔淳风等按：此术以句、股幂合成弦幂。句方于内，则句短于股。令股自乘， 以减弦自乘，余者即句幂也。故开方除之，即句也。〕 又，句自乘，以减弦自乘。其余，开方除之，即股。
+〔句、股幂合以成弦幂，令去其一，则余在者皆可得而知之。〕 今有圆材，径二尺五寸。欲为方版，令厚七寸，问广几何？答曰：二尺四寸。
+术曰：令径二尺五寸自乘，以七寸自乘，减之。其余，开方除之，即广。
+〔此以圆径二尺五寸为弦，版厚七寸为句，所求广为股也。〕 今有木长二丈，围之三尺。葛生其下，缠木七周，上与木齐。问葛长几何？ 答曰：二丈九尺。
+术曰：以七周乘围为股，木长为句，为之求弦。弦者，葛之长。
+〔据围广，求从为木长者其形葛卷裹袤。以笔管，青线宛转，有似葛之缠木。
+解而观之，则每周之间自有相间成句股弦。则其间葛长，弦。七周乘围，并合众 句以为一句；木长而股，短；术云木长谓之股，言之倒。句与股求弦，亦无围。
+弦之自乘幂出上第一图。句、股幂合为弦幂，明矣。然二幂之数谓倒在于弦幂之 中而已。可更相表里，居里者则成方幂，其居表者则成矩幂。二表里形讹而数均。
+又按：此图句幂之矩青，卷白表，是其幂以股弦差为广，股弦并为袤，而股幂方 其里。股幂之矩青，卷白表，是其幂以句弦差为广，句弦并为袤，而句幂方其里。
+是故差之与并用除之，短、长互相乘也。〕 今有池方一丈，葭生其中央，出水一尺。引葭赴岸，适与岸齐。问水深、葭 长各几何？答曰：水深一丈二尺。葭长一丈三尺。
+术曰：半池方自乘， 〔此以池方半之，得五尺为句；水深为股；葭长为弦。以句、弦见股，故令 句自乘，先见矩幂也。〕 以出水一尺自乘，减之。
+〔出水者，股弦差。减此差幂于矩幂则除之。〕 余，倍出水除之，即得水深。
+〔差为矩幂之广，水深是股。令此幂得出水一尺为长，故为矩而得葭长也。〕 加出水数，得葭长。
+〔淳风等按：此葭本出水一尺，既见水深，故加出水尺数而得葭长也。〕 今有立木，系索其末，委地三尺。引索却行，去本八尺而索尽。问索长几何？ 答曰：一丈二尺六分尺之一。
+术曰：以去本自乘， 〔此以去本八尺为句，所求索者，弦也。引而索尽、开门去阃者，句及股弦 差，同一术。去本自乘者，先张矩幂。〕 令如委数而一。
+〔委地者，股弦差也。以除矩幂，即是股弦并也。〕 所得，加委地数而半之，即索长。
+〔子不可半者，倍其母。加差者并，则两长。故又半之。其减差者并，而半 之，得木长也。〕 今有垣高一丈，倚木于垣，上与垣齐。引木却行一尺，其木至地。问木长几 何？答曰：五丈五寸。
+术曰：以垣高一十尺自乘，如却行尺数而一。所得，以加却行尺数而半之， 即木长数。
+〔此以垣高一丈为句，所求倚木者为弦，引却行一尺为股弦差。为术之意与 系索问同也。〕 今有圆材埋在壁中，不知大小。以锯锯之，深一寸，锯道长一尺。问径几何？ 答曰：材径二尺六寸。
+术曰：半锯道自乘， 〔此术以锯道一尺为句，材径为弦，锯深一寸为股弦差之一半。锯道长是半 也。
+淳风等按：下锯深得一寸为半股弦差。注云为股差差者，锯道也。〕 如深寸而一，以深寸增之，即材径。
+〔亦以半增之。如上术，本当半之，今此皆同半，故不复半也。〕 今有开门去阃一尺，不合二寸。问门广几何？答曰：一丈一寸。
+术曰：以去阃一尺自乘。所得，以不合二寸半之而一。所得，增不合之半， 即得门广。
+〔此去阃一尺为句，半门广为弦，不合二寸以半之，得一寸为股弦差。求弦， 故当半之。今次以两弦为广数，故不复半之也。〕 今有户高多于广六尺八寸，两隅相去适一丈。问户高、广各几何？答曰：广 二尺八寸。高九尺六寸。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E4%BD%9B%E7%BB%8F/%E5%BF%83%E7%BB%8F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E4%BD%9B%E7%BB%8F/%E5%BF%83%E7%BB%8F/</guid>
+      <description>心经 (-玄奘法师译) 观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色；色即是空，空即是色。受、想、行、识，亦复如是。舍利子，是诸法空相，不生不灭，不垢不净，不增不减，是故空中无色，无受、想、行、识；无眼、耳、鼻、舌、身、意；无色、声、香、味、触、法；无眼界，乃至无意识界；无无明，亦无无明尽；乃至无老死，亦无老死尽。无苦、集、灭、道，无智亦无得，以无所得故。菩提萨埵，依般若波罗蜜多故，心无罣碍。无罣碍故，无有恐怖，远离颠倒梦想，究竟涅槃。三世诸佛，依般若波罗蜜多故，得阿耨多罗三藐三菩提。故知般若波罗蜜多，是大神咒，是大明咒，是无上咒，是无等等咒，能除一切苦，真实不虚。故说般若波罗蜜多咒，即说咒曰：“揭谛、揭谛，波罗揭谛，波罗僧揭谛，菩提萨婆诃。&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E4%BF%A1%E6%81%AF%E8%AE%BA%E5%92%8C%E7%BC%96%E7%A0%81/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E4%BF%A1%E6%81%AF%E8%AE%BA%E5%92%8C%E7%BC%96%E7%A0%81/</guid>
+      <description>信息论： 信息论是信息科学的主要理论之一，它主要研究 可能性 和 存在性 的问题 信息技术： 信息技术主要研究如何实现的问题
+ 信息理论的形成和发展  1924年: Nyquist 解释了 信号带宽 和 信息速率 之间的关系;
+1928年： Hartley 研究了通信系统 传输信息的能力， 给出了 信息度量 的方法;
+1936年： Armstrong 提出了 增大带宽可以加强抗干扰能力;
+1941-1944年： Shannon -&amp;gt;
+ 用概率论的方法研究通信系统 揭示了通信系统传递的对象是信息 给予信息 科学的定量描述 提出了 信息熵 的概念 指出通信系统的中心问题是在噪声下如何有效而可靠地传送信息，实现这一目的的主要方法是编码 &amp;hellip;&amp;hellip;  信息论研究的内容    狭义信息论（香农信息论） 一般信息论 广义信息论   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E6%95%B0%E5%AD%A6%E5%BD%92%E7%BA%B3%E6%B3%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E6%95%B0%E5%AD%A6%E5%BD%92%E7%BA%B3%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E8%BF%AD%E4%BB%A3%E5%92%8C%E9%80%92%E5%BD%92%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E8%BF%AD%E4%BB%A3%E5%92%8C%E9%80%92%E5%BD%92%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
+      <description>迭代和递归的区别 迭代（iteration） 递归（recursion） 例子  计算 n!
+ // public Factorial(n: number) { if(n &amp;gt; 1) { return n * Factorial(n -1); } else { return 1; } } def factorial(n): if n &amp;gt; 1 : return n * factorial(n =1); else : return 1; </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%80%E7%AB%A0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%80%E7%AB%A0/</guid>
+      <description>第一章 道可道 非常道 名可名 非常名 无名天地之始 有名万物之母 故常无欲以观其妙 常有欲以观其徼 此两者同出而异名 同谓之玄 玄之又玄 众妙之门
+注 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%83%E7%AB%A0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%83%E7%AB%A0/</guid>
+      <description>第七章 天长地久 天地所以能长且久者 以其不自生 故能长生 是以圣人退其身而身先 外其身而身存 非以其无私邪 故能成其私</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%89%E7%AB%A0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%89%E7%AB%A0/</guid>
+      <description>第三章 不尚贤 使民不争 不贵难得之货 使民不为盗 不见可欲 使民心不乱 是以圣人之治 虚其心 实其腹 弱其志 强其骨 常使民无知无欲 使夫知者不敢为也 为无为 则无不治</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%BA%8C%E7%AB%A0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%BA%8C%E7%AB%A0/</guid>
+      <description>第二章 天下皆知美之为美 斯恶也 皆知善之为善 斯不善也 故有无相生 难易相成 长短相形 高下相倾 音声相和 前后相随 恒也 是以圣人处无为之事 行不言之教 万物作而弗始焉 生而弗有 为而弗恃 功成而弗居 夫为弗居 是以不去</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%BA%94%E7%AB%A0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%BA%94%E7%AB%A0/</guid>
+      <description>第五章 天地不仁 以万物为刍狗 圣人不仁 以百姓为刍狗 天地之间 其犹橐龠乎 虚而不屈 动而愈出 多言数穷 不如守中</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E5%85%AD%E7%AB%A0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E5%85%AD%E7%AB%A0/</guid>
+      <description>第六章 谷神不死 是谓玄牝 玄牝之门 是谓天地根 绵绵若存 用之不勤</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E5%9B%9B%E7%AB%A0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E5%9B%9B%E7%AB%A0/</guid>
+      <description>第四章 道冲 而用之或不盈 渊兮 似万物之宗 挫其锐 解其纷 和其光 同其尘 湛兮 似或存 吾不知谁之子 象帝之先</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/codelife/workrecord/2020-11-25/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/codelife/workrecord/2020-11-25/</guid>
+      <description>Metro 2020-11-25
+图层编辑  合并 移动 附件操作条件  Plane    code &amp;ndash; 在代码中可以往控制台中抛出合理的 throw warning 进行告警     code &amp;ndash; 代码优化，减少 clipper 的运行次数 code &amp;ndash; 附件操作规则的  Record 优化需要考虑业务问题, 需要判断是否 有关联的 molding 和 材质 2. 如果要减少 clipper 的运算次数, 如何处理 附着材质和挂载molding的问题 5. 将 molding | profile | lightband | lighttrough 剥离出 DIY体系, 只是提供了一种生成一些面的的工具
+ [查看 路径规划 和 减少代码运行次数 的区别] 如何判断两个面是否有相交的区域 -&amp;gt; 判断两个面的boxing 是否相交 npm-rbush 快速拓扑查询大规模空间数据  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/codelife/workrecord/2020-11-26/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/codelife/workrecord/2020-11-26/</guid>
+      <description>Metro 2020-11-26
+US  图层编辑 1.1 附件操作条件  Bug  激活环境系的编辑对象不唯一 -&amp;gt; 全局监听的工具,绑定 environment activecontnet isEditing  Plane  提代码结果给测试[done] region.getMolding.foreach -&amp;gt; molding.segments[] -&amp;gt; find same segment -&amp;gt; create newMolding doc &amp;ndash; 整理记录框架中的 diyobject 的数据操作规则  Record 优化需要考虑业务问题, 需要判断是否 有关联的 molding 和 材质
+  先处理材质的同步显示的问题. 再处理molding关联的问题.    如果要减少 clipper 的运算次数, 如何处理 附着材质和挂载molding的问题 将 molding | profile | lightband | lighttrough 剥离出 DIY体系, 只是提供了一种生成一些面的的工具 [查看 路径规划 和 减少代码运行次数 的区别] 如何判断两个面是否有相交的区域 -&amp;gt; 判断两个面的 boxing 是否相交 npm-rbush 快速拓扑查询大规模空间数据 -&amp;gt; [技术贴]  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/codelife/workrecord/2020-11-27/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/codelife/workrecord/2020-11-27/</guid>
+      <description>Metro 2020-11-26
+US  图层编辑 1.1 附件操作条件  Bug  激活环境系的编辑对象不唯一 -&amp;gt; 全局监听的工具,绑定 environment activecontnet isEditing  Plane  region.getMolding.foreach -&amp;gt; molding.segments[] -&amp;gt; find same segment -&amp;gt; create newMolding doc &amp;ndash; 整理记录框架中的 diyobject 的数据操作规则  Record 优化需要考虑业务问题, 需要判断是否 有关联的 molding 和 材质 2. 如果要减少 clipper 的运算次数, 如何处理 附着材质和挂载molding的问题 5. 将 molding | profile | lightband | lighttrough 剥离出 DIY体系, 只是提供了一种生成一些面的的工具
+ [查看 路径规划 和 减少代码运行次数 的区别] 如何判断两个面是否有相交的区域 -&amp;gt; 判断两个面的 boxing 是否相交 npm-rbush 快速拓扑查询大规模空间数据 -&amp;gt; [技术贴]  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/codelife/workrecord/2020-12-03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/codelife/workrecord/2020-12-03/</guid>
+      <description>Metro 2020-12-03
+US  图层编辑 1.1 附件操作条件  Bug  激活环境系的编辑对象不唯一 -&amp;gt; 全局监听的工具,绑定 environment activecontnet isEditing  Plane  region.getMolding.foreach -&amp;gt; molding.segments[] -&amp;gt; find same segment -&amp;gt; create newMolding doc &amp;ndash; 整理记录框架中的 diyobject 的数据操作规则  Record 优化需要考虑业务问题, 需要判断是否 有关联的 molding 和 材质 2. 如果要减少 clipper 的运算次数, 如何处理 附着材质和挂载molding的问题 5. 将 molding | profile | lightband | lighttrough 剥离出 DIY体系, 只是提供了一种生成一些面的的工具
+ [查看 路径规划 和 减少代码运行次数 的区别] 如何判断两个面是否有相交的区域 -&amp;gt; 判断两个面的 boxing 是否相交 npm-rbush 快速拓扑查询大规模空间数据 -&amp;gt; [技术贴]  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/codelife/workrecord/jobduties/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/codelife/workrecord/jobduties/</guid>
+      <description>JobDuties Title 几何算法工程师
+Duties  DIY模块数据结构维护 DIY模块业务功能实现 DIY模块文档整理维护  Bug  用户操作弧面数据发生 crash  Improvement  增加 nurbs 造型功能  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/codelife/%E5%A6%82%E4%BD%95%E5%90%8D%E6%AD%A3%E8%A8%80%E9%A1%BA%E7%9A%84%E4%B8%8D%E5%8A%A0%E7%8F%AD/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/codelife/%E5%A6%82%E4%BD%95%E5%90%8D%E6%AD%A3%E8%A8%80%E9%A1%BA%E7%9A%84%E4%B8%8D%E5%8A%A0%E7%8F%AD/</guid>
+      <description>如何名正言顺地拒绝加班 根据合同规定，法定的工作时间为 8 小时。
+第一步 准时上下班并打卡记录
+第二步 明确工作内容并记录当日的工作进度
+第三步 在工作期间，杜绝做和工作无关的事情
+第四步 总结工作经验，提高单位时间内的工作效率</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/codelife/%E6%88%91%E7%9A%84%E7%BC%96%E7%A0%81%E5%AE%88%E5%88%99/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/codelife/%E6%88%91%E7%9A%84%E7%BC%96%E7%A0%81%E5%AE%88%E5%88%99/</guid>
+      <description>我的编码规范  旧的bug解决了，新的bug又会产生，代码始终在bug中进步
+ 不要过早优化，但是有经验的，就不要用再走错 所有的工具类的入参，必须是基类   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/codelife/%E6%96%B0%E9%9D%92%E5%B9%B4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/codelife/%E6%96%B0%E9%9D%92%E5%B9%B4/</guid>
+      <description>新青年宣言 自主的而非努力的 进步的而非保守的 进取的而非退隐的 世界的而非锁国的 实利的而非虚文的 科学的而非想象的</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/codelife/%E6%97%B6%E9%97%B4%E5%92%8C%E6%88%91/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/codelife/%E6%97%B6%E9%97%B4%E5%92%8C%E6%88%91/</guid>
+      <description>时间和我 我生活的这个世界，时间交给了天文观测时钟和原子检测时钟来定义1s有多长，</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/codelife/%E8%83%A1%E9%80%82%E5%85%88%E7%94%9F%E8%AF%B4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/codelife/%E8%83%A1%E9%80%82%E5%85%88%E7%94%9F%E8%AF%B4/</guid>
+      <description>胡适先生说  著名学者胡适曾说过有这样一句话：“你看一个国家的文明，只需考察三件事：第一看他们怎样待小孩子；第二看他们怎样待女人；第三看他们怎样利用闲暇的时间。 ”
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/design-servicesframework/web%E7%9A%84gui%E8%AE%BE%E8%AE%A1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/design-servicesframework/web%E7%9A%84gui%E8%AE%BE%E8%AE%A1/</guid>
+      <description>web 日志框架 Abstract 参考美团的 logan 前端日志工具框架
+功能  DOM 变更监听 鼠标日志监听 系统资源监听 数据对象(json)变更监听 -&amp;gt; 全量监听 &amp;amp; 局部监听  架构设计 基于 react相关的 ，以 nodejs 为
+TIPS 如何在代码中，输出调用栈，</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/englishexam/2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/englishexam/2018/</guid>
+      <description>2018 Text1 Among the annoying challenges facing the middle class is one that wll probably go unmentioned in the next presidential campaign: What happens when the robots come for their jobs? Don&amp;rsquo;t dismiss that possibility entirely. About half of U.S. jobs are at high risk of being automated, according to a University of Oxford study, with the middle class disproportionately squeezed.Lower-in- come jobs like gardening or day care don&amp;rsquo;t appeal to robots.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/games/bloodborne/charactoers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/games/bloodborne/charactoers/</guid>
+      <description> 外乡人  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/games/bloodborne/objects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/games/bloodborne/objects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/games/bloodborne/regions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/games/bloodborne/regions/</guid>
+      <description> 亚南  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/games/bloodborne/weapons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/games/bloodborne/weapons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/games/lifegame/conwaygame/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/games/lifegame/conwaygame/</guid>
+      <description>生命游戏 John Horton Conway </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/latex-docs/funciton/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/latex-docs/funciton/</guid>
+      <description>$$ \left[\begin{array}{c} X \
+P \end{array}\right]=\left[\begin{array}{cccc} a_{1} &amp;amp; a_{2} &amp;amp; \ldots &amp;amp; a_{2} \
+p\left(a_{1}\right) &amp;amp; p\left(a_{2}\right) &amp;amp; \cdots &amp;amp; \left.p_{\left(a_{n}\right.}\right) \end{array}\right] $$
+$$ \left[\begin{array}{l} X \
+P \end{array}\right]=\left[\begin{array}{l} (a, b) \
+P_{X}(x) \end{array}\right] or \left[\begin{array}{c} R \
+P_{X}(x) \end{array}\right] $$
+$$ \left[\begin{array}{l} X \
+p \end{array}\right]=\left[\begin{array}{cccc} a_{1}, a_{1} &amp;amp; a_{1}, a_{2} &amp;amp; \ldots &amp;amp; a_{n}, a_{n} \
+p\left(a_{1}, a_{1}\right) &amp;amp; p\left(a_{1}, a_{2}\right) &amp;amp; \ldots &amp;amp; p\left(a_{1}, a_{2}\right)} \end{array}\right] $$</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/graphicalogrithm/algorithm-fittingcircle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/graphicalogrithm/algorithm-fittingcircle/</guid>
+      <description>拟合圆的方法  几种对点集$(x_i, y_i)$进行圆拟合的算法：代数逼近法、最小二乘法和正交距离回归法
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/graphicalogrithm/algorithm-pointscenter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/graphicalogrithm/algorithm-pointscenter/</guid>
+      <description>点集的几何中心 平面点集的集合中心 Point2D: (x,y) $x_c =\frac{\sum_{i=1}^{n}{x_i}}{n}\y_c =\frac{\sum_{i=1}^{n}{y_i}}{n}$</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/graphicalogrithm/algorithm-stringpulling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/graphicalogrithm/algorithm-stringpulling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/graphicalogrithm/alogrithm-pointssorts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/graphicalogrithm/alogrithm-pointssorts/</guid>
+      <description>多边形点的空间排序 平面点集的排序（2D点集） sort points in clockwise order sort points along the quadrangle&amp;rsquo;s permiter sort pints by polar angle
+空间点集的排序（3D点云） </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/sweptsurface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/sweptsurface/</guid>
+      <description>Swept Surface 新老数据的交互问题 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/threejs%E4%B8%AD%E4%BB%80%E4%B9%88%E6%98%AFuvs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/threejs%E4%B8%AD%E4%BB%80%E4%B9%88%E6%98%AFuvs/</guid>
+      <description>Threejs 中的 UV 什么是UVs UVs 是与三维几何体的顶点信息相对应的二维纹理坐标，提供了表面网格（Mesh）与图像纹理(Texture)如何应用于该表面之间的联系。是控制纹理上的纹理像素对应于 3D 网格上的哪个顶点的标记点的基础信息。
+什么是UV mapping 技术 UV映射(UV Mapping)是精确控制表面纹理映射的关键技术
+ [References] 1.Understanding UVs - Love Them or Hate Them, They&amp;rsquo;re Essential to Know 2.UV mapping - Wikipedia</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/threejs%E4%B8%AD%E7%9A%84buffergeometry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/threejs%E4%B8%AD%E7%9A%84buffergeometry/</guid>
+      <description>Threejs 中的 BufferGeometry Description 网格、线或点几何的表示。包括顶点位置、面索引、法线、颜色、UV 和缓冲区内的自定义属性，从而降低将所有这些数据传递到 GPU 的成本。
+Important Member variables bufferattribute.index bufferattribute.position bufferattribute.normal bufferattribute.uvs
+To: Trheejs 是如何通过 BufferGeometry 降低数据传递到GPU的成本的 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/threejs%E4%B8%AD%E7%9A%84renderer%E7%9A%84%E5%B8%B8%E9%87%8F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/threejs%E4%B8%AD%E7%9A%84renderer%E7%9A%84%E5%B8%B8%E9%87%8F/</guid>
+      <description>Threejs 中 Renderer 的 Constants Cull Face Modes 什么是 threejs 中的 face culling
+THREE.CullFaceNone // 关闭 face culling THREE.CullFaceBack // default cull back faces THREE.CullFaceFront // cull front faces THREE.CullFaceFrontBack // cull front and back faces Shadow Types 什么是 threejs 中的 shadow
+这些主要用于 WebGLRender 的 shadowMap.type 属性的设置
+THREE.BasicShadowMap // 提供了一个未经过筛选的 shadow maps --- 很快，但是很没质量 THREE.PCFShadowMap // 使用 PCF 算法过滤的 shadow maps --- 这个是默认的 THREE.PCFSoftShadowMap // 使用 PCF 算法过滤的 shadow maps 但有更柔和的光影效果。 --- 尤其在使用第分辨率的阴影贴图的时候。 THREE.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/topology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/topology/</guid>
+      <description>Topology(拓扑学&amp;lt;音译&amp;gt;) 连通性 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/%E4%B8%89%E7%BB%B4%E5%AF%B9%E8%B1%A1%E7%9A%84%E8%A1%A8%E7%A4%BA/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/%E4%B8%89%E7%BB%B4%E5%AF%B9%E8%B1%A1%E7%9A%84%E8%A1%A8%E7%A4%BA/</guid>
+      <description>三维对象的表示 [toc]
+ 两大类实体表示的方法: 边界表示法(Boundary Respresentation, B-reps) 和 空间分区表是法(Space-Partitioning representation)
+ 多面体 三维图形对象中
+OpenGL 多面体函数(多余且额外, 算是一个实例了) 曲面 曲面的边界对象可以用参数或非参数来表示, 计图应用中常用的曲面边界对象有: `二次曲面`, `超二次曲面`, `多项式曲面`, `指数函数`, `样条曲面`  二次曲面 超二次曲面 OpenGL二次曲面和三次曲面函数 柔性对象 样条表示 三次样条插值方法 Bezier 样条曲线 Beézier曲面 B样条曲线 B样条曲面 beta样条 有理样条 样条表示之间的转换 样条曲线和曲面的显示 OpenGL 的逼近样条函数 扫描表示法 结构实体几何法 八叉树 BSP 树 分形几何方法 形状语法和其他过程方法 粒子系统 基于物理的方法 数据集可视化 小结  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/%E5%85%B3%E4%BA%8E%E5%87%B8%E5%8C%85/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/%E5%85%B3%E4%BA%8E%E5%87%B8%E5%8C%85/</guid>
+      <description>关于凸包 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/%E5%9B%9B%E5%85%83%E6%95%B0quaternion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/%E5%9B%9B%E5%85%83%E6%95%B0quaternion/</guid>
+      <description>四元数(Quaternion), 1843 &amp;mdash; (William Rowan Hamilton,1805-1865) 四元数的定义 四元数是一个简单的超复数 Q, 记:
+$$ Q = \omega + x \cdot \bold{i} + y \cdot \bold{j} + z \cdot \bold{z}, \quad \bold{i}^2 = \bold{j}^2 = \bold{k}^2 = -1
+$$
+四元数的几何意义 对于$i$、$j$、$k$本身的几何意义可以理解为一种旋转，其中
+$i$ 旋转代表 X 轴与 Y 轴相交平面中 X 轴正向向 Y 轴正向的旋转(绕$z$轴旋转)，
+$j$ 旋转代表 Z 轴与 X 轴相交平面中 Z 轴正向向 X 轴正向的旋转(绕$y$轴旋转)，
+$k$ 旋转代表 Y 轴与 Z 轴相交平面中 Y 轴正向向 Z 轴正向的旋转(绕$x$轴旋转)，
+-i、-j、-k 分别代表 i、j、k 旋转的反向旋转。（见右图）</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/%E6%9B%B2%E7%BA%BF%E4%B8%8A%E7%82%B9%E7%9A%84%E7%A6%BB%E6%95%A3%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/%E6%9B%B2%E7%BA%BF%E4%B8%8A%E7%82%B9%E7%9A%84%E7%A6%BB%E6%95%A3%E6%96%B9%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/%E6%9B%B2%E9%9D%A2%E7%9A%84%E6%8B%9F%E5%90%88/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/%E6%9B%B2%E9%9D%A2%E7%9A%84%E6%8B%9F%E5%90%88/</guid>
+      <description>曲面拟合 张量积 $$ \begin{bmatrix}
+\end{bmatrix} $$</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/%E6%B1%82%E4%B8%A4%E4%B8%AA%E5%B9%B3%E9%9D%A2%E7%9A%84%E4%BA%A4%E7%BA%BF/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/%E6%B1%82%E4%B8%A4%E4%B8%AA%E5%B9%B3%E9%9D%A2%E7%9A%84%E4%BA%A4%E7%BA%BF/</guid>
+      <description>计算两空间平面的交线 已知两个平面方程
+$P_1: {A_1}x + {B_1}y + {C_1}z + d_1 = 0$
+$P_2: {A_2}x + {B_2}y + {C_2}z + d_2 = 0$
+$P_1$ 的法向量为 $\overline{n}_1: (A_1,B_1,C_1)^T \quad$ $P_2$ 的法向量为 $\overline{n}_2: (A_2,B_2,C_2)^T$
+计算两个面的交线方向向量 求两个法向量的叉积: $\overline{n}_1 \times \overline{n}_2 = \begin{bmatrix} A_1\B_1\C_1 \end{bmatrix} \times \begin{bmatrix} A_2\B_2\C_2 \end{bmatrix} = \begin{bmatrix} i&amp;amp;j&amp;amp;k\A_1&amp;amp;B_1&amp;amp;C_1\A_2&amp;amp;B_2&amp;amp;C_2 \end{bmatrix} = \begin{bmatrix} {B_1C_2-B_2C_1}\C_1A_2-C_2A_1\A_1B_2-A_2B_1 \end{bmatrix}\begin{bmatrix} i&amp;amp;j&amp;amp;k \end{bmatrix}$
+所得到的结果是两平面交线的方向向量 $\overline{n}_3$;
+计算两平面交线上的一点 $$ \delta = |\overline{n}3|^2 \quad p{\cdot} =\frac{ (\overline{n}_3 \times \overline{n}_2) \cdot d_1 + (\overline{n}_3 \times \overline{n}_1) \cdot d_2}{\delta } $$</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/%E7%82%B9%E9%9B%86%E7%9A%84%E4%B8%AD%E5%BF%83/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/%E7%82%B9%E9%9B%86%E7%9A%84%E4%B8%AD%E5%BF%83/</guid>
+      <description>点集的中心(中心点) $n维$空间中一个 $对象X$ 的的几何中心 或 形心 是将 X 分成矩相等的两部分的所有超平面的交点
+ 有限个点总存在几何中心，可以通过计算这些点的每个坐标分量的算术平均值得到。这个中心是空间中一点到这有限个点距离的平方和的唯一最小值点。点集的几何中心在仿射变换下保持不变。
+ 有限点集的中心 给定用点集描述的对象, 用单位向量描述, ${ \vec{x_1},\vec{x_2},\vec{x_3}, \dots , \vec{x_k} }, \vec{x_i} \in R^n$
+$$ C_{centroid} = \frac{\sum_i^k \vec{x_i}}{k} $$
+点集的面积中心 积分公式中心 对称中心 地理中心 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8F%98%E6%8D%A2%E7%9F%A9%E9%98%B5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8F%98%E6%8D%A2%E7%9F%A9%E9%98%B5/</guid>
+      <description>空间几何的基本变换矩阵 移动矩阵 旋转矩阵 缩放矩阵 镜像矩阵 已知一空间平面 $F(x,y,z) = Ax + By + Cz + D = 0$, 该平面法向量 \vec{n} = (A,B,C), 和原点的距离为 $D$, 则关于该平面的镜像矩阵为:
+$$ \begin{bmatrix} 1 - 2AA &amp;amp; - 2AB &amp;amp; - 2AC &amp;amp; -2DA \
+- 2AB &amp;amp; 1 - 2BB &amp;amp; - 2BC &amp;amp; -2DB \
+- 2AC &amp;amp; - 2BC &amp;amp; 1 - 2CC &amp;amp; -2DC \
+0 &amp;amp; 0 &amp;amp; 0 &amp;amp; 1 \end{bmatrix} $$</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E7%82%B9%E9%9B%86%E6%8B%9F%E5%90%88%E7%A9%BA%E9%97%B4%E6%9B%B2%E7%BA%BF/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E7%82%B9%E9%9B%86%E6%8B%9F%E5%90%88%E7%A9%BA%E9%97%B4%E6%9B%B2%E7%BA%BF/</guid>
+      <description>空间点集合的线性拟合 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E7%82%B9%E9%9B%86%E7%9A%84%E9%A1%BA%E5%BA%8F%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E7%82%B9%E9%9B%86%E7%9A%84%E9%A1%BA%E5%BA%8F%E9%97%AE%E9%A2%98/</guid>
+      <description>空间点集的顺序问题 空间点集是为了描述一个对象的存在而存在具象的数据, 空间点集排序的问题,也是空间点数据结构化描述的问题.
+二维空间点集的排序 三位空间点集的排序 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</guid>
+      <description>Computer Grahpic Science Mathmatics Basic [toc]
+Director  坐标参照系  笛卡尔坐标系,非笛卡尔坐标系, 球面\圆柱面等对称坐标系
+     点和向量 张量 基向量和度量张量 矩阵 复数 四元数  非参数表示 直接用激活中的参照系坐标来描述对象时, 这种表示就称为非参数表示(non-parametric representation)
+参数表示 用维度参数来描述物体时, 这种描述就称为参数表示(parametric representation)
+ 变化率算子 变化率积分变换定理 多边形的面积和质心 多面体的计算性质 数值方法  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/learngraphicbythreejs/%E8%AF%A6%E8%A7%A3threejs%E4%B8%ADindexpositionuv%E7%9A%84%E5%85%B3%E7%B3%BB/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/learngraphicbythreejs/%E8%AF%A6%E8%A7%A3threejs%E4%B8%ADindexpositionuv%E7%9A%84%E5%85%B3%E7%B3%BB/</guid>
+      <description>详解Threejs中index，position，uv的关系 index[] 记录了三角网格的拓扑关系 position[] 记录了每个点的空间位置信息 index[i] in position.indices uv[] 记录材质的映射关系</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/leetcode/115_minimalstack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/leetcode/115_minimalstack/</guid>
+      <description>最小栈 设计一个支持 push ，pop ，top 操作，并能在常数时间内检索到最小元素的栈。
+push(x) —— 将元素 x 推入栈中。 pop() —— 删除栈顶的元素。 top() —— 获取栈顶元素。 getMin() —— 检索栈中的最小元素。
+ Typescript Code
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/leetcode/1370_inceasingdecreasingstring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/leetcode/1370_inceasingdecreasingstring/</guid>
+      <description>1370 上升下降字符串 给你一个字符串 s ，请你根据下面的算法重新构造字符串：
+从 s 中选出 最小 的字符，将它 接在 结果字符串的后面。 从 s 剩余字符中选出 最小 的字符，且该字符比上一个添加的字符大，将它 接在 结果字符串后面。 重复步骤 2 ，直到你没法从 s 中选择字符。 从 s 中选出 最大 的字符，将它 接在 结果字符串的后面。 从 s 剩余字符中选出 最大 的字符，且该字符比上一个添加的字符小，将它 接在 结果字符串后面。 重复步骤 5 ，直到你没法从 s 中选择字符。 重复步骤 1 到 6 ，直到 s 中所有字符都已经被选过。 在任何一步中，如果最小或者最大字符不止一个 ，你可以选择其中任意一个，并将其添加到结果字符串。
+请你返回将 s 中字符重新排序后的 结果字符串 。
+Train // 1. 字符升序排列 // 2. 去重剔除后，剩余的结果 // 3. 字符降序排列 // 4. 去重后,剩余的结果 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/leetcode/147_insertionsortlist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/leetcode/147_insertionsortlist/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/leetcode/283_moezeros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/leetcode/283_moezeros/</guid>
+      <description>Move Zeros 给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。
+示例:
+输入: [0,1,0,3,12] 输出: [1,3,12,0,0] 说明:
+必须在原数组上操作，不能拷贝额外的数组。 尽量减少操作次数。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/post/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/post/1/01/01/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/react/create-react-app%E5%88%9D%E5%A7%8B%E5%8C%96ts%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/react/create-react-app%E5%88%9D%E5%A7%8B%E5%8C%96ts%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/react/react-error-collection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/react/react-error-collection/</guid>
+      <description>最近在学习 React-Handling Events的时候出现了一个问题  描述： 在我 ctrl-c 了一段官网的代码后
+class Toggle extends React.Component { constructor(props) { super(props); this.state = {isToggleOn: true}; // This binding is necessary to make `this` work in the callback  this.handleClick = this.handleClick.bind(this); } handleClick() { this.setState(state =&amp;gt; ({ isToggleOn: !state.isToggleOn })); } render() { return ( &amp;lt;button onClick={this.handleClick}&amp;gt; {this.state.isToggleOn ? &amp;#39;ON&amp;#39; : &amp;#39;OFF&amp;#39;} &amp;lt;/button&amp;gt; ); } } ReactDOM.render( &amp;lt;Toggle /&amp;gt;, document.getElementById(&amp;#39;root&amp;#39;) ); visual-studio-code 提示了一个错误 Property &#39;isToggleOn&#39; does not exist on type &#39;Readonly&amp;lt;{}&amp;gt;&#39;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/react/react%E4%B8%8B%E7%9A%84%E9%94%AE%E7%9B%98%E4%BA%8B%E4%BB%B6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/react/react%E4%B8%8B%E7%9A%84%E9%94%AE%E7%9B%98%E4%BA%8B%E4%BB%B6/</guid>
+      <description>React 下的键盘事件 问题来源 ... &amp;lt;div class=&amp;#34;div1&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;div2&amp;#34;&amp;gt; &amp;lt;list v in datalist&amp;gt; &amp;lt;input class=&amp;#34;input&amp;#34; /&amp;gt; &amp;lt;button class=&amp;#34;btn&amp;#34;&amp;gt;&amp;lt;/button&amp;gt; &amp;lt;/list&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; ... 我希望在 div1 层处理键盘的监听 onKeyDwon(),onKeyPress(),onKeyUp(),来监听 ctrl isPressed。
+因为用了 react + typescript 的 dev framework,
+export class CustomdivElement extends React.Component { private _handleKeyDown() { console.log(&amp;#34;keydown&amp;#34;); } private _handleKeyPress() { console.log(&amp;#34;keypress&amp;#34;); } private _handleKeyUp() { console.log(&amp;#34;keyup&amp;#34;); } render() { return ( &amp;lt;div class=&amp;#34;div1&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;div2&amp;#34;&amp;gt; ... &amp;lt;list&amp;gt; &amp;lt;input class=&amp;#34;input&amp;#34; /&amp;gt; &amp;lt;button class=&amp;#34;btn&amp;#34;&amp;gt;&amp;lt;/button&amp;gt; &amp;lt;/list&amp;gt; .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/react/react%E4%B8%8B%E7%9A%84%E9%BC%A0%E6%A0%87%E4%BA%8B%E4%BB%B6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/react/react%E4%B8%8B%E7%9A%84%E9%BC%A0%E6%A0%87%E4%BA%8B%E4%BB%B6/</guid>
+      <description>React 下的鼠标事件  如何阻止鼠标事件onMouseOver, onMouseOut对子组件的影响。  问题回顾:
+有一个页面结构如下
+&amp;lt;div id=&amp;#34;layer1&amp;#34;&amp;gt; ... &amp;lt;div id=&amp;#34;layer2&amp;#34;&amp;gt; ... &amp;lt;/div&amp;gt; &amp;lt;div id=&amp;#34;layer2&amp;#34;&amp;gt; ... &amp;lt;/div&amp;gt; ... &amp;lt;/div&amp;gt; 我要在鼠标进入 layer1 的时候，显示 mouseIn， 鼠标离开 layer1 的时候，显示 mouseOut；
+在tsx文件下使用js原生事件如下
+export class CustomDiv extends React.Component{ public _handleMouseIn(e: React.MouseEvent&amp;lt;HTMLDivElement&amp;gt;) { e.stopPropagation() // dosomething  } public _handleMouseOut(e: React.MouseEvent&amp;lt;HTMLDivElement&amp;gt;) { e.stopPropagation() // dosomething  } public render() { return( &amp;lt;div id=&amp;#34;layer1&amp;#34; onMouseOver = {this._handleMouseIn} onMouseOut = {this._handleMouseOut }&amp;gt; ... &amp;lt;div id=&amp;#34;layer2&amp;#34;&amp;gt; ... &amp;lt;/div&amp;gt; &amp;lt;div id=&amp;#34;layer2&amp;#34;&amp;gt; .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/react/window%E5%92%8Cdocument%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/react/window%E5%92%8Cdocument%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
+      <description>Window &amp;amp; Document Window(DOCS) window object 表示的是浏览器中打开的窗口。
+如果文档包含框架（frame 或 iframe 标签），浏览器会为HTML文档创建一个 window 对象， 并为每个框架创建一个额外的 window 对象
+Document(DOCS) 每个载入浏览器的 HTML 文档都会成为 Document 对象</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/target/html%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/target/html%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/target/vscode%E4%B8%8Amarkdown%E7%9A%84plugin%E5%BC%80%E5%8F%91/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/target/vscode%E4%B8%8Amarkdown%E7%9A%84plugin%E5%BC%80%E5%8F%91/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/target/%E5%86%99%E4%B8%80%E4%B8%AAsvg.html%E7%9A%84%E6%96%87%E4%BB%B6%E6%9D%A5%E6%98%BE%E7%A4%BA%E5%92%8C%E6%93%8D%E4%BD%9C%E6%88%91%E7%9A%84%E6%96%87%E6%A1%A3%E7%9A%84%E7%BB%93%E6%9E%84/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/target/%E5%86%99%E4%B8%80%E4%B8%AAsvg.html%E7%9A%84%E6%96%87%E4%BB%B6%E6%9D%A5%E6%98%BE%E7%A4%BA%E5%92%8C%E6%93%8D%E4%BD%9C%E6%88%91%E7%9A%84%E6%96%87%E6%A1%A3%E7%9A%84%E7%BB%93%E6%9E%84/</guid>
+      <description>一个 svg 操作的 html页面  html 如何读写本地的文件(不通过非原生接口) html 和 svg 的 整合 html 实现拖拽和浮动的布局  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/target/%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AAlatex%E8%BE%93%E5%85%A5%E6%B3%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/target/%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AAlatex%E8%BE%93%E5%85%A5%E6%B3%95/</guid>
+      <description>基于 TSF 开发的 Latex 输入法   编程语言: C语言
+  项目目标: Latex 输入法
+  项目类型: 开源
+  4: 程序设计
+仅支持 英语 和 Latex 符号的输入 支持 latex 的宏编程
+5: 按键设计图</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/target/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%A7%81%E6%9C%89%E4%BA%91%E7%9B%98/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/target/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%A7%81%E6%9C%89%E4%BA%91%E7%9B%98/</guid>
+      <description>  通过租赁一个服务器，构建一个私有云盘存储异地编辑的文件。
+  或者通过树莓派，搭建一个移动云盘，通过USB接口，或通过 sim 卡进行网络通信，SSH认证接口的便携式云盘。
+  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/toolstips/debug-c&#43;&#43;-on-the-chrome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/toolstips/debug-c&#43;&#43;-on-the-chrome/</guid>
+      <description>Debug C++ on the Chrome  reference
+ Emscription  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/toolstips/emscriptenemsdk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/toolstips/emscriptenemsdk/</guid>
+      <description>Emscription &amp;amp; Emsdk Emsdk Install  On Windows git clone https://github.com/emscripten-core/emsdk cd emsdk ./emsdk install latest&amp;lt;version&amp;gt; ./emsdk activate latest&amp;lt;version&amp;gt;
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/toolstips/quick-run-script/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/toolstips/quick-run-script/</guid>
+      <description>装机环境搭建 系统分类  windows linux maxos  Git Node Python Hexo sudo npm install hexo-cli -g sudo npm install hexo-deployer-git --save Software </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/toolstips/quickref/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/toolstips/quickref/</guid>
+      <description>Quick Reference Site StackOverFlow 博客园 知乎
+Game Developing Community Network WebGL WebGL-MDN WebGL 理论基础 OpenMesh</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/toolstips/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E7%9A%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/toolstips/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E7%9A%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/</guid>
+      <description>//TODO: 常见的微分和积分的数学公式代码</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/toolstips/%E4%BB%80%E4%B9%88%E6%98%AFhdr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/toolstips/%E4%BB%80%E4%B9%88%E6%98%AFhdr/</guid>
+      <description>什么是 HDR </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/toolstips/%E4%BB%80%E4%B9%88%E6%98%AF%E8%B6%85%E5%B9%B3%E9%9D%A2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/toolstips/%E4%BB%80%E4%B9%88%E6%98%AF%E8%B6%85%E5%B9%B3%E9%9D%A2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/toolstips/%E5%93%88%E5%A4%AB%E6%9B%BC%E7%BC%96%E7%A0%81%E5%AE%9E%E7%8E%B0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/toolstips/%E5%93%88%E5%A4%AB%E6%9B%BC%E7%BC%96%E7%A0%81%E5%AE%9E%E7%8E%B0/</guid>
+      <description>//TODO: 手动实现哈夫曼编码</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/toolstips/%E5%B0%8F%E6%95%B0%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%88%B6%E8%A1%A8%E7%A4%BA/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/toolstips/%E5%B0%8F%E6%95%B0%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%88%B6%E8%A1%A8%E7%A4%BA/</guid>
+      <description>小数的二进制表示 二进制小数的分类  定点数  小数点位置固定不变的数； 定点数又定点整数（小数部分为0）和定点小数（整数部分为0）   浮点数  小数点位置变化的数称为浮点数    实数可以表示为一个纯小数和一个乘幂之积的形式 $$ 123.45 = 0.12345 * 10^3 \
+0.003456 = 0.3456 * 10^{-2} \
+3.14 = 0.314 * 10^1 \
+$$
+浮点数的指数表示 指数称为阶码，小数称为尾数。 二进制数的阶码和尾数都用二进制数表示。
+任意二进制浮点数公式 $$ N = \pm M * 2^{\pm E} $$
+截断误差（舍入误差） 十进制小数转二进制数的方法 十进制小数转换成二进制小数采用&amp;quot;乘2取整，顺序排列&amp;quot;法。具体做法是：用2乘十进制小数，可以得到积，将积的整数部分取出，再用2乘余下的小数 部分，又得到一个积，再将积的整数部分取出，如此进行，直到积中的小数部分为零，或者达到所要求的精度为止。然后把取出的整数部分按顺序排列起来，先取的整数作为二进制小数的高位有效位，后取的整数作为低位有效位。 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/toolstips/%E6%9B%BC%E5%BD%BB%E6%96%AF%E7%89%B9%E7%BC%96%E7%A0%81%E5%AE%9E%E7%8E%B0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/toolstips/%E6%9B%BC%E5%BD%BB%E6%96%AF%E7%89%B9%E7%BC%96%E7%A0%81%E5%AE%9E%E7%8E%B0/</guid>
+      <description>曼彻斯特编码 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/toolstips/%E7%9F%A9%E9%98%B5%E5%92%8C%E5%90%91%E9%87%8F/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/toolstips/%E7%9F%A9%E9%98%B5%E5%92%8C%E5%90%91%E9%87%8F/</guid>
+      <description>向量的数乘
+向量的内积
+向量的外积
+矩阵
+块矩阵
+矩阵的数乘
+举证的乘法
+矩阵的哈达玛积（hadamard product）
+举证的克罗内克积（Kronecker product）</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>localhost/toolstips/%E9%97%AD%E5%8C%85%E5%92%8C%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>localhost/toolstips/%E9%97%AD%E5%8C%85%E5%92%8C%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/</guid>
+      <description>垃圾回收（Garbage Collection &amp;ndash; GC） JS 中的垃圾回收机制 在 js 中的 数据存储方式 分两种，一种是 堆存储， 另一种是 栈存储。
+堆存储的回收机制 栈存储的回收机制 sta=&amp;gt;start: 开始 e=&amp;gt;end: 结束 op=&amp;gt;operation: 操作（处理块） sub=&amp;gt;subroutine: 子程序 cond=&amp;gt;condition: 是或者不是（条件判断）? cond2=&amp;gt;condition: 第二个判断（条件判断）? io=&amp;gt;inputoutput: 输出 </description>
+    </item>
+    
+  </channel>
+</rss>

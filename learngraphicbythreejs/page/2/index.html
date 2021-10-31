@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" LearnGraphicByThreejs &middot;  穆 道" />
+  	<meta property="og:site_name" content="穆 道" />
+  	<meta property="og:url" content="localhost/learngraphicbythreejs/" />
+    
+    
+    <meta property="og:type" content="website" />
+    
+
+  <title>
+     LearnGraphicByThreejs &middot;  穆 道
+  </title>
+
+    <meta name="description" content="Note Book" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="localhostimages/favicon.ico">
+	  <link rel="apple-touch-icon" href="localhostimages/apple-touch-icon.png" />
+    
+    <link rel="stylesheet" type="text/css" href="localhostcss/screen.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+    
+      
+          <link href="localhostindex.xml" rel="alternate" type="application/rss+xml" title="穆 道" />
+      
+      
+        <link href="localhost/learngraphicbythreejs/index.xml" rel="alternate" type="application/rss+xml" title="LearnGraphicByThreejs &middot; 穆 道" />
+      
+    
+    <meta name="generator" content="Hugo 0.68.3" />
+
+    <link rel="canonical" href="localhost/learngraphicbythreejs/" />
+
+     
+</head>
+<body class="nav-closed">
+<div id="particles-js"></div>
+  
+
+
+ <div class="site-wrapper">
+
+
+
+
+	<header class="main-header" style="background-image: url(localhostimages/user.jpg)">
+
+    <nav class="main-nav overlay clearfix">
+      
+        <a class="blog-logo" href="localhost"><img src="localhostimages/user.png" alt="Home" /></a>
+      
+      
+        
+          <a class="menu-button icon-feed" href="localhost/learngraphicbythreejs/index.xml">&nbsp;&nbsp;Subscribe</a>
+        
+      
+    </nav>
+    <div class="vertical">
+
+        <div class="main-header-content inner">
+            <h1 class="page-title">
+
+              <a class="btn-bootstrap-2" href="#content">穆 道</a>
+          </h1>
+        </div>
+</div>
+    <a class="scroll-down icon-arrow-left" href="#content"><span class="hidden">Scroll Down</span></a>
+</header>
+
+<main id="content" class="content" role="main">
+    
+    
+    
+    
+
+	<div class="extra-pagination inner">
+    <nav class="pagination" role="navigation">
+	
+	    <a class="newer-posts" href="localhost/learngraphicbythreejs/">&larr; Newer Posts</a>
+	
+	<span class="page-number">Page 2 of 3</span>
+	
+	    <a class="older-posts" href="localhost/learngraphicbythreejs/page/3/">Older Posts &rarr;</a>
+	
+</nav>
+
+	</div>
+
+	
+	   
+<article class="post LearnGraphicByThreejs">
+    <header class="post-header">
+        <h2 class="post-title"><a href="localhost/learngraphicbythreejs/%E5%85%B3%E4%BA%8E%E5%87%B8%E5%8C%85/"></a></h2>
+    </header>
+    <section class="post-excerpt">
+      <p>
+          <section class="post-content">
+            <h1 id="关于凸包">关于凸包</h1>
+
+          </section>
+      </p>
+      
+    </section>
+    <footer class="post-meta">
+        
+            <img class="author-thumb" src="localhostimages/user.png" alt="Author image" nopin="nopin" />
+        
+        
+            Choy
+        
+        
+        <time class="post-date" datetime="0001-01-01T00:00:00Z">
+            1 Jan 0001
+        </time>
+    </footer>
+</article>
+
+	
+	   
+<article class="post LearnGraphicByThreejs">
+    <header class="post-header">
+        <h2 class="post-title"><a href="localhost/learngraphicbythreejs/%E5%9B%9B%E5%85%83%E6%95%B0quaternion/"></a></h2>
+    </header>
+    <section class="post-excerpt">
+      <p>
+          <section class="post-content">
+            <h1 id="四元数quaternion-1843-----william-rowan-hamilton1805-1865">四元数(Quaternion), 1843 &mdash; (William Rowan Hamilton,1805-1865)</h1>
+<h2 id="四元数的定义">四元数的定义</h2>
+<p>四元数是一个简单的超复数 Q, 记:</p>
+<p>$$
+Q = \omega + x \cdot \bold{i} + y \cdot \bold{j} + z \cdot \bold{z}, \quad \bold{i}^2 = \bold{j}^2 = \bold{k}^2 = -1</p>
+<p>$$</p>
+<h2 id="四元数的几何意义">四元数的几何意义</h2>
+<p>对于$i$、$j$、$k$本身的几何意义可以理解为一种旋转，其中</p>
+<p>$i$ 旋转代表 X 轴与 Y 轴相交平面中 X 轴正向向 Y 轴正向的旋转(绕$z$轴旋转)，</p>
+<p>$j$ 旋转代表 Z 轴与 X 轴相交平面中 Z 轴正向向 X 轴正向的旋转(绕$y$轴旋转)，</p>
+<p>$k$ 旋转代表 Y 轴与 Z 轴相交平面中 Y 轴正向向 Z 轴正向的旋转(绕$x$轴旋转)，</p>
+<p>-i、-j、-k 分别代表 i、j、k 旋转的反向旋转。（见右图）</p>
+<h2 id="四元数的计算">四元数的计算</h2>
+<ol>
+<li>
+<p>加法</p>
+</li>
+<li>
+<p>减法</p>
+</li>
+<li>
+<p>乘法</p>
+</li>
+<li>
+<p>点积</p>
+</li>
+<li>
+<p>外积</p>
+</li>
+<li>
+<p>偶积</p>
+</li>
+<li>
+<p>叉积</p>
+</li>
+<li>
+<p>转置</p>
+</li>
+<li>
+<p>模运算</p>
+</li>
+<li>
+<p>四元数辐角</p>
+</li>
+</ol>
+<h2 id="四元数计算的几何意义">四元数计算的几何意义</h2>
+
+          </section>
+      </p>
+      
+    </section>
+    <footer class="post-meta">
+        
+            <img class="author-thumb" src="localhostimages/user.png" alt="Author image" nopin="nopin" />
+        
+        
+            Choy
+        
+        
+        <time class="post-date" datetime="0001-01-01T00:00:00Z">
+            1 Jan 0001
+        </time>
+    </footer>
+</article>
+
+	
+	   
+<article class="post LearnGraphicByThreejs">
+    <header class="post-header">
+        <h2 class="post-title"><a href="localhost/learngraphicbythreejs/%E6%9B%B2%E7%BA%BF%E4%B8%8A%E7%82%B9%E7%9A%84%E7%A6%BB%E6%95%A3%E6%96%B9%E6%B3%95/"></a></h2>
+    </header>
+    <section class="post-excerpt">
+      <p>
+          <section class="post-content">
+            
+          </section>
+      </p>
+      
+    </section>
+    <footer class="post-meta">
+        
+            <img class="author-thumb" src="localhostimages/user.png" alt="Author image" nopin="nopin" />
+        
+        
+            Choy
+        
+        
+        <time class="post-date" datetime="0001-01-01T00:00:00Z">
+            1 Jan 0001
+        </time>
+    </footer>
+</article>
+
+	
+	   
+<article class="post LearnGraphicByThreejs">
+    <header class="post-header">
+        <h2 class="post-title"><a href="localhost/learngraphicbythreejs/%E6%9B%B2%E9%9D%A2%E7%9A%84%E6%8B%9F%E5%90%88/"></a></h2>
+    </header>
+    <section class="post-excerpt">
+      <p>
+          <section class="post-content">
+            <h1 id="曲面拟合">曲面拟合</h1>
+<h2 id="张量积">张量积</h2>
+<p>$$
+\begin{bmatrix}</p>
+<p>\end{bmatrix}
+$$</p>
+
+          </section>
+      </p>
+      
+    </section>
+    <footer class="post-meta">
+        
+            <img class="author-thumb" src="localhostimages/user.png" alt="Author image" nopin="nopin" />
+        
+        
+            Choy
+        
+        
+        <time class="post-date" datetime="0001-01-01T00:00:00Z">
+            1 Jan 0001
+        </time>
+    </footer>
+</article>
+
+	
+	   
+<article class="post LearnGraphicByThreejs">
+    <header class="post-header">
+        <h2 class="post-title"><a href="localhost/learngraphicbythreejs/%E6%B1%82%E4%B8%A4%E4%B8%AA%E5%B9%B3%E9%9D%A2%E7%9A%84%E4%BA%A4%E7%BA%BF/"></a></h2>
+    </header>
+    <section class="post-excerpt">
+      <p>
+          <section class="post-content">
+            <h1 id="计算两空间平面的交线">计算两空间平面的交线</h1>
+<p>已知两个平面方程</p>
+<p>$P_1: {A_1}x + {B_1}y + {C_1}z + d_1 = 0$</p>
+<p>$P_2: {A_2}x + {B_2}y + {C_2}z + d_2 = 0$</p>
+<p>$P_1$ 的法向量为 $\overline{n}_1: (A_1,B_1,C_1)^T \quad$ $P_2$ 的法向量为 $\overline{n}_2: (A_2,B_2,C_2)^T$</p>
+<h2 id="计算两个面的交线方向向量">计算两个面的交线方向向量</h2>
+<p>求两个法向量的<code>叉积</code>: $\overline{n}_1 \times \overline{n}_2 = \begin{bmatrix} A_1\B_1\C_1 \end{bmatrix} \times \begin{bmatrix} A_2\B_2\C_2 \end{bmatrix} = \begin{bmatrix} i&amp;j&amp;k\A_1&amp;B_1&amp;C_1\A_2&amp;B_2&amp;C_2 \end{bmatrix} = \begin{bmatrix} {B_1C_2-B_2C_1}\C_1A_2-C_2A_1\A_1B_2-A_2B_1 \end{bmatrix}\begin{bmatrix} i&amp;j&amp;k \end{bmatrix}$</p>
+<p>所得到的结果是两平面交线的方向向量 $\overline{n}_3$;</p>
+<h2 id="计算两平面交线上的一点">计算两平面交线上的一点</h2>
+<p>$$
+\delta = |\overline{n}<em>3|^2 \quad
+p</em>{\cdot} =\frac{ (\overline{n}_3 \times \overline{n}_2) \cdot d_1 + (\overline{n}_3 \times \overline{n}_1) \cdot d_2}{\delta }
+$$</p>
+
+          </section>
+      </p>
+      
+    </section>
+    <footer class="post-meta">
+        
+            <img class="author-thumb" src="localhostimages/user.png" alt="Author image" nopin="nopin" />
+        
+        
+            Choy
+        
+        
+        <time class="post-date" datetime="0001-01-01T00:00:00Z">
+            1 Jan 0001
+        </time>
+    </footer>
+</article>
+
+	
+	   
+<article class="post LearnGraphicByThreejs">
+    <header class="post-header">
+        <h2 class="post-title"><a href="localhost/learngraphicbythreejs/%E7%82%B9%E9%9B%86%E7%9A%84%E4%B8%AD%E5%BF%83/"></a></h2>
+    </header>
+    <section class="post-excerpt">
+      <p>
+          <section class="post-content">
+            <h1 id="点集的中心中心点">点集的中心(中心点)</h1>
+<p>$n维$空间中一个 $对象X$ 的的几何中心 或 形心 是将 X 分成<a href="">矩相等</a>的两部分的所有<a href="">超平面</a>的交点</p>
+<blockquote>
+<p><a href="https://en.wikipedia.org/wiki/Centroid">有限个点总存在几何中心，可以通过计算这些点的每个坐标分量的算术平均值得到。这个中心是空间中一点到这有限个点距离的平方和的唯一最小值点。点集的几何中心在仿射变换下保持不变。</a></p>
+</blockquote>
+<h2 id="有限点集的中心">有限点集的中心</h2>
+<p>给定用点集描述的对象, 用单位向量描述, ${ \vec{x_1},\vec{x_2},\vec{x_3}, \dots , \vec{x_k} }, \vec{x_i} \in R^n$</p>
+<p>$$
+C_{centroid} = \frac{\sum_i^k \vec{x_i}}{k}
+$$</p>
+<h2 id="点集的面积中心">点集的面积中心</h2>
+<h2 id="积分公式中心">积分公式中心</h2>
+<h2 id="对称中心">对称中心</h2>
+<h2 id="地理中心">地理中心</h2>
+
+          </section>
+      </p>
+      
+    </section>
+    <footer class="post-meta">
+        
+            <img class="author-thumb" src="localhostimages/user.png" alt="Author image" nopin="nopin" />
+        
+        
+            Choy
+        
+        
+        <time class="post-date" datetime="0001-01-01T00:00:00Z">
+            1 Jan 0001
+        </time>
+    </footer>
+</article>
+
+	
+	   
+<article class="post LearnGraphicByThreejs">
+    <header class="post-header">
+        <h2 class="post-title"><a href="localhost/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8F%98%E6%8D%A2%E7%9F%A9%E9%98%B5/"></a></h2>
+    </header>
+    <section class="post-excerpt">
+      <p>
+          <section class="post-content">
+            <h1 id="空间几何的基本变换矩阵">空间几何的基本变换矩阵</h1>
+<h2 id="移动矩阵">移动矩阵</h2>
+<h2 id="旋转矩阵">旋转矩阵</h2>
+<h2 id="缩放矩阵">缩放矩阵</h2>
+<h2 id="镜像矩阵">镜像矩阵</h2>
+<p>已知一空间平面 $F(x,y,z) = Ax + By + Cz + D = 0$, 该平面法向量 \vec{n} = (A,B,C), 和原点的距离为 $D$, 则关于该平面的镜像矩阵为:</p>
+<p>$$
+\begin{bmatrix}
+1 - 2AA &amp; - 2AB &amp; - 2AC &amp; -2DA \<br>
+- 2AB &amp; 1 - 2BB &amp; - 2BC &amp; -2DB \<br>
+- 2AC &amp; - 2BC &amp; 1 - 2CC &amp; -2DC \<br>
+0 &amp; 0 &amp; 0 &amp; 1
+\end{bmatrix}
+$$</p>
+
+          </section>
+      </p>
+      
+    </section>
+    <footer class="post-meta">
+        
+            <img class="author-thumb" src="localhostimages/user.png" alt="Author image" nopin="nopin" />
+        
+        
+            Choy
+        
+        
+        <time class="post-date" datetime="0001-01-01T00:00:00Z">
+            1 Jan 0001
+        </time>
+    </footer>
+</article>
+
+	
+	   
+<article class="post LearnGraphicByThreejs">
+    <header class="post-header">
+        <h2 class="post-title"><a href="localhost/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E7%82%B9%E9%9B%86%E6%8B%9F%E5%90%88%E7%A9%BA%E9%97%B4%E6%9B%B2%E7%BA%BF/"></a></h2>
+    </header>
+    <section class="post-excerpt">
+      <p>
+          <section class="post-content">
+            <h1 id="空间点集合的线性拟合">空间点集合的线性拟合</h1>
+
+          </section>
+      </p>
+      
+    </section>
+    <footer class="post-meta">
+        
+            <img class="author-thumb" src="localhostimages/user.png" alt="Author image" nopin="nopin" />
+        
+        
+            Choy
+        
+        
+        <time class="post-date" datetime="0001-01-01T00:00:00Z">
+            1 Jan 0001
+        </time>
+    </footer>
+</article>
+
+	
+	   
+<article class="post LearnGraphicByThreejs">
+    <header class="post-header">
+        <h2 class="post-title"><a href="localhost/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E7%82%B9%E9%9B%86%E7%9A%84%E9%A1%BA%E5%BA%8F%E9%97%AE%E9%A2%98/"></a></h2>
+    </header>
+    <section class="post-excerpt">
+      <p>
+          <section class="post-content">
+            <h1 id="空间点集的顺序问题">空间点集的顺序问题</h1>
+<p>空间点集是为了描述一个对象的存在而存在具象的数据, 空间点集排序的问题,也是空间点数据结构化描述的问题.</p>
+<h2 id="二维空间点集的排序">二维空间点集的排序</h2>
+<h2 id="三位空间点集的排序">三位空间点集的排序</h2>
+
+          </section>
+      </p>
+      
+    </section>
+    <footer class="post-meta">
+        
+            <img class="author-thumb" src="localhostimages/user.png" alt="Author image" nopin="nopin" />
+        
+        
+            Choy
+        
+        
+        <time class="post-date" datetime="0001-01-01T00:00:00Z">
+            1 Jan 0001
+        </time>
+    </footer>
+</article>
+
+	
+	   
+<article class="post LearnGraphicByThreejs">
+    <header class="post-header">
+        <h2 class="post-title"><a href="localhost/learngraphicbythreejs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/"></a></h2>
+    </header>
+    <section class="post-excerpt">
+      <p>
+          <section class="post-content">
+            <h1 id="computer-grahpic-science-mathmatics-basic">Computer Grahpic Science Mathmatics Basic</h1>
+<p>[toc]</p>
+<h2 id="director">Director</h2>
+<ol>
+<li>坐标参照系
+<blockquote>
+<p>笛卡尔坐标系,非笛卡尔坐标系, 球面\圆柱面等对称坐标系</p>
+</blockquote>
+<ol>
+<li></li>
+</ol>
+</li>
+<li>点和向量</li>
+<li>张量</li>
+<li>基向量和度量张量</li>
+<li>矩阵</li>
+<li>复数</li>
+<li>四元数</li>
+</ol>
+<h2 id="非参数表示">非参数表示</h2>
+<p>直接用激活中的参照系坐标来描述对象时, 这种表示就称为<code>非参数表示(non-parametric representation)</code></p>
+<h2 id="参数表示">参数表示</h2>
+<p>用维度参数来描述物体时, 这种描述就称为<code>参数表示(parametric representation)</code></p>
+<ol>
+<li>变化率算子</li>
+<li>变化率积分变换定理</li>
+<li>多边形的面积和质心</li>
+<li>多面体的计算性质</li>
+<li>数值方法</li>
+</ol>
+
+          </section>
+      </p>
+      
+    </section>
+    <footer class="post-meta">
+        
+            <img class="author-thumb" src="localhostimages/user.png" alt="Author image" nopin="nopin" />
+        
+        
+            Choy
+        
+        
+        <time class="post-date" datetime="0001-01-01T00:00:00Z">
+            1 Jan 0001
+        </time>
+    </footer>
+</article>
+
+	
+
+	<nav class="pagination" role="navigation">
+	
+	    <a class="newer-posts" href="localhost/learngraphicbythreejs/">&larr; Newer Posts</a>
+	
+	<span class="page-number">Page 2 of 3</span>
+	
+	    <a class="older-posts" href="localhost/learngraphicbythreejs/page/3/">Older Posts &rarr;</a>
+	
+</nav>
+
+</main>
+
+
+
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">穆 道</a> </section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="https://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/syui/hugo-theme-air">hugo-theme-air</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="localhostjs/jquery.js"></script>
+    <script type="text/javascript" src="localhostjs/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="localhostjs/index.js"></script>
+    <script src="localhostjs/particles.min.js"></script>
+    <script src="localhostjs/particles.js"></script>  
+
+</body>
+</html>
+
