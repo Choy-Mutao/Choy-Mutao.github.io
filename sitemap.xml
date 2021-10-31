@@ -3,715 +3,715 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>localhost/post/</loc>
+    <loc>https://choy-mutao.github.io/post/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost/post/2017/01/01/test/</loc>
+    <loc>https://choy-mutao.github.io/post/2017/01/01/test/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost/</loc>
+    <loc>https://choy-mutao.github.io/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost/post/2016/01/01/test/</loc>
+    <loc>https://choy-mutao.github.io/post/2016/01/01/test/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>localhost/basic/algorithm/%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://choy-mutao.github.io/basic/algorithm/%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E7%AE%97%E6%B3%95/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/calculus/</loc>
+    <loc>https://choy-mutao.github.io/basic/calculus/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/chrome/webassembly/</loc>
+    <loc>https://choy-mutao.github.io/basic/chrome/webassembly/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/computerinformationscience/%E5%B1%80%E9%83%A8%E6%B8%90%E8%BF%91%E7%A8%B3%E5%AE%9A%E5%92%8C%E5%85%A8%E5%B1%80%E6%B8%90%E8%BF%91%E7%A8%B3%E5%AE%9A/</loc>
+    <loc>https://choy-mutao.github.io/basic/computerinformationscience/%E5%B1%80%E9%83%A8%E6%B8%90%E8%BF%91%E7%A8%B3%E5%AE%9A%E5%92%8C%E5%85%A8%E5%B1%80%E6%B8%90%E8%BF%91%E7%A8%B3%E5%AE%9A/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/computernetwork/</loc>
+    <loc>https://choy-mutao.github.io/basic/computernetwork/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/datastructure/graph/</loc>
+    <loc>https://choy-mutao.github.io/basic/datastructure/graph/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/datastructure/tree/</loc>
+    <loc>https://choy-mutao.github.io/basic/datastructure/tree/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/design-pattern/abstractfactorymethod/</loc>
+    <loc>https://choy-mutao.github.io/basic/design-pattern/abstractfactorymethod/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/design-pattern/chainofresponsibility/</loc>
+    <loc>https://choy-mutao.github.io/basic/design-pattern/chainofresponsibility/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/design-pattern/compitemethod/</loc>
+    <loc>https://choy-mutao.github.io/basic/design-pattern/compitemethod/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/design-pattern/decoratemethod/</loc>
+    <loc>https://choy-mutao.github.io/basic/design-pattern/decoratemethod/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/design-pattern/distributedregistrycenter/</loc>
+    <loc>https://choy-mutao.github.io/basic/design-pattern/distributedregistrycenter/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/design-pattern/factorymethod/</loc>
+    <loc>https://choy-mutao.github.io/basic/design-pattern/factorymethod/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/design-pattern/interpretermethod/</loc>
+    <loc>https://choy-mutao.github.io/basic/design-pattern/interpretermethod/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/design-pattern/mementomethod/</loc>
+    <loc>https://choy-mutao.github.io/basic/design-pattern/mementomethod/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/design-pattern/observermethod/</loc>
+    <loc>https://choy-mutao.github.io/basic/design-pattern/observermethod/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/design-pattern/proxymethod/</loc>
+    <loc>https://choy-mutao.github.io/basic/design-pattern/proxymethod/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/design-pattern/registrymethod/</loc>
+    <loc>https://choy-mutao.github.io/basic/design-pattern/registrymethod/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/design-pattern/singleton/</loc>
+    <loc>https://choy-mutao.github.io/basic/design-pattern/singleton/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/design-pattern/%E7%94%9F%E4%BA%A7%E6%B6%88%E8%B4%B9%E8%80%85%E6%A8%A1%E5%BC%8F/</loc>
+    <loc>https://choy-mutao.github.io/basic/design-pattern/%E7%94%9F%E4%BA%A7%E6%B6%88%E8%B4%B9%E8%80%85%E6%A8%A1%E5%BC%8F/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/englishexam/2019/test2/</loc>
+    <loc>https://choy-mutao.github.io/basic/englishexam/2019/test2/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/englishexam/2019/text1/</loc>
+    <loc>https://choy-mutao.github.io/basic/englishexam/2019/text1/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/euclid/10%E6%97%A0%E7%90%86%E9%87%8F/</loc>
+    <loc>https://choy-mutao.github.io/basic/euclid/10%E6%97%A0%E7%90%86%E9%87%8F/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/euclid/11%E7%AE%80%E5%8D%95%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95/</loc>
+    <loc>https://choy-mutao.github.io/basic/euclid/11%E7%AE%80%E5%8D%95%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/euclid/12%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95%E4%B8%AD%E7%9A%84%E6%AF%94%E4%BE%8B%E9%97%AE%E9%A2%98/</loc>
+    <loc>https://choy-mutao.github.io/basic/euclid/12%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95%E4%B8%AD%E7%9A%84%E6%AF%94%E4%BE%8B%E9%97%AE%E9%A2%98/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/euclid/13%E6%AD%A3%E5%A4%9A%E9%9D%A2%E4%BD%93/</loc>
+    <loc>https://choy-mutao.github.io/basic/euclid/13%E6%AD%A3%E5%A4%9A%E9%9D%A2%E4%BD%93/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/euclid/1%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://choy-mutao.github.io/basic/euclid/1%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95%E5%9F%BA%E7%A1%80/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/euclid/2%E5%87%A0%E4%BD%95%E4%BB%A3%E6%95%B0%E7%9A%84%E5%9F%BA%E7%A1%80%E5%8E%9F%E7%90%86/</loc>
+    <loc>https://choy-mutao.github.io/basic/euclid/2%E5%87%A0%E4%BD%95%E4%BB%A3%E6%95%B0%E7%9A%84%E5%9F%BA%E7%A1%80%E5%8E%9F%E7%90%86/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/euclid/3%E4%B8%8E%E5%9C%86%E6%9C%89%E5%85%B3%E7%9A%84%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95/</loc>
+    <loc>https://choy-mutao.github.io/basic/euclid/3%E4%B8%8E%E5%9C%86%E6%9C%89%E5%85%B3%E7%9A%84%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/euclid/4%E4%B8%8E%E5%9C%86%E6%9C%89%E5%85%B3%E7%9A%84%E7%9B%B4%E7%BA%BF%E5%9B%BE%E5%BD%A2%E7%9A%84%E4%BD%9C%E6%B3%95/</loc>
+    <loc>https://choy-mutao.github.io/basic/euclid/4%E4%B8%8E%E5%9C%86%E6%9C%89%E5%85%B3%E7%9A%84%E7%9B%B4%E7%BA%BF%E5%9B%BE%E5%BD%A2%E7%9A%84%E4%BD%9C%E6%B3%95/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/euclid/5%E6%AF%94%E4%BE%8B/</loc>
+    <loc>https://choy-mutao.github.io/basic/euclid/5%E6%AF%94%E4%BE%8B/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/euclid/6%E7%9B%B8%E4%BC%BC%E5%9B%BE%E5%BD%A2/</loc>
+    <loc>https://choy-mutao.github.io/basic/euclid/6%E7%9B%B8%E4%BC%BC%E5%9B%BE%E5%BD%A2/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/euclid/7%E5%88%9D%E7%AD%89%E6%95%B0%E8%AE%BA/</loc>
+    <loc>https://choy-mutao.github.io/basic/euclid/7%E5%88%9D%E7%AD%89%E6%95%B0%E8%AE%BA/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/euclid/8%E8%BF%9E%E6%AF%94%E4%BE%8B/</loc>
+    <loc>https://choy-mutao.github.io/basic/euclid/8%E8%BF%9E%E6%AF%94%E4%BE%8B/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/euclid/9%E6%95%B0%E8%AE%BA%E7%9A%84%E5%BA%94%E7%94%A8/</loc>
+    <loc>https://choy-mutao.github.io/basic/euclid/9%E6%95%B0%E8%AE%BA%E7%9A%84%E5%BA%94%E7%94%A8/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/informationtheorycode/channeltable/</loc>
+    <loc>https://choy-mutao.github.io/basic/informationtheorycode/channeltable/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/informationtheorycode/chapter1/chapter1/</loc>
+    <loc>https://choy-mutao.github.io/basic/informationtheorycode/chapter1/chapter1/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/informationtheorycode/chapter2/chapter2.1/</loc>
+    <loc>https://choy-mutao.github.io/basic/informationtheorycode/chapter2/chapter2.1/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/informationtheorycode/chapter2/chapter2.2/</loc>
+    <loc>https://choy-mutao.github.io/basic/informationtheorycode/chapter2/chapter2.2/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/informationtheorycode/chapter2/chapter2.3/</loc>
+    <loc>https://choy-mutao.github.io/basic/informationtheorycode/chapter2/chapter2.3/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/informationtheorycode/chapter3/</loc>
+    <loc>https://choy-mutao.github.io/basic/informationtheorycode/chapter3/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/informationtheorycode/chapter4/</loc>
+    <loc>https://choy-mutao.github.io/basic/informationtheorycode/chapter4/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/informationtheorycode/chapter5/chapter5/</loc>
+    <loc>https://choy-mutao.github.io/basic/informationtheorycode/chapter5/chapter5/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/informationtheorycode/chapter6/chapter6/</loc>
+    <loc>https://choy-mutao.github.io/basic/informationtheorycode/chapter6/chapter6/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/linearalgebra/chapter1/</loc>
+    <loc>https://choy-mutao.github.io/basic/linearalgebra/chapter1/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/linearalgebra/chapter2/</loc>
+    <loc>https://choy-mutao.github.io/basic/linearalgebra/chapter2/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/linearalgebra/chapter3/</loc>
+    <loc>https://choy-mutao.github.io/basic/linearalgebra/chapter3/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/linearalgebra/chapter4/</loc>
+    <loc>https://choy-mutao.github.io/basic/linearalgebra/chapter4/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/linearalgebra/chapter5/</loc>
+    <loc>https://choy-mutao.github.io/basic/linearalgebra/chapter5/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/linearalgebra/chapter6/</loc>
+    <loc>https://choy-mutao.github.io/basic/linearalgebra/chapter6/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/linearalgebra/chapter7/</loc>
+    <loc>https://choy-mutao.github.io/basic/linearalgebra/chapter7/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/linearalgebra/chapter8/</loc>
+    <loc>https://choy-mutao.github.io/basic/linearalgebra/chapter8/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/linearalgebra/chapter9/</loc>
+    <loc>https://choy-mutao.github.io/basic/linearalgebra/chapter9/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/linearalgebra/terms/</loc>
+    <loc>https://choy-mutao.github.io/basic/linearalgebra/terms/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/svgcanvaswebgl3d/webgl-quick-ref/</loc>
+    <loc>https://choy-mutao.github.io/basic/svgcanvaswebgl3d/webgl-quick-ref/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/theoryofprobabilityandstatistics/chapter1/</loc>
+    <loc>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter1/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/theoryofprobabilityandstatistics/chapter2/</loc>
+    <loc>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter2/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/theoryofprobabilityandstatistics/chapter3/</loc>
+    <loc>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter3/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/theoryofprobabilityandstatistics/chapter4/</loc>
+    <loc>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter4/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/theoryofprobabilityandstatistics/chapter5/</loc>
+    <loc>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter5/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/theoryofprobabilityandstatistics/chapter6/</loc>
+    <loc>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter6/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/theoryofprobabilityandstatistics/chapter7/</loc>
+    <loc>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter7/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/theoryofprobabilityandstatistics/chapter8/</loc>
+    <loc>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter8/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/theoryofprobabilityandstatistics/chapter9/</loc>
+    <loc>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter9/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/theoryofprobabilityandstatistics/terms/</loc>
+    <loc>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/terms/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/theoryofprobabilityandstatistics/%E5%87%A0%E7%A7%8D%E5%B8%B8%E8%A7%81%E7%9A%84%E6%A6%82%E5%9E%8B/</loc>
+    <loc>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/%E5%87%A0%E7%A7%8D%E5%B8%B8%E8%A7%81%E7%9A%84%E6%A6%82%E5%9E%8B/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/typescript/array/</loc>
+    <loc>https://choy-mutao.github.io/basic/typescript/array/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/typescript/datastructure/</loc>
+    <loc>https://choy-mutao.github.io/basic/typescript/datastructure/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/typescript/decorator/</loc>
+    <loc>https://choy-mutao.github.io/basic/typescript/decorator/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/typescript/overview/typescript-3.9/</loc>
+    <loc>https://choy-mutao.github.io/basic/typescript/overview/typescript-3.9/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/typescript/overview/typescript-4.0/</loc>
+    <loc>https://choy-mutao.github.io/basic/typescript/overview/typescript-4.0/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/typescript/promise/</loc>
+    <loc>https://choy-mutao.github.io/basic/typescript/promise/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/typescript/%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0%E5%92%8C%E6%99%AE%E9%80%9A%E5%87%BD%E6%95%B0%E6%96%B9%E7%A8%8B%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
+    <loc>https://choy-mutao.github.io/basic/typescript/%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0%E5%92%8C%E6%99%AE%E9%80%9A%E5%87%BD%E6%95%B0%E6%96%B9%E7%A8%8B%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter0/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter0/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter1/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter1/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter2/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter2/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter3/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter3/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter4/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter4/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter5/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter5/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter6/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter6/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter7/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter7/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter8/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter8/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter9/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter9/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E4%BD%9B%E7%BB%8F/%E5%BF%83%E7%BB%8F/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E4%BD%9B%E7%BB%8F/%E5%BF%83%E7%BB%8F/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E4%BF%A1%E6%81%AF%E8%AE%BA%E5%92%8C%E7%BC%96%E7%A0%81/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E4%BF%A1%E6%81%AF%E8%AE%BA%E5%92%8C%E7%BC%96%E7%A0%81/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E6%95%B0%E5%AD%A6%E5%BD%92%E7%BA%B3%E6%B3%95/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E6%95%B0%E5%AD%A6%E5%BD%92%E7%BA%B3%E6%B3%95/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E8%BF%AD%E4%BB%A3%E5%92%8C%E9%80%92%E5%BD%92%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E8%BF%AD%E4%BB%A3%E5%92%8C%E9%80%92%E5%BD%92%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%80%E7%AB%A0/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%80%E7%AB%A0/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%83%E7%AB%A0/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%83%E7%AB%A0/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%89%E7%AB%A0/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%89%E7%AB%A0/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%BA%8C%E7%AB%A0/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%BA%8C%E7%AB%A0/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%BA%94%E7%AB%A0/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%BA%94%E7%AB%A0/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E5%85%AD%E7%AB%A0/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E5%85%AD%E7%AB%A0/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E5%9B%9B%E7%AB%A0/</loc>
+    <loc>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E5%9B%9B%E7%AB%A0/</loc>
   </url>
   
   <url>
-    <loc>localhost/codelife/workrecord/2020-11-25/</loc>
+    <loc>https://choy-mutao.github.io/codelife/workrecord/2020-11-25/</loc>
   </url>
   
   <url>
-    <loc>localhost/codelife/workrecord/2020-11-26/</loc>
+    <loc>https://choy-mutao.github.io/codelife/workrecord/2020-11-26/</loc>
   </url>
   
   <url>
-    <loc>localhost/codelife/workrecord/2020-11-27/</loc>
+    <loc>https://choy-mutao.github.io/codelife/workrecord/2020-11-27/</loc>
   </url>
   
   <url>
-    <loc>localhost/codelife/workrecord/2020-12-03/</loc>
+    <loc>https://choy-mutao.github.io/codelife/workrecord/2020-12-03/</loc>
   </url>
   
   <url>
-    <loc>localhost/codelife/workrecord/jobduties/</loc>
+    <loc>https://choy-mutao.github.io/codelife/workrecord/jobduties/</loc>
   </url>
   
   <url>
-    <loc>localhost/codelife/%E5%A6%82%E4%BD%95%E5%90%8D%E6%AD%A3%E8%A8%80%E9%A1%BA%E7%9A%84%E4%B8%8D%E5%8A%A0%E7%8F%AD/</loc>
+    <loc>https://choy-mutao.github.io/codelife/%E5%A6%82%E4%BD%95%E5%90%8D%E6%AD%A3%E8%A8%80%E9%A1%BA%E7%9A%84%E4%B8%8D%E5%8A%A0%E7%8F%AD/</loc>
   </url>
   
   <url>
-    <loc>localhost/codelife/%E6%88%91%E7%9A%84%E7%BC%96%E7%A0%81%E5%AE%88%E5%88%99/</loc>
+    <loc>https://choy-mutao.github.io/codelife/%E6%88%91%E7%9A%84%E7%BC%96%E7%A0%81%E5%AE%88%E5%88%99/</loc>
   </url>
   
   <url>
-    <loc>localhost/codelife/%E6%96%B0%E9%9D%92%E5%B9%B4/</loc>
+    <loc>https://choy-mutao.github.io/codelife/%E6%96%B0%E9%9D%92%E5%B9%B4/</loc>
   </url>
   
   <url>
-    <loc>localhost/codelife/%E6%97%B6%E9%97%B4%E5%92%8C%E6%88%91/</loc>
+    <loc>https://choy-mutao.github.io/codelife/%E6%97%B6%E9%97%B4%E5%92%8C%E6%88%91/</loc>
   </url>
   
   <url>
-    <loc>localhost/codelife/%E8%83%A1%E9%80%82%E5%85%88%E7%94%9F%E8%AF%B4/</loc>
+    <loc>https://choy-mutao.github.io/codelife/%E8%83%A1%E9%80%82%E5%85%88%E7%94%9F%E8%AF%B4/</loc>
   </url>
   
   <url>
-    <loc>localhost/design-servicesframework/web%E7%9A%84gui%E8%AE%BE%E8%AE%A1/</loc>
+    <loc>https://choy-mutao.github.io/design-servicesframework/web%E7%9A%84gui%E8%AE%BE%E8%AE%A1/</loc>
   </url>
   
   <url>
-    <loc>localhost/englishexam/2018/</loc>
+    <loc>https://choy-mutao.github.io/englishexam/2018/</loc>
   </url>
   
   <url>
-    <loc>localhost/games/bloodborne/charactoers/</loc>
+    <loc>https://choy-mutao.github.io/games/bloodborne/charactoers/</loc>
   </url>
   
   <url>
-    <loc>localhost/games/bloodborne/objects/</loc>
+    <loc>https://choy-mutao.github.io/games/bloodborne/objects/</loc>
   </url>
   
   <url>
-    <loc>localhost/games/bloodborne/regions/</loc>
+    <loc>https://choy-mutao.github.io/games/bloodborne/regions/</loc>
   </url>
   
   <url>
-    <loc>localhost/games/bloodborne/weapons/</loc>
+    <loc>https://choy-mutao.github.io/games/bloodborne/weapons/</loc>
   </url>
   
   <url>
-    <loc>localhost/games/lifegame/conwaygame/</loc>
+    <loc>https://choy-mutao.github.io/games/lifegame/conwaygame/</loc>
   </url>
   
   <url>
-    <loc>localhost/latex-docs/funciton/</loc>
+    <loc>https://choy-mutao.github.io/latex-docs/funciton/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/graphicalogrithm/algorithm-fittingcircle/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/graphicalogrithm/algorithm-fittingcircle/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/graphicalogrithm/algorithm-pointscenter/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/graphicalogrithm/algorithm-pointscenter/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/graphicalogrithm/algorithm-stringpulling/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/graphicalogrithm/algorithm-stringpulling/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/graphicalogrithm/alogrithm-pointssorts/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/graphicalogrithm/alogrithm-pointssorts/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/sweptsurface/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/sweptsurface/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/threejs%E4%B8%AD%E4%BB%80%E4%B9%88%E6%98%AFuvs/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/threejs%E4%B8%AD%E4%BB%80%E4%B9%88%E6%98%AFuvs/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/threejs%E4%B8%AD%E7%9A%84buffergeometry/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/threejs%E4%B8%AD%E7%9A%84buffergeometry/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/threejs%E4%B8%AD%E7%9A%84renderer%E7%9A%84%E5%B8%B8%E9%87%8F/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/threejs%E4%B8%AD%E7%9A%84renderer%E7%9A%84%E5%B8%B8%E9%87%8F/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/topology/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/topology/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/%E4%B8%89%E7%BB%B4%E5%AF%B9%E8%B1%A1%E7%9A%84%E8%A1%A8%E7%A4%BA/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/%E4%B8%89%E7%BB%B4%E5%AF%B9%E8%B1%A1%E7%9A%84%E8%A1%A8%E7%A4%BA/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/%E5%85%B3%E4%BA%8E%E5%87%B8%E5%8C%85/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/%E5%85%B3%E4%BA%8E%E5%87%B8%E5%8C%85/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/%E5%9B%9B%E5%85%83%E6%95%B0quaternion/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/%E5%9B%9B%E5%85%83%E6%95%B0quaternion/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/%E6%9B%B2%E7%BA%BF%E4%B8%8A%E7%82%B9%E7%9A%84%E7%A6%BB%E6%95%A3%E6%96%B9%E6%B3%95/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/%E6%9B%B2%E7%BA%BF%E4%B8%8A%E7%82%B9%E7%9A%84%E7%A6%BB%E6%95%A3%E6%96%B9%E6%B3%95/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/%E6%9B%B2%E9%9D%A2%E7%9A%84%E6%8B%9F%E5%90%88/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/%E6%9B%B2%E9%9D%A2%E7%9A%84%E6%8B%9F%E5%90%88/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/%E6%B1%82%E4%B8%A4%E4%B8%AA%E5%B9%B3%E9%9D%A2%E7%9A%84%E4%BA%A4%E7%BA%BF/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/%E6%B1%82%E4%B8%A4%E4%B8%AA%E5%B9%B3%E9%9D%A2%E7%9A%84%E4%BA%A4%E7%BA%BF/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/%E7%82%B9%E9%9B%86%E7%9A%84%E4%B8%AD%E5%BF%83/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/%E7%82%B9%E9%9B%86%E7%9A%84%E4%B8%AD%E5%BF%83/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8F%98%E6%8D%A2%E7%9F%A9%E9%98%B5/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8F%98%E6%8D%A2%E7%9F%A9%E9%98%B5/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E7%82%B9%E9%9B%86%E6%8B%9F%E5%90%88%E7%A9%BA%E9%97%B4%E6%9B%B2%E7%BA%BF/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E7%82%B9%E9%9B%86%E6%8B%9F%E5%90%88%E7%A9%BA%E9%97%B4%E6%9B%B2%E7%BA%BF/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E7%82%B9%E9%9B%86%E7%9A%84%E9%A1%BA%E5%BA%8F%E9%97%AE%E9%A2%98/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E7%82%B9%E9%9B%86%E7%9A%84%E9%A1%BA%E5%BA%8F%E9%97%AE%E9%A2%98/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/%E8%AF%A6%E8%A7%A3threejs%E4%B8%ADindexpositionuv%E7%9A%84%E5%85%B3%E7%B3%BB/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/%E8%AF%A6%E8%A7%A3threejs%E4%B8%ADindexpositionuv%E7%9A%84%E5%85%B3%E7%B3%BB/</loc>
   </url>
   
   <url>
-    <loc>localhost/leetcode/115_minimalstack/</loc>
+    <loc>https://choy-mutao.github.io/leetcode/115_minimalstack/</loc>
   </url>
   
   <url>
-    <loc>localhost/leetcode/1370_inceasingdecreasingstring/</loc>
+    <loc>https://choy-mutao.github.io/leetcode/1370_inceasingdecreasingstring/</loc>
   </url>
   
   <url>
-    <loc>localhost/leetcode/147_insertionsortlist/</loc>
+    <loc>https://choy-mutao.github.io/leetcode/147_insertionsortlist/</loc>
   </url>
   
   <url>
-    <loc>localhost/leetcode/283_moezeros/</loc>
+    <loc>https://choy-mutao.github.io/leetcode/283_moezeros/</loc>
   </url>
   
   <url>
-    <loc>localhost/post/1/01/01/</loc>
+    <loc>https://choy-mutao.github.io/post/1/01/01/</loc>
   </url>
   
   <url>
-    <loc>localhost/react/create-react-app%E5%88%9D%E5%A7%8B%E5%8C%96ts%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/</loc>
+    <loc>https://choy-mutao.github.io/react/create-react-app%E5%88%9D%E5%A7%8B%E5%8C%96ts%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/</loc>
   </url>
   
   <url>
-    <loc>localhost/react/react-error-collection/</loc>
+    <loc>https://choy-mutao.github.io/react/react-error-collection/</loc>
   </url>
   
   <url>
-    <loc>localhost/react/react%E4%B8%8B%E7%9A%84%E9%94%AE%E7%9B%98%E4%BA%8B%E4%BB%B6/</loc>
+    <loc>https://choy-mutao.github.io/react/react%E4%B8%8B%E7%9A%84%E9%94%AE%E7%9B%98%E4%BA%8B%E4%BB%B6/</loc>
   </url>
   
   <url>
-    <loc>localhost/react/react%E4%B8%8B%E7%9A%84%E9%BC%A0%E6%A0%87%E4%BA%8B%E4%BB%B6/</loc>
+    <loc>https://choy-mutao.github.io/react/react%E4%B8%8B%E7%9A%84%E9%BC%A0%E6%A0%87%E4%BA%8B%E4%BB%B6/</loc>
   </url>
   
   <url>
-    <loc>localhost/react/window%E5%92%8Cdocument%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
+    <loc>https://choy-mutao.github.io/react/window%E5%92%8Cdocument%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
   </url>
   
   <url>
-    <loc>localhost/target/html%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://choy-mutao.github.io/target/html%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0/</loc>
   </url>
   
   <url>
-    <loc>localhost/target/vscode%E4%B8%8Amarkdown%E7%9A%84plugin%E5%BC%80%E5%8F%91/</loc>
+    <loc>https://choy-mutao.github.io/target/vscode%E4%B8%8Amarkdown%E7%9A%84plugin%E5%BC%80%E5%8F%91/</loc>
   </url>
   
   <url>
-    <loc>localhost/target/%E5%86%99%E4%B8%80%E4%B8%AAsvg.html%E7%9A%84%E6%96%87%E4%BB%B6%E6%9D%A5%E6%98%BE%E7%A4%BA%E5%92%8C%E6%93%8D%E4%BD%9C%E6%88%91%E7%9A%84%E6%96%87%E6%A1%A3%E7%9A%84%E7%BB%93%E6%9E%84/</loc>
+    <loc>https://choy-mutao.github.io/target/%E5%86%99%E4%B8%80%E4%B8%AAsvg.html%E7%9A%84%E6%96%87%E4%BB%B6%E6%9D%A5%E6%98%BE%E7%A4%BA%E5%92%8C%E6%93%8D%E4%BD%9C%E6%88%91%E7%9A%84%E6%96%87%E6%A1%A3%E7%9A%84%E7%BB%93%E6%9E%84/</loc>
   </url>
   
   <url>
-    <loc>localhost/target/%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AAlatex%E8%BE%93%E5%85%A5%E6%B3%95/</loc>
+    <loc>https://choy-mutao.github.io/target/%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AAlatex%E8%BE%93%E5%85%A5%E6%B3%95/</loc>
   </url>
   
   <url>
-    <loc>localhost/target/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%A7%81%E6%9C%89%E4%BA%91%E7%9B%98/</loc>
+    <loc>https://choy-mutao.github.io/target/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%A7%81%E6%9C%89%E4%BA%91%E7%9B%98/</loc>
   </url>
   
   <url>
-    <loc>localhost/toolstips/debug-c&#43;&#43;-on-the-chrome/</loc>
+    <loc>https://choy-mutao.github.io/toolstips/debug-c&#43;&#43;-on-the-chrome/</loc>
   </url>
   
   <url>
-    <loc>localhost/toolstips/emscriptenemsdk/</loc>
+    <loc>https://choy-mutao.github.io/toolstips/emscriptenemsdk/</loc>
   </url>
   
   <url>
-    <loc>localhost/toolstips/quick-run-script/</loc>
+    <loc>https://choy-mutao.github.io/toolstips/quick-run-script/</loc>
   </url>
   
   <url>
-    <loc>localhost/toolstips/quickref/</loc>
+    <loc>https://choy-mutao.github.io/toolstips/quickref/</loc>
   </url>
   
   <url>
-    <loc>localhost/toolstips/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E7%9A%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/</loc>
+    <loc>https://choy-mutao.github.io/toolstips/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E7%9A%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/</loc>
   </url>
   
   <url>
-    <loc>localhost/toolstips/%E4%BB%80%E4%B9%88%E6%98%AFhdr/</loc>
+    <loc>https://choy-mutao.github.io/toolstips/%E4%BB%80%E4%B9%88%E6%98%AFhdr/</loc>
   </url>
   
   <url>
-    <loc>localhost/toolstips/%E4%BB%80%E4%B9%88%E6%98%AF%E8%B6%85%E5%B9%B3%E9%9D%A2/</loc>
+    <loc>https://choy-mutao.github.io/toolstips/%E4%BB%80%E4%B9%88%E6%98%AF%E8%B6%85%E5%B9%B3%E9%9D%A2/</loc>
   </url>
   
   <url>
-    <loc>localhost/toolstips/%E5%93%88%E5%A4%AB%E6%9B%BC%E7%BC%96%E7%A0%81%E5%AE%9E%E7%8E%B0/</loc>
+    <loc>https://choy-mutao.github.io/toolstips/%E5%93%88%E5%A4%AB%E6%9B%BC%E7%BC%96%E7%A0%81%E5%AE%9E%E7%8E%B0/</loc>
   </url>
   
   <url>
-    <loc>localhost/toolstips/%E5%B0%8F%E6%95%B0%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%88%B6%E8%A1%A8%E7%A4%BA/</loc>
+    <loc>https://choy-mutao.github.io/toolstips/%E5%B0%8F%E6%95%B0%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%88%B6%E8%A1%A8%E7%A4%BA/</loc>
   </url>
   
   <url>
-    <loc>localhost/toolstips/%E6%9B%BC%E5%BD%BB%E6%96%AF%E7%89%B9%E7%BC%96%E7%A0%81%E5%AE%9E%E7%8E%B0/</loc>
+    <loc>https://choy-mutao.github.io/toolstips/%E6%9B%BC%E5%BD%BB%E6%96%AF%E7%89%B9%E7%BC%96%E7%A0%81%E5%AE%9E%E7%8E%B0/</loc>
   </url>
   
   <url>
-    <loc>localhost/toolstips/%E7%9F%A9%E9%98%B5%E5%92%8C%E5%90%91%E9%87%8F/</loc>
+    <loc>https://choy-mutao.github.io/toolstips/%E7%9F%A9%E9%98%B5%E5%92%8C%E5%90%91%E9%87%8F/</loc>
   </url>
   
   <url>
-    <loc>localhost/toolstips/%E9%97%AD%E5%8C%85%E5%92%8C%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/</loc>
+    <loc>https://choy-mutao.github.io/toolstips/%E9%97%AD%E5%8C%85%E5%92%8C%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/</loc>
   </url>
   
   <url>
-    <loc>localhost/basic/</loc>
+    <loc>https://choy-mutao.github.io/basic/</loc>
   </url>
   
   <url>
-    <loc>localhost/categories/</loc>
+    <loc>https://choy-mutao.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>localhost/codelife/</loc>
+    <loc>https://choy-mutao.github.io/codelife/</loc>
   </url>
   
   <url>
-    <loc>localhost/design-servicesframework/</loc>
+    <loc>https://choy-mutao.github.io/design-servicesframework/</loc>
   </url>
   
   <url>
-    <loc>localhost/englishexam/</loc>
+    <loc>https://choy-mutao.github.io/englishexam/</loc>
   </url>
   
   <url>
-    <loc>localhost/games/</loc>
+    <loc>https://choy-mutao.github.io/games/</loc>
   </url>
   
   <url>
-    <loc>localhost/latex-docs/</loc>
+    <loc>https://choy-mutao.github.io/latex-docs/</loc>
   </url>
   
   <url>
-    <loc>localhost/learngraphicbythreejs/</loc>
+    <loc>https://choy-mutao.github.io/learngraphicbythreejs/</loc>
   </url>
   
   <url>
-    <loc>localhost/leetcode/</loc>
+    <loc>https://choy-mutao.github.io/leetcode/</loc>
   </url>
   
   <url>
-    <loc>localhost/react/</loc>
+    <loc>https://choy-mutao.github.io/react/</loc>
   </url>
   
   <url>
-    <loc>localhost/tags/</loc>
+    <loc>https://choy-mutao.github.io/tags/</loc>
   </url>
   
   <url>
-    <loc>localhost/target/</loc>
+    <loc>https://choy-mutao.github.io/target/</loc>
   </url>
   
   <url>
-    <loc>localhost/toolstips/</loc>
+    <loc>https://choy-mutao.github.io/toolstips/</loc>
   </url>
   
 </urlset>

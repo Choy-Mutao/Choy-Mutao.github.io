@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Basics on 穆 道</title>
-    <link>localhost/basic/</link>
+    <link>https://choy-mutao.github.io/basic/</link>
     <description>Recent content in Basics on 穆 道</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="localhost/basic/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://choy-mutao.github.io/basic/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>localhost/basic/algorithm/%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E7%AE%97%E6%B3%95/</link>
+      <link>https://choy-mutao.github.io/basic/algorithm/%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E7%AE%97%E6%B3%95/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/algorithm/%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E7%AE%97%E6%B3%95/</guid>
+      <guid>https://choy-mutao.github.io/basic/algorithm/%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E7%AE%97%E6%B3%95/</guid>
       <description>广度优先算法 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/calculus/</link>
+      <link>https://choy-mutao.github.io/basic/calculus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/calculus/</guid>
+      <guid>https://choy-mutao.github.io/basic/calculus/</guid>
       <description> 一些特殊的函数极限求解  $\lim \limits_{x \to \infty}sin(\frac{1}{x}) \ 不存在$
 几种特殊函数的极限和导数  </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/chrome/webassembly/</link>
+      <link>https://choy-mutao.github.io/basic/chrome/webassembly/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/chrome/webassembly/</guid>
+      <guid>https://choy-mutao.github.io/basic/chrome/webassembly/</guid>
       <description>What is WebAssembly(wasm)  MDN
  WebAsseMbly是一种可以在现代Web浏览器中运行的新型代码， - 它是一种 low-level assembly-like语言，其具有紧凑的二进制格式，其运行具有近乎本机的性能，并提供C / C ++，C＃和RUST等语言使用汇编目标，以便他们可以在网上运行。它还旨在与JavaScript一起运行，允许两者都在一起工作。
  </description>
@@ -42,29 +42,29 @@
     
     <item>
       <title></title>
-      <link>localhost/basic/computerinformationscience/%E5%B1%80%E9%83%A8%E6%B8%90%E8%BF%91%E7%A8%B3%E5%AE%9A%E5%92%8C%E5%85%A8%E5%B1%80%E6%B8%90%E8%BF%91%E7%A8%B3%E5%AE%9A/</link>
+      <link>https://choy-mutao.github.io/basic/computerinformationscience/%E5%B1%80%E9%83%A8%E6%B8%90%E8%BF%91%E7%A8%B3%E5%AE%9A%E5%92%8C%E5%85%A8%E5%B1%80%E6%B8%90%E8%BF%91%E7%A8%B3%E5%AE%9A/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/computerinformationscience/%E5%B1%80%E9%83%A8%E6%B8%90%E8%BF%91%E7%A8%B3%E5%AE%9A%E5%92%8C%E5%85%A8%E5%B1%80%E6%B8%90%E8%BF%91%E7%A8%B3%E5%AE%9A/</guid>
+      <guid>https://choy-mutao.github.io/basic/computerinformationscience/%E5%B1%80%E9%83%A8%E6%B8%90%E8%BF%91%E7%A8%B3%E5%AE%9A%E5%92%8C%E5%85%A8%E5%B1%80%E6%B8%90%E8%BF%91%E7%A8%B3%E5%AE%9A/</guid>
       <description>局部渐近稳定和全局渐近稳定 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/computernetwork/</link>
+      <link>https://choy-mutao.github.io/basic/computernetwork/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/computernetwork/</guid>
+      <guid>https://choy-mutao.github.io/basic/computernetwork/</guid>
       <description>Director [toc]
 Chapter1 概述  使用计算机网络  商业应用 家庭应用 移动用户 社会问题   网络硬件  个域网 局域网 城域网 4广域网 互联网络   网络软件  协议层次结构 层次设计问题 面向连接与无连接服务 服务原语 服务与协议的关系   参考模型  OSI参考模型 TCP/IP参考模型 本书使用的模型 OSI 参考模型与TCP/IP 参考模型的比较 OSI模型和协议的评判 TCP/IP参考模型的评判   网络实例  因特网 第三代移动电话网络 无线局域网∶802.11 RFID 和 传感器网络   网络标准化  电信领域有影响力的组织 国际标准领域有影响力的组织 Internet 标准领域有影响力的组织   度量单位  Chapter2 物理层  数据通信的理论基础  傅立叶分析 带宽有限的信号 信道的最大数据速率   引导性传输介质  磁介质 双绞线 同轴电缆 电力线 光纤   无线传输  电磁频谱 无线电传输 微波传输 红外传输 光通信   通信卫星  地球同步卫星 中地球轨道卫星 低地球轨道卫星 卫星和光纤   数字调制和多路复用  基带传输 通带传输 频分复用 时分复用 码分复用   公共电话交换网络  电话系统结构 电话政治化 本地回路: 调制解调器, ADSL, 光纤 中继线和多路复用 交换   移动电话网络  1G 模拟语音 2G 数字语音 3G 数字语音和数据 4G 5G 6G   有线电视  共用天线电视 线缆上的Internet 频谱分配 线缆调制解调器 ADSL 与 有线电视电缆    Chapter3 数据链路层  数据链路层的设计问题  提供给网络层的服务 成帧 差错控制 流量控制   差错检测和纠正  纠错码 检错码   基本数据链路层协议  一个乌托邦式的单工协议 无错信道上的单工 停-等 协议 有错信道上的单工 停-等 协议   滑动窗口协议  1位滑动窗口协议 回退N协议 选择重传协议   数据链路层实例  SONET上的数据包 对称数字用户线    Chapter4 介质访问控制子层  信道分配问题  静态信道分配 动态信道分配的假设   多路访问协议  ALOHA 载波侦听多路访问协议 无冲突协议 有限竞争协议 无线局域网协议   以太网  经典以太网物理层 经典以太网的MAC子层协议 以太网性能 交换式以太网 快速以太网 千兆以太网 万兆以太网 以太网回顾   无线局域网  802.</description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/datastructure/graph/</link>
+      <link>https://choy-mutao.github.io/basic/datastructure/graph/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/datastructure/graph/</guid>
+      <guid>https://choy-mutao.github.io/basic/datastructure/graph/</guid>
       <description>Graph $G={V,E}$   无向图
   有向图
   顶点, 边, 弧, 弧头, 弧尾
@@ -85,102 +85,102 @@ Chapter1 概述  使用计算机网络  商业应用 家庭应用 移动用户 �
     
     <item>
       <title></title>
-      <link>localhost/basic/datastructure/tree/</link>
+      <link>https://choy-mutao.github.io/basic/datastructure/tree/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/datastructure/tree/</guid>
+      <guid>https://choy-mutao.github.io/basic/datastructure/tree/</guid>
       <description>树-Tree 如何描述一棵树  一颗 高度为h，度为N, 有 n个结点 的树
  树的分类  树  非二叉树  B-Tree   二叉树  满二叉树 完全二叉树 二叉排序树 平衡二叉树  红黑树        </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/design-pattern/abstractfactorymethod/</link>
+      <link>https://choy-mutao.github.io/basic/design-pattern/abstractfactorymethod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/design-pattern/abstractfactorymethod/</guid>
+      <guid>https://choy-mutao.github.io/basic/design-pattern/abstractfactorymethod/</guid>
       <description>Abstract Factory Method </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/design-pattern/chainofresponsibility/</link>
+      <link>https://choy-mutao.github.io/basic/design-pattern/chainofresponsibility/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/design-pattern/chainofresponsibility/</guid>
+      <guid>https://choy-mutao.github.io/basic/design-pattern/chainofresponsibility/</guid>
       <description>责任链模式(Chain of Respoinsibility)  </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/design-pattern/compitemethod/</link>
+      <link>https://choy-mutao.github.io/basic/design-pattern/compitemethod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/design-pattern/compitemethod/</guid>
+      <guid>https://choy-mutao.github.io/basic/design-pattern/compitemethod/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/design-pattern/decoratemethod/</link>
+      <link>https://choy-mutao.github.io/basic/design-pattern/decoratemethod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/design-pattern/decoratemethod/</guid>
+      <guid>https://choy-mutao.github.io/basic/design-pattern/decoratemethod/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/design-pattern/distributedregistrycenter/</link>
+      <link>https://choy-mutao.github.io/basic/design-pattern/distributedregistrycenter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/design-pattern/distributedregistrycenter/</guid>
+      <guid>https://choy-mutao.github.io/basic/design-pattern/distributedregistrycenter/</guid>
       <description>分布式注册中心 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/design-pattern/factorymethod/</link>
+      <link>https://choy-mutao.github.io/basic/design-pattern/factorymethod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/design-pattern/factorymethod/</guid>
+      <guid>https://choy-mutao.github.io/basic/design-pattern/factorymethod/</guid>
       <description>Factory Method </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/design-pattern/interpretermethod/</link>
+      <link>https://choy-mutao.github.io/basic/design-pattern/interpretermethod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/design-pattern/interpretermethod/</guid>
+      <guid>https://choy-mutao.github.io/basic/design-pattern/interpretermethod/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/design-pattern/mementomethod/</link>
+      <link>https://choy-mutao.github.io/basic/design-pattern/mementomethod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/design-pattern/mementomethod/</guid>
+      <guid>https://choy-mutao.github.io/basic/design-pattern/mementomethod/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/design-pattern/observermethod/</link>
+      <link>https://choy-mutao.github.io/basic/design-pattern/observermethod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/design-pattern/observermethod/</guid>
+      <guid>https://choy-mutao.github.io/basic/design-pattern/observermethod/</guid>
       <description>观察者模式  观察者模式定义了一种一对多的以来关系，让多个观察者对象同时监听一个主题对象。当这个主体对象在状态发生改变的时候，会通知所有观察对象，使他们能够自动更新自己。也称为发布-订阅模式、 模型-试图模式[DP]
  抽象类  观察者 订阅者  // TS 代码实现// 抽象观察者 interface Observer { response(): void; } // 抽象目标（通知者，变化者） export abstract class Subject { protected observers: Array&amp;lt;Observer&amp;gt; = new Array&amp;lt;Observer&amp;gt;(); public loadObserver(observer: Observer): void { this.observers.push(observer); } public unloadObserver(observer: Observer): void { this.observers.pop(); } public abstract notifyObservers(): void; } // 具体的目标 export class ConcreteSubject extends Subject { public function_1() { // dosomething  this.notifyObservers(); } public function_2() { // dosomething  this.</description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/design-pattern/proxymethod/</link>
+      <link>https://choy-mutao.github.io/basic/design-pattern/proxymethod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/design-pattern/proxymethod/</guid>
+      <guid>https://choy-mutao.github.io/basic/design-pattern/proxymethod/</guid>
       <description>代理模式（ProxyMethod） 抽象类（Abstract） 主体（Subject） 操作主体（RealSubject） 代理（Proxy） 客户端（Client）
 角色职能（Roles Function）  主体（Subject） 通过接口或抽象类声明操作主体（RealSubject）和代理（Proxy）实现的业务方法。 操作主体（RealSubject） 实现主体定义的具体业务，是代理对象所代表的真实对象，是最终要引用的对象。 代理（Proxy） 提供了与操作主体（RealSubject）相同的接口，其内部含有对操作主体（RealSubject）的引用，它可以访问、控制或扩展操作主体（RealSubject）的功能。 客户端（Client） 通过调用代理（Proxy）  具体实现   静态代理模式 由程序创建代理类或特定工具自动生成源代码再对其进行编译，在程序运行前代理类的代码已完成编译。[DP]
   动态代理模式 在程序运行时，通过反射机制动态创建生成。[DP]
@@ -193,10 +193,10 @@ Chapter1 概述  使用计算机网络  商业应用 家庭应用 移动用户 �
     
     <item>
       <title></title>
-      <link>localhost/basic/design-pattern/registrymethod/</link>
+      <link>https://choy-mutao.github.io/basic/design-pattern/registrymethod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/design-pattern/registrymethod/</guid>
+      <guid>https://choy-mutao.github.io/basic/design-pattern/registrymethod/</guid>
       <description>Registry Abstract 注册模式： 目的是为了在应用程序中存储需要经常使用的对象实例 实现方式： 通常是使用只有静态方法的抽象类，或者是单例模式实现的类 tips： 这里的使用可能会引入全局变量，需要使用以来注入来避免出现这样的情况。
 Thinks 实际是初始化一个方便查询的字典，这个字典的特点是可以在应用程序的任意地方可以查词，且添加新词， 字典实体： map , tree, 字典的一般实现方式， 字典的索引规则： 词的实现接口规则： 词的方法的限制：
 Pratice  private static dictionary: Map&amp;lt;string, Object | Function&amp;gt; = new Map(); export class Registry { constructor(name: string){ // ...  } public checkIn(hashId: string, obj: Object) { this.dictionary.set(hashId, obj);/** 无检验注入 **/ } }  Applying  Zend framework Yii framework  </description>
@@ -204,20 +204,20 @@ Pratice  private static dictionary: Map&amp;lt;string, Object | Function&amp;gt;
     
     <item>
       <title></title>
-      <link>localhost/basic/design-pattern/singleton/</link>
+      <link>https://choy-mutao.github.io/basic/design-pattern/singleton/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/design-pattern/singleton/</guid>
+      <guid>https://choy-mutao.github.io/basic/design-pattern/singleton/</guid>
       <description>单例模式 创建模式 目的 保持某个对象的唯一性
 实现方式  懒汉模式  export class Singleton { protected static instance: Object | undefined; constructor() { if(instance) { return this; } } } </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/design-pattern/%E7%94%9F%E4%BA%A7%E6%B6%88%E8%B4%B9%E8%80%85%E6%A8%A1%E5%BC%8F/</link>
+      <link>https://choy-mutao.github.io/basic/design-pattern/%E7%94%9F%E4%BA%A7%E6%B6%88%E8%B4%B9%E8%80%85%E6%A8%A1%E5%BC%8F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/design-pattern/%E7%94%9F%E4%BA%A7%E6%B6%88%E8%B4%B9%E8%80%85%E6%A8%A1%E5%BC%8F/</guid>
+      <guid>https://choy-mutao.github.io/basic/design-pattern/%E7%94%9F%E4%BA%A7%E6%B6%88%E8%B4%B9%E8%80%85%E6%A8%A1%E5%BC%8F/</guid>
       <description>生产消费者模式 该模式中，存在两个实体对象，A 型的生产者，B 型的消费者。
 两种对象之间的纽带，我们可以定义为一种资源 R。
 所以生产消费者模式的描述就变成了:
@@ -228,154 +228,154 @@ when： 程序启动 start: A 启动生产流程 系统开辟一个存储 R 资�
     
     <item>
       <title></title>
-      <link>localhost/basic/englishexam/2019/test2/</link>
+      <link>https://choy-mutao.github.io/basic/englishexam/2019/test2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/englishexam/2019/test2/</guid>
+      <guid>https://choy-mutao.github.io/basic/englishexam/2019/test2/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/englishexam/2019/text1/</link>
+      <link>https://choy-mutao.github.io/basic/englishexam/2019/text1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/englishexam/2019/text1/</guid>
+      <guid>https://choy-mutao.github.io/basic/englishexam/2019/text1/</guid>
       <description>Text 1 Financial regulators in Britain have imposed a rather unusual rule on the bosses of big banks. Starting next year, any guaranteed bonus of top executived could be dlayed 10 years if their banks are under investigation for wrongdong. The main purpose of this &amp;ldquo;clawback&amp;rdquo; rule is to hold bankers accountable for harmful risk-taking and to restore public trust in financial institutions. Yet officials also hope for a much larger benefit: more long-term decision-making not only by banks but by all corporations, to build a stronger ecnomy for future generations.</description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/euclid/10%E6%97%A0%E7%90%86%E9%87%8F/</link>
+      <link>https://choy-mutao.github.io/basic/euclid/10%E6%97%A0%E7%90%86%E9%87%8F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/euclid/10%E6%97%A0%E7%90%86%E9%87%8F/</guid>
+      <guid>https://choy-mutao.github.io/basic/euclid/10%E6%97%A0%E7%90%86%E9%87%8F/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/euclid/11%E7%AE%80%E5%8D%95%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95/</link>
+      <link>https://choy-mutao.github.io/basic/euclid/11%E7%AE%80%E5%8D%95%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/euclid/11%E7%AE%80%E5%8D%95%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95/</guid>
+      <guid>https://choy-mutao.github.io/basic/euclid/11%E7%AE%80%E5%8D%95%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/euclid/12%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95%E4%B8%AD%E7%9A%84%E6%AF%94%E4%BE%8B%E9%97%AE%E9%A2%98/</link>
+      <link>https://choy-mutao.github.io/basic/euclid/12%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95%E4%B8%AD%E7%9A%84%E6%AF%94%E4%BE%8B%E9%97%AE%E9%A2%98/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/euclid/12%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95%E4%B8%AD%E7%9A%84%E6%AF%94%E4%BE%8B%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://choy-mutao.github.io/basic/euclid/12%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95%E4%B8%AD%E7%9A%84%E6%AF%94%E4%BE%8B%E9%97%AE%E9%A2%98/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/euclid/13%E6%AD%A3%E5%A4%9A%E9%9D%A2%E4%BD%93/</link>
+      <link>https://choy-mutao.github.io/basic/euclid/13%E6%AD%A3%E5%A4%9A%E9%9D%A2%E4%BD%93/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/euclid/13%E6%AD%A3%E5%A4%9A%E9%9D%A2%E4%BD%93/</guid>
+      <guid>https://choy-mutao.github.io/basic/euclid/13%E6%AD%A3%E5%A4%9A%E9%9D%A2%E4%BD%93/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/euclid/1%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95%E5%9F%BA%E7%A1%80/</link>
+      <link>https://choy-mutao.github.io/basic/euclid/1%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95%E5%9F%BA%E7%A1%80/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/euclid/1%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95%E5%9F%BA%E7%A1%80/</guid>
+      <guid>https://choy-mutao.github.io/basic/euclid/1%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95%E5%9F%BA%E7%A1%80/</guid>
       <description>平面几何基础 定义  点： 点不可以再分割 线： 线是无宽度的长度 线的两端是点 直线： 直线时它上面的点一样地平铺的线 面： 面只有长度和宽度 面的边是线 平面： 它上面的线一样地平铺的面 平面角： 平面角是一个平面上的两条直线相交的倾斜度 平角： 当含有角的两条线成一条直线时，这个角称为平角 直角和垂线： 一条直线与另一条直线相交所形成的两相邻的角相等，这两个角均称为直角，其中一条线是另一条线的垂线 钝角： 两个角中相对较大的那个角 锐角： 两个角中相对较小的那个角 边界： 边界是物体的边缘 图形： 图形可以是一个边界，也可以是几个边界所围成的 圆： 一个点周围所有与其相同平面上距离相等的点围成的边界 圆心： 圆的那个中心的点 直径： 过圆心与圆相交的直线上的两个交点形成的线段 圆弧： 过圆的一条直线将圆分成两部分，其中的每一部分，都是圆弧 半圆： 过圆心的一条直线和该圆被分割后的圆弧组成的图形 平行线： 在同一平面内，如果两条直线向两端无限延伸而无法相交，那么这两条线互为平行线  公设  过任意两点可以做一条直线 一条有限直线可以继续延长 以任意点为圆心，任意长为半径，可以画圆 所有直角都彼此相等 同平面内一条直线和另外两条直线相交，若直线同侧的两个内角之和小于两直角之和，则这两条直线经无限延长后，在这一侧相交  公理  等于同量的量彼此相等 等量加等量，其和仍相等 等量减等量，其差仍相等 彼此能够重合的物体是全等的 整体大于部分  命题 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/euclid/2%E5%87%A0%E4%BD%95%E4%BB%A3%E6%95%B0%E7%9A%84%E5%9F%BA%E7%A1%80%E5%8E%9F%E7%90%86/</link>
+      <link>https://choy-mutao.github.io/basic/euclid/2%E5%87%A0%E4%BD%95%E4%BB%A3%E6%95%B0%E7%9A%84%E5%9F%BA%E7%A1%80%E5%8E%9F%E7%90%86/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/euclid/2%E5%87%A0%E4%BD%95%E4%BB%A3%E6%95%B0%E7%9A%84%E5%9F%BA%E7%A1%80%E5%8E%9F%E7%90%86/</guid>
+      <guid>https://choy-mutao.github.io/basic/euclid/2%E5%87%A0%E4%BD%95%E4%BB%A3%E6%95%B0%E7%9A%84%E5%9F%BA%E7%A1%80%E5%8E%9F%E7%90%86/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/euclid/3%E4%B8%8E%E5%9C%86%E6%9C%89%E5%85%B3%E7%9A%84%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95/</link>
+      <link>https://choy-mutao.github.io/basic/euclid/3%E4%B8%8E%E5%9C%86%E6%9C%89%E5%85%B3%E7%9A%84%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/euclid/3%E4%B8%8E%E5%9C%86%E6%9C%89%E5%85%B3%E7%9A%84%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95/</guid>
+      <guid>https://choy-mutao.github.io/basic/euclid/3%E4%B8%8E%E5%9C%86%E6%9C%89%E5%85%B3%E7%9A%84%E5%B9%B3%E9%9D%A2%E5%87%A0%E4%BD%95/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/euclid/4%E4%B8%8E%E5%9C%86%E6%9C%89%E5%85%B3%E7%9A%84%E7%9B%B4%E7%BA%BF%E5%9B%BE%E5%BD%A2%E7%9A%84%E4%BD%9C%E6%B3%95/</link>
+      <link>https://choy-mutao.github.io/basic/euclid/4%E4%B8%8E%E5%9C%86%E6%9C%89%E5%85%B3%E7%9A%84%E7%9B%B4%E7%BA%BF%E5%9B%BE%E5%BD%A2%E7%9A%84%E4%BD%9C%E6%B3%95/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/euclid/4%E4%B8%8E%E5%9C%86%E6%9C%89%E5%85%B3%E7%9A%84%E7%9B%B4%E7%BA%BF%E5%9B%BE%E5%BD%A2%E7%9A%84%E4%BD%9C%E6%B3%95/</guid>
+      <guid>https://choy-mutao.github.io/basic/euclid/4%E4%B8%8E%E5%9C%86%E6%9C%89%E5%85%B3%E7%9A%84%E7%9B%B4%E7%BA%BF%E5%9B%BE%E5%BD%A2%E7%9A%84%E4%BD%9C%E6%B3%95/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/euclid/5%E6%AF%94%E4%BE%8B/</link>
+      <link>https://choy-mutao.github.io/basic/euclid/5%E6%AF%94%E4%BE%8B/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/euclid/5%E6%AF%94%E4%BE%8B/</guid>
+      <guid>https://choy-mutao.github.io/basic/euclid/5%E6%AF%94%E4%BE%8B/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/euclid/6%E7%9B%B8%E4%BC%BC%E5%9B%BE%E5%BD%A2/</link>
+      <link>https://choy-mutao.github.io/basic/euclid/6%E7%9B%B8%E4%BC%BC%E5%9B%BE%E5%BD%A2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/euclid/6%E7%9B%B8%E4%BC%BC%E5%9B%BE%E5%BD%A2/</guid>
+      <guid>https://choy-mutao.github.io/basic/euclid/6%E7%9B%B8%E4%BC%BC%E5%9B%BE%E5%BD%A2/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/euclid/7%E5%88%9D%E7%AD%89%E6%95%B0%E8%AE%BA/</link>
+      <link>https://choy-mutao.github.io/basic/euclid/7%E5%88%9D%E7%AD%89%E6%95%B0%E8%AE%BA/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/euclid/7%E5%88%9D%E7%AD%89%E6%95%B0%E8%AE%BA/</guid>
+      <guid>https://choy-mutao.github.io/basic/euclid/7%E5%88%9D%E7%AD%89%E6%95%B0%E8%AE%BA/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/euclid/8%E8%BF%9E%E6%AF%94%E4%BE%8B/</link>
+      <link>https://choy-mutao.github.io/basic/euclid/8%E8%BF%9E%E6%AF%94%E4%BE%8B/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/euclid/8%E8%BF%9E%E6%AF%94%E4%BE%8B/</guid>
+      <guid>https://choy-mutao.github.io/basic/euclid/8%E8%BF%9E%E6%AF%94%E4%BE%8B/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/euclid/9%E6%95%B0%E8%AE%BA%E7%9A%84%E5%BA%94%E7%94%A8/</link>
+      <link>https://choy-mutao.github.io/basic/euclid/9%E6%95%B0%E8%AE%BA%E7%9A%84%E5%BA%94%E7%94%A8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/euclid/9%E6%95%B0%E8%AE%BA%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
+      <guid>https://choy-mutao.github.io/basic/euclid/9%E6%95%B0%E8%AE%BA%E7%9A%84%E5%BA%94%E7%94%A8/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/informationtheorycode/channeltable/</link>
+      <link>https://choy-mutao.github.io/basic/informationtheorycode/channeltable/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/informationtheorycode/channeltable/</guid>
+      <guid>https://choy-mutao.github.io/basic/informationtheorycode/channeltable/</guid>
       <description>信道实例    表头 表头     单元格 单元格   单元格 单元格    </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/informationtheorycode/chapter1/chapter1/</link>
+      <link>https://choy-mutao.github.io/basic/informationtheorycode/chapter1/chapter1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/informationtheorycode/chapter1/chapter1/</guid>
+      <guid>https://choy-mutao.github.io/basic/informationtheorycode/chapter1/chapter1/</guid>
       <description>绪论 课后答案   信息、消息、信号的定义各是什么
  信息： 各个事物运动的状态及状态变化的方式 消息： 是指包含消息的文字、图像、语言等。单个符号信息、符号序列等具体的，信号载荷信息，但不是物理性的。 信号： 信号是消息的物理体现，是信息的载荷子或载体，是物理性的,如光信号、电信号。
    信息、消息、信号三者之间的关系是什么
@@ -397,10 +397,10 @@ a. 接收者在受到信息之前,对其内容是未知的 b. 信息是能使认
     
     <item>
       <title></title>
-      <link>localhost/basic/informationtheorycode/chapter2/chapter2.1/</link>
+      <link>https://choy-mutao.github.io/basic/informationtheorycode/chapter2/chapter2.1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/informationtheorycode/chapter2/chapter2.1/</guid>
+      <guid>https://choy-mutao.github.io/basic/informationtheorycode/chapter2/chapter2.1/</guid>
       <description>信源和信息熵 信源的分类 $$ 信源 \left { \begin{array}{lr} 无记忆信源 \left {\begin{array}{lr} 发出单个符号的无记忆信源 \
 发出符号序列的无记忆信源 \end{array}\right. \
 有记忆信源 \left {\begin{array}{lr} 发出符号序列的有记忆信源 \
@@ -423,10 +423,10 @@ if: 某一段时间连续函数 $f(t)$ 的频带受限
     
     <item>
       <title></title>
-      <link>localhost/basic/informationtheorycode/chapter2/chapter2.2/</link>
+      <link>https://choy-mutao.github.io/basic/informationtheorycode/chapter2/chapter2.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/informationtheorycode/chapter2/chapter2.2/</guid>
+      <guid>https://choy-mutao.github.io/basic/informationtheorycode/chapter2/chapter2.2/</guid>
       <description>信息的度量 1. 自信息量 信源空间中,符号信息出现的概率和其信息量是单调递减的关系
 定义: 概率为 $p(x_i)$ 的符号 $x_i$ 的自信息量为
 $$ I(x_i) = -\log{p(x_i)} \tag{2-2-1} $$
@@ -441,10 +441,10 @@ $$ I(x_i) = -\log{p(x_i)} \tag{2-2-1} $$
     
     <item>
       <title></title>
-      <link>localhost/basic/informationtheorycode/chapter2/chapter2.3/</link>
+      <link>https://choy-mutao.github.io/basic/informationtheorycode/chapter2/chapter2.3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/informationtheorycode/chapter2/chapter2.3/</guid>
+      <guid>https://choy-mutao.github.io/basic/informationtheorycode/chapter2/chapter2.3/</guid>
       <description>离散序列信源的熵 keywords: 序列熵 平稳序列 齐次遍历马尔可夫链信源
 离散无记忆信源的序列熵  平稳特性: 序列熵和序号无关
  离散有记忆信源的序列熵 </description>
@@ -452,37 +452,37 @@ $$ I(x_i) = -\log{p(x_i)} \tag{2-2-1} $$
     
     <item>
       <title></title>
-      <link>localhost/basic/informationtheorycode/chapter3/</link>
+      <link>https://choy-mutao.github.io/basic/informationtheorycode/chapter3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/informationtheorycode/chapter3/</guid>
+      <guid>https://choy-mutao.github.io/basic/informationtheorycode/chapter3/</guid>
       <description>信道和信道容量 固定参数信道 &amp;amp; 时变参数信道 信道容量 无噪无损信道 无噪有损(确定)信道 有噪无损信道 二元对称信道 对称DMC信道 准对称DMC信道 独立且无记忆信道 独立并联信道 限时限频限功率加性高斯白信道(香农公式) 香农限 MIMO信道 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/informationtheorycode/chapter4/</link>
+      <link>https://choy-mutao.github.io/basic/informationtheorycode/chapter4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/informationtheorycode/chapter4/</guid>
+      <guid>https://choy-mutao.github.io/basic/informationtheorycode/chapter4/</guid>
       <description>信息率失真函数 失真函数 平均失真 信息率失真函数  </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/informationtheorycode/chapter5/chapter5/</link>
+      <link>https://choy-mutao.github.io/basic/informationtheorycode/chapter5/chapter5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/informationtheorycode/chapter5/chapter5/</guid>
+      <guid>https://choy-mutao.github.io/basic/informationtheorycode/chapter5/chapter5/</guid>
       <description>信源编码 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/informationtheorycode/chapter6/chapter6/</link>
+      <link>https://choy-mutao.github.io/basic/informationtheorycode/chapter6/chapter6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/informationtheorycode/chapter6/chapter6/</guid>
+      <guid>https://choy-mutao.github.io/basic/informationtheorycode/chapter6/chapter6/</guid>
       <description>信道编码 信道编码是以信息在信道上的正确传输为目标的编码,它可以分为两个层次：
  如何正确接受载有信息的信号 如何避免少量差错信号对信息内容的影响  有扰离散信道的编码定理   差错和差错控制系统分类
   信息差错，信号差错
@@ -494,19 +494,19 @@ $$ I(x_i) = -\log{p(x_i)} \tag{2-2-1} $$
     
     <item>
       <title></title>
-      <link>localhost/basic/linearalgebra/chapter1/</link>
+      <link>https://choy-mutao.github.io/basic/linearalgebra/chapter1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/linearalgebra/chapter1/</guid>
+      <guid>https://choy-mutao.github.io/basic/linearalgebra/chapter1/</guid>
       <description>行列式的基本概念和计算 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/linearalgebra/chapter2/</link>
+      <link>https://choy-mutao.github.io/basic/linearalgebra/chapter2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/linearalgebra/chapter2/</guid>
+      <guid>https://choy-mutao.github.io/basic/linearalgebra/chapter2/</guid>
       <description>余子式和代数余子式的计算 1. 用行列式 $$ {k_1 A_{i1}} + {k_2 A_{i2}} + \cdots + {k_n A_{in}} = \begin{vmatrix} &amp;amp; &amp;amp; * \
 k_1 &amp;amp; k_2 &amp;amp; \cdots &amp;amp; k_3 &amp;amp; \
 &amp;amp; &amp;amp; * \
@@ -517,28 +517,28 @@ k_1 &amp;amp; k_2 &amp;amp; \cdots &amp;amp; k_3 &amp;amp; \
     
     <item>
       <title></title>
-      <link>localhost/basic/linearalgebra/chapter3/</link>
+      <link>https://choy-mutao.github.io/basic/linearalgebra/chapter3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/linearalgebra/chapter3/</guid>
+      <guid>https://choy-mutao.github.io/basic/linearalgebra/chapter3/</guid>
       <description>矩阵的基本概念与运算 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/linearalgebra/chapter4/</link>
+      <link>https://choy-mutao.github.io/basic/linearalgebra/chapter4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/linearalgebra/chapter4/</guid>
+      <guid>https://choy-mutao.github.io/basic/linearalgebra/chapter4/</guid>
       <description>伴随矩阵, 初等矩阵, 矩阵方程 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/linearalgebra/chapter5/</link>
+      <link>https://choy-mutao.github.io/basic/linearalgebra/chapter5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/linearalgebra/chapter5/</guid>
+      <guid>https://choy-mutao.github.io/basic/linearalgebra/chapter5/</guid>
       <description>向量 线性关系的表示 $$ \sum_i^n{{k_i}{\vec{a_i}}} = 0; $$
 等价矩阵和等价向量组  向量空间 定义 以线性无关的 ${\vec{\xi_i} }$ 作为基构建 n维的向量空间， 空间中的任意位置表示为：
 $$ \vec{\alpha} =\sum_i^n{ a_i\vec{\xi_i}} $$
@@ -551,46 +551,46 @@ $C$称为由${\vec{\xi_i}}$到${\vec{\eta_i}}$过渡矩阵
     
     <item>
       <title></title>
-      <link>localhost/basic/linearalgebra/chapter6/</link>
+      <link>https://choy-mutao.github.io/basic/linearalgebra/chapter6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/linearalgebra/chapter6/</guid>
+      <guid>https://choy-mutao.github.io/basic/linearalgebra/chapter6/</guid>
       <description>线性方程组 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/linearalgebra/chapter7/</link>
+      <link>https://choy-mutao.github.io/basic/linearalgebra/chapter7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/linearalgebra/chapter7/</guid>
+      <guid>https://choy-mutao.github.io/basic/linearalgebra/chapter7/</guid>
       <description>特征值和特征向量 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/linearalgebra/chapter8/</link>
+      <link>https://choy-mutao.github.io/basic/linearalgebra/chapter8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/linearalgebra/chapter8/</guid>
+      <guid>https://choy-mutao.github.io/basic/linearalgebra/chapter8/</guid>
       <description>相似矩阵和相似对角化 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/linearalgebra/chapter9/</link>
+      <link>https://choy-mutao.github.io/basic/linearalgebra/chapter9/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/linearalgebra/chapter9/</guid>
+      <guid>https://choy-mutao.github.io/basic/linearalgebra/chapter9/</guid>
       <description>二次型 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/linearalgebra/terms/</link>
+      <link>https://choy-mutao.github.io/basic/linearalgebra/terms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/linearalgebra/terms/</guid>
+      <guid>https://choy-mutao.github.io/basic/linearalgebra/terms/</guid>
       <description>线性代数的简明概念  向量的几何定义，数学定义  行列式 WARN No layout: archives/2021/07/index.html WARN No layout: index.html INFO Generated: archives/index.html INFO Generated: archives/2021/index.html INFO Generated: archives/2021/07/index.html INFO Generated: index.html INFO Generated: 2021/07/30/hello-world/index.html 逆序数法定义的行列式 行列式的展开定理 行列式的余子式 行列式的代余子式 主对角线行列式 副对角线行列式 拉普拉斯展开式 范德蒙德行列式 爪型行列式 循环行列式 克拉默法则
 矩阵 对称矩阵 反对称矩阵 逆矩阵 矩阵的初等行变换 矩阵的初等列变换 特殊矩阵 分块矩阵 矩阵的逆 伴随矩阵 初等矩阵 矩阵方程 等价矩阵 矩阵的等价标准型 矩阵的行列式 矩阵的秩
 向量 向量组 线性相关性 极大线性无关组 等价向量组 向量组的秩
@@ -600,19 +600,19 @@ $C$称为由${\vec{\xi_i}}$到${\vec{\eta_i}}$过渡矩阵
     
     <item>
       <title></title>
-      <link>localhost/basic/svgcanvaswebgl3d/webgl-quick-ref/</link>
+      <link>https://choy-mutao.github.io/basic/svgcanvaswebgl3d/webgl-quick-ref/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/svgcanvaswebgl3d/webgl-quick-ref/</guid>
+      <guid>https://choy-mutao.github.io/basic/svgcanvaswebgl3d/webgl-quick-ref/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/theoryofprobabilityandstatistics/chapter1/</link>
+      <link>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/theoryofprobabilityandstatistics/chapter1/</guid>
+      <guid>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter1/</guid>
       <description>随机事件与概率  随机试验 基本事件 古典概型 几何概型 总样本数 事件所含样本点数 完备事件组 概率的基本性质和公式  性质公式 加法公式 减法公式
 逆事件概率公式 条件概率公式 乘法公式 全概率公式 -&amp;gt; 全概型 贝叶斯公式 -&amp;gt; 贝叶斯概型 不等式关系     概率为 1 的事件不一定是全事件， 概率为 0 的事件不一定是空事件
   如何区分 全概型 &amp;amp; 贝叶斯概型 全概型 &amp;amp; 贝叶斯概型 的完备事件组，涉及到事件的 穷举   事件的独立性 独立重复试验   独立性是由概率运算式定义的
@@ -625,10 +625,10 @@ $C$称为由${\vec{\xi_i}}$到${\vec{\eta_i}}$过渡矩阵
     
     <item>
       <title></title>
-      <link>localhost/basic/theoryofprobabilityandstatistics/chapter2/</link>
+      <link>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/theoryofprobabilityandstatistics/chapter2/</guid>
+      <guid>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter2/</guid>
       <description>一维随机变量及其分布  泊松定理 分布函数 离散型随机变量 连续型随机变量 概率分布 泊松分布 二项分布 概率密度  随机变量  随机事件是从静态的观点来研究随机现象, 随机变量是从动态的观点来研究随机现象 随机变量的实质 是一个 实值单值函数
  设随机试验 E 的样本空间为 $\Omega = { \omega }$, 如果对每一个 $\omega \in \Omega$, 都有唯一的实数 $X{\omega }$ 与之对应, 并且对任意实数 $x$, ${\omega | X(\omega), \omega \in \Omega }$ 是随机事件, 则称定义在 $\Omega$ 上的实值单值函数 $X(\omega)$为随机变量.
 分布函数  使用微积分作为求解工具
@@ -638,10 +638,10 @@ X 为样本值, x 为统计值</description>
     
     <item>
       <title></title>
-      <link>localhost/basic/theoryofprobabilityandstatistics/chapter3/</link>
+      <link>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/theoryofprobabilityandstatistics/chapter3/</guid>
+      <guid>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter3/</guid>
       <description>一维随机变量函数的分布  $X$ 为随机变量, 函数 $y=g(x)$, 则 称 以随机变量 $X$ 作为自变量的函数 $Y=g(X)$ 为随机变量 $X$ 的函数
  一维离散型随机变量概率函数 一维连续型随机变量概率密度函数   定义法
 $$ F_Y(y) = P{Y \le y} = P{g(X) \le y} = \int_{g(X) \le y}f_X(x)dx $$
@@ -654,10 +654,10 @@ $$
     
     <item>
       <title></title>
-      <link>localhost/basic/theoryofprobabilityandstatistics/chapter4/</link>
+      <link>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/theoryofprobabilityandstatistics/chapter4/</guid>
+      <guid>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter4/</guid>
       <description>多维随机变量及其分布 二维（n维）随机变量及其分布函数   概念:
 如果 $X_1, X_2, X_3, \cdots, X_n$ 是定义在同一个样本空间 $\Omega$ 上的 $n$ 个随机变量， 则称 $(X_1, X_2, X_3, \cdots, X_n)$ 是 n 维随机变量 或 n 维随机向量.
 当 $n = 2$ 时, 记 $(X,Y)$ 为 二维随机变量(或二维随机向量)
@@ -669,56 +669,56 @@ $F(x_1, x_2, x_3, \cdots, x_n) = P { X_1 \le x_1, X_2 \le x_2, X_3 \le x_3, \cdo
     
     <item>
       <title></title>
-      <link>localhost/basic/theoryofprobabilityandstatistics/chapter5/</link>
+      <link>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/theoryofprobabilityandstatistics/chapter5/</guid>
+      <guid>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter5/</guid>
       <description>多维随机变量函数的分布  设 $X, Y$ 为随机变量, $g(x,y)$ 是二元函数, 则以随机变量 $X, Y$ 作为变量的函数 $U=g(X, Y)$, 也是随机变量, 称为 随机变量$X,Y$的函数
  </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/theoryofprobabilityandstatistics/chapter6/</link>
+      <link>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/theoryofprobabilityandstatistics/chapter6/</guid>
+      <guid>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter6/</guid>
       <description>(随机变量) &amp;amp; (n维随机变量) 的数字特征 重要分布的期望和方差    分布 分布列$p_k$ &amp;amp; 概率密度 $f(x)$ 期望 方差     0-1 分布 $P(X=k) = p^{k}(1-p)^{1-k}$ $k=0,1$ $p$ $p(1-p)$   二项分布 $B(n,\ p)$ $P(X=k) = C_{n}^{k}p^{k}(1-p)^{(n-k)}$ $k=0,1,2,\cdots,n$ $np$ $np(1-p)$   泊松分布 $P(\lambda)$ $P(X=k) = \frac{\lambda^k}{k!}e^{-k}$ $k=0,1,\cdots$ $\lambda$ $\lambda$   几何分布 $G(p)$ $P(X=k) = (1-p)^{1-k}p$ $k=0,1$ $\frac{1}{p}$ $\frac{(1-p)}{p^2}$   超几何分布 $H(n,\ N,\ M)$ $P(X=k) = \frac{C_{M}^{k}C_{N-M}^{n-k}}{C_N^n}$ $max{0,\ n-N+M} \le k \le min{ n, M}$ $n \frac{M}{N}$ $\frac{nM(N-M)(N-n)}{N^2(N-1)}$         正态分布 $N(\mu,\ \sigma^2)$ $f(x) = \frac{1}{\sqrt{2\pi}{\sigma}}\exp{-\frac{(x-\mu)^2}{2\sigma^2}}$ $x \in (-\infty,\ +\infty)$ $\mu$ $\sigma^2$   均匀分布 $U(a,\ b)$ $f(x)=\frac{1}{b-a}$ $x \in (a,\ b)$ $\frac{a+b}{2}$ $\frac{(b-a)^2}{12}$   指数分布 $E(\lambda)$ $f(x) = \lambda e^{-\lambda x}$ $x \in (0,\ +\infty)$ $\frac{1}{\lambda}$ $\frac{1}{\lambda^2}$   $\chi^2(n)$分布 $f(x) = \frac{x^{\frac{n}{2}-1}e^{-\frac{x}{2}}}{\Gamma(\frac{n}{2})2^{\frac{n}{2}}}$ $x \in (0,\ +\infty)$ $n$ $2n$    期望 $$ EX = \sum \limits_{i=1}^{\infty} {x_i}{p_i}, \quad (绝对收敛) \</description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/theoryofprobabilityandstatistics/chapter7/</link>
+      <link>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/theoryofprobabilityandstatistics/chapter7/</guid>
+      <guid>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter7/</guid>
       <description>大数定律与中心极限定律  大数定律 中心极限定律  随机变量和随机变量序列的区别 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/theoryofprobabilityandstatistics/chapter8/</link>
+      <link>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/theoryofprobabilityandstatistics/chapter8/</guid>
+      <guid>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter8/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/theoryofprobabilityandstatistics/chapter9/</link>
+      <link>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter9/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/theoryofprobabilityandstatistics/chapter9/</guid>
+      <guid>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/chapter9/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/theoryofprobabilityandstatistics/terms/</link>
+      <link>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/terms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/theoryofprobabilityandstatistics/terms/</guid>
+      <guid>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/terms/</guid>
       <description>Math Terms   单值函数: 若一函数对定义域中的每一个自变量, 其对应的函数值是唯一的, 则该函数是单值函数
   排列公式
 $$ A_n^r = \frac {n!}{n-r!} $$
@@ -729,46 +729,46 @@ $$ C_n^r = \frac {n!}{r!(n-r)!} $$
     
     <item>
       <title></title>
-      <link>localhost/basic/theoryofprobabilityandstatistics/%E5%87%A0%E7%A7%8D%E5%B8%B8%E8%A7%81%E7%9A%84%E6%A6%82%E5%9E%8B/</link>
+      <link>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/%E5%87%A0%E7%A7%8D%E5%B8%B8%E8%A7%81%E7%9A%84%E6%A6%82%E5%9E%8B/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/theoryofprobabilityandstatistics/%E5%87%A0%E7%A7%8D%E5%B8%B8%E8%A7%81%E7%9A%84%E6%A6%82%E5%9E%8B/</guid>
+      <guid>https://choy-mutao.github.io/basic/theoryofprobabilityandstatistics/%E5%87%A0%E7%A7%8D%E5%B8%B8%E8%A7%81%E7%9A%84%E6%A6%82%E5%9E%8B/</guid>
       <description> 伯努利概型, 服从二项分布 正态分布 标准正态分布  </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/typescript/array/</link>
+      <link>https://choy-mutao.github.io/basic/typescript/array/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/typescript/array/</guid>
+      <guid>https://choy-mutao.github.io/basic/typescript/array/</guid>
       <description>Array in Typescript Array.copyWithin(target: number, start: number, end?: number): this; /** * Returns the this object after copying a section of the array identified by start and end * to the same array starting at position target * @param target If target is negative, it is treated as length+target where length is the * length of the array. * @param start If start is negative, it is treated as length+start. If end is negative, it * is treated as length+end.</description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/typescript/datastructure/</link>
+      <link>https://choy-mutao.github.io/basic/typescript/datastructure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/typescript/datastructure/</guid>
+      <guid>https://choy-mutao.github.io/basic/typescript/datastructure/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/typescript/decorator/</link>
+      <link>https://choy-mutao.github.io/basic/typescript/decorator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/typescript/decorator/</guid>
+      <guid>https://choy-mutao.github.io/basic/typescript/decorator/</guid>
       <description>Decorators 装饰器 反射机制 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/typescript/overview/typescript-3.9/</link>
+      <link>https://choy-mutao.github.io/basic/typescript/overview/typescript-3.9/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/typescript/overview/typescript-3.9/</guid>
+      <guid>https://choy-mutao.github.io/basic/typescript/overview/typescript-3.9/</guid>
       <description>Inference 和 Promise.all 的改进 最近发布的 3.7 版本主要更新了对 Promise.all 和 Promise.race 的描述。 但不巧的是，这部分引入了一些版本回退， 尤其在联合类型中使用 null 和 undefined 时。
 interface Lion { roar(): void; } interface Seal { singKissFromARose(): void; } async function visitZoo( lionExhibit: Promise&amp;lt;Lion&amp;gt;, sealExhibit: Promise&amp;lt;Seal | undefined&amp;gt; ) { let [lion, seal] = await Promise.all([lionExhibit, sealExhibit]); lion.roar(); // uh oh  // ~~~~  // Object is possibly &amp;#39;undefined&amp;#39;. } 这里得到了一个很奇怪的结果。
 新加了两个注解 //@ts-expect-error &amp;amp; //@ts-ignore Pick ts-expect-error if:
@@ -777,10 +777,10 @@ you’re writing test code where you actually want the type system to error on a
     
     <item>
       <title></title>
-      <link>localhost/basic/typescript/overview/typescript-4.0/</link>
+      <link>https://choy-mutao.github.io/basic/typescript/overview/typescript-4.0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/typescript/overview/typescript-4.0/</guid>
+      <guid>https://choy-mutao.github.io/basic/typescript/overview/typescript-4.0/</guid>
       <description>TypeScript 4.0 Variadic Tuple Types Consider a function in JavaScript called concat that takes two array or tuple types and concatenates them together to make a new array. 创建一个 concat 的javascript函数，这个函数实现了将两个数组入参合并后返回。
 function concat(arr1, arr2) { return [...arr1, ...arr2]; } Also consider tail, that takes an array or tuple, and returns all elements but the first. 再写一个函数 tail，将一个 array 或者 tuple 返回除了第一个元素的其他所有元素。
 function tail(arg) { const [_, ...result] = arg; return result; } How would we type either of these in TypeScript?</description>
@@ -788,37 +788,37 @@ function tail(arg) { const [_, ...result] = arg; return result; } How would we t
     
     <item>
       <title></title>
-      <link>localhost/basic/typescript/promise/</link>
+      <link>https://choy-mutao.github.io/basic/typescript/promise/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/typescript/promise/</guid>
+      <guid>https://choy-mutao.github.io/basic/typescript/promise/</guid>
       <description>Promise Chain </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/typescript/%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0%E5%92%8C%E6%99%AE%E9%80%9A%E5%87%BD%E6%95%B0%E6%96%B9%E7%A8%8B%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
+      <link>https://choy-mutao.github.io/basic/typescript/%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0%E5%92%8C%E6%99%AE%E9%80%9A%E5%87%BD%E6%95%B0%E6%96%B9%E7%A8%8B%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/typescript/%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0%E5%92%8C%E6%99%AE%E9%80%9A%E5%87%BD%E6%95%B0%E6%96%B9%E7%A8%8B%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
+      <guid>https://choy-mutao.github.io/basic/typescript/%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0%E5%92%8C%E6%99%AE%E9%80%9A%E5%87%BD%E6%95%B0%E6%96%B9%E7%A8%8B%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
       <description>箭头函数和普通方程函数的区别  箭头函数做类型的时候，是一个联合类型 Function type notation must be parenthesized when used in a union type  </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter0/</link>
+      <link>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter0/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter0/</guid>
       <description>序 昔在庖犠氏始画八卦，以通神明之德，以类万物之情，作九九之数，以合六爻之变。暨于黄帝神而化之，引而伸之，于是建历纪，协律吕，用稽道原，然后 两仪四象精微之气可得而效焉。记称隶首作数，其详未之闻也。按周公制礼而有九数，九数之流，则《九章》是矣。往者暴秦焚书，经术散坏。自时厥后，汉北 平侯张苍、大司农中丞耿寿昌皆以善算命世。苍等因旧文之遗残，各称删补。故 校其目则与古或异，而所论者多近语也。徽幼习 《九章》，长再详览。观陰陽之 割裂，总算术之根源，探赜之暇，遂悟其意。是以敢竭顽鲁，采其所见，为之作 注。事类相推，各有攸归，故枝条虽分而同本榦知，发其一端而已。又所析理以 辞，解体用图，庶亦约而能周，通而不黩，览之者思过半矣。且算在六艺，古者 以宾兴贤能，教习 国子；虽曰九数，其能穷纤入微，探测无方；至于以法相传， 亦犹规矩度量可得而共，非特难为也。当今好之者寡，故世虽多通才达学，而未 必能综于此耳。《周官·大司徒》职，夏至日中立八尺之表。其景尺有五寸，谓 之地中。说云，南戴日下万五千里。夫云尔者，以术推之。案：《九章》立四表 望远及因木望山之术，皆端旁互见，无有超邈若斯之类。然则苍等为术犹未足以 博尽群数也。徽寻九数有重差之名，原其指趣乃所以施于此也。凡望极高、测绝 深而兼知其远者必用重差、句股，则必以重差为率，故曰重差也。立两表于洛陽 之城，令高八尺，南北各尽平地。同日度其正中之时。以景差为法，表高乘表间 为实，实如法而一。所得加表高，即日去地也。以南表之景乘表间为实，实如法 而一，即为从南表至南戴日下也。以南戴日下及日去地为句、股，为之求弦，即 日去人也。以径寸之筒南望日，日满筒空，则定筒之长短以为股率，以筒径为句 率，日去人之数为大股，大股之句即日径也。虽夫圆穹之象犹曰可度，又况泰山 之高与江 海之广哉。徽以为今之史籍且略举天地之物，考论厥数，载之于志，以 阐世术之美，辄造《重差》，并为注解，以究古人之意，缀于句股之下。度高者 重表，测深者累矩，孤离者三望，离而又旁求者四望。触类而长之，则虽幽遐诡 伏，靡所不入，博物君子，详而览焉。</description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter1/</link>
+      <link>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter1/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter1/</guid>
       <description>卷一 ○方田（以御田畴界域） 今有田广十五步，从十六步。问为田几何？答曰：一亩。
 又有田广十二步，从十四步。问为田几何？答曰：一百六十八步。
 〔图：从十四，广十二。〕 方田术曰：广从步数相乘得积步。
@@ -849,10 +849,10 @@ function tail(arg) { const [_, ...result] = arg; return result; } How would we t
     
     <item>
       <title></title>
-      <link>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter2/</link>
+      <link>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter2/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter2/</guid>
       <description>卷二 ○ 粟米（以御交 质变易） 粟米之法 〔凡此诸率相与大通，其时相求，各如本率。可约者约之。别术然也。〕 粟率五十大抃五十四稻六十 粝米三十粝饭七十五豉六十三 粺米二十七粺饭五十四飧九十 米二十四饭四十八熟菽一百三半 御米二十一御饭四十二糵一百七十五 小&amp;lt;麦啇&amp;gt;十三半菽荅麻麦各四十五 今有 〔此都术也。凡九数以为篇名，可以广施诸率。所谓告往而知来，举一隅而 三隅反者也。诚能分诡数之纷杂，通彼此之否塞，因物成率，审辨名分，平其偏 颇，齐其参差，则终无不归于此术也。〕 术曰：以所有数乘所求率为实。以所有率为法。
 〔少者多之始，一者数之母，故为率者必等之于一。据粟率五、粝率三，是 粟五而为一，粝米三而为一也。欲化粟为米者，粟当先本是一。一者，谓以五约 之，令五而为一也。讫，乃以三乘之，令一而为三。如是，则率至于一，以五为 三矣。然先除后乘，或有余分，故术反之。又完言之知，粟五升为粝米三升；以 分言之知，粟一斗为粝米五分斗之三，以五为母，三为子。以粟求粝米者，以子 乘，其母报除也。然则所求之率常为母也。
 淳风等按：“宜云所求之率常为子，所有之率常为母。”今乃云“所求之率 常为母”知，脱错也。〕 实如法而一。
@@ -881,10 +881,10 @@ function tail(arg) { const [_, ...result] = arg; return result; } How would we t
     
     <item>
       <title></title>
-      <link>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter3/</link>
+      <link>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter3/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter3/</guid>
       <description>卷三 ○ 衰分（以御贵贱禀税） 衰分 〔衰分，差也。〕 术曰：各置列衰； 〔列衰，相与率也。重叠，则可约。〕 副并为法，以所分乘未并者，各自为实。实如法而一。
 〔法集而衰别。数，本一也。今以所分乘上别，以下集除之，一乘一除，适 足相消，故所分犹存，且各应率而别也。于今有术，列衰各为所求率，副并为所 有率，所分为所有数。又以经分言之，假令甲家三人，乙家二人，丙家一人，并 六人，共分十二，为人得二也。欲复作逐家者，则当列置人数，以一人所得乘之。
 今此术先乘而后除也。〕 不满法者，以法命之。
@@ -909,10 +909,10 @@ function tail(arg) { const [_, ...result] = arg; return result; } How would we t
     
     <item>
       <title></title>
-      <link>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter4/</link>
+      <link>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter4/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter4/</guid>
       <description>卷四 ○ 少广（以御积幂方圆） 少广 〔淳风等按：一亩之田，广一步，长二百四十步。今欲截取其从少，以益其 广，故曰少广。〕 术曰：置全步及分母子，以最下分母遍乘诸分子及全步， 〔淳风等按：以分母乘全步者，通其分也；以母乘子者，齐其子也。〕 各以其母除其子，置之于左，命通分者，又以分母遍乘诸分子及已通者，皆 通而同之。并之为法。
 〔淳风等按：诸子悉通，故可并之为法。亦宜用合分术，列数尤多，若用乘 则算数至繁，故别制此术，从省约。〕 置所求步数，以全步积分乘之为实。
 〔此以田广为法，以亩积步为实。法有分者，当同其母，齐其子，以同乘法 实，而并齐于法。今以分母乘全步及子，子如母而一，并以并全法，则法实俱长， 意亦等也。故如法而一，得从步数。〕 实如法而一，得从步。
@@ -941,10 +941,10 @@ function tail(arg) { const [_, ...result] = arg; return result; } How would we t
     
     <item>
       <title></title>
-      <link>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter5/</link>
+      <link>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter5/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter5/</guid>
       <description>卷五 ○ 商功（以御功程积实） 今有穿地，积一万尺。问为坚、壤各几何？答曰：为坚七千五百尺；为壤一 万二千五百尺。
 术曰：穿地四为壤五， 〔壤谓息土。〕 为坚三， 〔坚谓筑土。〕 为墟四。
 〔墟谓穿坑。此皆其常率。〕 以穿地求壤，五之；求坚，三之；皆四而一。
@@ -978,10 +978,10 @@ function tail(arg) { const [_, ...result] = arg; return result; } How would we t
     
     <item>
       <title></title>
-      <link>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter6/</link>
+      <link>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter6/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter6/</guid>
       <description>卷六 ○ 均输（以御远近劳费） 今有均输粟，甲县一万户，行道八日；乙县九千五百户，行道十日；丙县一 万二千三百五十户，行道十三日；丁县一万二千二百户，行道二十日，各到输所。
 凡四县赋当输二十五万斛，用车一万乘。欲以道里远近、户数多少衰出之，问粟、 车各几何？答曰：甲县粟八万三千一百斛，车三千三百二十四乘。乙县粟六万三 千一百七十五斛，车二千五百二十七乘。丙县粟六万三千一百七十五斛，车二千 五百二十七乘。丁县粟四万五百五十斛，车一千六百二十二乘。
 术曰：令县户数各如其本行道日数而一，以为衰。
@@ -1004,10 +1004,10 @@ function tail(arg) { const [_, ...result] = arg; return result; } How would we t
     
     <item>
       <title></title>
-      <link>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter7/</link>
+      <link>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter7/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter7/</guid>
       <description>卷七 ○ 盈不足（以御隐杂互见） 今有共买物，人出八，盈三；人出七，不足四。问人数、物价各几何？答曰： 七人。物价五十三。
 今有共买鸡，人出九，盈一十一；人出六，不足十六。问人数、鸡价各几何？ 答曰：九人。鸡价七十。
 今有共买琎，人出半，盈四；人出少半，不足三。问人数、琎价各几何？答 曰：四十二人。琎价十七。
@@ -1037,10 +1037,10 @@ function tail(arg) { const [_, ...result] = arg; return result; } How would we t
     
     <item>
       <title></title>
-      <link>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter8/</link>
+      <link>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter8/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter8/</guid>
       <description>卷八 ○ 方程（以御错糅正负） 今有上禾三秉，中禾二秉，下禾一秉，实三十九斗；上禾二秉，中禾三秉， 下禾一秉，实三十四斗；上禾一秉，中禾二秉，下禾三秉，实二十六斗。问上、 中、下禾实一秉各几何？答曰：上禾一秉九斗四分斗之一。中禾一秉四斗四分斗 之一。下禾一秉二斗四分斗之三。
 方程 〔程，课程也。群物总杂，各列有数，总言其实。令每行为率。二物者再程， 三物者三程，皆如物数程之。并列为行，故谓之方程。行之左右无所同存，且为 有所据而言耳。此都术也，以空言难晓，故特系之禾以决之。又列中、左行如右 行也。〕 术曰：置上禾三秉，中禾二秉，下禾一秉，实三十九斗于右方。中、左禾列 如右方。以右行上禾遍乘中行，而以直除。
 〔为术之意，令少行减多行，反复相减，则头位必先尽。上无一位，则此行 亦阙一物矣。然而举率以相减，不害余数之课也。若消去头位，则下去一物之实。
@@ -1064,10 +1064,10 @@ function tail(arg) { const [_, ...result] = arg; return result; } How would we t
     
     <item>
       <title></title>
-      <link>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter9/</link>
+      <link>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter9/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter9/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF/chapter9/</guid>
       <description>卷九 ○ 句股（以御高深广远） 今有句三尺，股四尺，问为弦几何？答曰：五尺。
 今有弦五尺，句三尺，问为股几何？答曰：四尺。
 今有股四尺，弦五尺，问为句几何？答曰：三尺。
@@ -1101,19 +1101,19 @@ function tail(arg) { const [_, ...result] = arg; return result; } How would we t
     
     <item>
       <title></title>
-      <link>localhost/basic/%E4%BD%9B%E7%BB%8F/%E5%BF%83%E7%BB%8F/</link>
+      <link>https://choy-mutao.github.io/basic/%E4%BD%9B%E7%BB%8F/%E5%BF%83%E7%BB%8F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E4%BD%9B%E7%BB%8F/%E5%BF%83%E7%BB%8F/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E4%BD%9B%E7%BB%8F/%E5%BF%83%E7%BB%8F/</guid>
       <description>心经 (-玄奘法师译) 观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。舍利子，色不异空，空不异色；色即是空，空即是色。受、想、行、识，亦复如是。舍利子，是诸法空相，不生不灭，不垢不净，不增不减，是故空中无色，无受、想、行、识；无眼、耳、鼻、舌、身、意；无色、声、香、味、触、法；无眼界，乃至无意识界；无无明，亦无无明尽；乃至无老死，亦无老死尽。无苦、集、灭、道，无智亦无得，以无所得故。菩提萨埵，依般若波罗蜜多故，心无罣碍。无罣碍故，无有恐怖，远离颠倒梦想，究竟涅槃。三世诸佛，依般若波罗蜜多故，得阿耨多罗三藐三菩提。故知般若波罗蜜多，是大神咒，是大明咒，是无上咒，是无等等咒，能除一切苦，真实不虚。故说般若波罗蜜多咒，即说咒曰：“揭谛、揭谛，波罗揭谛，波罗僧揭谛，菩提萨婆诃。&amp;rdquo;</description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/%E4%BF%A1%E6%81%AF%E8%AE%BA%E5%92%8C%E7%BC%96%E7%A0%81/</link>
+      <link>https://choy-mutao.github.io/basic/%E4%BF%A1%E6%81%AF%E8%AE%BA%E5%92%8C%E7%BC%96%E7%A0%81/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E4%BF%A1%E6%81%AF%E8%AE%BA%E5%92%8C%E7%BC%96%E7%A0%81/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E4%BF%A1%E6%81%AF%E8%AE%BA%E5%92%8C%E7%BC%96%E7%A0%81/</guid>
       <description>信息论： 信息论是信息科学的主要理论之一，它主要研究 可能性 和 存在性 的问题 信息技术： 信息技术主要研究如何实现的问题
  信息理论的形成和发展  1924年: Nyquist 解释了 信号带宽 和 信息速率 之间的关系;
 1928年： Hartley 研究了通信系统 传输信息的能力， 给出了 信息度量 的方法;
@@ -1124,84 +1124,84 @@ function tail(arg) { const [_, ...result] = arg; return result; } How would we t
     
     <item>
       <title></title>
-      <link>localhost/basic/%E6%95%B0%E5%AD%A6%E5%BD%92%E7%BA%B3%E6%B3%95/</link>
+      <link>https://choy-mutao.github.io/basic/%E6%95%B0%E5%AD%A6%E5%BD%92%E7%BA%B3%E6%B3%95/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E6%95%B0%E5%AD%A6%E5%BD%92%E7%BA%B3%E6%B3%95/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E6%95%B0%E5%AD%A6%E5%BD%92%E7%BA%B3%E6%B3%95/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/%E8%BF%AD%E4%BB%A3%E5%92%8C%E9%80%92%E5%BD%92%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
+      <link>https://choy-mutao.github.io/basic/%E8%BF%AD%E4%BB%A3%E5%92%8C%E9%80%92%E5%BD%92%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E8%BF%AD%E4%BB%A3%E5%92%8C%E9%80%92%E5%BD%92%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E8%BF%AD%E4%BB%A3%E5%92%8C%E9%80%92%E5%BD%92%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
       <description>迭代和递归的区别 迭代（iteration） 递归（recursion） 例子  计算 n!
  // public Factorial(n: number) { if(n &amp;gt; 1) { return n * Factorial(n -1); } else { return 1; } } def factorial(n): if n &amp;gt; 1 : return n * factorial(n =1); else : return 1; </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%80%E7%AB%A0/</link>
+      <link>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%80%E7%AB%A0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%80%E7%AB%A0/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%80%E7%AB%A0/</guid>
       <description>第一章 道可道 非常道 名可名 非常名 无名天地之始 有名万物之母 故常无欲以观其妙 常有欲以观其徼 此两者同出而异名 同谓之玄 玄之又玄 众妙之门
 注 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%83%E7%AB%A0/</link>
+      <link>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%83%E7%AB%A0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%83%E7%AB%A0/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%83%E7%AB%A0/</guid>
       <description>第七章 天长地久 天地所以能长且久者 以其不自生 故能长生 是以圣人退其身而身先 外其身而身存 非以其无私邪 故能成其私</description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%89%E7%AB%A0/</link>
+      <link>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%89%E7%AB%A0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%89%E7%AB%A0/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%B8%89%E7%AB%A0/</guid>
       <description>第三章 不尚贤 使民不争 不贵难得之货 使民不为盗 不见可欲 使民心不乱 是以圣人之治 虚其心 实其腹 弱其志 强其骨 常使民无知无欲 使夫知者不敢为也 为无为 则无不治</description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%BA%8C%E7%AB%A0/</link>
+      <link>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%BA%8C%E7%AB%A0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%BA%8C%E7%AB%A0/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%BA%8C%E7%AB%A0/</guid>
       <description>第二章 天下皆知美之为美 斯恶也 皆知善之为善 斯不善也 故有无相生 难易相成 长短相形 高下相倾 音声相和 前后相随 恒也 是以圣人处无为之事 行不言之教 万物作而弗始焉 生而弗有 为而弗恃 功成而弗居 夫为弗居 是以不去</description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%BA%94%E7%AB%A0/</link>
+      <link>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%BA%94%E7%AB%A0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%BA%94%E7%AB%A0/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E4%BA%94%E7%AB%A0/</guid>
       <description>第五章 天地不仁 以万物为刍狗 圣人不仁 以百姓为刍狗 天地之间 其犹橐龠乎 虚而不屈 动而愈出 多言数穷 不如守中</description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E5%85%AD%E7%AB%A0/</link>
+      <link>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E5%85%AD%E7%AB%A0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E5%85%AD%E7%AB%A0/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E5%85%AD%E7%AB%A0/</guid>
       <description>第六章 谷神不死 是谓玄牝 玄牝之门 是谓天地根 绵绵若存 用之不勤</description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E5%9B%9B%E7%AB%A0/</link>
+      <link>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E5%9B%9B%E7%AB%A0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E5%9B%9B%E7%AB%A0/</guid>
+      <guid>https://choy-mutao.github.io/basic/%E9%81%93%E5%BE%B7%E7%BB%8F%E8%87%AA%E6%B3%A8/%E7%AC%AC%E5%9B%9B%E7%AB%A0/</guid>
       <description>第四章 道冲 而用之或不盈 渊兮 似万物之宗 挫其锐 解其纷 和其光 同其尘 湛兮 似或存 吾不知谁之子 象帝之先</description>
     </item>
     

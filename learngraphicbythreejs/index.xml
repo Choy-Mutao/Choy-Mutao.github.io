@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LearnGraphicByThreejs on 穆 道</title>
-    <link>localhost/learngraphicbythreejs/</link>
+    <link>https://choy-mutao.github.io/learngraphicbythreejs/</link>
     <description>Recent content in LearnGraphicByThreejs on 穆 道</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="localhost/learngraphicbythreejs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://choy-mutao.github.io/learngraphicbythreejs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/graphicalogrithm/algorithm-fittingcircle/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/graphicalogrithm/algorithm-fittingcircle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/graphicalogrithm/algorithm-fittingcircle/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/graphicalogrithm/algorithm-fittingcircle/</guid>
       <description>拟合圆的方法  几种对点集$(x_i, y_i)$进行圆拟合的算法：代数逼近法、最小二乘法和正交距离回归法
  </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/graphicalogrithm/algorithm-pointscenter/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/graphicalogrithm/algorithm-pointscenter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/graphicalogrithm/algorithm-pointscenter/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/graphicalogrithm/algorithm-pointscenter/</guid>
       <description>点集的几何中心 平面点集的集合中心 Point2D: (x,y) $x_c =\frac{\sum_{i=1}^{n}{x_i}}{n}\y_c =\frac{\sum_{i=1}^{n}{y_i}}{n}$</description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/graphicalogrithm/algorithm-stringpulling/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/graphicalogrithm/algorithm-stringpulling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/graphicalogrithm/algorithm-stringpulling/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/graphicalogrithm/algorithm-stringpulling/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/graphicalogrithm/alogrithm-pointssorts/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/graphicalogrithm/alogrithm-pointssorts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/graphicalogrithm/alogrithm-pointssorts/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/graphicalogrithm/alogrithm-pointssorts/</guid>
       <description>多边形点的空间排序 平面点集的排序（2D点集） sort points in clockwise order sort points along the quadrangle&amp;rsquo;s permiter sort pints by polar angle
 空间点集的排序（3D点云） </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/sweptsurface/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/sweptsurface/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/sweptsurface/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/sweptsurface/</guid>
       <description>Swept Surface 新老数据的交互问题 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/threejs%E4%B8%AD%E4%BB%80%E4%B9%88%E6%98%AFuvs/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/threejs%E4%B8%AD%E4%BB%80%E4%B9%88%E6%98%AFuvs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/threejs%E4%B8%AD%E4%BB%80%E4%B9%88%E6%98%AFuvs/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/threejs%E4%B8%AD%E4%BB%80%E4%B9%88%E6%98%AFuvs/</guid>
       <description>Threejs 中的 UV 什么是UVs UVs 是与三维几何体的顶点信息相对应的二维纹理坐标，提供了表面网格（Mesh）与图像纹理(Texture)如何应用于该表面之间的联系。是控制纹理上的纹理像素对应于 3D 网格上的哪个顶点的标记点的基础信息。
 什么是UV mapping 技术 UV映射(UV Mapping)是精确控制表面纹理映射的关键技术
  [References] 1.Understanding UVs - Love Them or Hate Them, They&amp;rsquo;re Essential to Know 2.UV mapping - Wikipedia</description>
@@ -70,10 +70,10 @@
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/threejs%E4%B8%AD%E7%9A%84buffergeometry/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/threejs%E4%B8%AD%E7%9A%84buffergeometry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/threejs%E4%B8%AD%E7%9A%84buffergeometry/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/threejs%E4%B8%AD%E7%9A%84buffergeometry/</guid>
       <description>Threejs 中的 BufferGeometry Description 网格、线或点几何的表示。包括顶点位置、面索引、法线、颜色、UV 和缓冲区内的自定义属性，从而降低将所有这些数据传递到 GPU 的成本。
 Important Member variables bufferattribute.index bufferattribute.position bufferattribute.normal bufferattribute.uvs
 To: Trheejs 是如何通过 BufferGeometry 降低数据传递到GPU的成本的 </description>
@@ -81,10 +81,10 @@ To: Trheejs 是如何通过 BufferGeometry 降低数据传递到GPU的成本的 
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/threejs%E4%B8%AD%E7%9A%84renderer%E7%9A%84%E5%B8%B8%E9%87%8F/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/threejs%E4%B8%AD%E7%9A%84renderer%E7%9A%84%E5%B8%B8%E9%87%8F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/threejs%E4%B8%AD%E7%9A%84renderer%E7%9A%84%E5%B8%B8%E9%87%8F/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/threejs%E4%B8%AD%E7%9A%84renderer%E7%9A%84%E5%B8%B8%E9%87%8F/</guid>
       <description>Threejs 中 Renderer 的 Constants Cull Face Modes 什么是 threejs 中的 face culling
 THREE.CullFaceNone // 关闭 face culling THREE.CullFaceBack // default cull back faces THREE.CullFaceFront // cull front faces THREE.CullFaceFrontBack // cull front and back faces Shadow Types 什么是 threejs 中的 shadow
 这些主要用于 WebGLRender 的 shadowMap.type 属性的设置
@@ -93,19 +93,19 @@ THREE.BasicShadowMap // 提供了一个未经过筛选的 shadow maps --- 很快
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/topology/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/topology/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/topology/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/topology/</guid>
       <description>Topology(拓扑学&amp;lt;音译&amp;gt;) 连通性 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/%E4%B8%89%E7%BB%B4%E5%AF%B9%E8%B1%A1%E7%9A%84%E8%A1%A8%E7%A4%BA/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/%E4%B8%89%E7%BB%B4%E5%AF%B9%E8%B1%A1%E7%9A%84%E8%A1%A8%E7%A4%BA/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/%E4%B8%89%E7%BB%B4%E5%AF%B9%E8%B1%A1%E7%9A%84%E8%A1%A8%E7%A4%BA/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/%E4%B8%89%E7%BB%B4%E5%AF%B9%E8%B1%A1%E7%9A%84%E8%A1%A8%E7%A4%BA/</guid>
       <description>三维对象的表示 [toc]
  两大类实体表示的方法: 边界表示法(Boundary Respresentation, B-reps) 和 空间分区表是法(Space-Partitioning representation)
  多面体 三维图形对象中
@@ -114,19 +114,19 @@ OpenGL 多面体函数(多余且额外, 算是一个实例了) 曲面 曲面的�
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/%E5%85%B3%E4%BA%8E%E5%87%B8%E5%8C%85/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/%E5%85%B3%E4%BA%8E%E5%87%B8%E5%8C%85/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/%E5%85%B3%E4%BA%8E%E5%87%B8%E5%8C%85/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/%E5%85%B3%E4%BA%8E%E5%87%B8%E5%8C%85/</guid>
       <description>关于凸包 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/%E5%9B%9B%E5%85%83%E6%95%B0quaternion/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/%E5%9B%9B%E5%85%83%E6%95%B0quaternion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/%E5%9B%9B%E5%85%83%E6%95%B0quaternion/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/%E5%9B%9B%E5%85%83%E6%95%B0quaternion/</guid>
       <description>四元数(Quaternion), 1843 &amp;mdash; (William Rowan Hamilton,1805-1865) 四元数的定义 四元数是一个简单的超复数 Q, 记:
 $$ Q = \omega + x \cdot \bold{i} + y \cdot \bold{j} + z \cdot \bold{z}, \quad \bold{i}^2 = \bold{j}^2 = \bold{k}^2 = -1
 $$
@@ -139,29 +139,29 @@ $k$ 旋转代表 Y 轴与 Z 轴相交平面中 Y 轴正向向 Z 轴正向的旋�
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/%E6%9B%B2%E7%BA%BF%E4%B8%8A%E7%82%B9%E7%9A%84%E7%A6%BB%E6%95%A3%E6%96%B9%E6%B3%95/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/%E6%9B%B2%E7%BA%BF%E4%B8%8A%E7%82%B9%E7%9A%84%E7%A6%BB%E6%95%A3%E6%96%B9%E6%B3%95/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/%E6%9B%B2%E7%BA%BF%E4%B8%8A%E7%82%B9%E7%9A%84%E7%A6%BB%E6%95%A3%E6%96%B9%E6%B3%95/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/%E6%9B%B2%E7%BA%BF%E4%B8%8A%E7%82%B9%E7%9A%84%E7%A6%BB%E6%95%A3%E6%96%B9%E6%B3%95/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/%E6%9B%B2%E9%9D%A2%E7%9A%84%E6%8B%9F%E5%90%88/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/%E6%9B%B2%E9%9D%A2%E7%9A%84%E6%8B%9F%E5%90%88/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/%E6%9B%B2%E9%9D%A2%E7%9A%84%E6%8B%9F%E5%90%88/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/%E6%9B%B2%E9%9D%A2%E7%9A%84%E6%8B%9F%E5%90%88/</guid>
       <description>曲面拟合 张量积 $$ \begin{bmatrix}
 \end{bmatrix} $$</description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/%E6%B1%82%E4%B8%A4%E4%B8%AA%E5%B9%B3%E9%9D%A2%E7%9A%84%E4%BA%A4%E7%BA%BF/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/%E6%B1%82%E4%B8%A4%E4%B8%AA%E5%B9%B3%E9%9D%A2%E7%9A%84%E4%BA%A4%E7%BA%BF/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/%E6%B1%82%E4%B8%A4%E4%B8%AA%E5%B9%B3%E9%9D%A2%E7%9A%84%E4%BA%A4%E7%BA%BF/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/%E6%B1%82%E4%B8%A4%E4%B8%AA%E5%B9%B3%E9%9D%A2%E7%9A%84%E4%BA%A4%E7%BA%BF/</guid>
       <description>计算两空间平面的交线 已知两个平面方程
 $P_1: {A_1}x + {B_1}y + {C_1}z + d_1 = 0$
 $P_2: {A_2}x + {B_2}y + {C_2}z + d_2 = 0$
@@ -173,10 +173,10 @@ $P_1$ 的法向量为 $\overline{n}_1: (A_1,B_1,C_1)^T \quad$ $P_2$ 的法向量
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/%E7%82%B9%E9%9B%86%E7%9A%84%E4%B8%AD%E5%BF%83/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/%E7%82%B9%E9%9B%86%E7%9A%84%E4%B8%AD%E5%BF%83/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/%E7%82%B9%E9%9B%86%E7%9A%84%E4%B8%AD%E5%BF%83/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/%E7%82%B9%E9%9B%86%E7%9A%84%E4%B8%AD%E5%BF%83/</guid>
       <description>点集的中心(中心点) $n维$空间中一个 $对象X$ 的的几何中心 或 形心 是将 X 分成矩相等的两部分的所有超平面的交点
  有限个点总存在几何中心，可以通过计算这些点的每个坐标分量的算术平均值得到。这个中心是空间中一点到这有限个点距离的平方和的唯一最小值点。点集的几何中心在仿射变换下保持不变。
  有限点集的中心 给定用点集描述的对象, 用单位向量描述, ${ \vec{x_1},\vec{x_2},\vec{x_3}, \dots , \vec{x_k} }, \vec{x_i} \in R^n$
@@ -186,10 +186,10 @@ $$ C_{centroid} = \frac{\sum_i^k \vec{x_i}}{k} $$
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8F%98%E6%8D%A2%E7%9F%A9%E9%98%B5/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8F%98%E6%8D%A2%E7%9F%A9%E9%98%B5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8F%98%E6%8D%A2%E7%9F%A9%E9%98%B5/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E5%87%A0%E4%BD%95%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8F%98%E6%8D%A2%E7%9F%A9%E9%98%B5/</guid>
       <description>空间几何的基本变换矩阵 移动矩阵 旋转矩阵 缩放矩阵 镜像矩阵 已知一空间平面 $F(x,y,z) = Ax + By + Cz + D = 0$, 该平面法向量 \vec{n} = (A,B,C), 和原点的距离为 $D$, 则关于该平面的镜像矩阵为:
 $$ \begin{bmatrix} 1 - 2AA &amp;amp; - 2AB &amp;amp; - 2AC &amp;amp; -2DA \
 - 2AB &amp;amp; 1 - 2BB &amp;amp; - 2BC &amp;amp; -2DB \
@@ -199,29 +199,29 @@ $$ \begin{bmatrix} 1 - 2AA &amp;amp; - 2AB &amp;amp; - 2AC &amp;amp; -2DA \
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E7%82%B9%E9%9B%86%E6%8B%9F%E5%90%88%E7%A9%BA%E9%97%B4%E6%9B%B2%E7%BA%BF/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E7%82%B9%E9%9B%86%E6%8B%9F%E5%90%88%E7%A9%BA%E9%97%B4%E6%9B%B2%E7%BA%BF/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E7%82%B9%E9%9B%86%E6%8B%9F%E5%90%88%E7%A9%BA%E9%97%B4%E6%9B%B2%E7%BA%BF/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E7%82%B9%E9%9B%86%E6%8B%9F%E5%90%88%E7%A9%BA%E9%97%B4%E6%9B%B2%E7%BA%BF/</guid>
       <description>空间点集合的线性拟合 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E7%82%B9%E9%9B%86%E7%9A%84%E9%A1%BA%E5%BA%8F%E9%97%AE%E9%A2%98/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E7%82%B9%E9%9B%86%E7%9A%84%E9%A1%BA%E5%BA%8F%E9%97%AE%E9%A2%98/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E7%82%B9%E9%9B%86%E7%9A%84%E9%A1%BA%E5%BA%8F%E9%97%AE%E9%A2%98/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/%E7%A9%BA%E9%97%B4%E7%82%B9%E9%9B%86%E7%9A%84%E9%A1%BA%E5%BA%8F%E9%97%AE%E9%A2%98/</guid>
       <description>空间点集的顺序问题 空间点集是为了描述一个对象的存在而存在具象的数据, 空间点集排序的问题,也是空间点数据结构化描述的问题.
 二维空间点集的排序 三位空间点集的排序 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</guid>
       <description>Computer Grahpic Science Mathmatics Basic [toc]
 Director  坐标参照系  笛卡尔坐标系,非笛卡尔坐标系, 球面\圆柱面等对称坐标系
      点和向量 张量 基向量和度量张量 矩阵 复数 四元数  非参数表示 直接用激活中的参照系坐标来描述对象时, 这种表示就称为非参数表示(non-parametric representation)
@@ -231,10 +231,10 @@ Director  坐标参照系  笛卡尔坐标系,非笛卡尔坐标系, 球面\圆�
     
     <item>
       <title></title>
-      <link>localhost/learngraphicbythreejs/%E8%AF%A6%E8%A7%A3threejs%E4%B8%ADindexpositionuv%E7%9A%84%E5%85%B3%E7%B3%BB/</link>
+      <link>https://choy-mutao.github.io/learngraphicbythreejs/%E8%AF%A6%E8%A7%A3threejs%E4%B8%ADindexpositionuv%E7%9A%84%E5%85%B3%E7%B3%BB/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/learngraphicbythreejs/%E8%AF%A6%E8%A7%A3threejs%E4%B8%ADindexpositionuv%E7%9A%84%E5%85%B3%E7%B3%BB/</guid>
+      <guid>https://choy-mutao.github.io/learngraphicbythreejs/%E8%AF%A6%E8%A7%A3threejs%E4%B8%ADindexpositionuv%E7%9A%84%E5%85%B3%E7%B3%BB/</guid>
       <description>详解Threejs中index，position，uv的关系 index[] 记录了三角网格的拓扑关系 position[] 记录了每个点的空间位置信息 index[i] in position.indices uv[] 记录材质的映射关系</description>
     </item>
     

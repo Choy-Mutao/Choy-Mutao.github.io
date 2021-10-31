@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CodeLives on 穆 道</title>
-    <link>localhost/codelife/</link>
+    <link>https://choy-mutao.github.io/codelife/</link>
     <description>Recent content in CodeLives on 穆 道</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="localhost/codelife/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://choy-mutao.github.io/codelife/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>localhost/codelife/workrecord/2020-11-25/</link>
+      <link>https://choy-mutao.github.io/codelife/workrecord/2020-11-25/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/codelife/workrecord/2020-11-25/</guid>
+      <guid>https://choy-mutao.github.io/codelife/workrecord/2020-11-25/</guid>
       <description>Metro 2020-11-25
 图层编辑  合并 移动 附件操作条件  Plane    code &amp;ndash; 在代码中可以往控制台中抛出合理的 throw warning 进行告警     code &amp;ndash; 代码优化，减少 clipper 的运行次数 code &amp;ndash; 附件操作规则的  Record 优化需要考虑业务问题, 需要判断是否 有关联的 molding 和 材质 2. 如果要减少 clipper 的运算次数, 如何处理 附着材质和挂载molding的问题 5. 将 molding | profile | lightband | lighttrough 剥离出 DIY体系, 只是提供了一种生成一些面的的工具
  [查看 路径规划 和 减少代码运行次数 的区别] 如何判断两个面是否有相交的区域 -&amp;gt; 判断两个面的boxing 是否相交 npm-rbush 快速拓扑查询大规模空间数据  </description>
@@ -23,10 +23,10 @@
     
     <item>
       <title></title>
-      <link>localhost/codelife/workrecord/2020-11-26/</link>
+      <link>https://choy-mutao.github.io/codelife/workrecord/2020-11-26/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/codelife/workrecord/2020-11-26/</guid>
+      <guid>https://choy-mutao.github.io/codelife/workrecord/2020-11-26/</guid>
       <description>Metro 2020-11-26
 US  图层编辑 1.1 附件操作条件  Bug  激活环境系的编辑对象不唯一 -&amp;gt; 全局监听的工具,绑定 environment activecontnet isEditing  Plane  提代码结果给测试[done] region.getMolding.foreach -&amp;gt; molding.segments[] -&amp;gt; find same segment -&amp;gt; create newMolding doc &amp;ndash; 整理记录框架中的 diyobject 的数据操作规则  Record 优化需要考虑业务问题, 需要判断是否 有关联的 molding 和 材质
   先处理材质的同步显示的问题. 再处理molding关联的问题.    如果要减少 clipper 的运算次数, 如何处理 附着材质和挂载molding的问题 将 molding | profile | lightband | lighttrough 剥离出 DIY体系, 只是提供了一种生成一些面的的工具 [查看 路径规划 和 减少代码运行次数 的区别] 如何判断两个面是否有相交的区域 -&amp;gt; 判断两个面的 boxing 是否相交 npm-rbush 快速拓扑查询大规模空间数据 -&amp;gt; [技术贴]  </description>
@@ -34,10 +34,10 @@ US  图层编辑 1.1 附件操作条件  Bug  激活环境系的编辑对象不�
     
     <item>
       <title></title>
-      <link>localhost/codelife/workrecord/2020-11-27/</link>
+      <link>https://choy-mutao.github.io/codelife/workrecord/2020-11-27/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/codelife/workrecord/2020-11-27/</guid>
+      <guid>https://choy-mutao.github.io/codelife/workrecord/2020-11-27/</guid>
       <description>Metro 2020-11-26
 US  图层编辑 1.1 附件操作条件  Bug  激活环境系的编辑对象不唯一 -&amp;gt; 全局监听的工具,绑定 environment activecontnet isEditing  Plane  region.getMolding.foreach -&amp;gt; molding.segments[] -&amp;gt; find same segment -&amp;gt; create newMolding doc &amp;ndash; 整理记录框架中的 diyobject 的数据操作规则  Record 优化需要考虑业务问题, 需要判断是否 有关联的 molding 和 材质 2. 如果要减少 clipper 的运算次数, 如何处理 附着材质和挂载molding的问题 5. 将 molding | profile | lightband | lighttrough 剥离出 DIY体系, 只是提供了一种生成一些面的的工具
  [查看 路径规划 和 减少代码运行次数 的区别] 如何判断两个面是否有相交的区域 -&amp;gt; 判断两个面的 boxing 是否相交 npm-rbush 快速拓扑查询大规模空间数据 -&amp;gt; [技术贴]  </description>
@@ -45,10 +45,10 @@ US  图层编辑 1.1 附件操作条件  Bug  激活环境系的编辑对象不�
     
     <item>
       <title></title>
-      <link>localhost/codelife/workrecord/2020-12-03/</link>
+      <link>https://choy-mutao.github.io/codelife/workrecord/2020-12-03/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/codelife/workrecord/2020-12-03/</guid>
+      <guid>https://choy-mutao.github.io/codelife/workrecord/2020-12-03/</guid>
       <description>Metro 2020-12-03
 US  图层编辑 1.1 附件操作条件  Bug  激活环境系的编辑对象不唯一 -&amp;gt; 全局监听的工具,绑定 environment activecontnet isEditing  Plane  region.getMolding.foreach -&amp;gt; molding.segments[] -&amp;gt; find same segment -&amp;gt; create newMolding doc &amp;ndash; 整理记录框架中的 diyobject 的数据操作规则  Record 优化需要考虑业务问题, 需要判断是否 有关联的 molding 和 材质 2. 如果要减少 clipper 的运算次数, 如何处理 附着材质和挂载molding的问题 5. 将 molding | profile | lightband | lighttrough 剥离出 DIY体系, 只是提供了一种生成一些面的的工具
  [查看 路径规划 和 减少代码运行次数 的区别] 如何判断两个面是否有相交的区域 -&amp;gt; 判断两个面的 boxing 是否相交 npm-rbush 快速拓扑查询大规模空间数据 -&amp;gt; [技术贴]  </description>
@@ -56,20 +56,20 @@ US  图层编辑 1.1 附件操作条件  Bug  激活环境系的编辑对象不�
     
     <item>
       <title></title>
-      <link>localhost/codelife/workrecord/jobduties/</link>
+      <link>https://choy-mutao.github.io/codelife/workrecord/jobduties/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/codelife/workrecord/jobduties/</guid>
+      <guid>https://choy-mutao.github.io/codelife/workrecord/jobduties/</guid>
       <description>JobDuties Title 几何算法工程师
 Duties  DIY模块数据结构维护 DIY模块业务功能实现 DIY模块文档整理维护  Bug  用户操作弧面数据发生 crash  Improvement  增加 nurbs 造型功能  </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/codelife/%E5%A6%82%E4%BD%95%E5%90%8D%E6%AD%A3%E8%A8%80%E9%A1%BA%E7%9A%84%E4%B8%8D%E5%8A%A0%E7%8F%AD/</link>
+      <link>https://choy-mutao.github.io/codelife/%E5%A6%82%E4%BD%95%E5%90%8D%E6%AD%A3%E8%A8%80%E9%A1%BA%E7%9A%84%E4%B8%8D%E5%8A%A0%E7%8F%AD/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/codelife/%E5%A6%82%E4%BD%95%E5%90%8D%E6%AD%A3%E8%A8%80%E9%A1%BA%E7%9A%84%E4%B8%8D%E5%8A%A0%E7%8F%AD/</guid>
+      <guid>https://choy-mutao.github.io/codelife/%E5%A6%82%E4%BD%95%E5%90%8D%E6%AD%A3%E8%A8%80%E9%A1%BA%E7%9A%84%E4%B8%8D%E5%8A%A0%E7%8F%AD/</guid>
       <description>如何名正言顺地拒绝加班 根据合同规定，法定的工作时间为 8 小时。
 第一步 准时上下班并打卡记录
 第二步 明确工作内容并记录当日的工作进度
@@ -79,38 +79,38 @@ Duties  DIY模块数据结构维护 DIY模块业务功能实现 DIY模块文档�
     
     <item>
       <title></title>
-      <link>localhost/codelife/%E6%88%91%E7%9A%84%E7%BC%96%E7%A0%81%E5%AE%88%E5%88%99/</link>
+      <link>https://choy-mutao.github.io/codelife/%E6%88%91%E7%9A%84%E7%BC%96%E7%A0%81%E5%AE%88%E5%88%99/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/codelife/%E6%88%91%E7%9A%84%E7%BC%96%E7%A0%81%E5%AE%88%E5%88%99/</guid>
+      <guid>https://choy-mutao.github.io/codelife/%E6%88%91%E7%9A%84%E7%BC%96%E7%A0%81%E5%AE%88%E5%88%99/</guid>
       <description>我的编码规范  旧的bug解决了，新的bug又会产生，代码始终在bug中进步
  不要过早优化，但是有经验的，就不要用再走错 所有的工具类的入参，必须是基类   </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/codelife/%E6%96%B0%E9%9D%92%E5%B9%B4/</link>
+      <link>https://choy-mutao.github.io/codelife/%E6%96%B0%E9%9D%92%E5%B9%B4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/codelife/%E6%96%B0%E9%9D%92%E5%B9%B4/</guid>
+      <guid>https://choy-mutao.github.io/codelife/%E6%96%B0%E9%9D%92%E5%B9%B4/</guid>
       <description>新青年宣言 自主的而非努力的 进步的而非保守的 进取的而非退隐的 世界的而非锁国的 实利的而非虚文的 科学的而非想象的</description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/codelife/%E6%97%B6%E9%97%B4%E5%92%8C%E6%88%91/</link>
+      <link>https://choy-mutao.github.io/codelife/%E6%97%B6%E9%97%B4%E5%92%8C%E6%88%91/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/codelife/%E6%97%B6%E9%97%B4%E5%92%8C%E6%88%91/</guid>
+      <guid>https://choy-mutao.github.io/codelife/%E6%97%B6%E9%97%B4%E5%92%8C%E6%88%91/</guid>
       <description>时间和我 我生活的这个世界，时间交给了天文观测时钟和原子检测时钟来定义1s有多长，</description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/codelife/%E8%83%A1%E9%80%82%E5%85%88%E7%94%9F%E8%AF%B4/</link>
+      <link>https://choy-mutao.github.io/codelife/%E8%83%A1%E9%80%82%E5%85%88%E7%94%9F%E8%AF%B4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/codelife/%E8%83%A1%E9%80%82%E5%85%88%E7%94%9F%E8%AF%B4/</guid>
+      <guid>https://choy-mutao.github.io/codelife/%E8%83%A1%E9%80%82%E5%85%88%E7%94%9F%E8%AF%B4/</guid>
       <description>胡适先生说  著名学者胡适曾说过有这样一句话：“你看一个国家的文明，只需考察三件事：第一看他们怎样待小孩子；第二看他们怎样待女人；第三看他们怎样利用闲暇的时间。 ”
  </description>
     </item>

@@ -2,95 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tools&amp;Tips on 穆 道</title>
-    <link>localhost/toolstips/</link>
+    <link>https://choy-mutao.github.io/toolstips/</link>
     <description>Recent content in Tools&amp;Tips on 穆 道</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="localhost/toolstips/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://choy-mutao.github.io/toolstips/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>localhost/toolstips/debug-c&#43;&#43;-on-the-chrome/</link>
+      <link>https://choy-mutao.github.io/toolstips/debug-c&#43;&#43;-on-the-chrome/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/toolstips/debug-c&#43;&#43;-on-the-chrome/</guid>
+      <guid>https://choy-mutao.github.io/toolstips/debug-c&#43;&#43;-on-the-chrome/</guid>
       <description>Debug C++ on the Chrome  reference
  Emscription  </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/toolstips/emscriptenemsdk/</link>
+      <link>https://choy-mutao.github.io/toolstips/emscriptenemsdk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/toolstips/emscriptenemsdk/</guid>
+      <guid>https://choy-mutao.github.io/toolstips/emscriptenemsdk/</guid>
       <description>Emscription &amp;amp; Emsdk Emsdk Install  On Windows git clone https://github.com/emscripten-core/emsdk cd emsdk ./emsdk install latest&amp;lt;version&amp;gt; ./emsdk activate latest&amp;lt;version&amp;gt;
  </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/toolstips/quick-run-script/</link>
+      <link>https://choy-mutao.github.io/toolstips/quick-run-script/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/toolstips/quick-run-script/</guid>
+      <guid>https://choy-mutao.github.io/toolstips/quick-run-script/</guid>
       <description>装机环境搭建 系统分类  windows linux maxos  Git Node Python Hexo sudo npm install hexo-cli -g sudo npm install hexo-deployer-git --save Software </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/toolstips/quickref/</link>
+      <link>https://choy-mutao.github.io/toolstips/quickref/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/toolstips/quickref/</guid>
+      <guid>https://choy-mutao.github.io/toolstips/quickref/</guid>
       <description>Quick Reference Site StackOverFlow 博客园 知乎
 Game Developing Community Network WebGL WebGL-MDN WebGL 理论基础 OpenMesh</description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/toolstips/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E7%9A%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/</link>
+      <link>https://choy-mutao.github.io/toolstips/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E7%9A%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/toolstips/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E7%9A%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/</guid>
+      <guid>https://choy-mutao.github.io/toolstips/%E4%B8%80%E4%BA%9B%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E7%9A%84%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0/</guid>
       <description>//TODO: 常见的微分和积分的数学公式代码</description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/toolstips/%E4%BB%80%E4%B9%88%E6%98%AFhdr/</link>
+      <link>https://choy-mutao.github.io/toolstips/%E4%BB%80%E4%B9%88%E6%98%AFhdr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/toolstips/%E4%BB%80%E4%B9%88%E6%98%AFhdr/</guid>
+      <guid>https://choy-mutao.github.io/toolstips/%E4%BB%80%E4%B9%88%E6%98%AFhdr/</guid>
       <description>什么是 HDR </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/toolstips/%E4%BB%80%E4%B9%88%E6%98%AF%E8%B6%85%E5%B9%B3%E9%9D%A2/</link>
+      <link>https://choy-mutao.github.io/toolstips/%E4%BB%80%E4%B9%88%E6%98%AF%E8%B6%85%E5%B9%B3%E9%9D%A2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/toolstips/%E4%BB%80%E4%B9%88%E6%98%AF%E8%B6%85%E5%B9%B3%E9%9D%A2/</guid>
+      <guid>https://choy-mutao.github.io/toolstips/%E4%BB%80%E4%B9%88%E6%98%AF%E8%B6%85%E5%B9%B3%E9%9D%A2/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/toolstips/%E5%93%88%E5%A4%AB%E6%9B%BC%E7%BC%96%E7%A0%81%E5%AE%9E%E7%8E%B0/</link>
+      <link>https://choy-mutao.github.io/toolstips/%E5%93%88%E5%A4%AB%E6%9B%BC%E7%BC%96%E7%A0%81%E5%AE%9E%E7%8E%B0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/toolstips/%E5%93%88%E5%A4%AB%E6%9B%BC%E7%BC%96%E7%A0%81%E5%AE%9E%E7%8E%B0/</guid>
+      <guid>https://choy-mutao.github.io/toolstips/%E5%93%88%E5%A4%AB%E6%9B%BC%E7%BC%96%E7%A0%81%E5%AE%9E%E7%8E%B0/</guid>
       <description>//TODO: 手动实现哈夫曼编码</description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/toolstips/%E5%B0%8F%E6%95%B0%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%88%B6%E8%A1%A8%E7%A4%BA/</link>
+      <link>https://choy-mutao.github.io/toolstips/%E5%B0%8F%E6%95%B0%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%88%B6%E8%A1%A8%E7%A4%BA/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/toolstips/%E5%B0%8F%E6%95%B0%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%88%B6%E8%A1%A8%E7%A4%BA/</guid>
+      <guid>https://choy-mutao.github.io/toolstips/%E5%B0%8F%E6%95%B0%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%88%B6%E8%A1%A8%E7%A4%BA/</guid>
       <description>小数的二进制表示 二进制小数的分类  定点数  小数点位置固定不变的数； 定点数又定点整数（小数部分为0）和定点小数（整数部分为0）   浮点数  小数点位置变化的数称为浮点数    实数可以表示为一个纯小数和一个乘幂之积的形式 $$ 123.45 = 0.12345 * 10^3 \
 0.003456 = 0.3456 * 10^{-2} \
 3.14 = 0.314 * 10^1 \
@@ -102,19 +102,19 @@ $$
     
     <item>
       <title></title>
-      <link>localhost/toolstips/%E6%9B%BC%E5%BD%BB%E6%96%AF%E7%89%B9%E7%BC%96%E7%A0%81%E5%AE%9E%E7%8E%B0/</link>
+      <link>https://choy-mutao.github.io/toolstips/%E6%9B%BC%E5%BD%BB%E6%96%AF%E7%89%B9%E7%BC%96%E7%A0%81%E5%AE%9E%E7%8E%B0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/toolstips/%E6%9B%BC%E5%BD%BB%E6%96%AF%E7%89%B9%E7%BC%96%E7%A0%81%E5%AE%9E%E7%8E%B0/</guid>
+      <guid>https://choy-mutao.github.io/toolstips/%E6%9B%BC%E5%BD%BB%E6%96%AF%E7%89%B9%E7%BC%96%E7%A0%81%E5%AE%9E%E7%8E%B0/</guid>
       <description>曼彻斯特编码 </description>
     </item>
     
     <item>
       <title></title>
-      <link>localhost/toolstips/%E7%9F%A9%E9%98%B5%E5%92%8C%E5%90%91%E9%87%8F/</link>
+      <link>https://choy-mutao.github.io/toolstips/%E7%9F%A9%E9%98%B5%E5%92%8C%E5%90%91%E9%87%8F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/toolstips/%E7%9F%A9%E9%98%B5%E5%92%8C%E5%90%91%E9%87%8F/</guid>
+      <guid>https://choy-mutao.github.io/toolstips/%E7%9F%A9%E9%98%B5%E5%92%8C%E5%90%91%E9%87%8F/</guid>
       <description>向量的数乘
 向量的内积
 向量的外积
@@ -128,10 +128,10 @@ $$
     
     <item>
       <title></title>
-      <link>localhost/toolstips/%E9%97%AD%E5%8C%85%E5%92%8C%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/</link>
+      <link>https://choy-mutao.github.io/toolstips/%E9%97%AD%E5%8C%85%E5%92%8C%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>localhost/toolstips/%E9%97%AD%E5%8C%85%E5%92%8C%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/</guid>
+      <guid>https://choy-mutao.github.io/toolstips/%E9%97%AD%E5%8C%85%E5%92%8C%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6/</guid>
       <description>垃圾回收（Garbage Collection &amp;ndash; GC） JS 中的垃圾回收机制 在 js 中的 数据存储方式 分两种，一种是 堆存储， 另一种是 栈存储。
 堆存储的回收机制 栈存储的回收机制 sta=&amp;gt;start: 开始 e=&amp;gt;end: 结束 op=&amp;gt;operation: 操作（处理块） sub=&amp;gt;subroutine: 子程序 cond=&amp;gt;condition: 是或者不是（条件判断）? cond2=&amp;gt;condition: 第二个判断（条件判断）? io=&amp;gt;inputoutput: 输出 </description>
     </item>
