@@ -1,0 +1,28 @@
+baseurl = "https://choy-mutao.github.io/"
+languageCode = "en-us"
+paginate = 10
+theme = "myHugoTheme"
+title = "穆 道"
+
+[author]
+name = "Choy"
+
+[permalinks]
+post = "/post/:year/:month/:day/:slug"
+
+[params]
+author = "Choy"
+authorlocation = ""
+authorwebsite = "https://choy-mutao.github.io/"
+bio = "my bio"
+cover = "images/user.jpg"
+description = "Note Book"
+googleAnalyticsUserID = ""
+logo = "images/user.png"
+# Optional RSS-Link, if not provided it defaults to the standard index.xml
+RSSLink = ""
+githubName = "mutao-choy"
+twitterName = ""
+# set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+hideHUGOSupport = false
+mainSections = ["post"]

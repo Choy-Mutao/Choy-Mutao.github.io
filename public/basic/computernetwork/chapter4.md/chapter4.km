@@ -1,0 +1,310 @@
+{
+    "root": {
+        "data": {
+            "id": "cd2t357o9eo0",
+            "created": 1627275684369,
+            "text": "网络层"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cd2t3lyh0yo0",
+                    "created": 1627275720818,
+                    "text": "功能"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cd2t4n7fmkg0",
+                            "created": 1627275801900,
+                            "text": "异构网络互联"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd2t4qst9qg0",
+                            "created": 1627275809723,
+                            "text": "路由与转发"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd2t4u3umf40",
+                            "created": 1627275816921,
+                            "text": "拥塞控制"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cd2t3no5t6w0",
+                    "created": 1627275724549,
+                    "text": "路由算法"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cd2t531r8qo0",
+                            "created": 1627275836386,
+                            "text": "静态路由算法"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2t7rwcskg0",
+                                    "created": 1627276047207,
+                                    "text": "由网络管理员手工配置路由信息"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cd2t55amhio0",
+                            "created": 1627275841275,
+                            "text": "动态路由算法"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cd2t7zg1pgg0",
+                                    "created": 1627276063635,
+                                    "text": "通过路由器之间彼此交换的信息来构建路由表",
+                                    "layout_right_offset": {
+                                        "x": 9,
+                                        "y": -2
+                                    }
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cd2t89l6pmw0",
+                                            "created": 1627276085714,
+                                            "text": "距离-向量算法"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cd2t8ejcg3s0",
+                                            "created": 1627276096486,
+                                            "text": "链路状态算法"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cd2t3srmvjs0",
+                    "created": 1627275735642,
+                    "text": "层次路由"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cd2t5bn6u0o0",
+                            "created": 1627275855096,
+                            "text": "概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd2t5cp03e80",
+                            "created": 1627275857382,
+                            "text": "协议"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cd2t3yf6vy00",
+                    "created": 1627275747950,
+                    "text": "IPv4"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cd2t5fv8oow0",
+                            "created": 1627275864290,
+                            "text": "首部"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd2t5heqgtc0",
+                            "created": 1627275867645,
+                            "text": "NAT"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd2t5lkr58g0",
+                            "created": 1627275876716,
+                            "text": "子网划分"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd2t5ov66dc0",
+                            "created": 1627275883877,
+                            "text": "路由聚合"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd2t5qzlwww0",
+                            "created": 1627275888498,
+                            "text": "协议"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cd2t46s90js0",
+                    "created": 1627275766154,
+                    "text": "IPv6"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cd2t5twrvts0",
+                            "created": 1627275894857,
+                            "text": "首部40B"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd2t5xlv57k0",
+                            "created": 1627275902905,
+                            "text": "地址长度"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd2t61bxqiw0",
+                            "created": 1627275911012,
+                            "text": "主要用于解决IPv4的地址耗尽的问题"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cd2t497kzo00",
+                    "created": 1627275771434,
+                    "text": "路由协议"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cd2t6d64ae80",
+                            "created": 1627275936781,
+                            "text": "IGP"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd2t6f2wwco0",
+                            "created": 1627275940941,
+                            "text": "EGP"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cd2t4eeyw280",
+                    "created": 1627275782765,
+                    "text": "IP组播"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cd2t6zm84jk0",
+                            "created": 1627275985644,
+                            "text": "在发送者和每一接受者之间实现点对多点网络连接, 应用UDP协议, 使用D类地址"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cd2t4htrfg00",
+                    "created": 1627275790190,
+                    "text": "移动IP"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cd2t7gjmpyo0",
+                            "created": 1627276022493,
+                            "text": "概念"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd2t7i9wv4g0",
+                            "created": 1627276026259,
+                            "text": "组成"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cd2t4j9t9xc0",
+                    "created": 1627275793337,
+                    "text": "路由器"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cd2t7koe0i00",
+                            "created": 1627276031488,
+                            "text": "特点"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cd2t7md8kds0",
+                            "created": 1627276035167,
+                            "text": "组成"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

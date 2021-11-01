@@ -1,0 +1,190 @@
+<mxfile host="65bd71144e" modified="2021-03-11T15:55:57.665Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.54.1 Chrome/87.0.4280.141 Electron/11.3.0 Safari/537.36" version="14.2.4" etag="Rc8qwIUEzfQk_V8Nqbb8" type="embed">
+    <diagram id="uDFQFcmB11ROd6fHzXDE" name="Page-1">
+        <mxGraphModel dx="1678" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="9" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="1222.55" y="1530" width="967.45" height="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="地球同步卫星" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="1250" y="1880" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="中地球同步卫星" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="1250" y="1923" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="低地球同步卫星" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="1250" y="1966" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="卫星与光纤" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="1250" y="2009" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;通信卫星&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="1117.55" y="1530" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" vertex="1" parent="1">
+                    <mxGeometry x="1517.5500000000002" y="282.7" width="190" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="基带传输" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="1567.5500000000002" y="297.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="通带传输" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1567.5500000000002" y="340.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="频分复用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1567.5500000000002" y="383.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="时分复用&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; white-space: nowrap&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BstrokeWidth%3D1%3BfontSize%3D22%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221155%22%20y%3D%22640%22%20width%3D%22190%22%20height%3D%22190%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22%E5%9C%B0%E7%90%83%E5%90%8C%E6%AD%A5%E5%8D%AB%E6%98%9F%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BstrokeWidth%3D1%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221205%22%20y%3D%22655%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%224%22%20value%3D%22%E4%B8%AD%E5%9C%B0%E7%90%83%E5%90%8C%E6%AD%A5%E5%8D%AB%E6%98%9F%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221205%22%20y%3D%22698%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%225%22%20value%3D%22%E4%BD%8E%E5%9C%B0%E7%90%83%E5%90%8C%E6%AD%A5%E5%8D%AB%E6%98%9F%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221205%22%20y%3D%22741%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%226%22%20value%3D%22%E5%8D%AB%E6%98%9F%E4%B8%8E%E5%85%89%E7%BA%A4%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221205%22%20y%3D%22784%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%227%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%2012px%26quot%3B%26gt%3B%E9%80%9A%E4%BF%A1%E5%8D%AB%E6%98%9F%26lt%3B%2Fspan%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D22%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221050%22%20y%3D%22640%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1567.5500000000002" y="426.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;span style=&quot;font-size: 12px&quot;&gt;数字调试与多路复用&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+                    <mxGeometry x="1412.55" y="282.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="码分复用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1567.5500000000002" y="469.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" vertex="1" parent="1">
+                    <mxGeometry x="105" y="611.7" width="285" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="电话系统结构" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="155" y="626.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="电话政治化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="155" y="669.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="本地回路: 调制解调器 &amp;amp; ADSL &amp;amp; 光纤" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="155" y="712.7" width="215" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="中继线和多路复用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="155" y="755.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;span style=&quot;font-size: 12px&quot;&gt;公共电话交换网络&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+                    <mxGeometry y="611.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="交换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="155" y="798.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" vertex="1" parent="1">
+                    <mxGeometry x="532.1100000000001" y="612.7" width="315" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="第一代移动电话(1G): 模拟语音" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="565" y="626.7" width="215" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;span style=&quot;font-size: 12px&quot;&gt;移动电话系统&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="611.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="第二代移动电话(2G): 数字语音" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="565" y="669.7" width="215" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="第三地移动电话(3G): 数字语音和数据" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="565" y="712.7" width="215" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" vertex="1" parent="1">
+                    <mxGeometry x="985.8400000000001" y="611.7" width="193.11" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="共用天线电视" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="1035.84" y="626.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="线缆上的Internet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1035.84" y="669.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="频谱分配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1035.84" y="712.7" width="115" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="线缆调试解调器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1035.84" y="755.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;span style=&quot;font-size: 12px&quot;&gt;有线电视&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+                    <mxGeometry x="880.8400000000001" y="611.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="ADSL与有线电视电缆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1035.84" y="798.7" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" vertex="1" parent="1">
+                    <mxGeometry x="127.55514563106794" y="280.0030841121495" width="205.37216828478964" height="149.39252336448598" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="傅立叶分析" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="181.60045307443363" y="296.12457943925233" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="带宽有限的信号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="181.60045307443363" y="342.3395327102803" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="信道的最大数据速率" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="181.60045307443363" y="388.5544859813084" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="&lt;span style=&quot;font-size: 12px&quot;&gt;数据通信的理论基础&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; white-space: nowrap&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22RFID%E5%92%8C%E4%BC%A0%E6%84%9F%E5%99%A8%E7%BD%91%E7%BB%9C%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-285%22%20y%3D%22370%22%20width%3D%22120%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+                    <mxGeometry x="14.059999999999945" y="280.0030841121495" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" vertex="1" parent="1">
+                    <mxGeometry x="492.44417475728164" y="282.7030841121495" width="205.37216828478964" height="255.79439252336448" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="磁介质" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="546.4894822006472" y="298.8245794392523" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="双绞线" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="546.4894822006472" y="345.0395327102803" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="同轴电缆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="546.4894822006472" y="391.2544859813084" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="电力线&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; white-space: nowrap&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BstrokeWidth%3D1%3BfontSize%3D22%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22155%22%20y%3D%22641%22%20width%3D%22190%22%20height%3D%22139%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22%E5%82%85%E7%AB%8B%E5%8F%B6%E5%88%86%E6%9E%90%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BstrokeWidth%3D1%3BfontSize%3D12%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22205%22%20y%3D%22656%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%224%22%20value%3D%22%E5%B8%A6%E5%AE%BD%E6%9C%89%E9%99%90%E7%9A%84%E4%BF%A1%E5%8F%B7%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22205%22%20y%3D%22699%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%225%22%20value%3D%22%E4%BF%A1%E9%81%93%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%80%9F%E7%8E%87%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22205%22%20y%3D%22742%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%226%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%2012px%26quot%3B%26gt%3B%E6%95%B0%E6%8D%AE%E9%80%9A%E4%BF%A1%E7%9A%84%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80%26lt%3B%2Fspan%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bcolor%3A%20rgba(0%20%2C%200%20%2C%200%20%2C%200)%20%3B%20font-family%3A%20monospace%20%3B%20font-size%3A%200px%20%3B%20white-space%3A%20nowrap%26quot%3B%26gt%3B%253CmxGraphModel%253E%253Croot%253E%253CmxCell%2520id%253D%25220%2522%252F%253E%253CmxCell%2520id%253D%25221%2522%2520parent%253D%25220%2522%252F%253E%253CmxCell%2520id%253D%25222%2522%2520value%253D%2522RFID%25E5%2592%258C%25E4%25BC%25A0%25E6%2584%259F%25E5%2599%25A8%25E7%25BD%2591%25E7%25BB%259C%2522%2520style%253D%2522rounded%253D0%253BwhiteSpace%253Dwrap%253Bhtml%253D1%253BfontSize%253D12%253B%2522%2520vertex%253D%25221%2522%2520parent%253D%25221%2522%253E%253CmxGeometry%2520x%253D%2522-285%2522%2520y%253D%2522370%2522%2520width%253D%2522120%2522%2520height%253D%252240%2522%2520as%253D%2522geometry%2522%252F%253E%253C%252FmxCell%253E%253C%252Froot%253E%253C%252FmxGraphModel%253E%26lt%3B%2Fspan%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D22%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2250%22%20y%3D%22641%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="546.4894822006472" y="437.4694392523365" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="&lt;span style=&quot;font-size: 12px&quot;&gt;引导性传输介质&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+                    <mxGeometry x="378.94902912621365" y="282.7030841121495" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="光纤" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="546.4894822006472" y="483.68439252336447" width="129.70873786407768" height="32.242990654205606" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="232.55999999999995" y="1130" width="190" height="238" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="电磁频谱" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="282.55999999999995" y="1145" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="无线电传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="282.55999999999995" y="1188" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="微波传输" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="282.55999999999995" y="1231" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="红外传输" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="282.55999999999995" y="1274" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;无线传输&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="127.55999999999995" y="1130" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="光通信" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="282.55999999999995" y="1317" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="FCC许可" style="ellipse;whiteSpace=wrap;html=1;fontSize=36;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="345" y="970" width="250" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="红外数据协会标准（IrDA）" style="ellipse;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="970" width="250" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="天体通信领域" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="1250" y="1470" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="船-岸通信系统" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="1280" y="1630" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="&lt;span style=&quot;font-size: 16px&quot;&gt;大型微波中继器&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="1117.55" y="1610" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=16;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="64" target="14">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1270" y="1520" as="sourcePoint"/>
+                        <mxPoint x="1320" y="1470" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="弯管操作模式" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="1430" y="1570" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="范艾伦辐射带&lt;br&gt;（Van Allen belts）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="1420" y="1680" width="150" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

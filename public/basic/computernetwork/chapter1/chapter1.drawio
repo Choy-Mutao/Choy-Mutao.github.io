@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e" modified="2021-03-04T15:00:21.511Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.53.2 Chrome/87.0.4280.141 Electron/11.2.1 Safari/537.36" etag="r2NWmaU83ElXUVFV9tf7" version="14.2.4" type="embed">
+    <diagram id="tHSOMLOR3K297WuLMTEn" name="Page-1">
+        <mxGraphModel dx="3668" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="-1520" y="81" width="390" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="2" vertex="1">
+                    <mxGeometry width="380" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="商业应用" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=22;" parent="2" vertex="1">
+                    <mxGeometry x="70" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="家庭应用" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" parent="2" vertex="1">
+                    <mxGeometry x="70" y="135" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="移动用户" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" parent="2" vertex="1">
+                    <mxGeometry x="210" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="社会问题" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" parent="2" vertex="1">
+                    <mxGeometry x="210" y="135" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="使用计算机网络" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" parent="1" vertex="1">
+                    <mxGeometry x="-1630" y="81" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Internet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1500" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="移动电话网络" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1500" y="550" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="IEEE 802.11" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1500" y="620" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="RFID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1500" y="690" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="传感器网络" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-1500" y="760" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
