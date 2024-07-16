@@ -2,8 +2,9 @@
 title: 粒子群算法
 menu: {main: {weight: 30}}
 type: docs
+tags: PSO, swarm intelligence, computational intelligence, bio-inspired algorithms, stochastic algorithms, optimisation
 ---
 
 ## Particle Swarm Optimization (PSO)
 
-粒子群优化算法(PSO)的来源受 *鸟群寻找食物来源的社会和生物行为* 的启发. 
+粒子群优化(PSO)技术最初由电气工程师 Russell C. Eberhart 和社会心理学家 James Kennedy 提出并开发。

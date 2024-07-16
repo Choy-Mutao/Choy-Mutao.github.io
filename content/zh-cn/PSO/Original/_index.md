@@ -1,8 +1,9 @@
 ---
 title: Original Particle Swarm Optimization Algorithm
-linkTitle: OPSO
+linkTitle: 标准 PSO 算法
 type: docs
 date: 2024-07-15
+weight: 1
 ---
 
 ## 历代研究

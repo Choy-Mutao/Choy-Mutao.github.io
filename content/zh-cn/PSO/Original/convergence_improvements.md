@@ -1,34 +1,40 @@
 ---
 title: Convergence Improvements
 type: docs
-params: {markmap: {enable: 10}}
+weight: 3
 ---
 
-## Markup test
+## Summary of the most important convergence improvements developed for PSO
 
 ```markmap
-# markmap
+# Convergence Improvements
 
-## Links
+## New parameters
 
-- <https://markmap.js.org/>
-- [GitHub](https://github.com/gera2ld/markmap)
+### Inertia weight ($\omega$)
+### Constriction factor($K$)
+### Guaranteed Convergence PSO (GCPSO)
+### Near Neighbour Ineractions
 
-## Related
+## Cooperative PSO (CPSO)
 
-- [coc-markmap](https://github.com/gera2ld/coc-markmap)
-- [gatsby-remark-markmap](https://github.com/gera2ld/gatsby-remark-markmap)
+## Stretched PSO (STPSO)
 
-## Features
+## Fully Informed Particle Swarm (FIPS)
 
-- links
-- **inline** ~~text~~ *styles*
-- multiline
-  text
-- `inline code`
--
-    ```js
-    console.log('code block');
-    ```
-- Katex - $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+## Hybrid approaches
+
+### Evolutionary operators
+
+#### Selection
+#### Mutation
+#### Evolutionary PSO (EPSO)
+
+### Other algorithms
+
+#### Genetic Algorithms(GA)
+#### Differential Evolutionary PSO (DEEPSO)
+#### Simulated Annealing(SA)
+#### Ant Colony Optimisation(ACO)
+
 ```
