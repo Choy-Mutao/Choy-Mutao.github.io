@@ -4,3 +4,10 @@ node_modules/
 package-lock.json
 .hugo_build.lock
 /public
+/.vscode
+/content/fa
+/content/fa
+/content/no
+*.whl
+/pylab_env
+/pythonlab
