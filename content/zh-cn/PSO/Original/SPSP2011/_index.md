@@ -3,14 +3,6 @@ title: Standard PSO Version 2011
 type: docs
 ---
 
-## 环境数据
+## 介绍
 
-```c
-void Env
-{
-	struct position bestBest; // 每次迭代中的全局最佳位置
-    
-}
-```
-
-## 统计数据
+在 SPSO2011 中探讨了更多的速度生成方式和策略

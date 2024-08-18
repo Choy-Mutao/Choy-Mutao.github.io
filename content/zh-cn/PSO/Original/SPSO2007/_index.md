@@ -20,104 +20,19 @@ description: 这与原始版本（1995）非常接近，基于最近的一些工
 
 > 额外的, 在随机数的计算上提供了一些其他的方法
 
+## SPSO2007 的初始化
+
+从逻辑上来讲, 在随机生成*初始位置*和*初始速度*后, 增加了一步 *量化(Quantisation)*, 用于将连续问题的解空间进行离散化, 通常可以用于一下问题的处理
+
+* 离散优化问题: 当优化问题的解空间是离散的, 而粒子群算法通常处理的是连续空间. 在这种情况下, 通过量化技术可以将连续粒子的位置转换为离散的可行解, 以适应离散优化问题
+
+* 编码和解码: 在某些应用中, PSO 算法的粒子可能需要通过编码和解码机制与离散决策变量进行交互. 例如，优化过程中使用浮点数表示解决方案，但最终解需要在离散的参数空间中被实现。量化就是将这些浮点数转换为离散的值。
+
+* 精度控制：量化也可以用于控制粒子位置的精度，以避免计算中的浮点数误差或过度复杂的计算。通过将粒子的位置量化为有限精度的值，可以简化计算，并提高算法的稳定性。
+
+* 速度调整：在某些变体中，量化用于调整粒子的速度或位置，使得搜索过程在离散的步长或区间内进行，从而控制算法的步伐和收敛速度。
+
 ## 1. SPSO2007 介绍
 
 在项目结构上, 在不着重考虑性能的情况下, 对算法的逻辑进行了更详细的*结构化*, 将算
 法中涉及到的数据进行了封装, 分为:
-
-## 1.1 SPSO2007 Structs
-
-```c
-struct quantum
-{
- double q[D_max];
- int size;
-};
-
-struct SS
-{
- int D;
- double max[D_max];
- double maxInit[D_max];
- double min[D_max];
- double minInit[D_max];
- struct quantum q;  // Quantisation step size. 0 => continuous problem
-};
-
-struct param
-{
- double c;  // Confidence coefficient
- int clamping; // Position clamping or not
- int K;   // Max number of particles informed by a given one
- double p;  // Probability threshold for random topology
- // (is actually computed as p(S,K) )
- int randOrder; // Random choice of particles or not
- int rand; // 0 => use KISS. Any other value: use the standard C RNG
- int initLink; // How to re-init links
- int rotation; // Sensitive to rotation or not
- int S;   // Swarm size
- int stop;  // Flag for stop criterion
- double w;  // Confidence coefficient
-};
-
-struct fitness
-{
- int size;
- double f[fMax];
-};
-
-struct position
-{
- double f;
- int improved;  // *** add improved to SPSO2006
- int size;
- double x[D_max];
-};
-
-struct velocity
-{
- int size;
- double v[D_max];
-};
-struct problem
-{
- double epsilon;  // Admissible error
- int evalMax;   // Maximum number of fitness evaluations
- int function;   // Function code
- double objective;  // Objective value
- // Solution position (if known, just for tests)
- struct position solution;
- struct SS SS;  // Search space
-};
-
-struct swarm
-{
- int best;      // rank of the best particle
- struct position P[S_max]; // Previous best positions found by each particle
- int S;       // Swarm size
- struct velocity V[S_max]; // Velocities
- struct position X[S_max]; // Positions
-};
-
-struct result
-{
- double nEval;   // Number of evaluations
- struct swarm SW; // Final swarm
- double error;  // Numerical result of the run
-};
-struct matrix  // Useful for "non rotation sensitive" option
-{
- int size;
- double v[D_max][D_max];
-};
-```
-
-## 全局变量
-
-```c
-#define D_max 114 //搜索空间的最大维度数
-#define R_max 500 //最大运行次数
-#define S_max 910 //最大群容量
-#define fMax 6 //最大约束数+1
-#define zero  0 //1.0e-30//避免数值不稳定
-```
