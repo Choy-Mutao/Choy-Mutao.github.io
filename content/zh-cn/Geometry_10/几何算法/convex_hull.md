@@ -1,5 +1,5 @@
 ---
-title: 凸包
+title: 平面凸包的求解
 type: docs
 math: true
 ---
@@ -39,3 +39,19 @@ math: true
  12. \\( 将第一个和最后一个点从 \ l_{lower} \ 中删去(以免在上凸包与下凸包联结之后, 出现重复顶点) \\)
  13. \\( 将 \ l_{lower} \ 联结到 \ l_{upper} \ 后面(将由此得到列表记为 \ l) \\)
  14. \\( \textbf{return}(l) \\)
+
+## Pseudo Code
+
+算法: SLOWCONVEXHULL(P)
+
+Input: 平面点集 P
+
+Output: 由\\(CH(P)\\)的顶点沿顺时针方向排列成的队列 \\(l\\)
+
+```math
+\displaystyle
+\begin{aligned}
+E \gets \emptyset
+\\ for(每一有序对(p, q) \in P \times P, p \ne q)
+\end{aligned}
+```
