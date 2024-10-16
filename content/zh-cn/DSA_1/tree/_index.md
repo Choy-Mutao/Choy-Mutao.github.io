@@ -1,6 +1,7 @@
 ---
-title: 树(Tree)结构
+title: 数据结构---树(Tree)
 type: docs
+weight: 6
 ---
 
 ## 树结构的常用表示方法

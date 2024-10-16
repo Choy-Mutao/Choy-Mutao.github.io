@@ -1,6 +1,7 @@
 ---
-title: 哈希表
+title: 数据结构---散列表(Hash Set)
 type: docs
+weight: 8
 math: true
 ---
 
