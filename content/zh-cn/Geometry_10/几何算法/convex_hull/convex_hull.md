@@ -4,6 +4,20 @@ type: docs
 math: true
 ---
 
+## 描述
+
+针对 *平面点集凸包的构造问题* 的众多解决方法
+
+* Graham scan
+* Preparata 和 Hong  提出的分治算法
+* 递增式算法
+* dynamic convex hull
+* Jarvis 提出的 包扎技术(wrapping) --- Jarvis march
+
+## 对点的集合进行的 "字典序" 排列
+
+有一种 P 进制数的概念, 其中还有 左进制数, 右进制数
+
 ## SlowConvexHull
 
  Input: 平面点集 P
