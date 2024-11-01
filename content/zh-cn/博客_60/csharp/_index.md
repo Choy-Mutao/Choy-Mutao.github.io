@@ -1,4 +1,5 @@
 ---
-title: CSharp 笔记
+title: csharp
 type: blog
+date: 2020-02-02
 ---

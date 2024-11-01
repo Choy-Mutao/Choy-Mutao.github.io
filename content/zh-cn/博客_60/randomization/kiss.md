@@ -1,6 +1,7 @@
 ---
 title: Keep It Simple Stupid(KISS)
-type: docs
+type: blog
+date: 2023-02-28
 ---
 
 ## 简介

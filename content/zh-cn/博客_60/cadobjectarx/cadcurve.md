@@ -1,7 +1,7 @@
 ---
 title: CAD 中的曲线 及其 离散化的操作
 type: blog
-date: 2024-07-22
+date: 2024-01-17
 description: 在 AutoCAD 中，对曲线的定义及其类；
 ---
 

@@ -1,6 +1,7 @@
 ---
-title: Taipy
+title: taipy
 type: blog
+date: 2022-06-18
 ---
 
 ## Taipy

@@ -1,5 +1,5 @@
 ---
-title: Python 笔记
+title: python
 type: blog
 date: 2024-07-29
 ---

@@ -1,5 +1,6 @@
 ---
-title: docys快捷使用手册
+title: docys
 type: blog
 weight: 2
+date: 2021-06-23
 ---

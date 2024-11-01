@@ -1,6 +1,7 @@
 ---
 title: c++ 在visual studio和XCode上的差异
-type: docs
+type: blog
+date: 2021-09-18
 ---
 
 ## 描述

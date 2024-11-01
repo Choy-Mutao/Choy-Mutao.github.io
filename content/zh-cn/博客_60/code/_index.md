@@ -1,4 +1,5 @@
 ---
-title: 编程小纪
+title: code
 type: blog
+date: 2024-08-25
 ---

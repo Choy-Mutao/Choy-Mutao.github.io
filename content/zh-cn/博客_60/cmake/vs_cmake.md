@@ -1,6 +1,7 @@
 ---
 title: 在 visual studio 上如何使用 CMake 生成项目
 type: blog
+date: 2018-01-31
 ---
 
 ## 准备工作
