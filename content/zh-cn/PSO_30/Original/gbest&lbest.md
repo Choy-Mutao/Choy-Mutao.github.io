@@ -1,7 +1,6 @@
 ---
 title: PSO gbest and lbest
 type: docs
-date: 2024-7-15
 weight: 2
 description: 在粒子群优化（Particle Swarm Optimization，PSO）算法中，lbest模型和gbest模型是两种不同的策略，用于更新粒子的位置和速度。
 ---
