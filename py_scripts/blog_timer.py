@@ -143,7 +143,7 @@ def process_md_file(
 
 if __name__ == "__main__":
 
-    root = "../content/zh-cn/博客_60"
+    root = "D:\Publish-Projects\GitPublished\Choy-Mutao.github.io\content\zh-cn\博客_60"
     files = list_files(root)
 
     if len(files) == 0:
